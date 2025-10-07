@@ -1,0 +1,11 @@
+# Fdb version 4
+["pdflatex"] 1759857630.97259 "glossary.tex" "glossary.pdf" "glossary" 1759857632.15795 2
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1737590400 40900 887e0dc8cac988a9e9c574af364cf837 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1759835189 7758489 755e771c6d86f983b02cb0c76f8eae38 ""
+  "glossary.aux" 1759857622.97217 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "glossary.tex" 1759828969.58627 209 79d432e5b753d28fc43cfdd2052591e8 ""
+  (generated)
+  "glossary.aux"
+  "glossary.log"
+  "glossary.pdf"
+  (rewritten before read)

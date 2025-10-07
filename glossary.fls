@@ -1,0 +1,6 @@
+PWD /home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/document
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT glossary.tex
+OUTPUT glossary.log

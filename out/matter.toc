@@ -14,4 +14,13 @@
 \contentsline {subsection}{\numberline {1.1.3}Proposed Solution}{2}{subsection.1.1.3}%
 \contentsline {section}{\numberline {1.2}State of the Technology}{3}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Native Apps}{3}{subsection.1.2.1}%
-\contentsline {appendix}{\chapternumberline {A}Additional content}{5}{appendix.A}%
+\contentsline {subsection}{\numberline {1.2.2}Web Applications}{4}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Hybrid Applications}{5}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Cross-Platform Apps}{5}{subsection.1.2.4}%
+\contentsline {subsubsection}{Interpreted Approach - React Native}{5}{section*.8}%
+\contentsline {subsubsection}{Cross-Compiled Approach - Flutter}{5}{section*.9}%
+\contentsline {subsubsection}{Cloud-based Approach and Modeling Approach}{6}{section*.10}%
+\contentsline {subsubsection}{Cross-Platform vs Native}{6}{section*.11}%
+\contentsline {subsection}{\numberline {1.2.5}Kotlin Multiplatform}{7}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}Overview}{8}{subsection.1.2.6}%
+\contentsline {appendix}{\chapternumberline {A}Additional content}{11}{appendix.A}%

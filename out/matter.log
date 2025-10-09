@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.10.7)  7 OCT 2025 18:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.10.7)  9 OCT 2025 15:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1679,39 +1679,45 @@ Package: suffix 2006/07/15 1.5a Variant command support
 (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen350
+\c@nlinenum=\count562
+\TeXr@lab=\toks57
+)
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2023-03-14 v3.2.3 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen350
+\l__siunitx_angle_tmp_dim=\dimen351
 \l__siunitx_angle_marker_box=\box131
 \l__siunitx_angle_unit_box=\box132
-\l__siunitx_compound_count_int=\count562
+\l__siunitx_compound_count_int=\count563
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_number_exponent_fixed_int=\count563
-\l__siunitx_number_min_decimal_int=\count564
-\l__siunitx_number_min_integer_int=\count565
-\l__siunitx_number_round_precision_int=\count566
-\l__siunitx_number_lower_threshold_int=\count567
-\l__siunitx_number_upper_threshold_int=\count568
-\l__siunitx_number_group_first_int=\count569
-\l__siunitx_number_group_size_int=\count570
-\l__siunitx_number_group_minimum_int=\count571
+\l__siunitx_number_exponent_fixed_int=\count564
+\l__siunitx_number_min_decimal_int=\count565
+\l__siunitx_number_min_integer_int=\count566
+\l__siunitx_number_round_precision_int=\count567
+\l__siunitx_number_lower_threshold_int=\count568
+\l__siunitx_number_upper_threshold_int=\count569
+\l__siunitx_number_group_first_int=\count570
+\l__siunitx_number_group_size_int=\count571
+\l__siunitx_number_group_minimum_int=\count572
 \l__siunitx_table_tmp_box=\box133
-\l__siunitx_table_tmp_dim=\dimen351
-\l__siunitx_table_column_width_dim=\dimen352
+\l__siunitx_table_tmp_dim=\dimen352
+\l__siunitx_table_column_width_dim=\dimen353
 \l__siunitx_table_integer_box=\box134
 \l__siunitx_table_decimal_box=\box135
 \l__siunitx_table_uncert_box=\box136
 \l__siunitx_table_before_box=\box137
 \l__siunitx_table_after_box=\box138
-\l__siunitx_table_before_dim=\dimen353
-\l__siunitx_table_carry_dim=\dimen354
-\l__siunitx_unit_tmp_int=\count572
-\l__siunitx_unit_position_int=\count573
-\l__siunitx_unit_total_int=\count574
+\l__siunitx_table_before_dim=\dimen354
+\l__siunitx_table_carry_dim=\dimen355
+\l__siunitx_unit_tmp_int=\count573
+\l__siunitx_unit_position_int=\count574
+\l__siunitx_unit_total_int=\count575
 
 Package siunitx Info: Option "detect-weight" has been deprecated in this
 (siunitx)             release.
@@ -1725,9 +1731,9 @@ Package siunitx Info: Option "detect-weight" has been deprecated in this
 Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count575
-\l__lipsum_a_int=\count576
-\l__lipsum_b_int=\count577
+\g__lipsum_par_int=\count576
+\l__lipsum_a_int=\count577
+\l__lipsum_b_int=\count578
 
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
@@ -1761,14 +1767,14 @@ Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
 runsystem(which pygmentize && touch matter.aex)...disabled (restricted).
 
 
-./matter.tex:236: Package minted Error: You must have `pygmentize' installed to
+./matter.tex:241: Package minted Error: You must have `pygmentize' installed to
  use this package.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.236 \begin{document}
+l.241 \begin{document}
                       
 Refer to the installation instructions in the minted documentation for more inf
 ormation.
@@ -1788,38 +1794,38 @@ ocument/out/chapters/chapter1.aux)
 ocument/out/chapters/appendix-more.aux))
 \openout1 = `matter.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 236.
-LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 241.
+LaTeX Font Info:    ... okay on input line 241.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 241.
+LaTeX Font Info:    ... okay on input line 241.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 241.
+LaTeX Font Info:    ... okay on input line 241.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 241.
+LaTeX Font Info:    ... okay on input line 241.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 241.
+LaTeX Font Info:    ... okay on input line 241.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 241.
+LaTeX Font Info:    ... okay on input line 241.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 241.
+LaTeX Font Info:    ... okay on input line 241.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 241.
+LaTeX Font Info:    ... okay on input line 241.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 241.
+LaTeX Font Info:    ... okay on input line 241.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count578
-\scratchdimen=\dimen355
+\scratchcounter=\count579
+\scratchdimen=\dimen356
 \scratchbox=\box139
-\nofMPsegments=\count579
-\nofMParguments=\count580
-\everyMPshowfont=\toks57
-\MPscratchCnt=\count581
-\MPscratchDim=\dimen356
-\MPnumerator=\count582
-\makeMPintoPDFobject=\count583
-\everyMPtoPDFconversion=\toks58
+\nofMPsegments=\count580
+\nofMParguments=\count581
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count582
+\MPscratchDim=\dimen357
+\MPnumerator=\count583
+\makeMPintoPDFobject=\count584
+\everyMPtoPDFconversion=\toks59
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
@@ -1849,19 +1855,19 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Info: Redefining \microtypecontext on input line 236.
-Package microtype Info: Applying patch `item' on input line 236.
-Package microtype Info: Applying patch `toc' on input line 236.
-Package microtype Info: Applying patch `eqnum' on input line 236.
-Package microtype Info: Applying patch `footnote' on input line 236.
-Package microtype Info: Applying patch `verbatim' on input line 236.
+LaTeX Info: Redefining \microtypecontext on input line 241.
+Package microtype Info: Applying patch `item' on input line 241.
+Package microtype Info: Applying patch `toc' on input line 241.
+Package microtype Info: Applying patch `eqnum' on input line 241.
+Package microtype Info: Applying patch `footnote' on input line 241.
+Package microtype Info: Applying patch `verbatim' on input line 241.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 236.
+LaTeX Info: Redefining \showhyphens on input line 241.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1874,8 +1880,8 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 236.
-Package soulpos Info: Loading soulutf8 on input line 236.
+Package hyperref Info: Link coloring OFF on input line 241.
+Package soulpos Info: Loading soulutf8 on input line 241.
 
 (/usr/share/texlive/texmf-dist/tex/generic/soul/soulutf8.sty
 Package: soulutf8 2023-02-18 v3.0 Permit use of UTF-8 characters in soul (HO)
@@ -1890,26 +1896,26 @@ Package: soul 2023-02-18 v3.0 Permit use of UTF-8 characters in soul (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/soul/soul-ori.sty
 Package: soul-ori 2023-02-18 v3.0 letterspacing/underlining (mf)
-\SOUL@word=\toks59
-\SOUL@lasttoken=\toks60
-\SOUL@syllable=\toks61
-\SOUL@cmds=\toks62
-\SOUL@buffer=\toks63
-\SOUL@token=\toks64
-\SOUL@syllgoal=\dimen357
-\SOUL@syllwidth=\dimen358
-\SOUL@charkern=\dimen359
-\SOUL@hyphkern=\dimen360
-\SOUL@dimen=\dimen361
-\SOUL@dimeni=\dimen362
-\SOUL@minus=\count584
-\SOUL@comma=\count585
-\SOUL@apo=\count586
-\SOUL@grave=\count587
+\SOUL@word=\toks60
+\SOUL@lasttoken=\toks61
+\SOUL@syllable=\toks62
+\SOUL@cmds=\toks63
+\SOUL@buffer=\toks64
+\SOUL@token=\toks65
+\SOUL@syllgoal=\dimen358
+\SOUL@syllwidth=\dimen359
+\SOUL@charkern=\dimen360
+\SOUL@hyphkern=\dimen361
+\SOUL@dimen=\dimen362
+\SOUL@dimeni=\dimen363
+\SOUL@minus=\count585
+\SOUL@comma=\count586
+\SOUL@apo=\count587
+\SOUL@grave=\count588
 \SOUL@spaceskip=\skip289
-\SOUL@ttwidth=\dimen363
-\SOUL@uldp=\dimen364
-\SOUL@ulht=\dimen365
+\SOUL@ttwidth=\dimen364
+\SOUL@uldp=\dimen365
+\SOUL@ulht=\dimen366
 ))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1936,8 +1942,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'matter.bbl' not found.
 
 No file matter.bbl.
-Package biblatex Info: Reference section=0 on input line 236.
-Package biblatex Info: Reference segment=0 on input line 236.
+Package biblatex Info: Reference section=0 on input line 241.
+Package biblatex Info: Reference segment=0 on input line 241.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1945,38 +1951,38 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 236.
+or `english'. on input line 241.
 Package translations Info: no dictionary file `translations-basic-dictionary-po
-rtuges.trsl' found. on input line 236.
+rtuges.trsl' found. on input line 241.
 <cover.pdf, id=7, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf>
-Package pdftex.def Info: cover.pdf  used on input line 242.
+Package pdftex.def Info: cover.pdf  used on input line 247.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf>
-Package pdftex.def Info: cover.pdf  used on input line 242.
+Package pdftex.def Info: cover.pdf  used on input line 247.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 <cover.pdf, id=10, page=1, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 242.
+Package pdftex.def Info: cover.pdf , page1 used on input line 247.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 242.
+Package pdftex.def Info: cover.pdf , page1 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 242.
+Package pdftex.def Info: cover.pdf , page1 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 242.
+Package pdftex.def Info: cover.pdf , page1 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 242.
+Package pdftex.def Info: cover.pdf , page1 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter.mw'.
 
@@ -1990,19 +1996,19 @@ ocument/out/matter.mw)
 \openout4 = `matter.upa'.
 
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 242.
+e 247.
 <cover.pdf, id=26, page=2, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 2>
-Package pdftex.def Info: cover.pdf , page2 used on input line 242.
+Package pdftex.def Info: cover.pdf , page2 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 2>
-Package pdftex.def Info: cover.pdf , page2 used on input line 242.
+Package pdftex.def Info: cover.pdf , page2 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 2>
-Package pdftex.def Info: cover.pdf , page2 used on input line 242.
+Package pdftex.def Info: cover.pdf , page2 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter.mw'.
 
@@ -2014,15 +2020,15 @@ ocument/out/matter.mw)
 <cover.pdf, id=37, page=3, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 3>
-Package pdftex.def Info: cover.pdf , page3 used on input line 242.
+Package pdftex.def Info: cover.pdf , page3 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 3>
-Package pdftex.def Info: cover.pdf , page3 used on input line 242.
+Package pdftex.def Info: cover.pdf , page3 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 3>
-Package pdftex.def Info: cover.pdf , page3 used on input line 242.
+Package pdftex.def Info: cover.pdf , page3 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter.mw'.
 
@@ -2034,15 +2040,15 @@ ocument/out/matter.mw)
 <cover.pdf, id=42, page=4, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 4>
-Package pdftex.def Info: cover.pdf , page4 used on input line 242.
+Package pdftex.def Info: cover.pdf , page4 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 4>
-Package pdftex.def Info: cover.pdf , page4 used on input line 242.
+Package pdftex.def Info: cover.pdf , page4 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 4>
-Package pdftex.def Info: cover.pdf , page4 used on input line 242.
+Package pdftex.def Info: cover.pdf , page4 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter.mw'.
 
@@ -2054,15 +2060,15 @@ ocument/out/matter.mw)
 <cover.pdf, id=47, page=5, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 5>
-Package pdftex.def Info: cover.pdf , page5 used on input line 242.
+Package pdftex.def Info: cover.pdf , page5 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 5>
-Package pdftex.def Info: cover.pdf , page5 used on input line 242.
+Package pdftex.def Info: cover.pdf , page5 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 5>
-Package pdftex.def Info: cover.pdf , page5 used on input line 242.
+Package pdftex.def Info: cover.pdf , page5 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter.mw'.
 
@@ -2074,15 +2080,15 @@ ocument/out/matter.mw)
 <cover.pdf, id=58, page=6, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 6>
-Package pdftex.def Info: cover.pdf , page6 used on input line 242.
+Package pdftex.def Info: cover.pdf , page6 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 6>
-Package pdftex.def Info: cover.pdf , page6 used on input line 242.
+Package pdftex.def Info: cover.pdf , page6 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 6>
-Package pdftex.def Info: cover.pdf , page6 used on input line 242.
+Package pdftex.def Info: cover.pdf , page6 used on input line 247.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter.mw'.
 
@@ -2149,10 +2155,16 @@ ocument/out/matter.mw)
 \openout4 = `matter.mw'.
 
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 318.
+e 323.
 
 (/home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/d
-ocument/out/matter.lof)
+ocument/out/matter.lof
+Underfull \hbox (badness 4859) in paragraph at lines 6--6
+ [][] [][]\T1/lmr/m/n/10 (+20) Cost of cross-platform de-vel-op-ment with po-te
+n-tial road-blocks as a func-tion 
+ []
+
+)
 \openout4 = `matter.mw'.
 
  [2
@@ -2308,34 +2320,331 @@ LaTeX Warning: Citation 'Nagy2022' on page 4 undefined on input line 110.
 
 LaTeX Warning: Citation 'Nagy2022' on page 4 undefined on input line 110.
 
-<figs/Figure_1.1_B17614_cost_of_native_dev.png, id=138, 400.2179pt x 207.09303p
+<figs/Figure_1.1_B17614_cost_of_native_dev.png, id=153, 400.2179pt x 207.09303p
 t>
 File: figs/Figure_1.1_B17614_cost_of_native_dev.png Graphic file (type png)
 <use figs/Figure_1.1_B17614_cost_of_native_dev.png>
 Package pdftex.def Info: figs/Figure_1.1_B17614_cost_of_native_dev.png  used on
  input line 112.
 (pdftex.def)             Requested size: 220.5pt x 114.10059pt.
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'Huber2021' on page 4 undefined on input line 132.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'Gerges2024' on page 4 undefined on input line 142.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'Gerges2024' on page 4 undefined on input line 143.
+
+\openout4 = `matter.mw'.
+
+[4{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/t
+exlive/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texlive/texmf-dist/f
+onts/enc/dvips/lm/lm-mathsy.enc} <./figs/Figure_1.1_B17614_cost_of_native_dev.p
+ng>]
+(/home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/d
+ocument/out/matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+
+LaTeX Warning: Citation 'Nagy2022' on page 5 undefined on input line 151.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'ELKASSAS2017163' on page 5 undefined on input line 152
+.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'ELKASSAS2017163' on page 5 undefined on input line 153
+.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'Huber2021' on page 5 undefined on input line 157.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation '10667693' on page 5 undefined on input line 159.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'Nagy2022' on page 5 undefined on input line 160.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation '10667693' on page 5 undefined on input line 160.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'Nagy2022' on page 5 undefined on input line 162.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'Huber2021' on page 5 undefined on input line 166.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'Nagy2022' on page 5 undefined on input line 167.
+
+
+LaTeX Warning: Citation '' on page 5 undefined on input line 170.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'Nagy2022' on page 5 undefined on input line 173.
+
+\openout4 = `matter.mw'.
+
+[5]
+(/home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/d
+ocument/out/matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+
+LaTeX Warning: Citation 'ELKASSAS2017163' on page 6 undefined on input line 177
+.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'Khachouch2020' on page 6 undefined on input line 178.
+
+./chapters/chapter1.tex:194: Undefined control sequence.
+l.194 As for the \texttit
+                         {Cost of going Native}, reflect the additional effo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'Nagy2022' on page 6 undefined on input line 196.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--197
+
+ []
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'Nagy2022' on page 6 undefined on input line 202.
+
+\openout4 = `matter.mw'.
+
+[6]
+(/home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/d
+ocument/out/matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+
+LaTeX Warning: Citation 'Nagy2022' on page 7 undefined on input line 205.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'Nagy2022' on page 7 undefined on input line 205.
+
+<figs/Figure_1.6_B17614_cost_of_cross.png, id=176, 398.7529pt x 213.64026pt>
+File: figs/Figure_1.6_B17614_cost_of_cross.png Graphic file (type png)
+<use figs/Figure_1.6_B17614_cost_of_cross.png>
+Package pdftex.def Info: figs/Figure_1.6_B17614_cost_of_cross.png  used on inpu
+t line 207.
+(pdftex.def)             Requested size: 220.5pt x 118.1349pt.
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'kmp' on page 7 undefined on input line 218.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'jetpack' on page 7 undefined on input line 220.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'materialD' on page 7 undefined on input line 222.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'compose-multi' on page 7 undefined on input line 223.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'kotlinInDepth' on page 7 undefined on input line 225.
+
+\openout4 = `matter.mw'.
+
+[7 <./figs/Figure_1.6_B17614_cost_of_cross.png>]
+(/home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/d
+ocument/out/matter.mw)
+\openout4 = `matter.mw'.
+
+
+./chapters/chapter1.tex:236: Misplaced alignment tab character &.
+l.236 Cloud-based / Model-driven &
+                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./chapters/chapter1.tex:237: Misplaced alignment tab character &.
+l.237 ...very; centralized updates and services. &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./chapters/chapter1.tex:238: Misplaced alignment tab character &.
+l.238 ...in and integration complexity possible. &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
+[]|\T1/lmr/m/n/10 (+20) Hybrid (wrapped
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
+[]|\T1/lmr/m/n/10 (+20) Flutter (cross-
+ []
+
+
+Overfull \hbox (6045.62483pt too wide) in paragraph at lines 302--333
+ [][] 
+ []
+
 )
 \openout4 = `matter.mw'.
 
- [4{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/
-texlive/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texlive/texmf-dist/
-fonts/enc/dvips/lm/lm-mathsy.enc} <./figs/Figure_1.1_B17614_cost_of_native_dev.
-png>]
+ [8]
+(/home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/d
+ocument/out/matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [9]
+(/home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/d
+ocument/out/matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [10]
 (/home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/d
 ocument/out/matter.mw)
 \openout4 = `matter.mw'.
 
 
 
-LaTeX Warning: Empty bibliography on input line 390.
+LaTeX Warning: Empty bibliography on input line 395.
 
 \openout2 = `chapters/appendix-more.aux'.
 
 (./chapters/appendix-more.tex)
 \openout4 = `matter.mw'.
 
- [5
+ [11
 
 
 
@@ -2417,6 +2726,54 @@ ocument/out/glossary.aux
 )
 (/home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/d
 ocument/out/chapters/chapter1.aux
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
 \openout4 = `matter.mw'.
 
 \openout4 = `matter.mw'.
@@ -2644,6 +3001,7 @@ blx-case-expl3.sty    2024/03/21 v3.20 expl3 case changing code for biblatex
  acronym.sty    2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
   suffix.sty    2006/07/15 1.5a Variant command support
 indentfirst.sty    1995/11/23 v1.03 Indent first paragraph (DPC)
+makecell.sty    2009/08/03 V0.1e Managing of Tab Column Heads and Cells
  siunitx.sty    2023-03-14 v3.2.3 A comprehensive (SI) units package
 translations.sty    2022/02/05 v1.12 internationalization of LaTeX2e packages (
 CN)
@@ -2689,11 +3047,15 @@ glossary.tex
 chapters/chapter1.tex
   ts1lmr.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
 figs/Figure_1.1_B17614_cost_of_native_dev.png
+figs/Figure_1.6_B17614_cost_of_cross.png
 chapters/appendix-more.tex
  ***********
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -2721,11 +3083,11 @@ Package logreq Info: Writing requests to 'matter.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50328 strings out of 476034
- 1021445 string characters out of 5792864
- 2184436 words of memory out of 6000000
- 69778 multiletter control sequences out of 15000+600000
- 587939 words of font info for 154 fonts, out of 8000000 for 9000
+ 50594 strings out of 476034
+ 1026218 string characters out of 5792864
+ 2198250 words of memory out of 6000000
+ 69974 multiletter control sequences out of 15000+600000
+ 589397 words of font info for 171 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  99i,17n,94p,1151b,2790s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/t
@@ -2742,10 +3104,10 @@ st/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 helvetic/uhvr8a.pfb>
 Output written on /home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-
-document-123951/document/out/matter.pdf (15 pages, 347647 bytes).
+document-123951/document/out/matter.pdf (21 pages, 419801 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 43167 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 258 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 43212 words of extra memory for PDF output out of 51595 (max. 10000000)
 

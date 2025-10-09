@@ -104,7 +104,7 @@ As Roby Nagy explains in \textit{Simplifying Application Development with Kotlin
 \[Cost of development (n) = n * FC\]
 
 where \textit{n} represents the number of platforms and \textit{FC} the \textit{feature complexity}, defined as the sum of all sub-features that compose a feature.
-The figure \ref{fig:costNative} , taken from Roby Nagy' book \cite{Nagy2022}, illustrates how the development cost grows for two platforms (blue line) and three platforms (red line) as the number of features increases, assuming no cost reduction from sharing code.
+The figure~\ref{fig:costNative} , taken from Roby Nagy' book\cite{Nagy2022}, illustrates how the development cost grows for two platforms (blue line) and three platforms (red line) as the number of features increases, assuming no cost reduction from sharing code.
 
 \begin{figure}[h]
     \caption{Cost of native development as a function of feature comlpexity \cite{Nagy2022}}
@@ -123,16 +123,7 @@ The updated formula is expressed as:
 \[Cost of development (n) = n * FC + Sync Cost ^ {FC}\]
 
 
-
-\subsection{Cross-Platform Apps}\label{subsec:cross-platform-apps}
-
-In order to avoid repeating the same code for different platforms, there are Cross-Platforms approaches.
-With this method, it is possible to create applications that run on multiple operating systems.
-In a first look, using cross-platform methods can be an effective solution to develop applications for a multiple platforms, when time, cost and basic interoperability is the primary concern.
-On the other hand, Cross-Platform applications tend to have the worst performance and user experience compared with Native apps, as they are behind the evolution of Android and iOS and cannot take full advantage of each platform's features\cite{Nagy2022}.
-Here are the different approaches to develop Cross-Platform applications.
-
-\subsubsection{Web Applications}
+\subsection{Web Applications}\label{subsec:web-applications}
 
 Any application that is access through \textit{HTTP} requests over a network is called a web based application.
 These applications are implemented with HTML, CSS and JavaScript.
@@ -141,19 +132,170 @@ Developers normally use Angular or React, and other frameworks are StencilJS or 
 However, PWAs cannot access key platform's features as the Native apps can, and also, has a possible higher energy consumption.\cite{Huber2021}
 
 
+\subsection{Hybrid Applications}\label{subsec:hybrid-applications}
+
+Another option, also leveraging web technologies such as HTML, CSS and JavaScript, is taking a hybrid approach.
+The app is developed with as web app and developers wrap the app via cross-platform wrappers, frameworks and tools, as a native app.
+With this approach, the app as a user experience just as a native app.
+Some hybrid app frameworks are Cordova, Phonegap, Titanium, Ionic, being the first the most common.
+Using third-party plugins with JavaScript, it is possible to access features form the device, such as the camera and GPS\@.
+In the Maher Gerges and Ahmed Elgalb article\cite{Gerges2024}, where they compare different approaches, it is compared the hybrid apps directly with the native apps, and, in CPU and Memory occupancy, the hybrid cost more, being 106\% higher and 73.0\% higher in order.
+Also, not all features are available and the performance is worse than native apps.\cite{Gerges2024}
+
+
+\subsection{Cross-Platform Apps}\label{subsec:cross-platform-apps}
+
+In order to avoid repeating the same code for different platforms, there are Cross-Platforms approaches.
+With this method, it is possible to create applications that run on multiple operating systems.
+In a first look, using cross-platform methods can be an effective solution to develop applications for a multiple platforms, when time, cost and basic interoperability is the primary concern.
+On the other hand, Cross-Platform applications tend to have the worst performance and user experience compared with Native apps, as they are behind the evolution of Android and iOS and cannot take full advantage of each platform's features\cite{Nagy2022}.
+In different articles and papers, the categorization of the approach varies, especially, when it comes to the Cross-Platform approach, there are subcategories\cite{ELKASSAS2017163}.
+The Web and Hybrid approach is normally inserted in this category, alongside with Interpreted approach and Cross-Compiled approach\cite{ELKASSAS2017163}, which the most popular used frameworks are React Native and Flutter, respectively.
+
+\subsubsection{Interpreted Approach - React Native}
+
+Similar to the web and hybrid approach, uses web technologies such as CSS and JavaScript, however, the user interface is not HTML and not render in the browser.\cite{Huber2021}
+The most popular used framework is React Native from 2015, developed by Meta, where developers build applications with React components, and the logic in JavaScript.
+This framework uses component-based architecture, following the steps of React for the web, promoting code reusability, modularity and easy debug.\cite{10667693}
+The JavaScript code executes on a separate thread and communicates with the native layer through a bridge\cite{Nagy2022}, allowing developers performance-critical parts of the app in native languages\cite{10667693}.
+The bridge translates asynchronous, serializable data between the two environments, which enables native rendering of components.
+However, this approach introduces overhead, resulting in a process generally slower compared to fully native applications.\cite{Nagy2022}
+
+\subsubsection{Cross-Compiled Approach - Flutter}
+
+In this approach, the app is developed in a common language, and then, it is compiled to the native code that can be executed on a mobile device, with Flutter and Xamarin popular examples.\cite{Huber2021}
+Flutter is a framework developed by Google, its architecture can be described in three layers, as noted by Roby Nagy in his book\cite{Nagy2022}.
+The Framework layer, where developers write the application code and the UI components, declaratively using the Dart language.
+The Engine layer renders Flutter widgets to a canvas called Skia Canvas, which is then passed to the final layer, the native platform.
+The platform displays the canvas and sends back user events to the framework.\cite,{Nagy2022}
+Compared to React Native, Flutter often achieves better performance by relying on Android's Native Development Kit and iOS's Low-Level Virtual Machine to compile code coming from the engine, Flutter applications deliver higher execution performance.
+Nevertheless, certain parts of a Flutter application may still need to be implemented in Java/Kotlin and Obj-C/Swift code.
+Communication between these native components and the Dart code is through a channel, reducing scalability\cite{Nagy2022}.
+
+\subsubsection{Cloud-based Approach and Modeling Approach}
+
+A Cloud-based application, has its backend in the cloud, instead of running locally, using the cloud features such as flexibility, virtualization and security.\cite{ELKASSAS2017163}
+Companies like Amazon Web Services, offer that service called Backend as a Service (BaaS).\cite{Khachouch2020}
+
+There are two subcategories in this approach, the Model-Based User Interface Development (MB-UID) and the Model-Driven Development (MDD).
+Developers use abstract model to describe tasks, data, users and the user interface, which will generate source code.
+It can transform to code from different platforms.
+Some tools include XMobile, for MB-UID and JavaScript Application Framework for MDD\@.
+
+\subsubsection{Cross-Platform vs Native}
+
+So, on one hand, using cross-platform frameworks can be an effective solution to develop applications for multiple platforms, when time, cost and basic interoperability is the primary concern.
+On the other hand, these frameworks tend to be behind the evolution of Android and iOS, and cannot take full advantage of each platform's features.
+Roby Nagy therefore refines the development-cost equation as:
+
+\[Cost of Development (n) = FC * (1 + Cost of going Native)\]
+
+In this equation, \textit{n} is the number of platforms and \textit{FC} is the feature complexity.
+As for the \texttit{Cost of going Native}, reflect the additional effort required when some parts must be implemented with native code.
+Its value depends on the level of interoperability that the cross-platform framework provides with native components, which is not optimal.
+When there is a necessity to implement native code, the knowledge gap between the framework and native languages adds to the expense, as well as the synchronization.\cite{Nagy2022}\\
+
+With this, it is possible to visualize the different cost of development, adding the Cross-Platform with roadblocks.
+The figure\ref{fig:costNative}, illustrates how the cost of cross-platform development increases relative to both cost of Native and Native with Sync Costs.
+A roadblock occurs when a required feature cannot be implemented only with the frameworks and must instead be written in native code, producing a sudden rising in cost.
+If no native features are required, cross-platform development can remain less expensive with the previous discussed limitations.
+However, as more features demand native implementation, the cumulative cost eventually exceeds that of a fully native approach.\cite{Nagy2022}
+
+\begin{figure}[h]
+    \caption{Cost of cross-platform development with potential roadblocks as a function complexity\cite{Nagy2022}}
+    \centering
+    \includegraphics[width=0.5\textwidth]{figs/Figure_1.6_B17614_cost_of_cross}
+    \label{fig:costCross}
+\end{figure}
+
+
+\subsection{Kotlin Multiplatform}\label{subsec:kotlin-multiplatform}
+
+Although cross-platforms the previous frameworks solve the problem of dealing with different platforms, it is still not optimal if the application demands platform specific features, and keeping up with Android and iOS updates.
+To go around these conditions, developers can choose Kotlin Multiplatform (KMP), also a cross-platform solution.
+As Jetbrains mentions in their website, Kotlin Multiplatform is an open-source technology developed by JetBrains, that allow developers to create applications for multiple platforms in an efficient way, by reusing code across them and still having the native approach benefits.[cite:@kmpJetbrain]
+Developers can share code without losing the qualities of native programming, have good user experience, good app performance and having full platform capabilities, alongside the benefits of the cross-platform, reducing development time, consistency in behavior in the different platforms.
+In this approach, the developer has 3 options, it can share and only write a critical feature in Kotlin, or implement the full logic and only develop the UI natively, and finally, with Compose Multiplatform, also share the UI.\cite{kmp}
+
+Jetpack Compose\cite{jetpack} is a toolkit to develop the User Interface of Android apps.
+It is implemented in a declarative way, compatible with Kotlin APIs, enabling developers to intuitively build fast UIs.
+It also supports Google's Material Design, an ``open-source design system for building beautiful, usable products''\cite{materialD}.
+Since 2021, developers can build shared UIs for Android, iOS, desktop and web, feeling natural on every platform with Compose Multiplatform.\cite{compose-multi}
+
+Thompson Carter, refers in his book\cite{kotlinInDepth} the same benefits of KMP, code reusability, faster development, reduce maintenance (as it is only need to fix bugs in one place), flexibility (share code and still access platform-specific features and APIs) and community support.
+However, he mentions some challenges as:
+- Maturity, as the KMP is recent and is still evolving, some libraries and tools may not be fully supported;
+- The integration with Platform-Specific APIs can be challenging;
+- The transition from single-platform development can be a bit difficult, with the introduction of new paradigms;
+- And the integration with an existing project can involve significant refactoring.
 
 
 
 
+\subsection{Overview}\label{subsec:overview}
 
 
 
+z
 
+The table\ref{tab:approaches-comprehensive} syntheses the characteristics of the mobile development approaches .
 
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{8pt}
 
+\begin{table}[ht]
+    \centering
+    \caption{Comparison of mobile application development approaches; \cite{Khachouch2020, 10667693}}
+    \label{tab:approaches-comprehensive}
+    \small
+    \begin{tabularx}{\textwidth}{|p{3.2cm}|Y|Y|Y|}
+        \hline
+        \makecell[l]{Approach / \\ Framework} &
+        \makecell[l]{Advantages} &
+        \makecell[l]{Disadvantages} &
+        \makecell[l]{Best use cases} \\
+        \hline
 
+        Native apps &
+        Best performance; full access to platform APIs and sensors; highest UX fidelity; mature tooling and debugging. &
+        Two codebases for multiple platforms with higher cost &
+        When maximum performance, platform-specific UX or deep hardware access are required. \\
+        \hline
 
+        Web apps / PWAs &
+        Single codebase; runs on desktops and mobile browsers; easy distribution via web. &
+        Limited access to some native features; performance and energy use vary vs native; &
+        When reach and ease of deployment matter; suitable for simple apps or when minimal native features are needed. \\
+        \hline
+
+        Hybrid (wrapped web) &
+        Faster port from an existing web app to an installable app; single web codebase; plugin ecosystems to access device features. &
+        Worse performance than native; higher CPU and memory usage; some native features may be unavailable; UX can feel non-native. &
+        Quick conversion of existing web apps into installable apps; prototypes and low-budget MVPs. \\
+        \hline
+
+        React Native (interpreted) &
+        High code reuse; React ecosystem; UI renders using native components; faster than pure WebView hybrids for UI responsiveness; good developer velocity. &
+        Bridge overhead can reduce performance for heavy UI/CPU work; some features require native modules; platform parity depends on third-party library support. &
+        Apps with standard UI and business logic where development speed and native look are both important. \\
+        \hline
+
+        Flutter (cross-compiled) &
+        Compiled to native code (via Dart); high performance; consistent UI across platforms via Skia; rich widget set enabling polished UIs. &
+        Larger binary sizes; occasionally needs platform channels to access native features; different paradigm (Dart and Flutter widgets) for developers. &
+        When near-native speed is wanted and a single codebase with highly consistent UI across platforms. \\
+
+        \hline
+
+        Kotlin Multiplatform (KMP) &
+        Share core business logic (networking, storage, domain rules) across platforms; retain native UIs or use Compose Multiplatform; near-native performance and good interoperability with native code. &
+        Ecosystem still maturing; some libraries may be platform-limited; complex when integrating with existing native projects; tooling and third-party support are improving. &
+        When  substantial logic reuse is wanted while keeping native UI/UX and performance; especially attractive for Kotlin-centric teams. \\
+        \hline
+    \end{tabularx}
+\end{table}
 
 
 

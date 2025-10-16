@@ -229,14 +229,7 @@ However, he mentions some challenges as:
 - The transition from single-platform development can be a bit difficult, with the introduction of new paradigms;
 - And the integration with an existing project can involve significant refactoring.
 
-
-
-
 \subsection{Overview}\label{subsec:overview}
-
-
-
-z
 
 The table\ref{tab:approaches-comprehensive} syntheses the characteristics of the mobile development approaches .
 
@@ -296,6 +289,130 @@ The table\ref{tab:approaches-comprehensive} syntheses the characteristics of the
         \hline
     \end{tabularx}
 \end{table}
+
+
+\subsection{Competitor Research}\label{subsec:competitor-research}
+
+After getting an idea about what are the problems in the portuguese bass made through what is in the market that could solve the main issues.
+For this research, different approach were taken to find results.
+Below is shown the approach and the results, and then, the results will be analysed deeper.
+
+
+\subsubsection{Search}
+By searching the browser using the query ``Play basketball in Portugal'', the useful links found for someone who just want to go to a public court and play some casual games, or shoot some balls, where from a website called ``Courts of the World''\cite{fiba-courts}, ``Meetup''\cite{meetup}, a question in Reddit from 2021\cite{reddit}, a blog called ``World Baller''\cite{worldBaller}, and some websites for clubs and schools.
+With the query ``Basketball pickup games portugal'', the results were similar, with the AI from the browser telling to look for games in Facebook groups, in Meetup, and suggested 3 courts in Lisbon.
+
+Using Perplexity AI, using this prompt in a deep research ``I am from Lisbon and  I play basketball.
+I would like to go play on the weekend in a public court.
+Where can I go?
+Is there any platform I can find some casual games to join?''\cite{perplexity}, the model provided 4 public courts with a description, for example:
+
+``Campo de Laranjeiras ("The Blue Court") near Laranjeiras Metro features two full courts with fresh surfaces and multiple hoops.
+Locals refer to it as the "blue court" due to its bright surface color.
+It has a semi-competitive vibe with frequent rotation of players and is open 24/7 with free access.''
+
+Besides that, it provided information about a group in Meetup, and a facebook group.
+As for platforms, it indicated an app that does not available in Portugal, called ``Pickup: Connect \& Play Sports'', another called ``Pickup Sports (Adult League)''\cite{pickup-adult}.
+Then it also shows ``Courts of the World'', that has an iOS application, and another app called ``Fullcourt: Pickup Basketball''\cite{fullcourt}.
+
+Using ChatGPT, with the same prompt, with the free version and the option of \textit{Web Search} activated, it answered with 8 public courts, with the Meetup group already mention above, as well as the facebook group, and the blog ``World Baller''\cite{chatgpt1}.
+With the \textit{Thinking} option it provided some courts with the reference to ``Courts of the World'' website and the reddit question from above.
+It also provided the same platforms, and gave some tips\cite{chatgpt2}.
+
+Another query made in the browser to explore ways for players to play casual basketball was ``\textit{reservar campos de basquetebol portugal}'' \footnote{book basketball courts portugal}, where it shows some private places to book, and a platform called ``AirCourts''\cite{aircourts}, that gathers different courts from different sports to help users book them.
+In the website of AirCourts it was saying that they will join ``Playtomic''\cite{playtonic}, that is a platform to book courts and find players in padel and tennis.
+
+In another search, ``\textit{Torneios amadores portugal basketball}''\footnote{Amatour tournments portugal basketball}, only one result from the first page would be useful for someone who wants to play casual basketball games, the website ``Jogabasket''\cite{jogabasket}.
+
+Going to the Google's Play Store, and searching for ``Pickup'' apps, several appeared, which Perplexity AI already mentioned, as well as, ``Pickup: Play \& Host Sports''\cite{pickup, pickup-app}, ``GoodRec''\cite{goodrec}, ``WOOOBA''\cite{woooba} and ``Pick-Roll''\cite{pick-roll}.
+
+
+\subsubsection{Existing Options}
+
+\textbf{Courts of the World}\cite{fiba-courts} - Is a FIBA endorsed platform, available in web and in iOS, where users can find courts around the world.
+In the home page, the users can search for a place or click a button to view basketball courts near the user, which did not work when searching for Lisbon or Porto and even clicking in the button, it was loading for a long time.
+There is a section called ``The World’s Favorite Basketball Courts'' that shows cards with famous courts.
+In the menu is the option to list the courts, that has list of countries divided by continent.
+Going to Portugal, it appears the most popular courts.
+Opening the first court in the most popular, ``Campo Dos Mártires Da Pátria'', there user can view on the map (which does not work), rate the court, this one having 8 ratings, an option to check in, saying the player is there, and the platform asks for the location to confirm, and it is saying that 1 player checked in last 5 years ago, and the user can save the court, with 7 players saving.
+Besides that, there are some photos of the court, with the last uploaded November 2024 (at the date), and any player can upload media.
+Players can add information about the court and see local insights, such has the weather conditions.
+In the platform, there is also a blog and a section of the players, with a leaderboard of players that contribute for the platform, with courts added, photos and comments.
+This looks like a good option for players to find courts, and it looks like it has a feature of check in, so other players can see how full is the court.
+However, it looks like there is not much adherence on the part of the players
+
+\textbf{Jogabasket}\cite{jogabasket} - From the part of the Portuguese Basketball Federation, this website has the same purpose as the Courts of the World.
+In the home page, the user can find clubs, by searching a location, showing clubs as the result and their contacts.
+Scrolling down, the user can find some courts around Portugal, with map that works perfectly.
+There is also a section to find 3x3 tournaments, but, at the time of writing, there is nothing there.
+Finally, there are some images of the courts.
+This website is good for users to find courts in Portugal.
+
+\textbf{Meetup}\cite{meetup} - This platform is not only for sports, here users can find groups for any type of activity, and, inside the group, the host can create events.
+There is a group called ``Lisbon Basketball Club''\cite{meetup-basketball-group}, that run indoor games every Monday and Sunday, paying a fee to book the court.
+
+\textbf{Pickup Sports (Adult League)}\cite{pickup-adult, pickup-adult-app} - Is an app for Android and iOS where users can find leagues of more than 15 sports, including basketball.
+Looking in the website\cite{pickup-adult}, in the ``How it works section'', it says to pick the sport, select a city and an area and find a games.
+For basketball, it is saying in the website that users can join competitive leagues, or just pick up games with friends.
+Opening the app, the user needs to create an account in order to search for games.
+However, the search was confuse, after choosing the location, it looked like it went back to the default, Los Angeles.
+Choosing the sport, basketball, it did not appear any game.
+It is possible to see a list of players, but just a few, and they are all form Los Angeles.
+Also, it is possible to see how many games the players went, but only one player had one game.
+It looks like the app is not used, specially in Portugal.
+In the app as a earning system, a user can create games and charge other users, earning seventy five percent of the revenue, the rest must be going to the app.
+
+
+``Fullcourt: Pickup Basketball''\cite{fullcourt}
+``Pickup: Play \& Host Sports''\cite{pickup, pickup-app}
+``GoodRec''\cite{goodrec}
+``WOOOBA''\cite{woooba}
+``Pick-Roll''\cite{pick-roll}
+``AirCourts''\cite{aircourts},
+``Playtomic''\cite{playtonic}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

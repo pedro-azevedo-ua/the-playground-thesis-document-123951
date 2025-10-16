@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.10.7)  9 OCT 2025 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.10.7)  16 OCT 2025 12:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2320,7 +2320,7 @@ LaTeX Warning: Citation 'Nagy2022' on page 4 undefined on input line 110.
 
 LaTeX Warning: Citation 'Nagy2022' on page 4 undefined on input line 110.
 
-<figs/Figure_1.1_B17614_cost_of_native_dev.png, id=153, 400.2179pt x 207.09303p
+<figs/Figure_1.1_B17614_cost_of_native_dev.png, id=155, 400.2179pt x 207.09303p
 t>
 File: figs/Figure_1.1_B17614_cost_of_native_dev.png Graphic file (type png)
 <use figs/Figure_1.1_B17614_cost_of_native_dev.png>
@@ -2514,7 +2514,7 @@ LaTeX Warning: Citation 'Nagy2022' on page 7 undefined on input line 205.
 
 LaTeX Warning: Citation 'Nagy2022' on page 7 undefined on input line 205.
 
-<figs/Figure_1.6_B17614_cost_of_cross.png, id=176, 398.7529pt x 213.64026pt>
+<figs/Figure_1.6_B17614_cost_of_cross.png, id=178, 398.7529pt x 213.64026pt>
 File: figs/Figure_1.6_B17614_cost_of_cross.png Graphic file (type png)
 <use figs/Figure_1.6_B17614_cost_of_cross.png>
 Package pdftex.def Info: figs/Figure_1.6_B17614_cost_of_cross.png  used on inpu
@@ -2562,61 +2562,48 @@ LaTeX Warning: Citation 'kotlinInDepth' on page 7 undefined on input line 225.
 ocument/out/matter.mw)
 \openout4 = `matter.mw'.
 
+\openout4 = `matter.mw'.
 
-./chapters/chapter1.tex:236: Misplaced alignment tab character &.
-l.236 Cloud-based / Model-driven &
-                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./chapters/chapter1.tex:237: Misplaced alignment tab character &.
-l.237 ...very; centralized updates and services. &
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./chapters/chapter1.tex:238: Misplaced alignment tab character &.
-l.238 ...in and integration complexity possible. &
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+\openout4 = `matter.mw'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--242
 
- []
+LaTeX Warning: Citation 'Khachouch2020' on page 8 undefined on input line 243.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--296
+LaTeX Warning: Citation '10667693' on page 8 undefined on input line 243.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'Khachouch2020' on page 8 undefined on input line 243.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation '10667693' on page 8 undefined on input line 243.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
 []|\T1/lmr/m/n/10 (+20) Hybrid (wrapped
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--296
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
 []|\T1/lmr/m/n/10 (+20) Flutter (cross-
  []
 
-
-Overfull \hbox (6045.62483pt too wide) in paragraph at lines 302--333
- [][] 
- []
-
-)
 \openout4 = `matter.mw'.
 
- [8]
+[8]
 (/home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/d
 ocument/out/matter.mw)
 \openout4 = `matter.mw'.
@@ -2630,7 +2617,258 @@ ocument/out/matter.mw)
 
 \openout4 = `matter.mw'.
 
- [10]
+\openout4 = `matter.mw'.
+
+
+
+LaTeX Warning: Citation 'fiba-courts' on page 10 undefined on input line 302.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'meetup' on page 10 undefined on input line 302.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'reddit' on page 10 undefined on input line 302.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'worldBaller' on page 10 undefined on input line 302.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'perplexity' on page 10 undefined on input line 308.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'pickup-adult' on page 10 undefined on input line 315.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'fullcourt' on page 10 undefined on input line 316.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'chatgpt1' on page 10 undefined on input line 318.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'chatgpt2' on page 10 undefined on input line 320.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'aircourts' on page 10 undefined on input line 322.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'playtonic' on page 10 undefined on input line 323.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'jogabasket' on page 10 undefined on input line 325.
+
+\openout4 = `matter.mw'.
+
+[10
+
+]
+(/home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/d
+ocument/out/matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+
+LaTeX Warning: Citation 'pickup' on page 11 undefined on input line 327.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'pickup-app' on page 11 undefined on input line 327.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'goodrec' on page 11 undefined on input line 327.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'woooba' on page 11 undefined on input line 327.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'pick-roll' on page 11 undefined on input line 327.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'fiba-courts' on page 11 undefined on input line 332.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'jogabasket' on page 11 undefined on input line 344.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'meetup' on page 11 undefined on input line 351.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'meetup-basketball-group' on page 11 undefined on input
+ line 352.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'pickup-adult' on page 11 undefined on input line 354.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'pickup-adult-app' on page 11 undefined on input line 3
+54.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'pickup-adult' on page 11 undefined on input line 355.
+
+\openout4 = `matter.mw'.
+
+[11]
+(/home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/d
+ocument/out/matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+
+LaTeX Warning: Citation 'fullcourt' on page 12 undefined on input line 366.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'pickup' on page 12 undefined on input line 367.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'pickup-app' on page 12 undefined on input line 367.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'goodrec' on page 12 undefined on input line 368.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'woooba' on page 12 undefined on input line 369.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'pick-roll' on page 12 undefined on input line 370.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'aircourts' on page 12 undefined on input line 371.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+LaTeX Warning: Citation 'playtonic' on page 12 undefined on input line 372.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--373
+[] \T1/lmr/m/n/10.95 (+20) ``GoodRec''[] ``WOOOBA''[] ``Pick-Roll''[]
+ []
+
+)
+\openout4 = `matter.mw'.
+
+ [12]
 (/home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/d
 ocument/out/matter.mw)
 \openout4 = `matter.mw'.
@@ -2644,7 +2882,7 @@ LaTeX Warning: Empty bibliography on input line 395.
 (./chapters/appendix-more.tex)
 \openout4 = `matter.mw'.
 
- [11
+ [13
 
 
 
@@ -2726,6 +2964,14 @@ ocument/out/glossary.aux
 )
 (/home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-document-123951/d
 ocument/out/chapters/chapter1.aux
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
 \openout4 = `matter.mw'.
 
 \openout4 = `matter.mw'.
@@ -3083,31 +3329,35 @@ Package logreq Info: Writing requests to 'matter.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50594 strings out of 476034
- 1026218 string characters out of 5792864
- 2198250 words of memory out of 6000000
- 69974 multiletter control sequences out of 15000+600000
- 589397 words of font info for 171 fonts, out of 8000000 for 9000
+ 50615 strings out of 476034
+ 1026808 string characters out of 5792864
+ 2192290 words of memory out of 6000000
+ 69976 multiletter control sequences out of 15000+600000
+ 589776 words of font info for 175 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  99i,17n,94p,1151b,2790s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/lm/lmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmmi
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/lm/lmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr9.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-helvetic/uhvr8a.pfb>
+
+pdfTeX warning (dest): name{table.caption.14} has been referenced but does not 
+exist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/lm/lmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmmi8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/lm/lmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/lm/lmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr9.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/he
+lvetic/uhvr8a.pfb>
 Output written on /home/azevedo/Desktop/MasterThesis2526/the-playground-thesis-
-document-123951/document/out/matter.pdf (21 pages, 419801 bytes).
+document-123951/document/out/matter.pdf (23 pages, 426178 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
- 43212 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 349 PDF objects out of 1000 (max. 8388607)
+ 277 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 43220 words of extra memory for PDF output out of 51595 (max. 10000000)
 

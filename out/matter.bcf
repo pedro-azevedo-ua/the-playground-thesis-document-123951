@@ -2412,6 +2412,42 @@
     <bcf:citekey order="35" intorder="1">materialD</bcf:citekey>
     <bcf:citekey order="36" intorder="1">compose-multi</bcf:citekey>
     <bcf:citekey order="37" intorder="1">kotlinInDepth</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">Khachouch2020</bcf:citekey>
+    <bcf:citekey order="38" intorder="2">10667693</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">Khachouch2020</bcf:citekey>
+    <bcf:citekey order="39" intorder="2">10667693</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">fiba-courts</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">meetup</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">reddit</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">worldBaller</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">perplexity</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">pickup-adult</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">fullcourt</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">chatgpt1</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">chatgpt2</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">aircourts</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">playtonic</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">jogabasket</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">pickup</bcf:citekey>
+    <bcf:citekey order="52" intorder="2">pickup-app</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">goodrec</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">woooba</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">pick-roll</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">fiba-courts</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">jogabasket</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">meetup</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">meetup-basketball-group</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">pickup-adult</bcf:citekey>
+    <bcf:citekey order="60" intorder="2">pickup-adult-app</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">pickup-adult</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">fullcourt</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">pickup</bcf:citekey>
+    <bcf:citekey order="63" intorder="2">pickup-app</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">goodrec</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">woooba</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">pick-roll</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">aircourts</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">playtonic</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

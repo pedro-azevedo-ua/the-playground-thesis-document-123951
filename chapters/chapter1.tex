@@ -109,7 +109,7 @@ The figure~\ref{fig:costNative} , taken from Roby Nagy' book\cite{Nagy2022}, ill
 \begin{figure}[h]
     \caption{Cost of native development as a function of feature comlpexity \cite{Nagy2022}}
     \centering
-    \includegraphics[width=0.5\textwidth]{figs/Figure_1.1_B17614_cost_of_native_dev}
+    \includegraphics[width=0.5\textwidth]{figs/cost_of_native_dev}
     \label{fig:costNative}
 \end{figure}
 
@@ -204,7 +204,7 @@ However, as more features demand native implementation, the cumulative cost even
 \begin{figure}[h]
     \caption{Cost of cross-platform development with potential roadblocks as a function complexity\cite{Nagy2022}}
     \centering
-    \includegraphics[width=0.5\textwidth]{figs/Figure_1.6_B17614_cost_of_cross}
+    \includegraphics[width=0.5\textwidth]{figs/cost_of_cross}
     \label{fig:costCross}
 \end{figure}
 
@@ -290,13 +290,133 @@ The table\ref{tab:approaches-comprehensive} syntheses the characteristics of the
     \end{tabularx}
 \end{table}
 
+\subsection{Mobile Backend Development Strategies}\label{sec:backend-strategies}
 
-\subsection{Competitor Research}\label{subsec:competitor-research}
+Mobile Applications follow a distributed architecture that has 2 components, frontend and the backend.
+The frontend, also called the client-side is the part of the application that runs locally in the user's device.
+This is the User Interface, business logic, presentation logic, that can be developed with Compose Multiplatform and Kotlin Multiplatform, for example.
+The backend, also called server-side, is executed outside the device, which the user does not interact with directly.
+This component can handle the data, reading, writing, updating, and delete data from the database, authenticate users, and more.
+
+In Sullivan De Caril book, chapter 2 \textit{Introduction to Firebase}\cite{DeCarli2023}, he talks about a traditional example of a simple mobile architecture.
+He uses the figure\ref{fig:tradicionalBackend} to represent an iOS app that has the Front-end, the user interface code in Swift (see section\ref{subsec:native-apps}), the backend that can manipulate data coded in Ruby or Node.js, and a cloud service, that distributes the data in the cloud (Microsoft Azure, AWS, Google Cloud).
+He mentions that the application communicates with a virtual machine that can be coded in Ruby, Node.js or even PHP, that is hosted by a cloud service or, less common now, in a physical server.
+This is a traditional backend, which, in a complex application is usually required to have separate developers for each part of the application, including a backend developer to code the logic and APIs, and a DevOps to distribute in the cloud\cite{DeCarli2023}.
+
+\begin{figure}[h]
+    \caption{An iOS app built with a backend host on a cloud service\cite{DeCarli2023}}
+    \centering
+    \includegraphics[width=0.5\textwidth]{figs/tradicionalBack}
+    \label{fig:tradicionalBackend}
+\end{figure}
+
+However, a different strategy for the backend, that is more recurrent for developers that what to focus on the application development, is the use of Backend as a Service (BaaS) or Mobile Backend as a Service (MBaaS)\cite{inproceedings}.
+BaaS is a cloud-based service model that provides backend features and tools needed for the mobile application that are executed in the server, such as user authentication, database, remote updating, and push notifications, as well as cloud storage and hosting\cite{saraf2022}.
+Firebase\cite{firebaseGoogle}, is an example of a BaaS, and in the second chapter of Sullivan De Caril' book, he introduces the service and shows the figure\ref{fig:firebaseBack}, that represents the iOS application integrating Firebase.
+With this, it is possible to see that the backend is managed by the tool and, as Firebase is from Google, it is also built in Google Cloud, having a simpler architecture.
+The app receives data from Firebase using the APIs provided, without needing to write code on the server side or having another provider to host\cite{DeCarli2023}.
+
+
+\begin{figure}[h]
+    \caption{An iOS app built with Firebase’s backend\cite{DeCarli2023}}
+    \centering
+    \includegraphics[width=0.5\textwidth]{figs/firebaseback}
+    \label{fig:firebaseBack}
+\end{figure}
+
+
+BaaS platforms provide services such as user  authentication,  database  storage,  cloud  functions,  and real-time  messaging, that speeds  up  development  cycles and   decreases   the   overhead   involved   in   infrastructure management\cite{Shah_Jagtap_Jain_2025}.
+
+The disadvantage of these platforms include the lack of flexibility and fine-grained control, specially when the developer has complex data, custom analytics or there is proprietary infrastructure.
+Besides that, when choosing a platform, the app developer is subject to vendor lock-in, becoming dependent in the platforms tools, APIs and data formats.
+With this, developers can also go for a hybrid approach, using features form the BaaS and developing other backend features with a programming language\cite{Shah_Jagtap_Jain_2025}.
+
+
+\subsubsection{Data management}
+
+In mobile applications data management is an important piece that influences the application performance, user experience and business logic.
+The ability to store, retrieve, synchronize and secure data determines the success of the majority applications.
+Mobile phones have their limitations depending on the model of the phone and where the user is, such as limit battery capacity, variable network connectivity, constraints in storage and other computational capabilities.
+A big part of applications need a stable internet connectivity to provide smooth real-time capabilities\cite{offlineFirst1}.
+
+In order to guarantee that the application is always working and not rely only on server connectivity, there is the Offline-First architecture.
+With this approach, the application will remain usable without a reliable network connection, it will present the user with the local data instead of waiting for the first network call to complete or fail, and it will fetch data when the optimal conditions are met.
+So, the local data is prioritized and when connectivity is restored, the local data can be synchronized\cite{offlineFirst1}.
+
+A hybrid approach for data management is also recurrent, where the application also relies on cloud storage.
+
+Relational and non-relational databases represent two fundamentally different approaches to data management in mobile application development.
+Relational databases, organize data into structured tables with predefined schemas and utilize Structured Query Language (SQL) for data manipulation, providing strong ACID properties (Atomicity, Consistency, Isolation, Durability) that ensure transactional reliability and data integrity\cite{chiriac2025nosql}.
+Non-relational or NoSQL databases employ flexible, schema-less data models that accommodate diverse data types without rigid table structures, offering horizontal scalability and superior performance for unstructured data and high-volume operations~\cite{chiriac2025nosql}.
+For mobile applications, some examples of databases include, MySQL\cite{mysql}, PostgreSQL\cite{postgresql} and SQLite\cite{SQLite} as Relational databases.
+MongoDB Realm\cite{realm}, MongoDB\cite{mongo}, Redis\cite{redis}, examples for NoSQL, as well as Firebase Realtime Database\cite{firebaseRealtime2025} and Firebase Firestore\cite{firestore2025}, with this two last being a Google Cloud solution.
+For local database, usual option are between Room\cite{room}, that is an abstraction layer over SQlite, SQLite, Realm or Core Data, Apple's framework for local persistence or cache on iOS\cite{coreData}.
+The selection between these database types depends on specific mobile application requirements such as data structure complexity, offline capabilities, synchronization needs, and scalability projections, with modern applications often employing hybrid approaches that leverage both relational and NoSQL databases for different functional domains\cite{Taipalus2024}.
+
+
+\subsubsection{Data Synchronization}
+
+With data in local storage and data in an external database, data synchronization is critical in mobile applications that depend on multi-user interaction, collaboration and shared data.
+Synchronization ensures that all users and devices have consistent up-to-date information.
+
+Following Zach McCormick and Douglas C.Schmidt paper in data synchronization patters\cite{mccormick}, these patterns can be categorized into data synchronization mechanisms patterns (asynchronous vs synchronous), data storage and availability patterns (partial vs complete), and data transfer patterns (full transfer, timestamp transfer, or delta transfer).
+
+Data synchronization mechanisms patterns address how synchronization operations execute relative to the user interface, with asynchronous synchronization performing data transfers in the background without blocking user interactions, thereby maintaining application responsiveness but requiring careful management of concurrent data modifications, while synchronous synchronization blocks the user interface until data transfer completes, guaranteeing immediate consistency at the cost of reduced responsiveness.
+
+Data storage and availability patterns determine the scope of data maintained on mobile devices, where partial storage retains only a subset of server data based on user needs or device constraints to minimize storage requirements and reduce synchronization overhead, whereas complete storage maintains a full replica of server data on the device, enabling comprehensive offline functionality but demanding greater storage capacity and longer initial synchronization times.
+
+Data transfer patterns define what information moves between client and server during synchronization, including full transfer which transmits entire datasets regardless of changes, timestamp transfer which exchanges only records modified since the last synchronization by comparing modification timestamps, and delta transfer which computes and transmits only the specific changes or differences between client and server versions, minimizing bandwidth consumption but increasing computational complexity.
+
+For a good user experience on unreliable networks, an offline-first hybrid architecture is a good option.
+Keeping a local databases for immediate responsiveness, use background workers like Android WorkManager\cite{workmanager} and iOS Background Tasks\cite{iosbackgroundtasks}, for scheduled synchronization, and Backend as a Service platforms (Google Firebase, AWS Amplify) for cross-device consistency.
+Such architecture balance responsiveness, bandwidth, and storage while allowing application-level conflict-resolution policies to be enforced.
+
+
+\subsubsection{Backend as a Service}
+
+\paragraph{Google Firebase}
+
+Firebase is a Backend as a Service developed by Google and built on Google Cloud infrastructure,  that provides various functionalities to help build, deploy and manage mobile a and web applications.
+Developers do not need to build APIs, as the platform provides its dedicated Software Development Kit (SDK) to interact with its set of tools.
+Here are the following tools that Google's Firebase provide:
+
+\begin{description}
+    \item [Cloud Firestore] is a flexible, scalable database for mobile, web, and server development. It keeps the data in sync across client apps through realtime listeners and offers offline support for mobile and web so developers can build responsive apps that work regardless of network latency or Internet connectivity. Cloud Firestore also offers seamless integration with other Firebase and Google Cloud products, including Cloud Functions.\cite{firestore2025}
+    \item[Cloud Functions] for Firebase is a serverless framework that lets developers to automatically run backend code in response to events triggered by background events, HTTPS requests, the Admin SDK, or Cloud Scheduler jobs. JavaScript, TypeScript or Python code is stored on Google Cloud infrastructure and runs in a managed environment. There's no need to manage and scale own servers.\cite{firebasefunctions}
+    \item[Realtime Database] is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client. When you build cross-platform apps with our Apple platforms, Android, and JavaScript SDKs, all of your clients share one Realtime Database instance and automatically receive updates with the newest data.\cite{firebaseRealtime2025}
+    \item[Authentication] provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to the app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more. Integrates tightly with other Firebase services, and it leverages industry standards like OAuth 2.0 and OpenID Connect, so it can be easily integrated with custom backend.\cite{firebaseAuthentication}
+    \item[Local Emulator Suite] consists of individual service emulators built to accurately mimic the behavior of Firebase services. This means you can connect your app directly to these emulators to perform integration testing or QA without touching production data.\cite{emulatorSuite}
+    \item[Data Connect] is a relational database service for mobile and web apps that lets developers build and scale using a fully-managed PostgreSQL database powered by Cloud SQL. It provides secure schema, query and mutation management using GraphQL technology that integrates well with Firebase Authentication. Developers can quickly integrate this product into the mobile and web apps with SDK support in Kotlin Android, iOS, Flutter, and web.\cite{firebaseDataConnect}
+    \item[Security Rules] leverage extensible, flexible configuration languages to define what data users can access for Realtime Database, Cloud Firestore, and Cloud Storage. Firebase Realtime Database Security Rules leverage JSON in rule definitions, while Cloud Firestore Security Rules and Firebase Security Rules for Cloud Storage leverage a unique language built to accommodate more complex rules-specific structures. Developers can write simple or complex rules that protect the app's data to the level of granularity that the developer's specific app requires.\cite{firebaseRules}
+    \item[App Check] helps protect the app backends from abuse by preventing unauthorized clients from accessing the backend resources. It works with both Google services (including Firebase and Google Cloud services) and custom backends to keep resources safe.\cite{firebaseAppCheck}
+    \item[Cloud Messaging] (FCM) is a cross-platform messaging solution that lets developers reliably send messages. It can notify a client app that new email or other data is available to sync. It can send notification messages to drive user re-engagement and retention. For use cases such as instant messaging, a message can transfer a payload of up to 4096 bytes to a client app.\cite{firebaseMsg}
+    \item[Other Tools] Firebase provides a several tools for monitoring the app with Firebase Crashlytics and Firebase Performance Monitoring, to engage the user with Google Analytics, Firebase In-App Messaging, Google AdMob, Google Ads and more.\cite{firebaseOverview}
+\end{description}
+
+
+However, Firebase presents specific disadvantages, notably the challenge of cost scaling issues due to its pay-as-you-go model (Blaze Plan) for usage exceeding the free threshold, necessitating potential optimization of database queries\cite{ZewdieAyezabu2022, denys}.
+
+\paragraph{Supabase}
+
+Supabase\cite{supabase} is an open-source alternative to the BaaS platform Firebase, as it is a combination of different open-source tools that are scalable\cite{ZewdieAyezabu2022}.
+Supabase has the following tools:
+
+\begin{description}
+    \item [Database] is a Postgres database, available for every project. The relational struture is advantageous for performing complex queries, joins and full-text searches\cite{ZewdieAyezabu2022}.
+    \item[Authentication] makes it easy to implement authentication and authorization in the app. Supabase provides client SDKs and API endpoints to help create and manage users. Users can use many popular Auth methods, including password, magic link, one-time password (OTP), social login, and single sign-on (SSO).\cite{supabaseAuth}
+    \item[Storage] it is an open source S3 Compatible Object Store that makes it simple to upload and serve files of any size, providing a robust framework for file access controls. It can store images, videos, documents, and any other file type. Serve assets with a global CDN to reduce latency from over 285 cities globally. Supabase Storage includes a built-in image optimizer, in order to resize and compress media files on demand\cite{supabaseStorage}.
+    \item [Edge Functions] are server-side TypeScript functions, distributed globally at the edge — close to the users. They can be used for listening to webhooks or integrating the Supabase project with third-parties.\cite{supabaseEdge}
+    \item[Realtime] Supabase provides a globally distributed Realtime service that can send low-latency messages between clients, good for real-time messaging, database changes, cursor tracking, game events, and custom notifications. Track and synchronize user state across clients, ideal for showing who's online, or active participants. And listen to database changes in real-time.\cite{supabaseRealtime}
+\end{description}
+
+Supabase also has subscription plans and pay-as-you-go model when exceeding the threshold defined in the plan.
+
+
+\subsection{Similar Projects}\label{subsec:similar-projects}
 
 After getting an idea about what are the problems in the portuguese bass made through what is in the market that could solve the main issues.
 For this research, different approach were taken to find results.
 Below is shown the approach and the results, and then, the results will be analysed deeper.
-
 
 \subsubsection{Search}
 By searching the browser using the query ``Play basketball in Portugal'', the useful links found for someone who just want to go to a public court and play some casual games, or shoot some balls, where from a website called ``Courts of the World''\cite{fiba-courts}, ``Meetup''\cite{meetup}, a question in Reddit from 2021\cite{reddit}, a blog called ``World Baller''\cite{worldBaller}, and some websites for clubs and schools.
@@ -326,8 +446,7 @@ In another search, ``\textit{Torneios amadores portugal basketball}''\footnote{A
 
 Going to the Google's Play Store, and searching for ``Pickup'' apps, several appeared, which Perplexity AI already mentioned, as well as, ``Pickup: Play \& Host Sports''\cite{pickup, pickup-app}, ``GoodRec''\cite{goodrec} (it is not available in Portugal), ``WOOOBA''\cite{woooba} and ``Pick-Roll''\cite{pick-roll}.
 
-
-\subsubsection{Existing Options}
+\subsubsection{Projects}
 
 \textbf{Courts of the World}\cite{fiba-courts} - Is a FIBA endorsed platform, available in web and in iOS, where users can find courts around the world.
 In the home page, the users can search for a place or click a button to view basketball courts near the user, which did not work when searching for Lisbon or Porto and even clicking in the button, it was loading for a long time.
@@ -384,13 +503,51 @@ After creating a game, it did not appear anywhere in the app.
 There is a function to create a team, that can join the games.
 
 \textbf{WOOOBA}\cite{woooba} - Is another platform to create and join basketball games.
-When crating an account, the user can choose the position and also being a referee.
+When creating an account, the user can choose the position and also being a referee.
 The user can select the age, and the skill range, and also set who can see the profile.
 Anyone can create games, and they can be free or paid, and the app takes a fee when it is paid.
+Searching for games in Lisbon and Porto, and I could not find any.
 
-``Pick-Roll''\cite{pick-roll}
-``AirCourts''\cite{aircourts},
-``Playtomic''\cite{playtonic}
+\textbf{Pick-Roll}\cite{pick-roll} - This is and Italian application to find courts near the user and challenge the community.
+The app has a ranking system with prizes at the end of each season.
+A season is a period of 3 months when the leaderboard resets.
+When creating an account, the user can choose between ``Player'' or ``Team/Minors'' (when the user owns a team/minor).
+The features of the app include the map, to discover the courts around the user, games and events, to join games and events, or organize.
+Then, it has a check in feature, to let other players know that the user is in a court, and ratings, to rate the other players.
+Another feature is called ``Fame'', where players can receive fame points in the app by playing fairly.
+In the profile, besides the normal biography information, the player can choose a favourite shoes brand, hobby and pick theirs NBA team.
+Still in the profile, the user can earn medals by performing some actions in the platform, like ``Update all your profile info'', ``Check-in first time'' and others.
+To join a season, the user pays 2.59 euros, however the first 2 months are for free.
+In the home page, it is supposed to show the games, players and events, but in Lisbon, the test location, does not have any.
+However, in the map, it shows the courts in Lisbon, where there is one court with 3 ratings.
+In the court view, I can create a game.
+To create a game, there are 2 options, standard and ranked, where the ranked the users needs to be in the season, with the option of choosing the format of the game (how many players).
+Besides the game, an event can be created, where the user adds the start date and the end date.
+When a game is created it appears in the home page of the users nearby, and in the court view.
+The application has features really similar to the ones intended to do in the project, however it seems that is not used that much in portugal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

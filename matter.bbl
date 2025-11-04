@@ -1,0 +1,2066 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{fiba}{misc}{}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{title}{FIBA World Ranking for Men presented by NIKE- FIBA Basketball}
+      \verb{urlraw}
+      \verb https://www.fiba.basketball/en/ranking/men
+      \endverb
+      \verb{url}
+      \verb https://www.fiba.basketball/en/ranking/men
+      \endverb
+    \endentry
+    \entry{ticha}{misc}{}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{title}{Ticha Penicheiro no Women's Basketball Hall of Fame}
+      \verb{urlraw}
+      \verb https://www.fpb.pt/noticia/ticha-penicheiro-no-womens-basketball-hall-of-fame-2/
+      \endverb
+      \verb{url}
+      \verb https://www.fpb.pt/noticia/ticha-penicheiro-no-womens-basketball-hall-of-fame-2/
+      \endverb
+    \endentry
+    \entry{neemias}{misc}{}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{«É um bom momento para o basquetebol em Portugal, queremos mais espaço» | MAISFUTEBOL}
+      \verb{urlraw}
+      \verb https://maisfutebol.iol.pt/basquetebol/selecao/e-um-bom-momento-para-o-basquetebol-em-portugal-queremos-mais-espaco
+      \endverb
+      \verb{url}
+      \verb https://maisfutebol.iol.pt/basquetebol/selecao/e-um-bom-momento-para-o-basquetebol-em-portugal-queremos-mais-espaco
+      \endverb
+    \endentry
+    \entry{statcount}{misc}{}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{title}{Mobile Operating System Market Share Portugal | Statcounter Global Stats}
+      \verb{urlraw}
+      \verb https://gs.statcounter.com/os-market-share/mobile/portugal#mobile_os_combined-PT-#yearly-2009-2025-bar
+      \endverb
+      \verb{url}
+      \verb https://gs.statcounter.com/os-market-share/mobile/portugal#mobile_os_combined-PT-#yearly-2009-2025-bar
+      \endverb
+    \endentry
+    \entry{Khachouch2020}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=65bb223a8c42c3b2dba2f45dd5e024ba}{%
+           family={Khachouch},
+           familyi={K\bibinitperiod},
+           given={Mohamed\bibnamedelima Karim},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=fcbba57852c6ac27f855887612b33016}{%
+           family={Korchi},
+           familyi={K\bibinitperiod},
+           given={Ayoub},
+           giveni={A\bibinitperiod}}}%
+        {{hash=179aee88fe2795e9a1db160563dfb47e}{%
+           family={Lakhrissi},
+           familyi={L\bibinitperiod},
+           given={Younes},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=382238ac673d839ff8136f9c2c4cdb58}{%
+           family={Moumen},
+           familyi={M\bibinitperiod},
+           given={Anis},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers Inc.}%
+      }
+      \strng{namehash}{bf7e1e5b4311eaa9eef70018c42b6dcc}
+      \strng{fullhash}{b869bb89117d0dbdb47b16c7c44c5ddc}
+      \strng{fullhashraw}{b869bb89117d0dbdb47b16c7c44c5ddc}
+      \strng{bibnamehash}{b869bb89117d0dbdb47b16c7c44c5ddc}
+      \strng{authorbibnamehash}{b869bb89117d0dbdb47b16c7c44c5ddc}
+      \strng{authornamehash}{bf7e1e5b4311eaa9eef70018c42b6dcc}
+      \strng{authorfullhash}{b869bb89117d0dbdb47b16c7c44c5ddc}
+      \strng{authorfullhashraw}{b869bb89117d0dbdb47b16c7c44c5ddc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mobile applications development is complex. In order to build mobile apps that target all users, developers must put up with all the existing operating systems, software development kits (SDKs), devices various screen resolutions and existing mobile app development technology that is in constant evolution. And if this is not enough, developers must choose the right approach to build their app. Taking those decisions has a huge impact on the eventual cost, time, and success of an application building. In order of importance, it comes right after choosing the functionality of the app itself. If developers fail to match an app demands to the right development approach, it can turn their project into a certain failure. This paper aims to compare between the mobile app development approaches and suggest a decisional framework to choose between them.}
+      \field{isbn}{9781728171166}
+      \field{journaltitle}{2nd International Conference on Electrical, Communication and Computer Engineering, ICECCE 2020}
+      \field{month}{6}
+      \field{title}{Framework Choice Criteria for Mobile Application Development}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1109/ICECCE49384.2020.9179434
+      \endverb
+      \keyw{cross-platform,development approaches,mobile development}
+    \endentry
+    \entry{Nagy2022}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b1ba1140f131dccf77e600e84abfcb88}{%
+           family={Nagy},
+           familyi={N\bibinitperiod},
+           given={Robert.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1ba1140f131dccf77e600e84abfcb88}
+      \strng{fullhash}{b1ba1140f131dccf77e600e84abfcb88}
+      \strng{fullhashraw}{b1ba1140f131dccf77e600e84abfcb88}
+      \strng{bibnamehash}{b1ba1140f131dccf77e600e84abfcb88}
+      \strng{authorbibnamehash}{b1ba1140f131dccf77e600e84abfcb88}
+      \strng{authornamehash}{b1ba1140f131dccf77e600e84abfcb88}
+      \strng{authorfullhash}{b1ba1140f131dccf77e600e84abfcb88}
+      \strng{authorfullhashraw}{b1ba1140f131dccf77e600e84abfcb88}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Explore the new Kotlin Multiplatform to build native apps for Android and iOS while sharing business logic between apps Key Features Improve app development speed dramatically by writing the business logic in Kotlin Implement a native user interface and work with platform-specific APIs Leverage Kotlin Multiplatform Mobile's code-sharing capabilities for your projects Book Description Sharing code between platforms can help developers gain a competitive edge, and Kotlin Multiplatform Mobile (KMM) offers a sensible way to do it. KMM helps mobile teams share code between Android and iOS in a flexible way, leaving room for native development. The book begins by helping you to gain a clear understanding of the Kotlin Multiplatform approach, how it works, and how it is different from cross-platform technologies, such as React Native and Flutter, and code sharing options, such as C++. You'll then see how your team can use this software development kit (SDK) to build native applications more effectively by learning timeless concepts and working through practical examples. As you advance, you'll get to grips with the core concepts, understand why UI sharing fails, and get hands-on with developing a small KMM application. Finally, you'll discover expert tips and best practices, along with production- and adoption-related questions, that will help you take the next step in your project and career. By the end of this Kotlin book, you'll have gained a solid understanding of the capabilities of KMM and be able to share code between Android and iOS flexibly. What you will learn Get acquainted with the multiplatform approach and KMM's competitive edge Understand how Kotlin Multiplatform works under the hood Get up and running with the Kotlin language quickly in the context of Swift Find out how to share code between Android and iOS Explore tips and best practices in KMM to increase app development efficiency Discover adoption tips to integrate KMM into existing or new production apps Who this book is for This book is for native Android and iOS developers who want to build high-quality apps using an efficient development process. Knowledge of the framework and the languages used is necessary, that is, Android with Java or Kotlin and iOS with Objective-C or Swift. For Swift developers, the book assumes no knowledge of Kotlin as this will be covered in the context of Swift.}
+      \field{isbn}{9781801819657}
+      \field{title}{Simplifying Application Development with Kotlin Multiplatform Mobile : Write Robust Native Applications for IOS and Android Efficiently}
+      \field{year}{2022}
+      \field{pages}{184}
+      \range{pages}{1}
+    \endentry
+    \entry{Huber2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=57da754fd27e260e33f3a3c7463accb3}{%
+           family={Huber},
+           familyi={H\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e6927715525e21bdee04aaf22dca9224}{%
+           family={Demetz},
+           familyi={D\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4fea700d0159ed5bda19febd84335a11}{%
+           family={Felderer},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media Deutschland GmbH}%
+      }
+      \strng{namehash}{cf24aed504d06223d118958b78c7e89d}
+      \strng{fullhash}{b58586087f4e92f05ef84a2025faf8b5}
+      \strng{fullhashraw}{b58586087f4e92f05ef84a2025faf8b5}
+      \strng{bibnamehash}{b58586087f4e92f05ef84a2025faf8b5}
+      \strng{authorbibnamehash}{b58586087f4e92f05ef84a2025faf8b5}
+      \strng{authornamehash}{cf24aed504d06223d118958b78c7e89d}
+      \strng{authorfullhash}{b58586087f4e92f05ef84a2025faf8b5}
+      \strng{authorfullhashraw}{b58586087f4e92f05ef84a2025faf8b5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Developing the same mobile app for multiple platforms is a prominent challenge for practitioners in mobile software development. When starting an app project, practitioners are faced with a plethora of development approaches to choose from. Progressive Web Apps (PWAs) are a novel and promising approach for mobile cross-platform development (MCPD). As mobile devices are limited regarding battery capacity, the energy footprint of a mobile app should be kept as low as possible. Thus, the aim of this study is to analyze the difference in energy consumption of PWAs and other mobile development approaches with a focus on UI rendering and interaction scenarios. For this, we implemented five versions of the same app with different development approaches and examined their energy footprint on two Android devices with four execution scenarios. The results show that the used development approach influences the energy footprint of a mobile app. Native development shows the lowest energy consumption. PWAs, albeit not the lowest energy consuming mobile development approach, are a viable alternative to other MCPD approaches. Moreover, the web-browser engine used to execute the PWA has a significant influence on the energy footprint of the app. © 2021, Springer Nature Switzerland AG.}
+      \field{isbn}{9783030742959}
+      \field{issn}{16113349}
+      \field{journaltitle}{Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}
+      \field{title}{PWA vs the Others: A Comparative Study on the UI Energy-Efficiency of Progressive Web Apps}
+      \field{volume}{12706 LNCS}
+      \field{year}{2021}
+      \field{pages}{464\bibrangedash 479}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/978-3-030-74296-6_35
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scopus.com/pages/publications/85111163302?origin=resultslist
+      \endverb
+      \verb{url}
+      \verb https://www.scopus.com/pages/publications/85111163302?origin=resultslist
+      \endverb
+      \keyw{Mobile app energy efficiency,Mobile cross-platform development,Mobile web engineering,Progressive web apps}
+    \endentry
+    \entry{Gerges2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a76ba1216d6a29217daf8ade56ed2a92}{%
+           family={Gerges},
+           familyi={G\bibinitperiod},
+           given={Maher},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e1556bf6969ee183aa1e10dcedc7b0d4}{%
+           family={Elgalb},
+           familyi={E\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Open Knowledge}%
+      }
+      \strng{namehash}{94223a1046990f41833c7bf4abffb815}
+      \strng{fullhash}{94223a1046990f41833c7bf4abffb815}
+      \strng{fullhashraw}{94223a1046990f41833c7bf4abffb815}
+      \strng{bibnamehash}{94223a1046990f41833c7bf4abffb815}
+      \strng{authorbibnamehash}{94223a1046990f41833c7bf4abffb815}
+      \strng{authornamehash}{94223a1046990f41833c7bf4abffb815}
+      \strng{authorfullhash}{94223a1046990f41833c7bf4abffb815}
+      \strng{authorfullhashraw}{94223a1046990f41833c7bf4abffb815}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Growing use of the cell phones and tablets over the computer for humans’ daily life has increased the development of mobile apps. Different paradigms have been introduced to develop a mobile app. Up till now, the major paradigms have been introduced are native apps, hybrid apps, web app and the new trend namely progressive web app (PWA). Each methodology has its pros and cons. This paper discusses about native development issues and how web app aimed to solve these problems. The hybrid apps will be discussed as a solution of cross-platform development problem of native apps.  In addition, problems of web apps and the gap between web app and native apps will be introduced. PWA is supposed to bridge the gap between native apps and web apps. The main technologies –service worker- will also be discussed.  }
+      \field{issn}{3006-4023}
+      \field{issue}{1}
+      \field{journaltitle}{Journal of Artificial Intelligence General science (JAIGS) ISSN:3006-4023}
+      \field{month}{12}
+      \field{title}{Comprehensive Comparative Analysis of Mobile Apps Development Approaches}
+      \field{volume}{6}
+      \field{year}{2024}
+      \field{pages}{430\bibrangedash 437}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.60087/JAIGS.V6I1.269
+      \endverb
+      \verb{urlraw}
+      \verb https://newjaigs.org/index.php/JAIGS/article/view/269
+      \endverb
+      \verb{url}
+      \verb https://newjaigs.org/index.php/JAIGS/article/view/269
+      \endverb
+      \keyw{Comparative Analysis,Cross,Development Approaches,Hybrid App Development,Native App Development,Platform Development,Progressive Web Apps (PWAs)}
+    \endentry
+    \entry{ELKASSAS2017163}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=ea1c905d8bf36e913507bf30a4c30d0e}{%
+           family={El-Kassas},
+           familyi={E\bibinithyphendelim K\bibinitperiod},
+           given={Wafaa\bibnamedelima S.},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=03a175a39d3b0b98e1a7c9a62f772aa4}{%
+           family={Abdullah},
+           familyi={A\bibinitperiod},
+           given={Bassem\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d296b9538dbb79b5dc20c1d234d697ea}{%
+           family={Yousef},
+           familyi={Y\bibinitperiod},
+           given={Ahmed\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=dca129d39fb0f8b3d42acdf5dcb1628d}{%
+           family={Wahba},
+           familyi={W\bibinitperiod},
+           given={Ayman\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{28f89422156ad06d1dd8f16c626f578a}
+      \strng{fullhash}{fbf46a68b7c6e8010c4c4dfce767f3c7}
+      \strng{fullhashraw}{fbf46a68b7c6e8010c4c4dfce767f3c7}
+      \strng{bibnamehash}{fbf46a68b7c6e8010c4c4dfce767f3c7}
+      \strng{authorbibnamehash}{fbf46a68b7c6e8010c4c4dfce767f3c7}
+      \strng{authornamehash}{28f89422156ad06d1dd8f16c626f578a}
+      \strng{authorfullhash}{fbf46a68b7c6e8010c4c4dfce767f3c7}
+      \strng{authorfullhashraw}{fbf46a68b7c6e8010c4c4dfce767f3c7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The developers use the cross-platform mobile development solutions to develop the mobile application once and run it on many platforms. Many of these cross-platform solutions are still under research and development. Also, these solutions are based on different approaches such as Cross-Compilation approach, Virtual Machine approach, and Web-Based approach. There are many survey papers about the cross-platform mobile development solutions but they do not include the most recent approaches, including Component-Based approach, Cloud-Based approach, and Merged approach. The main aim of this paper is helping the researchers to know the most recent approaches and the open research issues. This paper surveys the existing cross-platform mobile development approaches and attempts to provide a global view: it thoroughly introduces a comprehensive categorization to the cross-platform approaches, defines the pros and cons of each approach, explains sample solutions per approach, compares the cross-platform mobile development solutions, and ends with the open research areas.}
+      \field{issn}{2090-4479}
+      \field{journaltitle}{Ain Shams Engineering Journal}
+      \field{number}{2}
+      \field{title}{Taxonomy of Cross-Platform Mobile Applications Development Approaches}
+      \field{volume}{8}
+      \field{year}{2017}
+      \field{pages}{163\bibrangedash 190}
+      \range{pages}{28}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.asej.2015.08.004
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2090447915001276
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2090447915001276
+      \endverb
+      \keyw{Cross-platform mobile development,Interpretation approach,Cloud computing,Compilation approach,Component-Based approach,Model-Driven Engineering}
+    \endentry
+    \entry{10667693}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=82005b5e4d20bda971e961b0aadc3fac}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Donglan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d8328ceca246c217681a9a0d9aa9c895}{%
+           family={Darus},
+           familyi={D\bibinitperiod},
+           given={Mohamad\bibnamedelima Yusof},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{c28fe43ecad7fc97b9bf8b391e008133}
+      \strng{fullhash}{c28fe43ecad7fc97b9bf8b391e008133}
+      \strng{fullhashraw}{c28fe43ecad7fc97b9bf8b391e008133}
+      \strng{bibnamehash}{c28fe43ecad7fc97b9bf8b391e008133}
+      \strng{authorbibnamehash}{c28fe43ecad7fc97b9bf8b391e008133}
+      \strng{authornamehash}{c28fe43ecad7fc97b9bf8b391e008133}
+      \strng{authorfullhash}{c28fe43ecad7fc97b9bf8b391e008133}
+      \strng{authorfullhashraw}{c28fe43ecad7fc97b9bf8b391e008133}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2024 IEEE 6th Symposium on Computers \& Informatics (ISCI)}
+      \field{title}{A Comparative Analysis of Cross-Platform Mobile Development Frameworks}
+      \field{year}{2024}
+      \field{pages}{84\bibrangedash 90}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ISCI62787.2024.10667693
+      \endverb
+      \keyw{Technological innovation;Navigation;Grasping;Programming;Mobile communication;Market research;Corona;Mobile Development Frameworks;Cross-platform Development;Framework Comparison}
+    \endentry
+    \entry{kmp}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6a77f3f5bead76a495a90d63703e1f9}{%
+           family={JetBrains},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{fullhash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{fullhashraw}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{bibnamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{authorbibnamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{authornamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{authorfullhash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{authorfullhashraw}{b6a77f3f5bead76a495a90d63703e1f9}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kotlin Multiplatform – Build Cross-Platform Apps}
+      \verb{urlraw}
+      \verb https://www.jetbrains.com/kotlin-multiplatform/
+      \endverb
+      \verb{url}
+      \verb https://www.jetbrains.com/kotlin-multiplatform/
+      \endverb
+    \endentry
+    \entry{Janakaraj2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=3c25804d9a2d980ca417291cc9f58fc8}{%
+           family={Janakaraj},
+           familyi={J\bibinitperiod},
+           given={Manishankar},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {European Centre for Research Training}%
+        {Development}%
+      }
+      \strng{namehash}{3c25804d9a2d980ca417291cc9f58fc8}
+      \strng{fullhash}{3c25804d9a2d980ca417291cc9f58fc8}
+      \strng{fullhashraw}{3c25804d9a2d980ca417291cc9f58fc8}
+      \strng{bibnamehash}{3c25804d9a2d980ca417291cc9f58fc8}
+      \strng{authorbibnamehash}{3c25804d9a2d980ca417291cc9f58fc8}
+      \strng{authornamehash}{3c25804d9a2d980ca417291cc9f58fc8}
+      \strng{authorfullhash}{3c25804d9a2d980ca417291cc9f58fc8}
+      \strng{authorfullhashraw}{3c25804d9a2d980ca417291cc9f58fc8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Kotlin Multiplatform Mobile (KMP) represents a strategic advancement in cross-platform development, addressing a long-standing challenge in mobile application engineering: achieving code reuse without sacrificing native performance. Unlike frameworks like Flutter or React Native, which abstract UI layers, KMP emphasizes sharing business logic while preserving platform-specific user experiences. This synthesis examines KMP's architectural design, repository structuring strategies, implementation best practices, and its broader ecosystem positioning. It dissects the expect/actual mechanism that elegantly bridges shared logic and platform-specific implementations. Practical considerations such as dependency injection, state management, and testing strategies are analyzed alongside challenges including build system complexity, platform API bridging, and ecosystem maturity. By evaluating these facets, the article positions KMP as a robust solution for mobile teams aiming to streamline cross-platform development without compromising on performance or user experience.}
+      \field{issn}{20540957}
+      \field{issue}{44}
+      \field{journaltitle}{European Journal of Computer Science and Information Technology}
+      \field{month}{5}
+      \field{title}{Architecting Shared Logic with Kotlin Multiplatform Mobile: Benefits, Challenges, and Ecosystem Positioning}
+      \field{volume}{13}
+      \field{year}{2025}
+      \field{pages}{121\bibrangedash 141}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.37745/EJCSIT.2013/VOL13N44121141
+      \endverb
+    \endentry
+    \entry{jetpack}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhashraw}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhashraw}{8b36e9207c24c76e6719268e49201d94}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Jetpack Compose UI App Development Toolkit - Android Developers}
+      \verb{urlraw}
+      \verb https://developer.android.com/compose
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/compose
+      \endverb
+    \endentry
+    \entry{materialD}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhashraw}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhashraw}{8b36e9207c24c76e6719268e49201d94}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Material Design 3 - Google's latest open source design system}
+      \verb{urlraw}
+      \verb https://m3.material.io/
+      \endverb
+      \verb{url}
+      \verb https://m3.material.io/
+      \endverb
+    \endentry
+    \entry{compose-multi}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6a77f3f5bead76a495a90d63703e1f9}{%
+           family={JetBrains},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{fullhash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{fullhashraw}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{bibnamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{authorbibnamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{authornamehash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{authorfullhash}{b6a77f3f5bead76a495a90d63703e1f9}
+      \strng{authorfullhashraw}{b6a77f3f5bead76a495a90d63703e1f9}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Compose Multiplatform – Beautiful UIs Everywhere}
+      \verb{urlraw}
+      \verb https://www.jetbrains.com/compose-multiplatform/
+      \endverb
+      \verb{url}
+      \verb https://www.jetbrains.com/compose-multiplatform/
+      \endverb
+    \endentry
+    \entry{kotlinInDepth}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=36c3fe777fc1b983e7dcc2b8976e692f}{%
+           family={Carter},
+           familyi={C\bibinitperiod},
+           given={Thompson},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Lincoln Publishers}%
+      }
+      \strng{namehash}{36c3fe777fc1b983e7dcc2b8976e692f}
+      \strng{fullhash}{36c3fe777fc1b983e7dcc2b8976e692f}
+      \strng{fullhashraw}{36c3fe777fc1b983e7dcc2b8976e692f}
+      \strng{bibnamehash}{36c3fe777fc1b983e7dcc2b8976e692f}
+      \strng{authorbibnamehash}{36c3fe777fc1b983e7dcc2b8976e692f}
+      \strng{authornamehash}{36c3fe777fc1b983e7dcc2b8976e692f}
+      \strng{authorfullhash}{36c3fe777fc1b983e7dcc2b8976e692f}
+      \strng{authorfullhashraw}{36c3fe777fc1b983e7dcc2b8976e692f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{note}{Kotlin in Depth: Coroutines, Compose, and Multiplatform Apps for Android and Beyond}
+      \field{title}{Kotlin Multiplatform Projects: Sharing Code Between Android, iOS, and the Web}
+      \field{year}{2025}
+    \endentry
+    \entry{DeCarli2023}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{hash=0205beaf3c1ad4d288075b7556347fdf}{%
+           family={Carli},
+           familyi={C\bibinitperiod},
+           given={Sullivan\bibnamedelima De},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \strng{namehash}{0205beaf3c1ad4d288075b7556347fdf}
+      \strng{fullhash}{0205beaf3c1ad4d288075b7556347fdf}
+      \strng{fullhashraw}{0205beaf3c1ad4d288075b7556347fdf}
+      \strng{bibnamehash}{0205beaf3c1ad4d288075b7556347fdf}
+      \strng{authorbibnamehash}{0205beaf3c1ad4d288075b7556347fdf}
+      \strng{authornamehash}{0205beaf3c1ad4d288075b7556347fdf}
+      \strng{authorfullhash}{0205beaf3c1ad4d288075b7556347fdf}
+      \strng{authorfullhashraw}{0205beaf3c1ad4d288075b7556347fdf}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Firebase is a Cloud-hosted, NoSQL database that uses a document-model. It can be horizontally scaled while letting you store and synchronize data in real-time among users. This is great for applications that are used across multiple devices such as mobile applications. Firebase is optimized for offline use with strong user-based security that allows for serverless based apps as well. Firebase is built on the Google infrastructure and is built to scale automatically. In addition to standard NoSQL database functionality, Firebase includes analytics, authentication, performance monitoring, messaging, crash reporting and much more. Because it is a Google product, there is also integration into a lot of other products. This includes integration with Google Ads, AdMob, Google Marketing Platform, the Play Store, Data Studio, BigQuery, Slack, Jira, and more. The Firebase APIs are packaged into a single SDK that can be expanded to multiple platforms and languages. This includes C++ and Unity, which are both popular for mobile development.}
+      \field{booktitle}{Build Mobile Apps with SwiftUI and Firebase}
+      \field{title}{Introduction to Firebase}
+      \field{year}{2023}
+      \field{pages}{17\bibrangedash 42}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/978-1-4842-9452-9_2
+      \endverb
+      \verb{urlraw}
+      \verb https://learning.oreilly.com/library/view/build-mobile-apps/9781484294529/html/533376_1_En_2_Chapter.xhtml
+      \endverb
+      \verb{url}
+      \verb https://learning.oreilly.com/library/view/build-mobile-apps/9781484294529/html/533376_1_En_2_Chapter.xhtml
+      \endverb
+    \endentry
+    \entry{inproceedings}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=b8397266640ca235d848331d4efdc4d7}{%
+           family={Kuo},
+           familyi={K\bibinitperiod},
+           given={Jen-Hao},
+           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=75d928318d346796f2d6e943830732be}{%
+           family={Ruan},
+           familyi={R\bibinitperiod},
+           given={He-Ming},
+           giveni={H\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=d48ecc869ceae7c7874eea849f4da3f7}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Chun-Yi},
+           giveni={C\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=6fe3867b44f5a5422dd3d540995fbb80}{%
+           family={Lei},
+           familyi={L\bibinitperiod},
+           given={Chin-Laung},
+           giveni={C\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{3488dd6cfca842594883bcb5b7a83acc}
+      \strng{fullhash}{9b3bf23bfe36d65b81cec83c12813e9f}
+      \strng{fullhashraw}{9b3bf23bfe36d65b81cec83c12813e9f}
+      \strng{bibnamehash}{9b3bf23bfe36d65b81cec83c12813e9f}
+      \strng{authorbibnamehash}{9b3bf23bfe36d65b81cec83c12813e9f}
+      \strng{authornamehash}{3488dd6cfca842594883bcb5b7a83acc}
+      \strng{authorfullhash}{9b3bf23bfe36d65b81cec83c12813e9f}
+      \strng{authorfullhashraw}{9b3bf23bfe36d65b81cec83c12813e9f}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Investigation of mobile App behaviors, from the aspect of real world mobile backend system}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/AEECT.2017.8257762
+      \endverb
+    \endentry
+    \entry{saraf2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=29135b061b1d7d87670b4928e3507290}{%
+           family={Saraf},
+           familyi={S\bibinitperiod},
+           given={Prachi\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {International Journal for Research in Applied Science}%
+        {Engineering Technology (IJRASET)}%
+      }
+      \strng{namehash}{29135b061b1d7d87670b4928e3507290}
+      \strng{fullhash}{29135b061b1d7d87670b4928e3507290}
+      \strng{fullhashraw}{29135b061b1d7d87670b4928e3507290}
+      \strng{bibnamehash}{29135b061b1d7d87670b4928e3507290}
+      \strng{authorbibnamehash}{29135b061b1d7d87670b4928e3507290}
+      \strng{authornamehash}{29135b061b1d7d87670b4928e3507290}
+      \strng{authorfullhash}{29135b061b1d7d87670b4928e3507290}
+      \strng{authorfullhashraw}{29135b061b1d7d87670b4928e3507290}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract: If we see current scenario mobile users are rapidly increasing in a very large scale. Better performance and good visuals are needed while developing any mobile applications. In the current mobile market, there are various operating system which are supported by many mobile devices. . Since these platforms have different SDKs and tools for developing mobile applications, SDK tools will include a range of things, including libraries, documentation, code samples, processes, and different guides that developers can use and integrate/combined into their own apps. Cross platform development offers the flexibility for building applications using universal language like Javascript which can then be exported to numerous smartphone platforms. Firebase is a platform for mobile and web application with tools and infrastructure which allows developers to build high quality applications. Firebase consists of features that developers can use together to meet their needs. Earlier Firebase was used as a real-time database, which provides developers an API to sync and store data across various clients. Over time, it’s product has been expanded to become a full suite for an app development. Day by day new platform approaches are evolved. Firebase is also powerful API i.e Application Program Interface to sync and store data in realtime helping to build realtime apps for the web. It also takes care of most of the backend concerns and is dubbed a Backend as a Service (BaaS) and also pushes state to your application utilizing web sockets. Keywords: Android, iOS, Cross Platform Development, Flutter, Dart, Widgets, Firebase.}
+      \field{issue}{1}
+      \field{journaltitle}{International Journal for Research in Applied Science and Engineering Technology}
+      \field{month}{1}
+      \field{title}{A Review on Firebase (Backend as A Service) for Mobile Application Development}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{pages}{967\bibrangedash 971}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.22214/IJRASET.2022.39958
+      \endverb
+    \endentry
+    \entry{firebaseGoogle}{misc}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Firebase}
+      \verb{urlraw}
+      \verb https://firebase.google.com/
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/
+      \endverb
+    \endentry
+    \entry{ShahJagtapJain2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=4cfb2773414f2fadd65f94aa142383bf}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Rutvij},
+           giveni={R\bibinitperiod}}}%
+        {{hash=26cc1f5a4a4cd2b487e36bf0d4e9a725}{%
+           family={Jagtap},
+           familyi={J\bibinitperiod},
+           given={Shrinivas},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c92eeed080bd7877649a11ed51aab3c0}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Vishal},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad0a495a6e2fc16e73832d06cddd1540}
+      \strng{fullhash}{026518339c3b78fe03c52a0d04f7919b}
+      \strng{fullhashraw}{026518339c3b78fe03c52a0d04f7919b}
+      \strng{bibnamehash}{026518339c3b78fe03c52a0d04f7919b}
+      \strng{authorbibnamehash}{026518339c3b78fe03c52a0d04f7919b}
+      \strng{authornamehash}{ad0a495a6e2fc16e73832d06cddd1540}
+      \strng{authorfullhash}{026518339c3b78fe03c52a0d04f7919b}
+      \strng{authorfullhashraw}{026518339c3b78fe03c52a0d04f7919b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Artificial Intelligence, Data Science, and Machine Learning}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Architecting Analytics-Driven Mobile Ecosystems: Scalable Backend Frameworks for Intelligent Data Flow and Real-Time User Insights}
+      \field{volume}{6}
+      \field{year}{2025}
+      \field{pages}{83\bibrangedash 91}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.63282/3050-9262.IJAIDSML-V6I2P109
+      \endverb
+      \verb{urlraw}
+      \verb https://ijaidsml.org/index.php/ijaidsml/article/view/148
+      \endverb
+      \verb{url}
+      \verb https://ijaidsml.org/index.php/ijaidsml/article/view/148
+      \endverb
+    \endentry
+    \entry{offlineFirst1}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=6df19a717a9856cbce90632924b10b51}{%
+           family={Guda},
+           familyi={G\bibinitperiod},
+           given={Varun\bibnamedelima Reddy},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6df19a717a9856cbce90632924b10b51}
+      \strng{fullhash}{6df19a717a9856cbce90632924b10b51}
+      \strng{fullhashraw}{6df19a717a9856cbce90632924b10b51}
+      \strng{bibnamehash}{6df19a717a9856cbce90632924b10b51}
+      \strng{authorbibnamehash}{6df19a717a9856cbce90632924b10b51}
+      \strng{authornamehash}{6df19a717a9856cbce90632924b10b51}
+      \strng{authorfullhash}{6df19a717a9856cbce90632924b10b51}
+      \strng{authorfullhashraw}{6df19a717a9856cbce90632924b10b51}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mobile chat applications used within intranet-based environments often struggle with inconsistent, unstable, or unavailable internet connectivity, causing interruptions that significantly impact the user's experience (communication). This paper introduces an offline-first architecture designed explicitly for Android-based chat systems operating on the intranet, such as those available on cruise ships. By integrating local data storage using Android's database (either Room or SQLite), innovative caching strategies, and optimized sync techniques, the approach proposed ensures stable, consistent, and smooth messaging even during extended periods without connectivity. We have implemented and thoroughly tested this solution in simulated intranet environments, confirming its reliability and stability in maintaining a reliable network for exchanging messages, minimizing sync conflicts, and delivering a smooth user experience. The results highlight clear benefits, making the architecture highly compatible with Android developers and aiming to improve application stability and performance in cases with limited or intermittent network availability. 1. Introduction Over the past decade, mobile chat applications have become integral to effective communication in many industries, including entertainment, hospitality, e-commerce, and corporate environments [5]. Typically, these chat applications depend on stable internet connections to provide smooth and real-time messaging capabilities [6]. However, consistent internet connectivity isn't always guaranteed, particularly in intranet-based or isolated environments like cruise ships, remote sites, or event venues [7]. When connectivity is limited or disrupted, conventional chat systems struggle to maintain reliable service, resulting in user frustration and operational inefficiencies [8]. To overcome these limitations, an offline-first architecture has become essential. Unlike traditional applications, offline-first solutions prioritize local data storage and functionality, allowing apps to operate seamlessly even without active internet connections. Once connectivity resumes, stored data is synchronized with backend servers, maintaining consistency and continuity [9]. Android, the dominant mobile operating system globally, offers tools and libraries-such as Room Database for local data persistence [2] and WorkManager for background synchronization [10]-which effectively support offline-first design. In this paper, we describe the implementation of an offline-first architecture tailored explicitly for Android-based chat applications operating within closed intranet environments. Our approach utilizes locally cached data, efficient message queuing, and optimized synchronization algorithms, ensuring uninterrupted messaging capability irrespective of external network conditions [3] .}
+      \field{issn}{2582-7138}
+      \field{title}{Implementation of Offline-First Architectures for Android Internet-Based Chat Systems}
+      \verb{doi}
+      \verb 10.54660/.IJMRGE.2025.6.3.1200-1203
+      \endverb
+      \verb{urlraw}
+      \verb www.allmultidisciplinaryjournal.com
+      \endverb
+      \verb{url}
+      \verb www.allmultidisciplinaryjournal.com
+      \endverb
+      \keyw{Android Application,Intranet-Based Chat,Limited Connectivity,Local Caching,Offline-First Architecture,Room Database,Synchronization Algorithms}
+    \endentry
+    \entry{chiriac2025nosql}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=99b38d2fc1c19d928d5859815bd40bc4}{%
+           family={Chiriac},
+           familyi={C\bibinitperiod},
+           given={Mario-Tudor},
+           giveni={M\bibinithyphendelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{fullhash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{fullhashraw}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{bibnamehash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{authorbibnamehash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{authornamehash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{authorfullhash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{authorfullhashraw}{99b38d2fc1c19d928d5859815bd40bc4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The aim of this article is to show the advantages of No-SQL databases compared to SQL (relational) databases. Traditionally, the concept of database is implicitly associated with relational databases, most often ignoring the huge potential that non-relational databases have in the fields such as BigData, Data Analysis, Artificial Intelligence. Besides, non-relational databases are also remarkable for their structure flexibility, their speed and for the distribution of their data on multiple servers simultaneously, for their fast writing and reading speed, which is crucial when analysing very large volumes of data.}
+      \field{journaltitle}{Database Systems Journal}
+      \field{title}{The Advantage of NoSQL Databases over SQL Databases}
+      \field{volume}{XVI}
+      \field{pages}{2025}
+      \range{pages}{1}
+      \keyw{No-SQL,No-SQL databases,Relational databases,SQL,SQL databases,efficiency,large,non-relational databases,portability,redundancy,scalability}
+    \endentry
+    \entry{mysql}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=62a004b95946bb97541afa471dcca73a}{%
+           family={MySQL},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{fullhash}{62a004b95946bb97541afa471dcca73a}
+      \strng{fullhashraw}{62a004b95946bb97541afa471dcca73a}
+      \strng{bibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorbibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authornamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorfullhash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorfullhashraw}{62a004b95946bb97541afa471dcca73a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{MySQL Documentation}
+      \field{title}{MySQL}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.mysql.com/
+      \endverb
+      \verb{url}
+      \verb https://www.mysql.com/
+      \endverb
+    \endentry
+    \entry{postgresql}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=399bd1ee587245ecac6f39beaa99886f}{%
+           family={PostgreSQL},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{fullhash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{fullhashraw}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{bibnamehash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{authorbibnamehash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{authornamehash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{authorfullhash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{authorfullhashraw}{399bd1ee587245ecac6f39beaa99886f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{PostgreSQL Documentation}
+      \field{title}{PostgreSQL}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.postgresql.org/
+      \endverb
+      \verb{url}
+      \verb https://www.postgresql.org/
+      \endverb
+    \endentry
+    \entry{SQLite}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=497757a9c5b2ec17ded656170b51c788}{%
+           family={SQLite},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{497757a9c5b2ec17ded656170b51c788}
+      \strng{fullhash}{497757a9c5b2ec17ded656170b51c788}
+      \strng{fullhashraw}{497757a9c5b2ec17ded656170b51c788}
+      \strng{bibnamehash}{497757a9c5b2ec17ded656170b51c788}
+      \strng{authorbibnamehash}{497757a9c5b2ec17ded656170b51c788}
+      \strng{authornamehash}{497757a9c5b2ec17ded656170b51c788}
+      \strng{authorfullhash}{497757a9c5b2ec17ded656170b51c788}
+      \strng{authorfullhashraw}{497757a9c5b2ec17ded656170b51c788}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{SQLite Documentation}
+      \field{title}{SQLite}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.sqlite.org/
+      \endverb
+      \verb{url}
+      \verb https://www.sqlite.org/
+      \endverb
+    \endentry
+    \entry{realm}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d7675d104699114cf794a50fc86fcded}{%
+           family={Realm},
+           familyi={R\bibinitperiod},
+           given={MongoDB},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7675d104699114cf794a50fc86fcded}
+      \strng{fullhash}{d7675d104699114cf794a50fc86fcded}
+      \strng{fullhashraw}{d7675d104699114cf794a50fc86fcded}
+      \strng{bibnamehash}{d7675d104699114cf794a50fc86fcded}
+      \strng{authorbibnamehash}{d7675d104699114cf794a50fc86fcded}
+      \strng{authornamehash}{d7675d104699114cf794a50fc86fcded}
+      \strng{authorfullhash}{d7675d104699114cf794a50fc86fcded}
+      \strng{authorfullhashraw}{d7675d104699114cf794a50fc86fcded}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{MongoDB Realm Documentation}
+      \field{title}{MongoDB Realm}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://realm.netlify.app/
+      \endverb
+      \verb{url}
+      \verb https://realm.netlify.app/
+      \endverb
+    \endentry
+    \entry{mongo}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=206e3718af092fd1d12f80cae771ccac}{%
+           family={MongoDB},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{fullhash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{fullhashraw}{206e3718af092fd1d12f80cae771ccac}
+      \strng{bibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorbibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authornamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorfullhash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorfullhashraw}{206e3718af092fd1d12f80cae771ccac}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{MongoDB Documentation}
+      \field{title}{MongoDB}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/
+      \endverb
+    \endentry
+    \entry{redis}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e111446745a1825b862f8727ae63bce4}{%
+           family={Redis},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e111446745a1825b862f8727ae63bce4}
+      \strng{fullhash}{e111446745a1825b862f8727ae63bce4}
+      \strng{fullhashraw}{e111446745a1825b862f8727ae63bce4}
+      \strng{bibnamehash}{e111446745a1825b862f8727ae63bce4}
+      \strng{authorbibnamehash}{e111446745a1825b862f8727ae63bce4}
+      \strng{authornamehash}{e111446745a1825b862f8727ae63bce4}
+      \strng{authorfullhash}{e111446745a1825b862f8727ae63bce4}
+      \strng{authorfullhashraw}{e111446745a1825b862f8727ae63bce4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Redis Documentation}
+      \field{title}{Redis}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://redis.io/
+      \endverb
+      \verb{url}
+      \verb https://redis.io/
+      \endverb
+    \endentry
+    \entry{firebaseRealtime2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
+           family={{Google Firebase}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Firebase Documentation}
+      \field{title}{Firebase Realtime Database}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://firebase.google.com/docs/database
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/docs/database
+      \endverb
+    \endentry
+    \entry{firestore2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
+           family={{Google Firebase}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Firebase Documentation}
+      \field{title}{Cloud Firestore}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://firebase.google.com/docs/firestore
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/docs/firestore
+      \endverb
+    \endentry
+    \entry{room}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7ace771b22ac28958ff5694e260839cc}{%
+           family={{Android Developers}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{fullhash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{fullhashraw}{7ace771b22ac28958ff5694e260839cc}
+      \strng{bibnamehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authorbibnamehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authornamehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authorfullhash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authorfullhashraw}{7ace771b22ac28958ff5694e260839cc}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Android Jetpack Documentation}
+      \field{title}{Save data in a local database using Room}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://developer.android.com/training/data-storage/room
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/training/data-storage/room
+      \endverb
+    \endentry
+    \entry{coreData}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=3dd122ecce0ce9058f026211834f686e}{%
+           family={{Apple Developer}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{fullhash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{fullhashraw}{3dd122ecce0ce9058f026211834f686e}
+      \strng{bibnamehash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{authorbibnamehash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{authornamehash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{authorfullhash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{authorfullhashraw}{3dd122ecce0ce9058f026211834f686e}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Core Data Documentation}
+      \field{title}{Core Data}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://developer.apple.com/documentation/coredata/
+      \endverb
+      \verb{url}
+      \verb https://developer.apple.com/documentation/coredata/
+      \endverb
+    \endentry
+    \entry{Taipalus2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0e25ec6249f5d1a010fa5faa26a828d8}{%
+           family={Taipalus},
+           familyi={T\bibinitperiod},
+           given={Toni},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{fullhash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{fullhashraw}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{bibnamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{authorbibnamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{authornamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{authorfullhash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{authorfullhashraw}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Efficiency has been a pivotal aspect of the software industry since its inception, as a system that serves the end-user fast, and the service provider cost-efficiently benefits all parties. A database management system (DBMS) is an integral part of effectively all software systems, and therefore it is logical that different studies have compared the performance of different DBMSs in hopes of finding the most efficient one. This study systematically synthesizes the results and approaches of studies that compare DBMS performance and provides recommendations for industry and research. The results show that performance is usually tested in a way that does not reflect real-world use cases, and that tests are typically reported in insufficient detail for replication or for drawing conclusions from the stated results.}
+      \field{issn}{0164-1212}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{month}{2}
+      \field{title}{Database management system performance comparisons: A systematic literature review}
+      \field{volume}{208}
+      \field{year}{2024}
+      \field{pages}{111872}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/J.JSS.2023.111872
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0164121223002674
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0164121223002674
+      \endverb
+      \keyw{Comparison,Database,Database management system,NewSQL,NoSQL,Performance,Relational database}
+    \endentry
+    \entry{mccormick}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a09cad61cc8824bdd995abfb996703df}{%
+           family={Mccormick},
+           familyi={M\bibinitperiod},
+           given={Zach},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=45ce9ca7bea6c6c26f4b9dedf96373a8}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Douglas\bibnamedelima C},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{360f268c8e7dca68a5e83fa0caef7b67}
+      \strng{fullhash}{360f268c8e7dca68a5e83fa0caef7b67}
+      \strng{fullhashraw}{360f268c8e7dca68a5e83fa0caef7b67}
+      \strng{bibnamehash}{360f268c8e7dca68a5e83fa0caef7b67}
+      \strng{authorbibnamehash}{360f268c8e7dca68a5e83fa0caef7b67}
+      \strng{authornamehash}{360f268c8e7dca68a5e83fa0caef7b67}
+      \strng{authorfullhash}{360f268c8e7dca68a5e83fa0caef7b67}
+      \strng{authorfullhashraw}{360f268c8e7dca68a5e83fa0caef7b67}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As Internet-enabled devices become more prevalent in the form of smartphones and tablets, the need for mobile application development patterns grows in importance. Different technologies, such as Nokia's Symbian, Apple's iOS, Google's Android, and Microsoft's Windows Mobile, have arisen and will continue evolving to provide platforms for developing mobile device applications. These technologies build on years of experience developing flexible, open-ended frameworks and platforms, and the developers of these technologies have provided many resources for application developers. While best practices have been documented for nearly every component, such as the guidelines for Android Design i and the iOS App Programming Guide ii , a comprehensive pattern collection or pattern language for mobile application development has not yet been produced. This gap exacerbates the difficulty of solving problems or conveying solutions effectively in this domain.}
+      \field{title}{Data Synchronization Patterns in Mobile Application Design, proceedings of the Pattern Languages of Programs (PLoP) 2012 conference}
+      \keyw{D211 [Software Engineering]: Software Architectures-Patterns; C24 [Computer-Communication Networks]: Distributed Systems-Client/Server General Terms: Data Synchronization Additional Key Words and Phrases: mobile applications,client/server,multi-dimensional concerns ACM Reference Format:}
+    \endentry
+    \entry{workmanager}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e84e30b9390cdb64db6db2c9ab87846d}{%
+           family={{Android}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{fullhash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{fullhashraw}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{bibnamehash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{authorbibnamehash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{authornamehash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{authorfullhash}{e84e30b9390cdb64db6db2c9ab87846d}
+      \strng{authorfullhashraw}{e84e30b9390cdb64db6db2c9ab87846d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Work Manager}
+      \field{title}{Task Scheduling}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://developer.android.com/develop/background-work/background-tasks/persistent
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/develop/background-work/background-tasks/persistent
+      \endverb
+    \endentry
+    \entry{iosbackgroundtasks}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=8c1c116768386554ee97f9c439ba8058}{%
+           family={Developer},
+           familyi={D\bibinitperiod},
+           given={Apple},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c1c116768386554ee97f9c439ba8058}
+      \strng{fullhash}{8c1c116768386554ee97f9c439ba8058}
+      \strng{fullhashraw}{8c1c116768386554ee97f9c439ba8058}
+      \strng{bibnamehash}{8c1c116768386554ee97f9c439ba8058}
+      \strng{authorbibnamehash}{8c1c116768386554ee97f9c439ba8058}
+      \strng{authornamehash}{8c1c116768386554ee97f9c439ba8058}
+      \strng{authorfullhash}{8c1c116768386554ee97f9c439ba8058}
+      \strng{authorfullhashraw}{8c1c116768386554ee97f9c439ba8058}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Background Tasks docs}
+      \field{title}{Background Tasks}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://developer.apple.com/documentation/backgroundtasks
+      \endverb
+      \verb{url}
+      \verb https://developer.apple.com/documentation/backgroundtasks
+      \endverb
+    \endentry
+    \entry{firebasefunctions}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
+           family={{Google Firebase}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \field{extraname}{3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Firebase Documentation}
+      \field{title}{Cloud Functions}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://firebase.google.com/docs/functions
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/docs/functions
+      \endverb
+    \endentry
+    \entry{firebaseAuthentication}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
+           family={{Google Firebase}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \field{extraname}{4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Firebase Documentation}
+      \field{title}{Authentication}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://firebase.google.com/docs/auth
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/docs/auth
+      \endverb
+    \endentry
+    \entry{emulatorSuite}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
+           family={{Google Firebase}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \field{extraname}{5}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Firebase Documentation}
+      \field{title}{Local Emulator Suite}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://firebase.google.com/docs/emulator-suite
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/docs/emulator-suite
+      \endverb
+    \endentry
+    \entry{firebaseDataConnect}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
+           family={{Google Firebase}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \field{extraname}{6}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Firebase Documentation}
+      \field{title}{Data Connect}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://firebase.google.com/docs/data-connect
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/docs/data-connect
+      \endverb
+    \endentry
+    \entry{firebaseRules}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
+           family={{Google Firebase}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \field{extraname}{7}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Firebase Documentation}
+      \field{title}{Security Rules}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://firebase.google.com/docs/rules
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/docs/rules
+      \endverb
+    \endentry
+    \entry{firebaseAppCheck}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
+           family={{Google Firebase}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \field{extraname}{8}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Firebase Documentation}
+      \field{title}{App Check}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://firebase.google.com/docs/app-check
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/docs/app-check
+      \endverb
+    \endentry
+    \entry{firebaseMsg}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
+           family={{Google Firebase}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \field{extraname}{9}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Firebase Documentation}
+      \field{title}{Cloud Messaging}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://firebase.google.com/docs/cloud-messaging
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/docs/cloud-messaging
+      \endverb
+    \endentry
+    \entry{firebaseOverview}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
+           family={{Google Firebase}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \field{extraname}{10}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Firebase Documentation}
+      \field{title}{Learn about products to help you RUN your app}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://firebase.google.com/docs/run
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/docs/run
+      \endverb
+    \endentry
+    \entry{firebasePrice}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
+           family={{Google Firebase}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \field{extraname}{11}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Firebase Pricing plans}
+      \field{title}{Pricing plans}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://firebase.google.com/pricing
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/pricing
+      \endverb
+    \endentry
+    \entry{supabase}{misc}{}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{Supabase}
+      \verb{urlraw}
+      \verb https://supabase.com/
+      \endverb
+      \verb{url}
+      \verb https://supabase.com/
+      \endverb
+    \endentry
+    \entry{ZewdieAyezabu2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=00d488db4070ac234b2610e4fb93acb5}{%
+           family={Ayezabu},
+           familyi={A\bibinitperiod},
+           given={Amanuel\bibnamedelima Zewdie},
+           giveni={A\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{00d488db4070ac234b2610e4fb93acb5}
+      \strng{fullhash}{00d488db4070ac234b2610e4fb93acb5}
+      \strng{fullhashraw}{00d488db4070ac234b2610e4fb93acb5}
+      \strng{bibnamehash}{00d488db4070ac234b2610e4fb93acb5}
+      \strng{authorbibnamehash}{00d488db4070ac234b2610e4fb93acb5}
+      \strng{authornamehash}{00d488db4070ac234b2610e4fb93acb5}
+      \strng{authorfullhash}{00d488db4070ac234b2610e4fb93acb5}
+      \strng{authorfullhashraw}{00d488db4070ac234b2610e4fb93acb5}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ayezabu Amanuel Supabase vs Firebase: Evaluation of performance and development of Progressive Web Apps}
+      \field{year}{2022}
+      \keyw{firebase,pwa,supabase,web development}
+    \endentry
+    \entry{supabaseAuth}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=af07a053f31f1c94fcf389327c68f6dd}{%
+           family={{Supabase}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{fullhash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{fullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{bibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorbibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authornamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Supabase Documentation}
+      \field{title}{Auth}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://supabase.com/docs/guides/auth
+      \endverb
+      \verb{url}
+      \verb https://supabase.com/docs/guides/auth
+      \endverb
+    \endentry
+    \entry{supabaseStorage}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=af07a053f31f1c94fcf389327c68f6dd}{%
+           family={{Supabase}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{fullhash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{fullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{bibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorbibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authornamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Supabase Documentation}
+      \field{title}{Storage}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://supabase.com/docs/guides/storage
+      \endverb
+      \verb{url}
+      \verb https://supabase.com/docs/guides/storage
+      \endverb
+    \endentry
+    \entry{supabaseEdge}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=af07a053f31f1c94fcf389327c68f6dd}{%
+           family={{Supabase}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{fullhash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{fullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{bibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorbibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authornamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
+      \field{extraname}{3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Supabase Documentation}
+      \field{title}{Edge Funtions}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://supabase.com/docs/guides/functions
+      \endverb
+      \verb{url}
+      \verb https://supabase.com/docs/guides/functions
+      \endverb
+    \endentry
+    \entry{supabaseRealtime}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=af07a053f31f1c94fcf389327c68f6dd}{%
+           family={{Supabase}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{fullhash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{fullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{bibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorbibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authornamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
+      \field{extraname}{4}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Supabase Documentation}
+      \field{title}{Realtime}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://supabase.com/docs/guides/realtime
+      \endverb
+      \verb{url}
+      \verb https://supabase.com/docs/guides/realtime
+      \endverb
+    \endentry
+    \entry{supabasePricing}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=af07a053f31f1c94fcf389327c68f6dd}{%
+           family={{Supabase}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{fullhash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{fullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{bibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorbibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authornamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
+      \field{extraname}{5}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Supabase Pricing}
+      \field{title}{Pricing}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://supabase.com/pricing
+      \endverb
+      \verb{url}
+      \verb https://supabase.com/pricing
+      \endverb
+    \endentry
+    \entry{ParseBack4App}{misc}{}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Parse? | Back4App}
+      \verb{urlraw}
+      \verb https://www.back4app.com/parse
+      \endverb
+      \verb{url}
+      \verb https://www.back4app.com/parse
+      \endverb
+    \endentry
+    \entry{ParseFeatures}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c9ad95228aa735bdda1aebf38da022af}{%
+           family={{Parse}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9ad95228aa735bdda1aebf38da022af}
+      \strng{fullhash}{c9ad95228aa735bdda1aebf38da022af}
+      \strng{fullhashraw}{c9ad95228aa735bdda1aebf38da022af}
+      \strng{bibnamehash}{c9ad95228aa735bdda1aebf38da022af}
+      \strng{authorbibnamehash}{c9ad95228aa735bdda1aebf38da022af}
+      \strng{authornamehash}{c9ad95228aa735bdda1aebf38da022af}
+      \strng{authorfullhash}{c9ad95228aa735bdda1aebf38da022af}
+      \strng{authorfullhashraw}{c9ad95228aa735bdda1aebf38da022af}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Parse Platform}
+      \field{title}{Parse Features}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://parseplatform.org/#features
+      \endverb
+      \verb{url}
+      \verb https://parseplatform.org/#features
+      \endverb
+    \endentry
+    \entry{Gridfs}{misc}{}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{title}{GridFS}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/docs/manual/core/gridfs/
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/docs/manual/core/gridfs/
+      \endverb
+    \endentry
+    \entry{Back4AppParse}{misc}{}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{title}{Parse on Back4App}
+      \verb{urlraw}
+      \verb https://www.back4app.com/product/parse-baas
+      \endverb
+      \verb{url}
+      \verb https://www.back4app.com/product/parse-baas
+      \endverb
+    \endentry
+    \entry{Back4App}{misc}{}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{title}{Back4App}
+      \verb{urlraw}
+      \verb https://www.back4app.com/
+      \endverb
+      \verb{url}
+      \verb https://www.back4app.com/
+      \endverb
+    \endentry
+    \entry{Back4AppAlternatives}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{2025’s Best Firebase Alternatives: Open-Source \& Scalable Solutions}
+      \verb{urlraw}
+      \verb https://blog.back4app.com/firebase-alternatives/
+      \endverb
+      \verb{url}
+      \verb https://blog.back4app.com/firebase-alternatives/
+      \endverb
+    \endentry
+    \entry{Back4AppPrice}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Back4App Price}
+      \verb{urlraw}
+      \verb https://www.back4app.com/pricing/backend-as-a-service
+      \endverb
+      \verb{url}
+      \verb https://www.back4app.com/pricing/backend-as-a-service
+      \endverb
+    \endentry
+    \entry{awsAmplify}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{AWS Amplify}
+      \verb{urlraw}
+      \verb https://docs.amplify.aws/android/
+      \endverb
+      \verb{url}
+      \verb https://docs.amplify.aws/android/
+      \endverb
+    \endentry
+    \entry{awsAmplifyFeatures}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{AWS Amplify Features}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/amplify/features/
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/amplify/features/
+      \endverb
+    \endentry
+    \entry{cognito}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Amazon Cognito Pricing}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/cognito/pricing/
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/cognito/pricing/
+      \endverb
+    \endentry
+    \entry{appsync}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{AWS AppSync Pricing}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/appsync/pricing/
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/appsync/pricing/
+      \endverb
+    \endentry
+    \entry{dynamoDb}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Amazon DynamoDB}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/dynamodb/
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/dynamodb/
+      \endverb
+    \endentry
+    \entry{lambda}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{AWS Lambda pricing}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/lambda/pricing/
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/lambda/pricing/
+      \endverb
+    \endentry
+    \entry{s3}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Amazon S3}
+      \verb{urlraw}
+      \verb https://aws.amazon.com/s3/pricing/
+      \endverb
+      \verb{url}
+      \verb https://aws.amazon.com/s3/pricing/
+      \endverb
+    \endentry
+    \entry{fiba-courts}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Basketball Courts of the World – Courts of the World}
+      \verb{urlraw}
+      \verb https://www.courtsoftheworld.com/
+      \endverb
+      \verb{url}
+      \verb https://www.courtsoftheworld.com/
+      \endverb
+    \endentry
+    \entry{meetup}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Find Events \& Groups in Portugal}
+      \verb{urlraw}
+      \verb https://www.meetup.com/find/portugal/
+      \endverb
+      \verb{url}
+      \verb https://www.meetup.com/find/portugal/
+      \endverb
+    \endentry
+    \entry{reddit}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Anywhere to play pickup basketball in Lisbon?}
+      \verb{urlraw}
+      \verb https://www.reddit.com/r/lisboa/comments/qtokhf/anywhere_to_play_pickup_basketball_in_lisbon/
+      \endverb
+      \verb{url}
+      \verb https://www.reddit.com/r/lisboa/comments/qtokhf/anywhere_to_play_pickup_basketball_in_lisbon/
+      \endverb
+    \endentry
+    \entry{worldBaller}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Pickup Basketball In Every City - Lisbon}
+      \verb{urlraw}
+      \verb https://www.worldballer.com/europe/lisbon
+      \endverb
+      \verb{url}
+      \verb https://www.worldballer.com/europe/lisbon
+      \endverb
+    \endentry
+    \entry{perplexity}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{I am from Lisbon and I play basketball. I would like to go play on the weekend in a public court. Where can I go? Is there any platform I can find some casual games to join?}
+      \verb{urlraw}
+      \verb https://www.perplexity.ai/search/i-am-from-lisbon-and-i-play-ba-8VmBq1GuQFGTna4LnR3VXg#0
+      \endverb
+      \verb{url}
+      \verb https://www.perplexity.ai/search/i-am-from-lisbon-and-i-play-ba-8VmBq1GuQFGTna4LnR3VXg#0
+      \endverb
+    \endentry
+    \entry{pickup-adult}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Pickup Sports}
+      \verb{urlraw}
+      \verb https://pickup-sports.com/
+      \endverb
+      \verb{url}
+      \verb https://pickup-sports.com/
+      \endverb
+    \endentry
+    \entry{fullcourt-pp}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Fullcourt: Pickup Basketball}
+      \verb{urlraw}
+      \verb https://play.google.com/store/apps/details?id=com.fullcourt.fullcourt\&hl=en
+      \endverb
+      \verb{url}
+      \verb https://play.google.com/store/apps/details?id=com.fullcourt.fullcourt%5C&hl=en
+      \endverb
+    \endentry
+    \entry{chatgpt1}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Lisbon basketball courts}
+      \verb{urlraw}
+      \verb https://chatgpt.com/s/t_68ef91bd97b881918a2f64248073502a
+      \endverb
+      \verb{url}
+      \verb https://chatgpt.com/s/t_68ef91bd97b881918a2f64248073502a
+      \endverb
+    \endentry
+    \entry{chatgpt2}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Lisbon basketball courts games}
+      \verb{urlraw}
+      \verb https://chatgpt.com/s/t_68ef915fde548191a794cd0d4dbdbd67
+      \endverb
+      \verb{url}
+      \verb https://chatgpt.com/s/t_68ef915fde548191a794cd0d4dbdbd67
+      \endverb
+    \endentry
+    \entry{aircourts}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{AirCourts - Reserva grátis 1,500 campos de Padel, Ténis e Futebol em Portugal}
+      \verb{urlraw}
+      \verb https://www.aircourts.com/
+      \endverb
+      \verb{url}
+      \verb https://www.aircourts.com/
+      \endverb
+    \endentry
+    \entry{playtonic}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Join the community and book courts online in one app | Playtomic}
+      \verb{urlraw}
+      \verb https://playtomic.com/
+      \endverb
+      \verb{url}
+      \verb https://playtomic.com/
+      \endverb
+    \endentry
+    \entry{jogabasket}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Lisbon basketball courts games}
+      \verb{urlraw}
+      \verb http://www.jogabasket.pt/
+      \endverb
+      \verb{url}
+      \verb http://www.jogabasket.pt/
+      \endverb
+    \endentry
+    \entry{pickup}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Pickup: Play \& Host Sports}
+      \verb{urlraw}
+      \verb https://www.pickupgames.app/
+      \endverb
+      \verb{url}
+      \verb https://www.pickupgames.app/
+      \endverb
+    \endentry
+    \entry{pickup-app}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Pickup: Play \& Host Sports Play Store}
+      \verb{urlraw}
+      \verb https://play.google.com/store/apps/details?id=com.testpickup.app
+      \endverb
+      \verb{url}
+      \verb https://play.google.com/store/apps/details?id=com.testpickup.app
+      \endverb
+    \endentry
+    \entry{goodrec}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{GoodRec}
+      \verb{urlraw}
+      \verb https://play.google.com/store/apps/details?id=com.lewisblack.JustPlay
+      \endverb
+      \verb{url}
+      \verb https://play.google.com/store/apps/details?id=com.lewisblack.JustPlay
+      \endverb
+    \endentry
+    \entry{woooba}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{WOOBA}
+      \verb{urlraw}
+      \verb https://play.google.com/store/apps/details?id=io.woooba
+      \endverb
+      \verb{url}
+      \verb https://play.google.com/store/apps/details?id=io.woooba
+      \endverb
+    \endentry
+    \entry{pick-roll}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Pick-Roll}
+      \verb{urlraw}
+      \verb https://play.google.com/store/apps/details?id=com.iperskill.pickroll
+      \endverb
+      \verb{url}
+      \verb https://play.google.com/store/apps/details?id=com.iperskill.pickroll
+      \endverb
+    \endentry
+    \entry{pickup-adult-app}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Pickup Sports Play Store}
+      \verb{urlraw}
+      \verb https://play.google.com/store/apps/details?id=com.pickup.sports
+      \endverb
+      \verb{url}
+      \verb https://play.google.com/store/apps/details?id=com.pickup.sports
+      \endverb
+    \endentry
+    \entry{fullcourt}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Fullcourt: Pickup Basketball}
+      \verb{urlraw}
+      \verb https://www.50four.com/
+      \endverb
+      \verb{url}
+      \verb https://www.50four.com/
+      \endverb
+    \endentry
+    \entry{meetup-basketball-group}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Lisbon Basketball Club | Meetup}
+      \verb{urlraw}
+      \verb https://www.meetup.com/lisbon-basketball-meetup/
+      \endverb
+      \verb{url}
+      \verb https://www.meetup.com/lisbon-basketball-meetup/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

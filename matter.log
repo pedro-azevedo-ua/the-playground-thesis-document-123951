@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.10.7)  7 OCT 2025 18:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.10.7)  4 NOV 2025 12:37
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **matter.tex
 (./matter.tex
@@ -502,10 +502,6 @@ Package: babel 2023/02/13 3.86 The Babel package
 \bbl@readstream=\read4
 \bbl@dirlevel=\count323
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuguese.ldf
-Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
-Package babel Info: Making " an active character on input line 143.
-)
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
@@ -514,14 +510,17 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language44). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language44). Reported on input line 108.
-))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 11.
 )
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuguese.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Making " an active character on input line 143.
+))
 (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/pt/babel-portuguese.tex
 Package babel Info: Importing font and identification data for portuguese
 (babel)             from babel-pt.ini. Reported on input line 11.
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
 \MT@toks=\toks30
@@ -792,7 +791,7 @@ LaTeX Info: Redefining \\ on input line 3131.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 77.
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
 Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
@@ -803,11 +802,13 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
+runsystem(uname -s > "matter.w18")...executed.
 
-Package ifplatform Warning: 
-    shell escape is disabled, so I can only detect \ifwindows.
+ (./matter.w18)
+runsystem(rm -- "matter.w18")...executed.
 
-) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \integerpart=\count365
 \decimalpart=\count366
@@ -836,34 +837,2719 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@listing=\toks35
 \c@listing=\count370
 )
-runsystem(mkdir -p build/_minted-matter)...disabled (restricted).
+runsystem(mkdir -p build/_minted-matter)...executed.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count371
+\csq@gtype=\count372
+\csq@glevel=\count373
+\csq@qlevel=\count374
+\csq@maxlvl=\count375
+\csq@tshold=\count376
+\csq@ltx@everypar=\toks36
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write21
+
+Excluding comment 'comment')
+(/usr/share/texlive/texmf-dist/tex/latex/pdfcomment/pdfcomment.sty
+Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-201
+2, 2015-2016, 2018
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks37
+\XKV@tempa@toks=\toks38
+)
+\XKV@depth=\count377
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@pc@count@i=\count378
+\c@pc@count@ii=\count379
+\c@pc@count@iii=\count380
+\c@pc@count@iv=\count381
+\pc@mathannot@box=\box70
+\pc@nullbox=\box71
+\pc@dima=\skip197
+\pc@dimb=\skip198
+\pc@Sposx=\skip199
+\pc@Sposy=\skip256
+\pc@Eposx=\skip257
+\pc@Eposy=\skip258
+\pc@column=\skip259
+\pc@box@width=\skip260
+\pc@box@height=\skip261
+\pc@box@depth=\skip262
+
+(/usr/share/texlive/texmf-dist/tex/latex/datetime2/datetime2.sty
+Package: datetime2 2021/03/21 v1.5.7 (NLCT) date and time formats
+
+(/usr/share/texlive/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
+
+(/usr/share/texlive/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/datetime2-portuges/datetime2-portuges.
+ldf
+File: datetime2-portuges.ldf 2018/08/21 v1.1
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datetime2-portuges/datetime2-portuges-
+ascii.ldf
+File: datetime2-portuges-ascii.ldf 2018/08/21 v1.1
+))
+(/usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-english.ld
+f
+File: datetime2-english.ldf 2019/10/21 v1.05 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-english-ba
+se.ldf
+File: datetime2-english-base.ldf 2019/10/21 v1.05 (NLCT)
+))) (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-savepos.sty
+Package: zref-savepos 2022-04-07 v2.34 Module savepos for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+Package zref Info: New property list: savepos on input line 79.
+Package zref Info: New property: posx on input line 81.
+Package zref Info: New property: posy on input line 82.
+)
+\c@zref@unique=\count382
+
+(/usr/share/texlive/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count383
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/soulpos/soulpos.sty
+Package: soulpos 2021/10/15 v1.2 Fancy underlining
+\ulp@subcnt=\count384
+\ulp@cnt=\count385
+\ulp@out=\write22
+\ulp@in=\read7
+\ulwidth=\dimen281
+)
+
+Package hyperref Warning: Option `pdftex' has already been used,
+(hyperref)                setting the option has no effect on input line 1369.
+
+Package zref Info: New property list: pdfcomment on input line 2735.
+Package zref Info: New property: PCPDFOBJID on input line 2736.
+) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count386
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count387
+\mult@box=\box72
+\multicol@leftmargin=\dimen282
+\c@unbalance=\count388
+\c@collectmore=\count389
+\doublecol@number=\count390
+\multicoltolerance=\count391
+\multicolpretolerance=\count392
+\full@width=\dimen283
+\page@free=\dimen284
+\premulticols=\dimen285
+\postmulticols=\dimen286
+\multicolsep=\skip263
+\multicolbaselineskip=\skip264
+\partial@page=\box73
+\last@line=\box74
+\maxbalancingoverflow=\dimen287
+\mult@rightbox=\box75
+\mult@grightbox=\box76
+\mult@firstbox=\box77
+\mult@gfirstbox=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\c@minrows=\count393
+\c@columnbadness=\count394
+\c@finalcolumnbadness=\count395
+\last@try=\dimen288
+\multicolovershoot=\dimen289
+\multicolundershoot=\dimen290
+\mult@nat@firstbox=\box115
+\colbreak@box=\box116
+\mc@col@check@num=\count396
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip265
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks39
+\ex@=\dimen291
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen292
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count397
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count398
+\leftroot@=\count399
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count400
+\DOTSCASE@=\count401
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box117
+\strutbox@=\box118
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen293
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count402
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count403
+\dotsspace@=\muskip17
+\c@parentequation=\count404
+\dspbrk@lvl=\count405
+\tag@help=\toks40
+\row@=\count406
+\column@=\count407
+\maxfields@=\count408
+\andhelp@=\toks41
+\eqnshift@=\dimen294
+\alignsep@=\dimen295
+\tagshift@=\dimen296
+\tagwidth@=\dimen297
+\totwidth@=\dimen298
+\lineht@=\dimen299
+\@envbody=\toks42
+\multlinegap=\skip266
+\multlinetaggap=\skip267
+\mathdisplay@stack=\toks43
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+\linenoamsmath@ams@eqpen=\count409
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box119
+)
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
+Package: todonotes 2023/01/31
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks44
+\pgfutil@tempdima=\dimen300
+\pgfutil@tempdimb=\dimen301
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box120
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks45
+\pgfkeys@temptoks=\toks46
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks47
+))
+\pgf@x=\dimen302
+\pgf@y=\dimen303
+\pgf@xa=\dimen304
+\pgf@ya=\dimen305
+\pgf@xb=\dimen306
+\pgf@yb=\dimen307
+\pgf@xc=\dimen308
+\pgf@yc=\dimen309
+\pgf@xd=\dimen310
+\pgf@yd=\dimen311
+\w@pgf@writea=\write23
+\r@pgf@reada=\read8
+\c@pgf@counta=\count410
+\c@pgf@countb=\count411
+\c@pgf@countc=\count412
+\c@pgf@countd=\count413
+\t@pgf@toka=\toks48
+\t@pgf@tokb=\toks49
+\t@pgf@tokc=\toks50
+\pgf@sys@id@count=\count414
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count415
+\pgfsyssoftpath@bigbuffer@items=\count416
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen312
+\pgfmath@count=\count417
+\pgfmath@box=\box121
+\pgfmath@toks=\toks51
+\pgfmath@stack@operand=\toks52
+\pgfmath@stack@operation=\toks53
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count418
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen313
+\pgf@picmaxx=\dimen314
+\pgf@picminy=\dimen315
+\pgf@picmaxy=\dimen316
+\pgf@pathminx=\dimen317
+\pgf@pathmaxx=\dimen318
+\pgf@pathminy=\dimen319
+\pgf@pathmaxy=\dimen320
+\pgf@xx=\dimen321
+\pgf@xy=\dimen322
+\pgf@yx=\dimen323
+\pgf@yy=\dimen324
+\pgf@zx=\dimen325
+\pgf@zy=\dimen326
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen327
+\pgf@path@lasty=\dimen328
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen329
+\pgf@shorten@start@additional=\dimen330
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box122
+\pgf@hbox=\box123
+\pgf@layerbox@main=\box124
+\pgf@picture@serial@count=\count419
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen331
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen332
+\pgf@pt@y=\dimen333
+\pgf@pt@temp=\dimen334
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen335
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen336
+\pgf@sys@shading@range@num=\count420
+\pgf@shadingcount=\count421
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box125
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box126
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen337
+\pgf@nodesepend=\dimen338
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen339
+\pgffor@skip=\dimen340
+\pgffor@stack=\toks54
+\pgffor@toks=\toks55
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count422
+\pgfplotmarksize=\dimen341
+)
+\tikz@lastx=\dimen342
+\tikz@lasty=\dimen343
+\tikz@lastxsaved=\dimen344
+\tikz@lastysaved=\dimen345
+\tikz@lastmovetox=\dimen346
+\tikz@lastmovetoy=\dimen347
+\tikzleveldistance=\dimen348
+\tikzsiblingdistance=\dimen349
+\tikz@figbox=\box127
+\tikz@figbox@bg=\box128
+\tikz@tempbox=\box129
+\tikz@tempbox@bg=\box130
+\tikztreelevel=\count423
+\tikznumberofchildren=\count424
+\tikznumberofcurrentchild=\count425
+\tikz@fig@count=\count426
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count427
+\pgfmatrixcurrentcolumn=\count428
+\pgf@matrix@numberofcolumns=\count429
+)
+\tikz@expandcount=\count430
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+\c@@todonotes@numberoftodonotes=\count431
+)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count432
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count433
+\c@listtotal=\count434
+\c@listcount=\count435
+\c@liststart=\count436
+\c@liststop=\count437
+\c@citecount=\count438
+\c@citetotal=\count439
+\c@multicitecount=\count440
+\c@multicitetotal=\count441
+\c@instcount=\count442
+\c@maxnames=\count443
+\c@minnames=\count444
+\c@maxitems=\count445
+\c@minitems=\count446
+\c@citecounter=\count447
+\c@maxcitecounter=\count448
+\c@savedcitecounter=\count449
+\c@uniquelist=\count450
+\c@uniquename=\count451
+\c@refsection=\count452
+\c@refsegment=\count453
+\c@maxextratitle=\count454
+\c@maxextratitleyear=\count455
+\c@maxextraname=\count456
+\c@maxextradate=\count457
+\c@maxextraalpha=\count458
+\c@abbrvpenalty=\count459
+\c@highnamepenalty=\count460
+\c@lownamepenalty=\count461
+\c@maxparens=\count462
+\c@parenlevel=\count463
+\blx@tempcnta=\count464
+\blx@tempcntb=\count465
+\blx@tempcntc=\count466
+\c@blx@maxsection=\count467
+\blx@maxsegment@0=\count468
+\blx@notetype=\count469
+\blx@parenlevel@text=\count470
+\blx@parenlevel@foot=\count471
+\blx@sectionciteorder@0=\count472
+\blx@sectionciteorderinternal@0=\count473
+\blx@entrysetcounter=\count474
+\blx@biblioinstance=\count475
+\labelnumberwidth=\skip268
+\labelalphawidth=\skip269
+\biblabelsep=\skip270
+\bibnamesep=\skip271
+\bibinitsep=\skip272
+\bibparsep=\skip273
+\bibhang=\skip274
+\blx@bcfin=\read9
+\blx@bcfout=\write24
+\blx@langwohyphens=\language87
+\c@mincomprange=\count476
+\c@maxcomprange=\count477
+\c@mincompwidth=\count478
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count479
+\c@savedafterword=\count480
+\c@annotator=\count481
+\c@savedannotator=\count482
+\c@author=\count483
+\c@savedauthor=\count484
+\c@bookauthor=\count485
+\c@savedbookauthor=\count486
+\c@commentator=\count487
+\c@savedcommentator=\count488
+\c@editor=\count489
+\c@savededitor=\count490
+\c@editora=\count491
+\c@savededitora=\count492
+\c@editorb=\count493
+\c@savededitorb=\count494
+\c@editorc=\count495
+\c@savededitorc=\count496
+\c@foreword=\count497
+\c@savedforeword=\count498
+\c@holder=\count499
+\c@savedholder=\count500
+\c@introduction=\count501
+\c@savedintroduction=\count502
+\c@namea=\count503
+\c@savednamea=\count504
+\c@nameb=\count505
+\c@savednameb=\count506
+\c@namec=\count507
+\c@savednamec=\count508
+\c@translator=\count509
+\c@savedtranslator=\count510
+\c@shortauthor=\count511
+\c@savedshortauthor=\count512
+\c@shorteditor=\count513
+\c@savedshorteditor=\count514
+\c@labelname=\count515
+\c@savedlabelname=\count516
+\c@institution=\count517
+\c@savedinstitution=\count518
+\c@lista=\count519
+\c@savedlista=\count520
+\c@listb=\count521
+\c@savedlistb=\count522
+\c@listc=\count523
+\c@savedlistc=\count524
+\c@listd=\count525
+\c@savedlistd=\count526
+\c@liste=\count527
+\c@savedliste=\count528
+\c@listf=\count529
+\c@savedlistf=\count530
+\c@location=\count531
+\c@savedlocation=\count532
+\c@organization=\count533
+\c@savedorganization=\count534
+\c@origlocation=\count535
+\c@savedoriglocation=\count536
+\c@origpublisher=\count537
+\c@savedorigpublisher=\count538
+\c@publisher=\count539
+\c@savedpublisher=\count540
+\c@language=\count541
+\c@savedlanguage=\count542
+\c@origlanguage=\count543
+\c@savedoriglanguage=\count544
+\c@pageref=\count545
+\c@savedpageref=\count546
+\shorthandwidth=\skip275
+\shortjournalwidth=\skip276
+\shortserieswidth=\skip277
+\shorttitlewidth=\skip278
+\shortauthorwidth=\skip279
+\shorteditorwidth=\skip280
+\locallabelnumberwidth=\skip281
+\locallabelalphawidth=\skip282
+\localshorthandwidth=\skip283
+\localshortjournalwidth=\skip284
+\localshortserieswidth=\skip285
+\localshorttitlewidth=\skip286
+\localshortauthorwidth=\skip287
+\localshorteditorwidth=\skip288
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count547
+\c@textcitetotal=\count548
+\c@textcitemaxnames=\count549
+\c@biburlbigbreakpenalty=\count550
+\c@biburlbreakpenalty=\count551
+\c@biburlnumpenalty=\count552
+\c@biburlucpenalty=\count553
+\c@biburllcpenalty=\count554
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count555
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2021/12/06 v1.3f biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count556
+\c@bbx:relatedtotal=\count557
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2021/12/06 v1.3f biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count558
+\c@cbx@tempcntb=\count559
+\c@cbx@tempcntc=\count560
+\c@cbx@tempcntd=\count561
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2023-02-22 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-02-02 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+))
+(/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+\AC@clearlist=\toks56
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2023-03-14 v3.2.3 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen350
+\l__siunitx_angle_marker_box=\box131
+\l__siunitx_angle_unit_box=\box132
+\l__siunitx_compound_count_int=\count562
+
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_number_exponent_fixed_int=\count563
+\l__siunitx_number_min_decimal_int=\count564
+\l__siunitx_number_min_integer_int=\count565
+\l__siunitx_number_round_precision_int=\count566
+\l__siunitx_number_lower_threshold_int=\count567
+\l__siunitx_number_upper_threshold_int=\count568
+\l__siunitx_number_group_first_int=\count569
+\l__siunitx_number_group_size_int=\count570
+\l__siunitx_number_group_minimum_int=\count571
+\l__siunitx_table_tmp_box=\box133
+\l__siunitx_table_tmp_dim=\dimen351
+\l__siunitx_table_column_width_dim=\dimen352
+\l__siunitx_table_integer_box=\box134
+\l__siunitx_table_decimal_box=\box135
+\l__siunitx_table_uncert_box=\box136
+\l__siunitx_table_before_box=\box137
+\l__siunitx_table_after_box=\box138
+\l__siunitx_table_before_dim=\dimen353
+\l__siunitx_table_carry_dim=\dimen354
+\l__siunitx_unit_tmp_int=\count572
+\l__siunitx_unit_position_int=\count573
+\l__siunitx_unit_total_int=\count574
+
+Package siunitx Info: Option "detect-weight" has been deprecated in this
+(siunitx)             release.
+(siunitx)             
+(siunitx)             Use "reset-text-series = false, text-series-to-math =
+(siunitx)             true" as a replacement.
+
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count575
+\l__lipsum_a_int=\count576
+\l__lipsum_b_int=\count577
+
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+\lines@idxfile=\write25
+\openout4 = `lines.idx'.
+
+
+Writing index file lines.idx 
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 677.4003pt by 441pt
+Spine and edge margins: 85.35826pt and 71.13188pt
+Upper and lower margins: 85.35826pt and 82.28828pt
+Headheight and headsep: 13.6pt and 19.8738pt
+Footskip: 27.46295pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 57.13188pt
+Sidecapsep and sidecapwidth: 7pt and 49pt
+Sidebarhsep and sidebarwidth: 7pt and 49pt
+Sidebarvsep and sidebartopsep: 13.6pt and 0pt
+Sidebarheight: 594.32022pt
+Sidefoothsep and sidefootwidth: 7pt and 49pt
+Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
+******************************************************
+
+runsystem(which pygmentize && touch matter.aex)...executed.
+
+runsystem(rm matter.aex)...executed.
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'portuguese'.
+(./matter.aux (./glossary.aux) (./chapters/chapter1.aux)
+(./chapters/chapter2.aux) (./chapters/chapter3.aux)
+(./chapters/appendix-more.aux))
+\openout1 = `matter.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 236.
+LaTeX Font Info:    ... okay on input line 236.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count578
+\scratchdimen=\dimen355
+\scratchbox=\box139
+\nofMPsegments=\count579
+\nofMParguments=\count580
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count581
+\MPscratchDim=\dimen356
+\MPnumerator=\count582
+\makeMPintoPDFobject=\count583
+\everyMPtoPDFconversion=\toks58
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+LaTeX Info: Redefining \microtypecontext on input line 236.
+Package microtype Info: Applying patch `item' on input line 236.
+Package microtype Info: Applying patch `toc' on input line 236.
+Package microtype Info: Applying patch `eqnum' on input line 236.
+Package microtype Info: Applying patch `footnote' on input line 236.
+Package microtype Info: Applying patch `verbatim' on input line 236.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 236.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 236.
+Package soulpos Info: Loading soulutf8 on input line 236.
+
+(/usr/share/texlive/texmf-dist/tex/generic/soul/soulutf8.sty
+Package: soulutf8 2023-02-18 v3.0 Permit use of UTF-8 characters in soul (HO)
+
+
+Package soulutf8 Warning: This package is obsolete,
+(soulutf8)                use the soul package directly. 
+(soulutf8)                 on input line 29.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2023-02-18 v3.0 Permit use of UTF-8 characters in soul (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/soul/soul-ori.sty
+Package: soul-ori 2023-02-18 v3.0 letterspacing/underlining (mf)
+\SOUL@word=\toks59
+\SOUL@lasttoken=\toks60
+\SOUL@syllable=\toks61
+\SOUL@cmds=\toks62
+\SOUL@buffer=\toks63
+\SOUL@token=\toks64
+\SOUL@syllgoal=\dimen357
+\SOUL@syllwidth=\dimen358
+\SOUL@charkern=\dimen359
+\SOUL@hyphkern=\dimen360
+\SOUL@dimen=\dimen361
+\SOUL@dimeni=\dimen362
+\SOUL@minus=\count584
+\SOUL@comma=\count585
+\SOUL@apo=\count586
+\SOUL@grave=\count587
+\SOUL@spaceskip=\skip289
+\SOUL@ttwidth=\dimen363
+\SOUL@uldp=\dimen364
+\SOUL@ulht=\dimen365
+))
+Package biblatex Info: Trying to load language 'portuguese'...
+Package biblatex Info: ... file 'portuguese.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/portuguese.lbx
+File: portuguese.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `matter.bcf'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'matter.bbl' found.
+
+(./matter.bbl)
+Package biblatex Info: Reference section=0 on input line 236.
+Package biblatex Info: Reference segment=0 on input line 236.
+Package translations Info: no dictionary file `translations-basic-dictionary-po
+rtuges.trsl' found. on input line 236.
+
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 236.
+<cover.pdf, id=7, 597.50829pt x 845.0471pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf>
+Package pdftex.def Info: cover.pdf  used on input line 242.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf>
+Package pdftex.def Info: cover.pdf  used on input line 242.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<cover.pdf, id=10, page=1, 597.50829pt x 845.0471pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 1>
+Package pdftex.def Info: cover.pdf , page1 used on input line 242.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 1>
+Package pdftex.def Info: cover.pdf , page1 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 1>
+Package pdftex.def Info: cover.pdf , page1 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 1>
+Package pdftex.def Info: cover.pdf , page1 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 1>
+Package pdftex.def Info: cover.pdf , page1 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+\openout4 = `matter.mw'.
+
+ [0
+
+ <./cover.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>] (./matter.mw
+)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.upa'.
+
+Package marginnote Info: Using workaround for absolute page number on input lin
+e 242.
+<cover.pdf, id=26, page=2, 597.50829pt x 845.0471pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 2>
+Package pdftex.def Info: cover.pdf , page2 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 2>
+Package pdftex.def Info: cover.pdf , page2 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 2>
+Package pdftex.def Info: cover.pdf , page2 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+\openout4 = `matter.mw'.
+
+ [1 <./cover.pdf>] (./matter.mw)
+\openout4 = `matter.mw'.
+
+<cover.pdf, id=37, page=3, 597.50829pt x 845.0471pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 3>
+Package pdftex.def Info: cover.pdf , page3 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 3>
+Package pdftex.def Info: cover.pdf , page3 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 3>
+Package pdftex.def Info: cover.pdf , page3 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+\openout4 = `matter.mw'.
+
+ [2 <./cover.pdf>]
+(./matter.mw)
+\openout4 = `matter.mw'.
+
+<cover.pdf, id=42, page=4, 597.50829pt x 845.0471pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 4>
+Package pdftex.def Info: cover.pdf , page4 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 4>
+Package pdftex.def Info: cover.pdf , page4 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 4>
+Package pdftex.def Info: cover.pdf , page4 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+\openout4 = `matter.mw'.
+
+ [3 <./cover.pdf>] (./matter.mw)
+\openout4 = `matter.mw'.
+
+<cover.pdf, id=47, page=5, 597.50829pt x 845.0471pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 5>
+Package pdftex.def Info: cover.pdf , page5 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 5>
+Package pdftex.def Info: cover.pdf , page5 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 5>
+Package pdftex.def Info: cover.pdf , page5 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+\openout4 = `matter.mw'.
+
+ [4 <./cover.pdf>] (./matter.mw)
+\openout4 = `matter.mw'.
+
+<cover.pdf, id=58, page=6, 597.50829pt x 845.0471pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 6>
+Package pdftex.def Info: cover.pdf , page6 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 6>
+Package pdftex.def Info: cover.pdf , page6 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 6>
+Package pdftex.def Info: cover.pdf , page6 used on input line 242.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+\openout4 = `matter.mw'.
+
+
+[5 <./cover.pdf>] (./matter.mw)
+\openout4 = `matter.mw'.
+
+ (./matter.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+4.
+
+(/usr/share/texlive/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+4.
+
+(/usr/share/texlive/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+\openout4 = `matter.mw'.
+
+ [1
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] (./matter.mw)
+\openout4 = `matter.mw'.
+
+Package marginnote Info: Using workaround for absolute page number on input lin
+e 51.
+)
+\openout4 = `matter.mw'.
+
+ [2] (./matter.mw)
+\openout4 = `matter.mw'.
+
+ (./matter.lof)
+\openout4 = `matter.mw'.
+
+ [3
+
+] (./matter.mw)
+\openout4 = `matter.mw'.
+
+ (./matter.lot)
+\openout4 = `matter.mw'.
+
+ [4
+
+] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout2 = `glossary.aux'.
+
+
+(./glossary.tex)
+\openout4 = `matter.mw'.
+
+ [5
 
 
 
-! Package minted Error: You must invoke LaTeX with the -shell-escape flag.
+] (./matter.mw)
+\openout4 = `matter.mw'.
 
-See the minted package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 
-     
-? 
-! Emergency stop.
- ...                                              
-                                                  
-l.86 
-     
-Pass the -shell-escape flag to LaTeX. Refer to the minted.sty documentation for
- more information.
+\openout2 = `chapters/chapter1.aux'.
 
- 
+ (./chapters/chapter1.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 6.
+)
+\openout4 = `matter.mw'.
+
+ [1
+
+
+
+
+
+] (./matter.mw)
+\openout4 = `matter.mw'.
+
+Package marginnote Info: Using workaround for absolute page number on input lin
+e 370.
+\openout2 = `chapters/chapter2.aux'.
+
+
+(./chapters/chapter2.tex
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [2
+
+
+
+
+] (./matter.mw)
+\openout4 = `matter.mw'.
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+6.
+
+(/usr/share/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 46.
+\openout4 = `matter.mw'.
+
+ [3{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (./matter.mw)
+\openout4 = `matter.mw'.
+
+)
+\openout4 = `matter.mw'.
+
+ [4] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout2 = `chapters/chapter3.aux'.
+
+
+(./chapters/chapter3.tex
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [5
+
+
+
+
+] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+<figs/costofnativedev.png, id=215, 400.2179pt x 207.09303pt>
+File: figs/costofnativedev.png Graphic file (type png)
+<use figs/costofnativedev.png>
+Package pdftex.def Info: figs/costofnativedev.png  used on input line 37.
+(pdftex.def)             Requested size: 220.5pt x 114.10059pt.
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [6{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/
+texlive/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texlive/texmf-dist/
+fonts/enc/dvips/lm/lm-mathsy.enc} <./figs/costofnativedev.png>] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [7] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [8] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+<figs/costofcross.png, id=272, 398.7529pt x 213.64026pt>
+File: figs/costofcross.png Graphic file (type png)
+<use figs/costofcross.png>
+Package pdftex.def Info: figs/costofcross.png  used on input line 154.
+(pdftex.def)             Requested size: 220.5pt x 118.1349pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 176--176
+[]|\T1/lmr/m/n/10 (+20) React Na-tive (in-ter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]|\T1/lmr/m/n/10 (+20) Flutter (cross-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+\T1/lmr/m/n/10 (+20) li-braries may be platform-
+ []
+
+\openout4 = `matter.mw'.
+
+[9] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [10 <./figs/costofcross.png>] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+<figs/tradicionalBack.png, id=295, 257.5221pt x 144.0582pt>
+File: figs/tradicionalBack.png Graphic file (type png)
+<use figs/tradicionalBack.png>
+Package pdftex.def Info: figs/tradicionalBack.png  used on input line 196.
+(pdftex.def)             Requested size: 220.5pt x 123.34908pt.
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+<figs/firebaseback.png, id=303, 200.6697pt x 129.8451pt>
+File: figs/firebaseback.png Graphic file (type png)
+<use figs/firebaseback.png>
+Package pdftex.def Info: figs/firebaseback.png  used on input line 210.
+(pdftex.def)             Requested size: 220.5pt x 142.68538pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+[11 <./figs/tradicionalBack.png (PNG copy)>] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [12 <./figs/firebaseback.png (PNG copy)>] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [13] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [14] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+[15] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [16] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [17] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [18] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+[19] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [20] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [21] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [22] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+)
+\openout4 = `matter.mw'.
+
+
+[23] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [24] (./matter.mw)
+\openout4 = `matter.mw'.
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+94.
+
+(/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/9'.
+(microtype)             Ignoring protrusion settings for this character.
+\openout4 = `matter.mw'.
+
+ [25
+
+
+
+
+] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+[26] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ [27] (./matter.mw)
+\openout4 = `matter.mw'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--394
+[]\T1/lmr/m/it/9 (+20) Lisbon bas-ket-ball courts\T1/lmr/m/n/9 (+20) . [On-line
+]. Avail-able: []$\T1/lmtt/m/n/9 https : / / chatgpt . com / s / t _
+ []
+
+\openout4 = `matter.mw'.
+
+[28] (./matter.mw)
+\openout4 = `matter.mw'.
+
+\openout2 = `chapters/appendix-more.aux'.
+
+ (./chapters/appendix-more.tex)
+pdfTeX warning (ext4): destination with the same identifier (name{page.28}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.405 \include{chapters/appendix-more}
+                                      
+\openout4 = `matter.mw'.
+
+ [28
+
+
+
+] (./matter.mw)
+\openout4 = `matter.mw'.
+
+Package marginnote Info: Using workaround for absolute page number on input lin
+e 405.
+\tf@toc=\write26
+\openout4 = `matter.toc'.
+
+\tf@lof=\write27
+\openout4 = `matter.lof'.
+
+\tf@lot=\write28
+\openout4 = `matter.lot'.
+
+ (./matter.aux
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+
+(./glossary.aux
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+) (./chapters/chapter1.aux
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+) (./chapters/chapter2.aux
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+)
+(./chapters/chapter3.aux
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+)
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+ (./chapters/appendix-more.aux
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+))
+
+ *File List*
+  memoir.cls    2022/11/17 v3.7.19 configurable book, report, article document 
+class
+etoolbox.sty    2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+   iftex.sty    2022/02/03 v1.0f TeX engine tests
+   mem11.clo    2022/07/29 v0.5 memoir class 11pt size option
+   array.sty    2022/09/04 v2.5g Tabular extension package (FMi)
+ dcolumn.sty    2014/10/28 v1.06 decimal alignment package (DPC)
+delarray.sty    2014/10/28 v1.01 array delimiter package (DPC)
+tabularx.sty    2020/01/15 v2.11c `tabularx' package (DPC)
+textcase.sty    2022/07/10 v1.03 Text only upper/lower case changing (DPC)
+inputenc.sty    2021/02/14 v1.3d Input encoding file
+ lmodern.sty    2015/05/01 v1.6.1 Latin Modern Fonts
+ fontenc.sty    2021/04/29 v2.0v Standard LaTeX package
+   t1lmr.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
+  ifthen.sty    2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+pdfpages.sty    2022/12/19 v0.5x Insert pages of external PDF documents (AM)
+    calc.sty    2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+ eso-pic.sty    2020/10/14 v3.0a eso-pic (RN)
+  keyval.sty    2022/05/29 v1.15 key=value parser (DPC)
+  xcolor.sty    2022/06/12 v2.14 LaTeX color extensions (UK)
+   color.cfg    2016/01/02 v1.6 sample color configuration
+  pdftex.def    2022/09/22 v1.2b Graphics/color driver for pdftex
+mathcolor.ltx
+graphicx.sty    2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2021/08/11 v1.11 sin cos tan (DPC)
+graphics.cfg    2016/06/04 v1.11 sample graphics configuration
+pppdftex.def    2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
+morewrites.sty    2018/12/29 Always room for a new write
+   expl3.sty    2023-02-22 L3 programming layer (loader) 
+l3backend-pdftex.def    2023-01-16 L3 backend support: PDF output (pdfTeX)
+primargs.sty    2018/12/29 Parsing arguments of primitives
+   babel.sty    2023/02/13 3.86 The Babel package
+ english.ldf    2017/06/06 v3.3r English support from the babel system
+portuguese.ldf
+babel-portuguese.tex
+babel-english.tex
+microtype.sty    2023/03/13 v3.1a Micro-typographical refinements (RS)
+microtype-pdftex.def    2023/03/13 v3.1a Definitions specific to pdftex (RS)
+microtype.cfg    2023/03/13 v3.1a microtype main configuration file (RS)
+ caption.sty    2023/03/12 v3.6j Customizing captions (AR)
+caption3.sty    2023/03/12 v2.4 caption3 kernel (AR)
+caption-memoir.sto    2022/03/02 v2.2b Adaption of the caption package to the m
+emoir document class (AR)
+subcaption.sty    2023/02/19 v1.6 Sub-captions (AR)
+hyperref.sty    2023-02-07 v7.00v Hypertext links for LaTeX
+ ltxcmds.sty    2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+pdftexcmds.sty    2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+infwarerr.sty    2019/12/03 v1.5 Providing info/warning/error messages (HO)
+kvsetkeys.sty    2022-10-05 v1.19 Key value parser (HO)
+kvdefinekeys.sty    2019-12-19 v1.6 Define keys (HO)
+pdfescape.sty    2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ hycolor.sty    2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+letltxmacro.sty    2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+ auxhook.sty    2019-12-17 v1.6 Hooks for auxiliary files (HO)
+ nameref.sty    2022-05-17 v2.50 Cross-referencing by name of section
+refcount.sty    2019/12/15 v3.6 Data extraction from label references (HO)
+gettitlestring.sty    2019/12/15 v1.6 Cleanup title references (HO)
+kvoptions.sty    2022-06-15 v3.15 Key value format for package options (HO)
+  pd1enc.def    2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+ intcalc.sty    2019/12/15 v1.3 Expandable calculations with integers (HO)
+etexcmds.sty    2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+   puenc.def    2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+  bitset.sty    2019/12/09 v1.3 Handle bit-vector datatype (HO)
+bigintcalc.sty    2019/12/15 v1.5 Expandable calculations on big integers (HO)
+atbegshi-ltx.sty    2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+ hpdftex.def    2023-02-07 v7.00v Hyperref driver for pdfTeX
+atveryend-ltx.sty    2020/08/19 v1.0a Emulation of the original atveryend packa
+ge
+with kernel methods
+rerunfilecheck.sty    2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+uniquecounter.sty    2019/12/15 v1.4 Provide unlimited unique counter (HO)
+memhfixc.sty    2022/11/17 v1.20 nameref/hyperref package fixes for memoir clas
+s
+  minted.sty    2022/12/12 v2.7 Yet another Pygments shim for LaTeX
+ fvextra.sty    2022/11/30 v1.5 fvextra - extensions and patches for fancyvrb
+fancyvrb.sty    2023/01/19 4.5a verbatim text (tvz,hv)
+ upquote.sty    2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbat
+im
+textcomp.sty    2020/02/02 v2.0n Standard LaTeX package
+  lineno.sty    2023/01/19 line numbers on paragraphs v5.1
+shellesc.sty    2019/11/08 v1.0c unified shell escape interface for LaTeX
+ifplatform.sty    2017/10/13 v0.4a Testing for the operating system
+catchfile.sty    2019/12/09 v1.8 Catch the contents of a file (HO)
+ifluatex.sty    2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+ "matter.w18"
+ xstring.sty    2023/01/14 v1.85 String manipulations (CT)
+  framed.sty    2011/10/22 v 0.96: framed or shaded text with page breaks
+   float.sty    2001/11/08 v1.3d Float enhancements (AL)
+csquotes.sty    2022-09-14 v5.2n context-sensitive quotations (JAW)
+csquotes.def    2022-09-14 v5.2n csquotes generic definitions (JAW)
+csquotes.cfg    
+ comment.sty    
+pdfcomment.sty    2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-2012,
+ 2015-2016, 2018
+ xkeyval.sty    2022/06/16 v2.9 package option processing (HA)
+ xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
+datetime2.sty    2021/03/21 v1.5.7 (NLCT) date and time formats
+tracklang.sty    2022/12/13 v1.6.1 (NLCT) Track Languages
+tracklang.tex    2022/12/13 v1.6.1 (NLCT) Track Languages Generic Code
+datetime2-portuges.ldf    2018/08/21 v1.1
+ ifxetex.sty    2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+datetime2-portuges-ascii.ldf    2018/08/21 v1.1
+datetime2-english.ldf    2019/10/21 v1.05 (NLCT)
+datetime2-english-base.ldf    2019/10/21 v1.05 (NLCT)
+zref-savepos.sty    2022-04-07 v2.34 Module savepos for zref (HO)
+zref-base.sty    2022-04-07 v2.34 Module base for zref (HO)
+marginnote.sty    2018/08/09 v1.4b non floating margin notes for LaTeX
+   ifpdf.sty    2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+ soulpos.sty    2021/10/15 v1.2 Fancy underlining
+bookmark.sty    2020-11-06 v1.29 PDF bookmarks (HO)
+bkm-pdftex.def    2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+multicol.sty    2021/11/30 v1.9d multicolumn formatting (FMi)
+ amsmath.sty    2022/04/08 v2.17n AMS math features
+ amstext.sty    2021/08/26 v2.01 AMS text
+  amsgen.sty    1999/11/30 v2.0 generic functions
+  amsbsy.sty    1999/11/29 v1.2d Bold Symbols
+  amsopn.sty    2022/04/08 v2.04 operator names
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+ eurosym.sty    1998/08/06 v1.1 European currency symbol ``Euro''
+todonotes.sty    2023/01/31
+    tikz.sty    2023-01-15 v3.1.10 (3.1.10)
+     pgf.sty    2023-01-15 v3.1.10 (3.1.10)
+  pgfrcs.sty    2023-01-15 v3.1.10 (3.1.10)
+pgfrcs.code.tex
+ pgfcore.sty    2023-01-15 v3.1.10 (3.1.10)
+  pgfsys.sty    2023-01-15 v3.1.10 (3.1.10)
+pgfsys.code.tex
+pgfsyssoftpath.code.tex    2023-01-15 v3.1.10 (3.1.10)
+pgfsysprotocol.code.tex    2023-01-15 v3.1.10 (3.1.10)
+pgfcore.code.tex
+pgfcomp-version-0-65.sty    2023-01-15 v3.1.10 (3.1.10)
+pgfcomp-version-1-18.sty    2023-01-15 v3.1.10 (3.1.10)
+  pgffor.sty    2023-01-15 v3.1.10 (3.1.10)
+ pgfkeys.sty    
+pgfkeys.code.tex
+ pgfmath.sty    
+pgfmath.code.tex
+pgffor.code.tex
+tikz.code.tex
+biblatex.sty    2024/03/21 v3.20 programmable bibliographies (PK/MW)
+  logreq.sty    2010/08/04 v1.0 xml request logger
+  logreq.def    2010/08/04 v1.0 logreq spec v1.0
+  blx-dm.def    2024/03/21 v3.20 biblatex datamodel (PK/MW)
+blx-compat.def    2024/03/21 v3.20 biblatex compatibility (PK/MW)
+biblatex.def    2024/03/21 v3.20 biblatex compatibility (PK/MW)
+blx-natbib.def    2024/03/21 v3.20 biblatex compatibility (PK/MW)
+standard.bbx    2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+ numeric.bbx    2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+numeric-comp.bbx    2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+    ieee.bbx    2021/12/06 v1.3f biblatex bibliography style
+numeric-comp.cbx    2024/03/21 v3.20 biblatex citation style (PK/MW)
+    ieee.cbx    2021/12/06 v1.3f biblatex citation style
+biblatex.cfg    
+blx-case-expl3.sty    2024/03/21 v3.20 expl3 case changing code for biblatex
+  xparse.sty    2023-02-02 L3 Experimental document command parser
+ acronym.sty    2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+  suffix.sty    2006/07/15 1.5a Variant command support
+indentfirst.sty    1995/11/23 v1.03 Indent first paragraph (DPC)
+ siunitx.sty    2023-03-14 v3.2.3 A comprehensive (SI) units package
+translations.sty    2022/02/05 v1.12 internationalization of LaTeX2e packages (
+CN)
+  lipsum.sty    2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+l3keys2e.sty    2023-02-02 LaTeX2e option processing using LaTeX3 keys
+  lipsum.ltd
+placeins.sty    2005/04/18  v 2.2
+supp-pdf.mkii
+epstopdf-base.sty    2020-01-24 v2.11 Base part for package epstopdf
+  grfext.sty    2019/12/03 v1.3 Manage graphics extensions (HO)
+epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+pdflscape.sty    2022-10-27 v0.13 Display of landscape pages in PDF
+pdflscape-nometadata.sty    2022-10-28 v0.13 Display of landscape pages in PDF 
+(HO)
+  lscape.sty    2020/05/28 v3.02 Landscape Pages (DPC)
+  mt-cmr.cfg    2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
+RS)
+soulutf8.sty    2023-02-18 v3.0 Permit use of UTF-8 characters in soul (HO)
+    soul.sty    2023-02-18 v3.0 Permit use of UTF-8 characters in soul (HO)
+soul-ori.sty    2023-02-18 v3.0 letterspacing/underlining (mf)
+portuguese.lbx    2024/03/21 v3.20 biblatex localization (PK/MW)
+ english.lbx    2024/03/21 v3.20 biblatex localization (PK/MW)
+  matter.bbl
+translations-basic-dictionary-english.trsl    (english translation file `transl
+ations-basic-dictionary')
+   cover.pdf    Graphic file (type pdf)
+   cover.pdf    Graphic file (type pdf)
+   cover.pdf    Graphic file (type pdf)
+   cover.pdf    Graphic file (type pdf)
+   cover.pdf    Graphic file (type pdf)
+   cover.pdf    Graphic file (type pdf)
+   cover.pdf    Graphic file (type pdf)
+   cover.pdf    Graphic file (type pdf)
+   cover.pdf    Graphic file (type pdf)
+  ot1lmr.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
+  omllmm.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
+ omslmsy.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
+ omxlmex.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+  mt-msa.cfg    2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+  mt-msb.cfg    2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+glossary.tex
+chapters/chapter1.tex
+chapters/chapter2.tex
+  ts1lmr.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
+chapters/chapter3.tex
+figs/costofnativedev.png
+figs/costofcross.png
+figs/tradicionalBack.png
+figs/firebaseback.png
+  t1lmtt.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
+chapters/appendix-more.tex
+ ***********
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.mw'.
+
+\openout4 = `matter.bcf'.
+
+Package logreq Info: Writing requests to 'matter.run.xml'.
+\openout1 = `matter.run.xml'.
+
+\openout4 = `lines.idx'.
+
+\openout4 = `matter.upa'.
+
+\openout4 = `matter.toc'.
+
+\openout4 = `matter.lof'.
+
+\openout4 = `matter.lot'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 19957 strings out of 476034
- 340359 string characters out of 5792864
- 1850388 words of memory out of 6000000
- 40202 multiletter control sequences out of 15000+600000
- 515876 words of font info for 35 fonts, out of 8000000 for 9000
+ 51229 strings out of 476034
+ 1039720 string characters out of 5792864
+ 2208964 words of memory out of 6000000
+ 70302 multiletter control sequences out of 15000+600000
+ 604525 words of font info for 233 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 75i,1n,81p,282b,106s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 99i,17n,94p,2978b,2911s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/lm/lmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmm
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/lm/lmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/lm/lmri9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt9
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on matter.pdf (40 pages, 817322 bytes).
+PDF statistics:
+ 904 PDF objects out of 1000 (max. 8388607)
+ 795 compressed objects within 8 object streams
+ 185 named destinations out of 1000 (max. 500000)
+ 47910 words of extra memory for PDF output out of 51595 (max. 10000000)
+

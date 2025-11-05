@@ -1119,6 +1119,48 @@
       \field{title}{Data Synchronization Patterns in Mobile Application Design, proceedings of the Pattern Languages of Programs (PLoP) 2012 conference}
       \keyw{D211 [Software Engineering]: Software Architectures-Patterns; C24 [Computer-Communication Networks]: Distributed Systems-Client/Server General Terms: Data Synchronization Additional Key Words and Phrases: mobile applications,client/server,multi-dimensional concerns ACM Reference Format:}
     \endentry
+    \entry{mediuDataSync}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d4cb8acf2342429bb8e528d95c1bd1aa}{%
+           family={Vishvnath},
+           familyi={V\bibinitperiod},
+           given={Singh},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4cb8acf2342429bb8e528d95c1bd1aa}
+      \strng{fullhash}{d4cb8acf2342429bb8e528d95c1bd1aa}
+      \strng{fullhashraw}{d4cb8acf2342429bb8e528d95c1bd1aa}
+      \strng{bibnamehash}{d4cb8acf2342429bb8e528d95c1bd1aa}
+      \strng{authorbibnamehash}{d4cb8acf2342429bb8e528d95c1bd1aa}
+      \strng{authornamehash}{d4cb8acf2342429bb8e528d95c1bd1aa}
+      \strng{authorfullhash}{d4cb8acf2342429bb8e528d95c1bd1aa}
+      \strng{authorfullhashraw}{d4cb8acf2342429bb8e528d95c1bd1aa}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{Designing a Robust Data Synchronization System for Multi-Device Mobile Applications}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://medium.com/@engineervishvnath/designing-a-robust-data-synchronization-system-for-multi-device-mobile-applications-c0b23e4fc0cb
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@engineervishvnath/designing-a-robust-data-synchronization-system-for-multi-device-mobile-applications-c0b23e4fc0cb
+      \endverb
+    \endentry
+    \entry{LastWriteWin}{misc}{}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{title}{Conflict Resolution}
+      \verb{urlraw}
+      \verb https://developer.android.com/topic/architecture/data-layer/offline-first#conflict-resolution
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/topic/architecture/data-layer/offline-first#conflict-resolution
+      \endverb
+    \endentry
     \entry{workmanager}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=e84e30b9390cdb64db6db2c9ab87846d}{%
@@ -1224,8 +1266,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1477,8 +1519,8 @@
       \strng{authornamehash}{00d488db4070ac234b2610e4fb93acb5}
       \strng{authorfullhash}{00d488db4070ac234b2610e4fb93acb5}
       \strng{authorfullhashraw}{00d488db4070ac234b2610e4fb93acb5}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ayezabu Amanuel Supabase vs Firebase: Evaluation of performance and development of Progressive Web Apps}
@@ -1605,7 +1647,7 @@
       \verb https://supabase.com/docs/guides/realtime
       \endverb
     \endentry
-    \entry{supabasePricing}{misc}{}{}
+    \entry{supabaseIntegrations}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=af07a053f31f1c94fcf389327c68f6dd}{%
            family={{Supabase}},
@@ -1620,6 +1662,36 @@
       \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
       \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
       \field{extraname}{5}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Supabase Pricing}
+      \field{title}{Integrations}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://supabase.com/partners/integrations
+      \endverb
+      \verb{url}
+      \verb https://supabase.com/partners/integrations
+      \endverb
+    \endentry
+    \entry{supabasePricing}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=af07a053f31f1c94fcf389327c68f6dd}{%
+           family={{Supabase}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{fullhash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{fullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{bibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorbibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authornamehash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
+      \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
+      \field{extraname}{6}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
@@ -1677,8 +1749,8 @@
       \endverb
     \endentry
     \entry{Gridfs}{misc}{}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{GridFS}
       \verb{urlraw}
@@ -1689,8 +1761,8 @@
       \endverb
     \endentry
     \entry{Back4AppParse}{misc}{}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{Parse on Back4App}
       \verb{urlraw}
@@ -1701,8 +1773,8 @@
       \endverb
     \endentry
     \entry{Back4App}{misc}{}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{Back4App}
       \verb{urlraw}
@@ -1818,6 +1890,162 @@
       \endverb
       \verb{url}
       \verb https://aws.amazon.com/s3/pricing/
+      \endverb
+    \endentry
+    \entry{azureMobileServices}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Announcing Azure Mobile Services transition to Azure App Service}
+      \verb{urlraw}
+      \verb https://azure.microsoft.com/en-us/blog/transition-of-azure-mobile-services/
+      \endverb
+      \verb{url}
+      \verb https://azure.microsoft.com/en-us/blog/transition-of-azure-mobile-services/
+      \endverb
+    \endentry
+    \entry{azureappservices}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Microsoft Azure App Service}
+      \verb{urlraw}
+      \verb https://azure.microsoft.com/en-us/products/app-service
+      \endverb
+      \verb{url}
+      \verb https://azure.microsoft.com/en-us/products/app-service
+      \endverb
+    \endentry
+    \entry{azureFunctions}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Azure Functions}
+      \verb{urlraw}
+      \verb https://azure.microsoft.com/en-us/products/functions
+      \endverb
+      \verb{url}
+      \verb https://azure.microsoft.com/en-us/products/functions
+      \endverb
+    \endentry
+    \entry{azureCosmos}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Azure Cosmos DB}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/azure/cosmos-db/introduction
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/azure/cosmos-db/introduction
+      \endverb
+    \endentry
+    \entry{azureSQL}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Azure SQL Database}
+      \verb{urlraw}
+      \verb https://azure.microsoft.com/en-us/products/azure-sql/database
+      \endverb
+      \verb{url}
+      \verb https://azure.microsoft.com/en-us/products/azure-sql/database
+      \endverb
+    \endentry
+    \entry{azureEntraID}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Microsoft Entra ID}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/entra/identity/
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/entra/identity/
+      \endverb
+    \endentry
+    \entry{azureNotification}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Azure Notification Hubs}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-overview
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-overview
+      \endverb
+    \endentry
+    \entry{azureAPI}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Azure API Management}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts
+      \endverb
+    \endentry
+    \entry{azureStorage}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Azure Storage}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction
+      \endverb
+    \endentry
+    \entry{other1}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Top 10 Backend Platforms For Mobile Apps}
+      \verb{urlraw}
+      \verb https://blog.back4app.com/backend-platform-for-mobile-apps/
+      \endverb
+      \verb{url}
+      \verb https://blog.back4app.com/backend-platform-for-mobile-apps/
+      \endverb
+    \endentry
+    \entry{other2}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Best Mobile Backend-as-a-Service (mBaaS) Software}
+      \verb{urlraw}
+      \verb https://www.g2.com/categories/mobile-backend-as-a-service-mbaas
+      \endverb
+      \verb{url}
+      \verb https://www.g2.com/categories/mobile-backend-as-a-service-mbaas
+      \endverb
+    \endentry
+    \entry{other3}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Mobile Backend as a Service (MBaaS) List (November 2025)}
+      \verb{urlraw}
+      \verb https://www.saasworthy.com/list/mobile-backend-as-a-service-mbaas
+      \endverb
+      \verb{url}
+      \verb https://www.saasworthy.com/list/mobile-backend-as-a-service-mbaas
+      \endverb
+    \endentry
+    \entry{other4}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{21 Best MBaaS Software Picks of 2025}
+      \verb{urlraw}
+      \verb https://thectoclub.com/tools/best-mbaas-software/
+      \endverb
+      \verb{url}
+      \verb https://thectoclub.com/tools/best-mbaas-software/
       \endverb
     \endentry
     \entry{fiba-courts}{misc}{}{}

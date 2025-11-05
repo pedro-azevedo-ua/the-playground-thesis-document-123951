@@ -218,7 +218,7 @@ The disadvantage of these platforms include the lack of flexibility and fine-gra
 Besides that, when choosing a platform, the app developer is subject to vendor lock-in, becoming dependent in the platforms tools, APIs and data formats.
 With this, developers can also go for a hybrid approach, using features form the BaaS and developing other backend features with a programming language\cite{ShahJagtapJain2025}.
 
-\subsection{Data management}
+\subsection{Data management strategies}
 
 In mobile applications data management is an important piece that influences the application performance, user experience and business logic.
 The ability to store, retrieve, synchronize and secure data determines the success of the majority applications.
@@ -252,14 +252,16 @@ Data storage and availability patterns determine the scope of data maintained on
 
 Data transfer patterns define what information moves between client and server during synchronization, including full transfer which transmits entire datasets regardless of changes, timestamp transfer which exchanges only records modified since the last synchronization by comparing modification timestamps, and delta transfer which computes and transmits only the specific changes or differences between client and server versions, minimizing bandwidth consumption but increasing computational complexity.
 
+When data is written locally while offline, there will be differences between the online data, and there will be a conflict that needs to be resolve before synchronization.
+There are several conflict resolution strategies, such as Server Wins or Client Wins, where it is decided if the data in the server prevails over the client or the other way, Merge conflict by implementing logic to merge changes when possible with user intervention possible needed with complex data, Vector Clocks when there is a complex scenario, helping understand the relationships between changes\cite{mediuDataSync}. Another method that Androids mentions in its documentation is called Last write wins, where the device adds metadata to the written data in the network, and when the network data source receives, any older data will be discard\cite{LastWriteWin}. This can result in data loss if two offline devices write conflicting updates sequentially; when both reconnect and synchronize, the data written by the first device will be discarded.
+
 For a good user experience on unreliable networks, an offline-first hybrid architecture is a good option.
 Keeping a local databases for immediate responsiveness, use background workers like Android WorkManager\cite{workmanager} and iOS Background Tasks\cite{iosbackgroundtasks}, for scheduled synchronization, and Backend as a Service platforms (Google Firebase, AWS Amplify) for cross-device consistency.
 Such architecture balance responsiveness, bandwidth, and storage while allowing application-level conflict-resolution policies to be enforced.
 
-\subsection{Mobile Backend as a Service}
+\subsection{MBaaS Providers}
 
-There are several different solutions to choose for MBaaS, from big cloud corporations such has Google's Firebase, Amazon's AWS Amplify, Microsoft Azure, to open-source like Supabase, Parse, Back4App and Appwrite.
-Below are some relevant MBaaS:
+There are several different solutions to choose for MBaaS, from big cloud corporations such has Google's Firebase, Amazon's AWS Amplify, Microsoft Azure, to open-source like Supabase, Parse, Back4App. Below are some relevant MBaaS:
 
 \subsubsection{Google Firebase}
 
@@ -303,6 +305,8 @@ Supabase has the following tools:
 	\item [Edge Functions] are server-side TypeScript functions, distributed globally at the edge — close to the users. They can be used for listening to webhooks or integrating the Supabase project with third-parties.\cite{supabaseEdge}
 	\item[Realtime] Supabase provides a globally distributed Realtime service that can send low-latency messages between clients, good for real-time messaging, database changes, cursor tracking, game events, and custom notifications. Track and synchronize user state across clients, ideal for showing who's online, or active participants. And listen to database changes in real-time.\cite{supabaseRealtime}
 \end{description}
+
+For features not natively provided by Supabase, such as push notifications or built-in analytics, developers can integrate third-party services, webhooks, or direct API integrations\cite{supabaseIntegrations}.
 
 Supabase has 2 main plans, the free option and a pro option where the developer pays 25USD per month\cite{supabasePricing}.
 Here what a developer gets with each plan:
@@ -384,6 +388,131 @@ And the ecosystem, also provides the Amplify UI Components, an open-source set o
 	\item[Functions powered by AWS Lambda] Lambda counts a request each time it starts executing in response to an event notification trigger, duration is calculated from the time the code begins executing until it returns or otherwise terminates, rounded up to the nearest 1 ms, with the price depends on the amount of memory the developer allocates to the function.\cite{lambda}
 	\item[Storage powered by Amazon Simple] Pay only for what is used. There is no minimum charge. Amazon S3 cost components are storage pricing, request and data retrieval pricing, data transfer and transfer acceleration pricing, data management and insights feature pricing, replication pricing, and transform and query feature pricing.\cite{s3}
 \end{description}
+
+\subsubsection{Microsoft Azure}
+
+Microsoft Azure used to have Azure Mobile Services, and in 2016 Microsoft announced the transition to Azure App Service\cite{azureMobileServices}.
+Now, Azure does not provide a MBaaS like the other providers, but through multiple services in Azure App Service\cite{azureappservices}.
+Azure App Services provides a fully managed platform for building, hosting and scaling web and mobile applications backends using multiple programming languages\cite{azureappservices}.
+It allows integrations with the following services:
+
+\begin{description}
+	\item[Azure Functions] - Execute event-driven serverless code that responds to HTTP requests, database changes or queue messages, with an end-to-end development experience for scalable APIs\cite{azureFunctions}.
+	\item[Azure Cosmos DB] A globally distributed, NoSQL database service that provides access to data with automatic scaling and multi-region replications. It supports several APIs, such asMongoDB, PostgreSQL and Apache Cassandra\cite{azureCosmos}
+	\item[Azure SQL Database] A fully managed relational Database as a Service that provides a fast, flexible and elastic SQL database\cite{azureSQL}.
+	\item[Microsoft Entra ID] Formerly known as Azure Active Directory (Azure AD), this service manages identity and access, supporting OAuth2, OpenID Connect, and enterprise-grade authentications\cite{azureEntraID}.
+	\item [Azure Notification Hubs] A cross-platform push notification service that allows the delivery of personalized messages to mobile devices with support for tagging and segmentation\cite{azureNotification}.
+	\item [Azure API Management] Enables the creation, protection, and monitoring of APIs used by mobile applications. It provides rate limiting, authentication, analytic and developer portal capabilities\cite{azureAPI}.
+	\item [Azure Storage] Offers scalable object, file and queue storage options for unstructured data, media files, and backend integration, forming a common storage layer for mobile applications\cite{azureStorage}.
+\end{description}
+
+For the pricing, each service is billed independently, and has different plans for each services with multiple price variations, including different prices for different regions.
+
+%\begin{itemize}
+%	\item \textbf{Azure Functions} - Consumption Plan has 1 million free executions per month, 0.20USD per million additional executions,  400,000 GB-s free per month, 0.000016USD per GB-s. Flex Consumption: 250,000 free executions and 100,000 GB-s free per month, 0.000017USD per GB-s on-demand. Premium Plan: Starting at 116.80USD per vCPU/month and 8.979USD GB per month.
+%	
+%	\item \textbf{Azure Cosmos DB} - Serverless: 0.29USD per 1 million requests units (RUs), 0.25USD per GB storage/month. \textit{Provisioned Throughput (General Purpose):} \$0.00012 per 100 RU/s/hour; Storage \$0.25/GB/month. \textit{Free Tier:} 1,000 RU/s and 25 GB storage lifetime on one account.
+%	
+%	\item \textbf{Azure SQL Database} - \textit{vCore-based (General Purpose, 2 vCores):} \$0.504-\$0.5218/hour. \textit{Serverless Compute:} \$0.5218 per vCore-hour with auto-scaling. \textit{DTU-based (Standard S0):} \$0.006-\$0.024/hour. Storage \$0.10-\$0.30 per GB/month depending on tier.
+%	
+%	\item \textbf{Microsoft Entra ID} - \textit{Free Tier:} Included with Azure subscription. \textit{Premium P1:} \$6/user/month (annual commitment). \textit{Premium P2:} \$9/user/month (annual commitment). \textit{Microsoft Entra Suite:} \$12/user/month (annual commitment).
+%	
+%	\item \textbf{Azure Notification Hubs} - \textit{Free Tier:} 1 million pushes/month. \textit{Basic Tier:} \$10/month + \$1 per million pushes above 10 million. \textit{Standard Tier:} \$200/month with 10 million included pushes; \$10 per million (10-100M); \$2.50 per million (100M+).
+%	
+%	\item \textbf{Azure API Management} - \textit{Consumption Tier:} \$0.30-\$0.35 per 1 million operations. \textit{Basic v2:} \$150.01/month (10M requests included); \$0.40 per million additional. \textit{Standard v2:} \$700/month (50M requests included); \$0.25 per million additional. \textit{Premium v2:} Unlimited requests included.
+%	
+%	\item \textbf{Azure Storage} - \textit{Blob Storage (Hot Tier):} \$0.018-\$0.021 per GB/month (first 50TB), \$0.0135 per GB/month (50-500TB). \textit{Archive Tier:} \$0.00099 per GB/month. \textit{Queue Storage:} \$0.045 per GB/month. Operations: \$0.004 per 10,000 operations (write/read).
+%\end{itemize}
+
+\subsubsection{Other Providers}
+
+Other MBaaS available include the follow\cite{other1, other2, other3, other4}:
+\begin{itemize}
+	\item Oracle Mobile Hub
+	\item Backendless
+	\item Salesforce Heroku
+	\item Apache Usegrid
+	\item Progress Kinvey
+	\item Kumulos by Optimove
+	\item AppsPanel
+	\item PubNub
+	\item Apple CloudKit
+	\item BrainCloud
+	\item Kuzzle
+	\item Appwrite
+\end{itemize}
+
+
+\subsubsection{MBaaS Provider Comparison}
+
+Table~\ref{tab:mbaas_features} presents a comprehensive comparison of the major MBaaS providers currently available in the market. The feature matrix demonstrates that modern MBaaS platforms have converged on a common set of core functionalities, including authentication mechanisms, real-time data synchronization capabilities, serverless computing through Cloud Functions, and comprehensive security rules. All evaluated providers offer APIs (both REST and GraphQL), file storage services, and offline support, reflecting the maturation and standardization of the MBaaS ecosystem.
+
+However, significant differences emerge in the areas of database technology choices, open-source availability, and infrastructure control. Notably, Supabase distinguishes itself by offering only relational database technology (PostgreSQL), whereas other providers support both NoSQL and SQL databases, providing developers with flexibility in selecting the most appropriate data model for their application. Additionally, the degree of vendor lock-in varies considerably, with open-source solutions like Supabase and Parse offering greater portability and self-hosting capabilities, while proprietary platforms such as Firebase and AWS Amplify provide tightly integrated ecosystems with limited exit strategies.
+
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\begin{table}[htbp]
+
+	\footnotesize
+	\caption{Feature Matrix: MBaaS Providers Comparison}
+	\label{tab:mbaas_features}
+	\setlength{\tabcolsep}{3pt} 
+	\renewcommand{\arraystretch}{1.3}
+	\begin{tabular}{|l|c|c|c|c|c|c|}
+		\hline
+		\rowcolor[gray]{0.9}
+		\textbf{Feature} & \textbf{Firebase} & \textbf{Supabase} & \textbf{Parse} & \textbf{Back4App} & \textbf{AWS Amplify} & \textbf{Azure} \\
+		\hline
+		
+		Auth & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
+		\hline
+		
+		Real-time Sync & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
+		\hline
+		
+		NoSQL DB & \makecell{Firestore,\\Realtime DB}  & \xmark & MongoDB & MongoDB & DynamoDB & Cosmos DB \\
+		\hline
+		
+		SQL DB & Data Connect & PostgreSQL & PostgreSQL & PostgreSQL & Aurora & Azure SQL \\
+		\hline
+		
+		Cloud Functions & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
+		\hline
+		
+		Push Notifications & \cmark & \xmark & \cmark & \cmark & \cmark & \cmark \\
+		\hline
+		
+		APIs & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
+		\hline
+		
+		Storage & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
+		\hline
+		
+		Offline Support & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
+		\hline
+		
+		Analytics & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark \\
+		\hline
+		
+		DB Triggers & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
+		\hline
+		
+		Security Rules & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
+		\hline
+		
+		Open Source & \xmark & \cmark & \cmark & Partial & Partial & \xmark \\
+		\hline
+		
+		Self-Hosting & \xmark & \cmark & \cmark & \xmark & \xmark & \xmark \\
+		\hline
+		
+		Vendor Lock-in & High & Low & Low & Low & High & High \\
+		\hline
+		
+	\end{tabular}
+\end{table}
+
+
 
 \section{Related Work}
 

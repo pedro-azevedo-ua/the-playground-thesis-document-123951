@@ -1,46 +1,49 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'matter.blg'
-[53] biber:340> INFO - === Tue Nov  4, 2025, 12:37:09
+[53] biber:340> INFO - === Wed Nov  5, 2025, 19:18:11
 [63] Biber.pm:420> INFO - Reading 'matter.bcf'
-[119] Biber.pm:994> INFO - Found 87 citekeys in bib section 0
-[128] Biber.pm:4463> INFO - Processing section 0
-[135] Biber.pm:4654> INFO - Looking for bibtex file 'bib/references.bib' for section 0
-[137] bibtex.pm:1713> INFO - LaTeX decoding ...
-[173] bibtex.pm:1519> INFO - Found BibTeX data source 'bib/references.bib'
-[393] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[393] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[393] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'pt-PT'
-[393] Biber.pm:4289> INFO - No sort tailoring available for locale 'pt-PT'
-[422] bbl.pm:676> INFO - Writing 'matter.bbl' with encoding 'UTF-8'
-[438] bbl.pm:779> INFO - Output to matter.bbl
-[438] Biber.pm:131> WARN - legacy month field 'July' in entry 'kotlinInDepth' is not an integer - this will probably not sort properly.
-[438] Biber.pm:131> WARN - legacy month field 'Apr.' in entry 'ShahJagtapJain2025' is not an integer - this will probably not sort properly.
-[438] Biber.pm:131> WARN - legacy month field 'October' in entry 'mysql' is not an integer - this will probably not sort properly.
-[438] Biber.pm:131> WARN - legacy month field 'October' in entry 'postgresql' is not an integer - this will probably not sort properly.
-[438] Biber.pm:131> WARN - legacy month field 'October' in entry 'SQLite' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'realm' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'mongo' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'redis' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebaseRealtime2025' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'firestore2025' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'room' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'coreData' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'workmanager' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'iosbackgroundtasks' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebasefunctions' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebaseAuthentication' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'emulatorSuite' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebaseDataConnect' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebaseRules' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebaseAppCheck' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebaseMsg' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebaseOverview' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebasePrice' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'supabaseAuth' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'supabaseStorage' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'supabaseEdge' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'supabaseRealtime' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'supabasePricing' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - legacy month field 'October' in entry 'ParseFeatures' is not an integer - this will probably not sort properly.
-[439] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_Qk5C/33e59b5ca9ec342068223d604c3f8d55_36538.utf8, line 1, warning: 1 characters of junk seen at toplevel
-[439] Biber.pm:133> INFO - WARNINGS: 30
+[124] Biber.pm:994> INFO - Found 103 citekeys in bib section 0
+[133] Biber.pm:4463> INFO - Processing section 0
+[141] Biber.pm:4654> INFO - Looking for bibtex file 'bib/references.bib' for section 0
+[144] bibtex.pm:1713> INFO - LaTeX decoding ...
+[184] bibtex.pm:1519> INFO - Found BibTeX data source 'bib/references.bib'
+[422] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[422] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[422] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'pt-PT'
+[422] Biber.pm:4289> INFO - No sort tailoring available for locale 'pt-PT'
+[456] bbl.pm:676> INFO - Writing 'matter.bbl' with encoding 'UTF-8'
+[474] bbl.pm:779> INFO - Output to matter.bbl
+[475] Biber.pm:131> WARN - legacy month field 'July' in entry 'kotlinInDepth' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'Apr.' in entry 'ShahJagtapJain2025' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'mysql' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'postgresql' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'SQLite' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'realm' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'mongo' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'redis' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebaseRealtime2025' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'firestore2025' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'room' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'coreData' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'August' in entry 'mediuDataSync' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'workmanager' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'iosbackgroundtasks' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebasefunctions' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebaseAuthentication' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'emulatorSuite' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebaseDataConnect' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebaseRules' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebaseAppCheck' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebaseMsg' is not an integer - this will probably not sort properly.
+[475] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebaseOverview' is not an integer - this will probably not sort properly.
+[476] Biber.pm:131> WARN - legacy month field 'October' in entry 'firebasePrice' is not an integer - this will probably not sort properly.
+[476] Biber.pm:131> WARN - legacy month field 'October' in entry 'supabaseAuth' is not an integer - this will probably not sort properly.
+[476] Biber.pm:131> WARN - legacy month field 'October' in entry 'supabaseStorage' is not an integer - this will probably not sort properly.
+[476] Biber.pm:131> WARN - legacy month field 'October' in entry 'supabaseEdge' is not an integer - this will probably not sort properly.
+[476] Biber.pm:131> WARN - legacy month field 'October' in entry 'supabaseRealtime' is not an integer - this will probably not sort properly.
+[476] Biber.pm:131> WARN - legacy month field 'October' in entry 'supabaseIntegrations' is not an integer - this will probably not sort properly.
+[476] Biber.pm:131> WARN - legacy month field 'October' in entry 'supabasePricing' is not an integer - this will probably not sort properly.
+[476] Biber.pm:131> WARN - legacy month field 'October' in entry 'ParseFeatures' is not an integer - this will probably not sort properly.
+[476] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_KmD0/33e59b5ca9ec342068223d604c3f8d55_101034.utf8, line 1, warning: 1 characters of junk seen at toplevel
+[476] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_KmD0/33e59b5ca9ec342068223d604c3f8d55_101034.utf8, line 451, warning: 74 characters of junk seen at toplevel
+[476] Biber.pm:133> INFO - WARNINGS: 33

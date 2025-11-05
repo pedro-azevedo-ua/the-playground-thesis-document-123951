@@ -9,14 +9,14 @@
 \contentsline {chapter}{\chapternumberline {2}Motivation And Problem Context}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Basketball Context in Portugal}{2}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Problem Statement}{2}{section.2.2}%
-\contentsline {paragraph}{Key Scenarios}{3}{section*.5}%
+\contentsline {paragraph}{Key Scenarios}{2}{section*.5}%
 \contentsline {paragraph}{Common annoyances reported}{3}{section*.6}%
 \contentsline {section}{\numberline {2.3}Proposed Solution}{3}{section.2.3}%
 \contentsline {chapter}{\chapternumberline {3}State of the Art \& Related Work}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Mobile Application Development Approaches}{5}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Native Apps}{5}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Web Applications}{6}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Hybrid Applications}{7}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.3}Hybrid Applications}{6}{subsection.3.1.3}%
 \contentsline {subsection}{\numberline {3.1.4}Cross-Platform Apps}{7}{subsection.3.1.4}%
 \contentsline {subsubsection}{Interpreted Approach - React Native}{7}{section*.8}%
 \contentsline {subsubsection}{Cross-Compiled Approach - Flutter}{7}{section*.9}%
@@ -25,27 +25,30 @@
 \contentsline {subsection}{\numberline {3.1.6}Comparative Analysis}{9}{subsection.3.1.6}%
 \contentsline {section}{\numberline {3.2}Mobile Backend Development Strategies}{10}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Backend Fundamentals}{10}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Data management}{12}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Data Synchronization}{13}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Mobile Backend as a Service}{14}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.2}Data management strategies}{12}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Data Synchronization}{12}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}MBaaS Providers}{13}{subsection.3.2.4}%
 \contentsline {subsubsection}{Google Firebase}{14}{section*.15}%
 \contentsline {subsubsection}{Supabase}{15}{section*.16}%
 \contentsline {subsubsection}{Parse}{16}{section*.17}%
 \contentsline {subsubsection}{Back4App}{17}{section*.18}%
-\contentsline {subsubsection}{AWS Amplify}{18}{section*.19}%
-\contentsline {section}{\numberline {3.3}Related Work}{20}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Methodology}{20}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Existing Projects}{21}{subsection.3.3.2}%
-\contentsline {subsubsection}{Court Discovery Platforms}{21}{section*.20}%
-\contentsline {paragraph}{\textbf {Courts of the World}}{21}{section*.21}%
-\contentsline {paragraph}{\textbf {Jogabasket}}{22}{section*.22}%
-\contentsline {subsubsection}{Game Organization Platforms}{22}{section*.23}%
-\contentsline {paragraph}{\textbf {Pickup Sports (Adult League)}\blx@tocontentsinit {0}\cite {pickup-adult, pickup-adult-app}}{22}{section*.24}%
-\contentsline {paragraph}{\textbf {Fullcourt: Pickup Basketball}\blx@tocontentsinit {0}\cite {fullcourt, fullcourt-pp}}{22}{section*.25}%
-\contentsline {paragraph}{\textbf {Pickup: Play \& Host Sports}\blx@tocontentsinit {0}\cite {pickup, pickup-app}}{23}{section*.26}%
-\contentsline {paragraph}{\textbf {WOOOBA}\blx@tocontentsinit {0}\cite {woooba}}{23}{section*.27}%
-\contentsline {paragraph}{\textbf {Pick-Roll}\blx@tocontentsinit {0}\cite {pick-roll}}{23}{section*.28}%
-\contentsline {subsubsection}{General Community Platforms}{24}{section*.29}%
-\contentsline {paragraph}{\textbf {Meetup}\blx@tocontentsinit {0}\cite {meetup}}{24}{section*.30}%
-\contentsline {chapter}{References}{25}{chapter*.31}%
-\contentsline {appendix}{\chapternumberline {A}Additional content}{28}{appendix.A}%
+\contentsline {subsubsection}{AWS Amplify}{17}{section*.19}%
+\contentsline {subsubsection}{Microsoft Azure}{20}{section*.20}%
+\contentsline {subsubsection}{Other Providers}{20}{section*.21}%
+\contentsline {subsubsection}{MBaaS Provider Comparison}{21}{section*.22}%
+\contentsline {section}{\numberline {3.3}Related Work}{21}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Methodology}{21}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Existing Projects}{22}{subsection.3.3.2}%
+\contentsline {subsubsection}{Court Discovery Platforms}{22}{section*.24}%
+\contentsline {paragraph}{\textbf {Courts of the World}}{22}{section*.25}%
+\contentsline {paragraph}{\textbf {Jogabasket}}{23}{section*.26}%
+\contentsline {subsubsection}{Game Organization Platforms}{23}{section*.27}%
+\contentsline {paragraph}{\textbf {Pickup Sports (Adult League)}\blx@tocontentsinit {0}\cite {pickup-adult, pickup-adult-app}}{23}{section*.28}%
+\contentsline {paragraph}{\textbf {Fullcourt: Pickup Basketball}\blx@tocontentsinit {0}\cite {fullcourt, fullcourt-pp}}{23}{section*.29}%
+\contentsline {paragraph}{\textbf {Pickup: Play \& Host Sports}\blx@tocontentsinit {0}\cite {pickup, pickup-app}}{24}{section*.30}%
+\contentsline {paragraph}{\textbf {WOOOBA}\blx@tocontentsinit {0}\cite {woooba}}{24}{section*.31}%
+\contentsline {paragraph}{\textbf {Pick-Roll}\blx@tocontentsinit {0}\cite {pick-roll}}{24}{section*.32}%
+\contentsline {subsubsection}{General Community Platforms}{25}{section*.33}%
+\contentsline {paragraph}{\textbf {Meetup}\blx@tocontentsinit {0}\cite {meetup}}{25}{section*.34}%
+\contentsline {chapter}{References}{26}{chapter*.35}%
+\contentsline {appendix}{\chapternumberline {A}Additional content}{30}{appendix.A}%

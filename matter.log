@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.10.7)  5 NOV 2025 19:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.10.7)  6 NOV 2025 10:38
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2183,7 +2183,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-))
+)
 \openout4 = `matter.mw.mw'.
 
  [1
@@ -2192,7 +2192,8 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout4 = `matter.mw.mw'.
 
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 331.
+e 54.
+)
 \openout4 = `matter.mw.mw'.
 
  [2]
@@ -2342,7 +2343,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 \openout4 = `matter.mw.mw'.
 
-<figs/costofnativedev.png, id=215, 400.2179pt x 207.09303pt>
+<figs/costofnativedev.png, id=217, 400.2179pt x 207.09303pt>
 File: figs/costofnativedev.png Graphic file (type png)
 <use figs/costofnativedev.png>
 Package pdftex.def Info: figs/costofnativedev.png  used on input line 37.
@@ -2477,7 +2478,7 @@ fonts/enc/dvips/lm/lm-mathsy.enc} <./figs/costofnativedev.png>] (./matter.mw.mw
 
 \openout4 = `matter.mw.mw'.
 
-<figs/costofcross.png, id=273, 398.7529pt x 213.64026pt>
+<figs/costofcross.png, id=275, 398.7529pt x 213.64026pt>
 File: figs/costofcross.png Graphic file (type png)
 <use figs/costofcross.png>
 Package pdftex.def Info: figs/costofcross.png  used on input line 154.
@@ -2537,7 +2538,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--176
 
 \openout4 = `matter.mw.mw'.
 
-<figs/tradicionalBack.png, id=291, 257.5221pt x 144.0582pt>
+<figs/tradicionalBack.png, id=293, 257.5221pt x 144.0582pt>
 File: figs/tradicionalBack.png Graphic file (type png)
 <use figs/tradicionalBack.png>
 Package pdftex.def Info: figs/tradicionalBack.png  used on input line 196.
@@ -2571,7 +2572,7 @@ Package pdftex.def Info: figs/tradicionalBack.png  used on input line 196.
 
 \openout4 = `matter.mw.mw'.
 
-<figs/firebaseback.png, id=303, 200.6697pt x 129.8451pt>
+<figs/firebaseback.png, id=305, 200.6697pt x 129.8451pt>
 File: figs/firebaseback.png Graphic file (type png)
 <use figs/firebaseback.png>
 Package pdftex.def Info: figs/firebaseback.png  used on input line 210.
@@ -2850,19 +2851,19 @@ Package pdftex.def Info: figs/firebaseback.png  used on input line 210.
 
 \openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
  [19] (./matter.mw.mw)
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -3687,15 +3688,6 @@ figs/firebaseback.png
 chapters/appendix-more.tex
  ***********
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -3717,11 +3709,11 @@ Package logreq Info: Writing requests to 'matter.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52144 strings out of 476034
- 1055302 string characters out of 5792864
- 2228311 words of memory out of 6000000
+ 52174 strings out of 476034
+ 1055648 string characters out of 5792864
+ 2232937 words of memory out of 6000000
  71152 multiletter control sequences out of 15000+600000
- 609181 words of font info for 243 fonts, out of 8000000 for 9000
+ 610591 words of font info for 258 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  99i,17n,94p,2978b,2911s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/t
@@ -3741,10 +3733,10 @@ public/lm/lmri9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmsy10
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/zapfding/uzdr.pfb>
-Output written on matter.pdf (42 pages, 858712 bytes).
+Output written on matter.pdf (42 pages, 860336 bytes).
 PDF statistics:
- 994 PDF objects out of 1000 (max. 8388607)
- 878 compressed objects within 9 object streams
+ 995 PDF objects out of 1000 (max. 8388607)
+ 879 compressed objects within 9 object streams
  207 named destinations out of 1000 (max. 500000)
  49958 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -28,23 +28,23 @@
 \contentsline {subsection}{\numberline {3.2.2}Data management strategies}{12}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Data Synchronization}{12}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}MBaaS Providers}{13}{subsection.3.2.4}%
-\contentsline {subsubsection}{Google Firebase}{14}{section*.15}%
-\contentsline {subsubsection}{Supabase}{15}{section*.16}%
-\contentsline {subsubsection}{Parse}{16}{section*.17}%
-\contentsline {subsubsection}{Back4App}{17}{section*.18}%
-\contentsline {subsubsection}{AWS Amplify}{17}{section*.19}%
-\contentsline {subsubsection}{Microsoft Azure}{20}{section*.20}%
+\contentsline {subsubsection}{\textbf {Google Firebase}}{14}{section*.15}%
+\contentsline {subsubsection}{\textbf {Supabase}}{15}{section*.16}%
+\contentsline {subsubsection}{\textbf {Parse}}{16}{section*.17}%
+\contentsline {subsubsection}{\textbf {Back4App}}{17}{section*.18}%
+\contentsline {subsubsection}{\textbf {AWS Amplify}}{17}{section*.19}%
+\contentsline {subsubsection}{\textbf {Microsoft Azure}}{20}{section*.20}%
 \contentsline {subsubsection}{Other Providers}{20}{section*.21}%
 \contentsline {subsubsection}{MBaaS Provider Comparison}{21}{section*.22}%
 \contentsline {section}{\numberline {3.3}Related Work}{21}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Methodology}{21}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Methodology}{22}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Existing Projects}{22}{subsection.3.3.2}%
-\contentsline {subsubsection}{Court Discovery Platforms}{22}{section*.24}%
-\contentsline {paragraph}{\textbf {Courts of the World}}{22}{section*.25}%
+\contentsline {subsubsection}{Court Discovery Platforms}{23}{section*.24}%
+\contentsline {paragraph}{\textbf {Courts of the World}}{23}{section*.25}%
 \contentsline {paragraph}{\textbf {Jogabasket}}{23}{section*.26}%
 \contentsline {subsubsection}{Game Organization Platforms}{23}{section*.27}%
 \contentsline {paragraph}{\textbf {Pickup Sports (Adult League)}\blx@tocontentsinit {0}\cite {pickup-adult, pickup-adult-app}}{23}{section*.28}%
-\contentsline {paragraph}{\textbf {Fullcourt: Pickup Basketball}\blx@tocontentsinit {0}\cite {fullcourt, fullcourt-pp}}{23}{section*.29}%
+\contentsline {paragraph}{\textbf {Fullcourt: Pickup Basketball}\blx@tocontentsinit {0}\cite {fullcourt, fullcourt-pp}}{24}{section*.29}%
 \contentsline {paragraph}{\textbf {Pickup: Play \& Host Sports}\blx@tocontentsinit {0}\cite {pickup, pickup-app}}{24}{section*.30}%
 \contentsline {paragraph}{\textbf {WOOOBA}\blx@tocontentsinit {0}\cite {woooba}}{24}{section*.31}%
 \contentsline {paragraph}{\textbf {Pick-Roll}\blx@tocontentsinit {0}\cite {pick-roll}}{24}{section*.32}%

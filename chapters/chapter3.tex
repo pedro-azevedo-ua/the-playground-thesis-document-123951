@@ -263,79 +263,79 @@ Such architecture balance responsiveness, bandwidth, and storage while allowing 
 
 There are several different solutions to choose for MBaaS, from big cloud corporations such has Google's Firebase, Amazon's AWS Amplify, Microsoft Azure, to open-source like Supabase, Parse, Back4App. Below are some relevant MBaaS:
 
-\subsubsection{Google Firebase}
+\subsubsection{\textbf{Google Firebase}}
 
 Firebase is a Backend as a Service developed by Google and built on Google Cloud infrastructure,  that provides various functionalities to help build, deploy and manage mobile a and web applications.
 Developers do not need to build APIs, as the platform provides its dedicated Software Development Kit (SDK) to interact with its set of tools.
 Here are the following tools that Google's Firebase provide:
 
-\begin{description}
-	\item [Cloud Firestore] is a flexible, scalable database for mobile, web, and server development. It keeps the data in sync across client apps through realtime listeners and offers offline support for mobile and web so developers can build responsive apps that work regardless of network latency or Internet connectivity. Cloud Firestore also offers seamless integration with other Firebase and Google Cloud products, including Cloud Functions.\cite{firestore2025}
-	\item[Cloud Functions] for Firebase is a serverless framework that lets developers to automatically run backend code in response to events triggered by background events, HTTPS requests, the Admin SDK, or Cloud Scheduler jobs. JavaScript, TypeScript or Python code is stored on Google Cloud infrastructure and runs in a managed environment. There's no need to manage and scale own servers.\cite{firebasefunctions}
-	\item[Realtime Database] is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client. When you build cross-platform apps with our Apple platforms, Android, and JavaScript SDKs, all of your clients share one Realtime Database instance and automatically receive updates with the newest data.\cite{firebaseRealtime2025}
-	\item[Authentication] provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to the app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more. Integrates tightly with other Firebase services, and it leverages industry standards like OAuth 2.0 and OpenID Connect, so it can be easily integrated with custom backend.\cite{firebaseAuthentication}
-	\item[Local Emulator Suite] consists of individual service emulators built to accurately mimic the behavior of Firebase services. This means you can connect your app directly to these emulators to perform integration testing or QA without touching production data.\cite{emulatorSuite}
-	\item[Data Connect] is a relational database service for mobile and web apps that lets developers build and scale using a fully-managed PostgreSQL database powered by Cloud SQL. It provides secure schema, query and mutation management using GraphQL technology that integrates well with Firebase Authentication. Developers can quickly integrate this product into the mobile and web apps with SDK support in Kotlin Android, iOS, Flutter, and web.\cite{firebaseDataConnect}
-	\item[Security Rules] leverage extensible, flexible configuration languages to define what data users can access for Realtime Database, Cloud Firestore, and Cloud Storage. Firebase Realtime Database Security Rules leverage JSON in rule definitions, while Cloud Firestore Security Rules and Firebase Security Rules for Cloud Storage leverage a unique language built to accommodate more complex rules-specific structures. Developers can write simple or complex rules that protect the app's data to the level of granularity that the developer's specific app requires.\cite{firebaseRules}
-	\item[App Check] helps protect the app backends from abuse by preventing unauthorized clients from accessing the backend resources. It works with both Google services (including Firebase and Google Cloud services) and custom backends to keep resources safe.\cite{firebaseAppCheck}
-	\item[Cloud Messaging] (FCM) is a cross-platform messaging solution that lets developers reliably send messages. It can notify a client app that new email or other data is available to sync. It can send notification messages to drive user re-engagement and retention. For use cases such as instant messaging, a message can transfer a payload of up to 4096 bytes to a client app.\cite{firebaseMsg}
-	\item[Other Tools] Firebase provides a several tools for monitoring the app with Firebase Crashlytics and Firebase Performance Monitoring, to engage the user with Google Analytics, Firebase In-App Messaging, Google AdMob, Google Ads and more.\cite{firebaseOverview}
-\end{description}
+\begin{itemize}
+	\item \textbf{Cloud Firestore} - is a flexible, scalable database for mobile, web, and server development. It keeps the data in sync across client apps through realtime listeners and offers offline support for mobile and web so developers can build responsive apps that work regardless of network latency or Internet connectivity. Cloud Firestore also offers seamless integration with other Firebase and Google Cloud products, including Cloud Functions.\cite{firestore2025}
+	\item \textbf{Cloud Functions} - Firebase is a serverless framework that lets developers to automatically run backend code in response to events triggered by background events, HTTPS requests, the Admin SDK, or Cloud Scheduler jobs. JavaScript, TypeScript or Python code is stored on Google Cloud infrastructure and runs in a managed environment. There's no need to manage and scale own servers.\cite{firebasefunctions}
+	\item \textbf{Realtime Database} - is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client. When you build cross-platform apps with our Apple platforms, Android, and JavaScript SDKs, all of your clients share one Realtime Database instance and automatically receive updates with the newest data.\cite{firebaseRealtime2025}
+	\item \textbf{Authentication} - provides backend services, easy-to-use SDKs, and ready-made UI libraries to authenticate users to the app. It supports authentication using passwords, phone numbers, popular federated identity providers like Google, Facebook and Twitter, and more. Integrates tightly with other Firebase services, and it leverages industry standards like OAuth 2.0 and OpenID Connect, so it can be easily integrated with custom backend.\cite{firebaseAuthentication}
+	\item \textbf{Local Emulator Suite} - consists of individual service emulators built to accurately mimic the behavior of Firebase services. This means you can connect your app directly to these emulators to perform integration testing or QA without touching production data.\cite{emulatorSuite}
+	\item \textbf{Data Connect} - is a relational database service for mobile and web apps that lets developers build and scale using a fully-managed PostgreSQL database powered by Cloud SQL. It provides secure schema, query and mutation management using GraphQL technology that integrates well with Firebase Authentication. Developers can quickly integrate this product into the mobile and web apps with SDK support in Kotlin Android, iOS, Flutter, and web.\cite{firebaseDataConnect}
+	\item \textbf{Security Rules} - leverage extensible, flexible configuration languages to define what data users can access for Realtime Database, Cloud Firestore, and Cloud Storage. Firebase Realtime Database Security Rules leverage JSON in rule definitions, while Cloud Firestore Security Rules and Firebase Security Rules for Cloud Storage leverage a unique language built to accommodate more complex rules-specific structures. Developers can write simple or complex rules that protect the app's data to the level of granularity that the developer's specific app requires.\cite{firebaseRules}
+	\item \textbf{App Check} - helps protect the app backends from abuse by preventing unauthorized clients from accessing the backend resources. It works with both Google services (including Firebase and Google Cloud services) and custom backends to keep resources safe.\cite{firebaseAppCheck}
+	\item \textbf{Cloud Messaging} (FCM) is a cross-platform messaging solution that lets developers reliably send messages. It can notify a client app that new email or other data is available to sync. It can send notification messages to drive user re-engagement and retention. For use cases such as instant messaging, a message can transfer a payload of up to 4096 bytes to a client app.\cite{firebaseMsg}
+	\item \textbf{Other Tools } - Firebase provides a several tools for monitoring the app with Firebase Crashlytics and Firebase Performance Monitoring, to engage the user with Google Analytics, Firebase In-App Messaging, Google AdMob, Google Ads and more.\cite{firebaseOverview}
+\end{itemize}
 
 
 To use Firebase there are two option in terms of Pricing Plans, the \textit{Spark Plan} which is the free plan, and the \textit{Blaze Plan} that is a pay as you go plan, meaning that, when passing a threshold in a specific feature, there is a cost associated.
 Here are the limits\cite{firebasePrice}:
 \begin{itemize}
-	\item Authentication - there is no cost until 50k Monthly Active Users (MAUs), where with the Blaze Plan you pay more for each MAU where the maximum is 0.0025USD per extra MAU if there are more than 10,000,000.
-	\item Cloud Firestore - the free version has 1GiB in Store data, 20k document writes per day, 50k document reads and 20k deletions. In the paid plan, when passin the limit the developer has to pay 0.039USD per 100,000 document reads, 0.117USD per 100,000 document writes, 0.013USD per 100,00 document deletions and 0.117 per GiB of storage per month, also having a backup data with 0.039USD per GiB.
-	\item Cloud Functions - There is no cost until 2M invocations per month, and there are some limits for the procession power.
-	\item Cloud Storage - It has 5GB in the free plan for storage, 1GB per day in download, 20k upload operations per day and 50K downloads. As for the paid plan, it cost 0.026USD per GB extra in storage, 0.12USD per GB extra downloaded and 0.05USD and 0.004USD per 10k upload and download operations respective.
-	\item Realtime database - the free tier offers 1GB of storage and in the paid it is 5USD per GB extra.
+	\item \textbf{Authentication} - there is no cost until 50k Monthly Active Users (MAUs), where with the Blaze Plan you pay more for each MAU where the maximum is 0.0025USD per extra MAU if there are more than 10,000,000.
+	\item \textbf{Cloud Firestore} - the free version has 1GiB in Store data, 20k document writes per day, 50k document reads and 20k deletions. In the paid plan, when passin the limit the developer has to pay 0.039USD per 100,000 document reads, 0.117USD per 100,000 document writes, 0.013USD per 100,00 document deletions and 0.117 per GiB of storage per month, also having a backup data with 0.039USD per GiB.
+	\item \textbf{Cloud Functions} - there is no cost until 2M invocations per month, and there are some limits for the procession power.
+	\item \textbf{Cloud Storage} - it has 5GB in the free plan for storage, 1GB per day in download, 20k upload operations per day and 50K downloads. As for the paid plan, it cost 0.026USD per GB extra in storage, 0.12USD per GB extra downloaded and 0.05USD and 0.004USD per 10k upload and download operations respective.
+	\item \textbf{Realtime database} - the free tier offers 1GB of storage and in the paid it is 5USD per GB extra.
 \end{itemize}
 
-\subsubsection{Supabase}
+\subsubsection{\textbf{Supabase}}
 
 Supabase\cite{supabase} is an open-source alternative to the BaaS platform Firebase, as it is a combination of different open-source tools that are scalable\cite{ZewdieAyezabu2022}.
 Supabase has the following tools:
 
-\begin{description}
-	\item [Database] is a Postgres database, available for every project. The relational struture is advantageous for performing complex queries, joins and full-text searches\cite{ZewdieAyezabu2022}.
-	\item[Authentication] makes it easy to implement authentication and authorization in the app. Supabase provides client SDKs and API endpoints to help create and manage users. Users can use many popular Auth methods, including password, magic link, one-time password (OTP), social login, and single sign-on (SSO).\cite{supabaseAuth}
-	\item[Storage] it is an open source S3 Compatible Object Store that makes it simple to upload and serve files of any size, providing a robust framework for file access controls. It can store images, videos, documents, and any other file type. Serve assets with a global CDN to reduce latency from over 285 cities globally. Supabase Storage includes a built-in image optimizer, in order to resize and compress media files on demand\cite{supabaseStorage}.
-	\item [Edge Functions] are server-side TypeScript functions, distributed globally at the edge — close to the users. They can be used for listening to webhooks or integrating the Supabase project with third-parties.\cite{supabaseEdge}
-	\item[Realtime] Supabase provides a globally distributed Realtime service that can send low-latency messages between clients, good for real-time messaging, database changes, cursor tracking, game events, and custom notifications. Track and synchronize user state across clients, ideal for showing who's online, or active participants. And listen to database changes in real-time.\cite{supabaseRealtime}
-\end{description}
+\begin{itemize}
+	\item \textbf{Database} - a Postgres database, available for every project. The relational struture is advantageous for performing complex queries, joins and full-text searches\cite{ZewdieAyezabu2022}.
+	\item \textbf{Authentication} - makes it easy to implement authentication and authorization in the app. Supabase provides client SDKs and API endpoints to help create and manage users. Users can use many popular Auth methods, including password, magic link, one-time password (OTP), social login, and single sign-on (SSO).\cite{supabaseAuth}
+	\item \textbf{Storage} - open source S3 Compatible Object Store that makes it simple to upload and serve files of any size, providing a robust framework for file access controls. It can store images, videos, documents, and any other file type. Serve assets with a global CDN to reduce latency from over 285 cities globally. Supabase Storage includes a built-in image optimizer, in order to resize and compress media files on demand\cite{supabaseStorage}.
+	\item \textbf{Edge Functions} - server-side TypeScript functions, distributed globally at the edge — close to the users. They can be used for listening to webhooks or integrating the Supabase project with third-parties.\cite{supabaseEdge}
+	\item \textbf{Realtime} - Supabase provides a globally distributed Realtime service that can send low-latency messages between clients, good for real-time messaging, database changes, cursor tracking, game events, and custom notifications. Track and synchronize user state across clients, ideal for showing who's online, or active participants. And listen to database changes in real-time.\cite{supabaseRealtime}
+\end{itemize}
 
 For features not natively provided by Supabase, such as push notifications or built-in analytics, developers can integrate third-party services, webhooks, or direct API integrations\cite{supabaseIntegrations}.
 
 Supabase has 2 main plans, the free option and a pro option where the developer pays 25USD per month\cite{supabasePricing}.
 Here what a developer gets with each plan:
 \begin{itemize}
-	\item Database - The free plan gets 500MB os database size, and the pro gets 8GB with option of paying more 0.125USD per extra GB. With the pro plan, the developer gets automatic backups of seven days, the project is never paused, has point of recovery for 100USD per month per 7 days retention, and more.
-	\item Authentication - There are unlimited users, but in the free plan there is the limit of 50,000 Monthly Active Users (MAUs) and 100,000 MAUs for the pro plan, with the option of paying 0.00325USD per MAU extra. The pro plan has extra featuers.
-	\item Storage - The free plan has 1GB include of storage while the paid has 100GB then 0.021USD per GB. The free plan has the max file upload size of 50MB and the paid has 500GB.
-	\item Realtime - It has the current peak connection where in the free plan has 200 included and the pro plan has 500 with 10USD per 1000 more. The free has 2 Million messages per month included while the pro has 5 Million paing 2.50USD per Million extra.
-	\item Edge Functions - The free plan has 500,000 invocations included while the pro plan as 2 Million with 2USD per Million extra.
+	\item \textbf{Database} - The free plan gets 500MB os database size, and the pro gets 8GB with option of paying more 0.125USD per extra GB. With the pro plan, the developer gets automatic backups of seven days, the project is never paused, has point of recovery for 100USD per month per 7 days retention, and more.
+	\item \textbf{Authentication} - There are unlimited users, but in the free plan there is the limit of 50,000 Monthly Active Users (MAUs) and 100,000 MAUs for the pro plan, with the option of paying 0.00325USD per MAU extra. The pro plan has extra featuers.
+	\item \textbf{Storage} - The free plan has 1GB include of storage while the paid has 100GB then 0.021USD per GB. The free plan has the max file upload size of 50MB and the paid has 500GB.
+	\item \textbf{Realtime} - It has the current peak connection where in the free plan has 200 included and the pro plan has 500 with 10USD per 1000 more. The free has 2 Million messages per month included while the pro has 5 Million paing 2.50USD per Million extra.
+	\item \textbf{Edge Functions} - The free plan has 500,000 invocations included while the pro plan as 2 Million with 2USD per Million extra.
 \end{itemize}
 
-\subsubsection{Parse}
+\subsubsection{\textbf{Parse}}
 
 Parse is an open-source Mobile Backend as a Service, that provides tools to develop the backend of mobile applications.
 This option was from Facebook that decided to shut down and make it open-source and now, developers have to host the service, either in platforms that can manage Parse Server or self-host in a cloud service or in private servers\cite{ParseBack4App}.
 Parse Platform has similar features has the other services, which are\cite{ParseFeatures}:
 
-\begin{description}
-	\item[Database \& Storage] Supports MongoDB and PostgreSQL for structured data, with flexible file storage options including Amazon S3, Google Cloud Storage, or local filesystem storage. GridFS is commonly used as the default large-file storage when MongoDB is chosen\cite{Gridfs}. Parse also supports multi-database deployments and can be configured to shard or separate concerns across databases for scale and isolation.
-	\item[Real-time] Live queries for real-time data updates and built-in push notification support across all platforms, with real time updates.
-	\item[Authentication \& Security] Provides comprehensive user management (signup, login, password reset) with support for OAuth, email verification, and custom authentication.
-	\item[APIs \& Integration] REST and GraphQL APIs with multi-platform SDKs for seamless integration across all major platforms. Supports custom queries and mutations.
-	\item[Cloud Functions] Allows server-side logic via custom Cloud Functions, database triggers that run on create/update/delete events, and background job processing for async or scheduled tasks.
-	\item[Self-hosting Freedom] Can be deployed anywhere that runs Node.js (cloud VMs, containers). Full control over infrastructure and data, with a Parse Dashboard for visual management and monitoring, guaranteing complete data ownership.
-\end{description}
+\begin{itemize}
+	\item \textbf{Database \& Storage} - Supports MongoDB and PostgreSQL for structured data, with flexible file storage options including Amazon S3, Google Cloud Storage, or local filesystem storage. GridFS is commonly used as the default large-file storage when MongoDB is chosen\cite{Gridfs}. Parse also supports multi-database deployments and can be configured to shard or separate concerns across databases for scale and isolation.
+	\item \textbf{Real-time} - Live queries for real-time data updates and built-in push notification support across all platforms, with real time updates.
+	\item \textbf{Authentication \& Security} - Provides comprehensive user management (signup, login, password reset) with support for OAuth, email verification, and custom authentication.
+	\item \textbf{APIs \& Integration} - REST and GraphQL APIs with multi-platform SDKs for seamless integration across all major platforms. Supports custom queries and mutations.
+	\item \textbf{Cloud Functions} - Allows server-side logic via custom Cloud Functions, database triggers that run on create/update/delete events, and background job processing for async or scheduled tasks.
+	\item \textbf{Self-hosting Freedom} - Can be deployed anywhere that runs Node.js (cloud VMs, containers). Full control over infrastructure and data, with a Parse Dashboard for visual management and monitoring, guaranteing complete data ownership.
+\end{itemize}
 
 Parse platform and server are free and open-source, however, the cost lays in the hosting.
 
-\subsubsection{Back4App}
+\subsubsection{\textbf{Back4App}}
 
 Back4App is another MBaaS, cloud-hosted solution, that runs and hardened the open-source Parse Platform, exposing the same APIs and SDKs while adding management, scalability, backups and developer tools\cite{Back4AppParse}.
 With this platform, developers can take advantage of Parse functionalities while simplifying deployment and infrastructure management.
@@ -346,30 +346,30 @@ With Back4App there is no vendor lock-in, meaning that the developer can, anytim
 In terms of pricing, the platform has a free plan, the MVP to ``Validate Ideas Quickly — Launch Fast on Our Managed Serverless Backend'' (15USD per month paying annually or 25USD monthly), Pay as you go to ``Run \& Scale Applications on a Serverless Infrastructure'' (80USD or 100USD per month) and the Dedicated to ``Production-Grade Speed, Isolation \& Flexibility on Dedicated Resources''(400USD or 500USD per month)\cite{Back4AppPrice}.
 Here are the differences:
 
-\begin{description}
-	\item [Request per month] - in the free plan is 25k requests, while the MVP is raised to 500k with 5USD per 100k extra request, the Pay as you go 5M with 2USD per 100k extra, and the last one is unlimited.
-	\item[Data Storage] - the free plan has 250MB then is 1GB followed by 3GB and then 8GB, with 15USD monthly for each adicional gigabyte extra.
-	\item[Data Transfer] - the free plan allows 1GB, the MVP is 250GB, the Pay as you go is 1TB and the Dedicated is 2TB, with 0.1USD per each 1GB of adicional transfer.
-	\item[File Storage] - the free plan has 1GB, then 50GB, 250GB and 1TB, with 1USD charge per 10GB extra.
-\end{description}
+\begin{itemize}
+	\item \textbf{Request per month} - in the free plan is 25k requests, while the MVP is raised to 500k with 5USD per 100k extra request, the Pay as you go 5M with 2USD per 100k extra, and the last one is unlimited.
+	\item \textbf{Data Storage }- the free plan has 250MB then is 1GB followed by 3GB and then 8GB, with 15USD monthly for each adicional gigabyte extra.
+	\item \textbf{Data Transfer} - the free plan allows 1GB, the MVP is 250GB, the Pay as you go is 1TB and the Dedicated is 2TB, with 0.1USD per each 1GB of adicional transfer.
+	\item \textbf{File Storage} - the free plan has 1GB, then 50GB, 250GB and 1TB, with 1USD charge per 10GB extra.
+\end{itemize}
 
-\subsubsection{AWS Amplify}
+\subsubsection{\textbf{AWS Amplify}}
 
 AWS Amplify is the Amazon's cloud-powered MBaas and developer toolchain that helps mobile developers build, deploy and scale fullstack applications.
 It offers end-to-end workflows for developing, deploying and managing cross-platform apps, allowing seamless cloud integration.\cite{awsAmplify}
 Here are the features\cite{awsAmplifyFeatures}:
 
-\begin{description}
-	\item [Authentication] Create seamless on-boarding flows with a fully-managed user directory and pre-built sign-up, sign-in, forgot password, and multi-factor auth workflows. Amplify also supports login with a social provider such as Facebook, Google Sign-In, or Login With Amazon and provides fine grained access control to mobile and web applications. Powered by Amazon Cognito.
-	\item[DataStore] Use a multi-platform on-device persistent storage engine that automatically synchronizes data between mobile/desktop/web apps and the cloud, powered by GraphQL. DataStore provides a programming model for leveraging shared and distributed data without writing additional code for offline and online scenarios, which makes working with distributed, cross-user data just as simple as working with local-only data. Powered by AWS AppSync.
-	\item[Analytics] Understand the behavior of the iOS or Android users. Use auto tracking to track user sessions and web page metrics or create custom user attributes and in-app metrics. Provides access to real time data stream and developers can analyze the data for customer insights and build data driven marketing strategies to drive customer adoption, engagement, and retention. Powered by Amazon Pinpoint and Amazon Kinesis.
-	\item[API] Make secure HTTP requests to GraphQL and REST endpoints to access, manipulate, and combine data from one or more data sources such Amazon DynamoDB, Amazon Aurora Serverless, and the apps custom data sources with AWS Lambda. Amplify enables you to easily build scalable applications that require real-time updates, local data access for offline scenarios, and data synchronization with customizable conflict resolution when devices are back online. Powered by AWS AppSync and Amazon API Gateway.
-	\item[Functions] Add a Lambda function to the project which the developer can use alongside a REST API or as a datasource in the GraphQL API in the Amplify CLI. The developer can update the Lambda execution role policies for the function to access other resources generated and maintained by the CLI, using the CLI. Amplify CLI enables developers to create, test and deploy Lambda functions across various runtimes.
-	\item[PubSub] Pass messages between the app instances and the app's backend creating real-time interactive experiences. Amplify provides connectivity with cloud-based message-oriented middleware. Powered by AWS IoT services and Generic MQTT Over WebSocket Providers.
-	\item[Push Notifications] Improve customer engagement by using marketing and analytics capabilities. Leverage customer insights to segment and target the customers more effectively. The developer can tailor the content and communicate through multiple channels including email, texts as well as push notifications. Powered by Amazon Pinpoint.
-	\item[Storage] Store and manage user generated content such as photos, videos securely on device or in the cloud. The AWS Amplify Storage module provides a simple mechanism for managing user content for the app in public, protected or private storage buckets. Leverage cloud scale storage so that is easy to take the application from prototype to production. Powered by Amazon S3.
-	\item[Predictions and Interactinos] Enhance the app by adding AI/ML capabilities and build interactive and engaging conversational bots with the same deep learning technologies that power Amazon Alexa.
-\end{description}
+\begin{itemize}
+	\item \textbf{Authentication} - Create seamless on-boarding flows with a fully-managed user directory and pre-built sign-up, sign-in, forgot password, and multi-factor auth workflows. Amplify also supports login with a social provider such as Facebook, Google Sign-In, or Login With Amazon and provides fine grained access control to mobile and web applications. Powered by Amazon Cognito.
+	\item \textbf{DataStore} - Use a multi-platform on-device persistent storage engine that automatically synchronizes data between mobile/desktop/web apps and the cloud, powered by GraphQL. DataStore provides a programming model for leveraging shared and distributed data without writing additional code for offline and online scenarios, which makes working with distributed, cross-user data just as simple as working with local-only data. Powered by AWS AppSync.
+	\item \textbf{Analytics} - Understand the behavior of the iOS or Android users. Use auto tracking to track user sessions and web page metrics or create custom user attributes and in-app metrics. Provides access to real time data stream and developers can analyze the data for customer insights and build data driven marketing strategies to drive customer adoption, engagement, and retention. Powered by Amazon Pinpoint and Amazon Kinesis.
+	\item \textbf{API } - Make secure HTTP requests to GraphQL and REST endpoints to access, manipulate, and combine data from one or more data sources such Amazon DynamoDB, Amazon Aurora Serverless, and the apps custom data sources with AWS Lambda. Amplify enables you to easily build scalable applications that require real-time updates, local data access for offline scenarios, and data synchronization with customizable conflict resolution when devices are back online. Powered by AWS AppSync and Amazon API Gateway.
+	\item \textbf{Functions} - Add a Lambda function to the project which the developer can use alongside a REST API or as a datasource in the GraphQL API in the Amplify CLI. The developer can update the Lambda execution role policies for the function to access other resources generated and maintained by the CLI, using the CLI. Amplify CLI enables developers to create, test and deploy Lambda functions across various runtimes.
+	\item \textbf{PubSub} - Pass messages between the app instances and the app's backend creating real-time interactive experiences. Amplify provides connectivity with cloud-based message-oriented middleware. Powered by AWS IoT services and Generic MQTT Over WebSocket Providers.
+	\item \textbf{Push Notifications} - Improve customer engagement by using marketing and analytics capabilities. Leverage customer insights to segment and target the customers more effectively. The developer can tailor the content and communicate through multiple channels including email, texts as well as push notifications. Powered by Amazon Pinpoint.
+	\item \textbf{Storage} - Store and manage user generated content such as photos, videos securely on device or in the cloud. The AWS Amplify Storage module provides a simple mechanism for managing user content for the app in public, protected or private storage buckets. Leverage cloud scale storage so that is easy to take the application from prototype to production. Powered by Amazon S3.
+	\item \textbf{Predictions and Interactions} - Enhance the app by adding AI/ML capabilities and build interactive and engaging conversational bots with the same deep learning technologies that power Amazon Alexa.
+\end{itemize}
 
 AWS Amplify provides a comprehensive toolkit for application development, with open-source libraries, powered by AWS services and can be used with Amplify CLI and Amplify Studio or an existing AWS backend.
 Amplify Studio brings a visual, collaborative environment for modeling data, managing users and creating backend resources.
@@ -377,34 +377,34 @@ With Amplify CLI toolchain, developers can configure and maintain backends.
 And the ecosystem, also provides the Amplify UI Components, an open-source set of ready-to-use interface elements for authentication, storage and interactions that integrate directly with backend resources.\cite{awsAmplifyFeatures}
 
 
-\begin{description}
-	\item[Data Storage] No cost up to 5 GB stored on CDN per month, then 0.023USD per GB per month.
-	\item[Data Transfer Out] Up to 15 GB per month at no cost, then 0.15USD per GB served for additional transfer.
-	\item[Request Count (Server-Side Rendering)] It covers up to 500,000 requests per month at no cost, then 0.30USD per 1 million requests thereafter.
-	\item[Request Duration (SSR)] No cost up to 100 GB-hours per month, then 0.20USD per GB-hour.
-	\item[Authentication powered by Amazon Cognito] There are 3 plans, the Essentials, Plus and Lite that provides different features. In the Essencials, the first 10,000 monthly active users (MAUs) are for free, then is 0.0015USD per MAU. For the Plus, is cost 0.02USD per MAU. For the Lite plan, it has a free tier for the first 10,000 raising to 0.0055USD per MAU between 10,001 and 100,000. Then, until 1,000,000 is 0.0046USD per MAU, 0.00325 per MAU until 10,000,000 and greater than that is 0.0025USD.\cite{cognito}
-	\item[Real-time APIs powered by AWS AppSync] 4.00USD per million Query and Data Modification Operations, 2.00USD per million Real-time Updates, 0.08USD per million minutes of connection to the AWS AppSync GraphQL service. There are different fees for cahing, starting at 0.044USD for 1 vCPU, 1.55GiB of memory and Low to moderate network performance to 6.775USD for 48vCPU, 317.77GiB of memory and 10Gigabit of network performance. The AppSync GraphQL Free Tier offers 250,000 query or data modification operations, 250,000 real-time updates and 600,000 connection-minutes.\cite{appsync}
-	\item[Data powered by Amazon DynamoDB] Two pricing options available including on-demand and provisioned. DynamoDB on-demand mode is a serverless option with pay-per-request pricing and automatic scaling, with 0.705USD per million write request units (WCU) and 0.1415USD per million read request units (RCU), the first 25 GB stored per month is free using the DynamoDB Standard table class and 0.283USD per GB-month thereafter. With provisioned capacity mode, the developer must specify the number of reads and writes per second that expects the application to require, with 0.000735USD per WCU, 0.000147USD per RCU and the Data Storage is the same as the other plan.\cite{dynamoDb}
-	\item[Functions powered by AWS Lambda] Lambda counts a request each time it starts executing in response to an event notification trigger, duration is calculated from the time the code begins executing until it returns or otherwise terminates, rounded up to the nearest 1 ms, with the price depends on the amount of memory the developer allocates to the function.\cite{lambda}
-	\item[Storage powered by Amazon Simple] Pay only for what is used. There is no minimum charge. Amazon S3 cost components are storage pricing, request and data retrieval pricing, data transfer and transfer acceleration pricing, data management and insights feature pricing, replication pricing, and transform and query feature pricing.\cite{s3}
-\end{description}
+\begin{itemize}
+	\item \textbf{Data Storage} - No cost up to 5 GB stored on CDN per month, then 0.023USD per GB per month.
+	\item \textbf{Data Transfer Out} - Up to 15 GB per month at no cost, then 0.15USD per GB served for additional transfer.
+	\item \textbf{Request Count (Server-Side Rendering)} - It covers up to 500,000 requests per month at no cost, then 0.30USD per 1 million requests thereafter.
+	\item \textbf{Request Duration (SSR)} No cost up to 100 GB-hours per month, then 0.20USD per GB-hour.
+	\item \textbf{Authentication powered by Amazon Cognito} - There are 3 plans, the Essentials, Plus and Lite that provides different features. In the Essencials, the first 10,000 monthly active users (MAUs) are for free, then is 0.0015USD per MAU. For the Plus, is cost 0.02USD per MAU. For the Lite plan, it has a free tier for the first 10,000 raising to 0.0055USD per MAU between 10,001 and 100,000. Then, until 1,000,000 is 0.0046USD per MAU, 0.00325 per MAU until 10,000,000 and greater than that is 0.0025USD.\cite{cognito}
+	\item \textbf{Real-time APIs powered by AWS AppSync} - 4.00USD per million Query and Data Modification Operations, 2.00USD per million Real-time Updates, 0.08USD per million minutes of connection to the AWS AppSync GraphQL service. There are different fees for cahing, starting at 0.044USD for 1 vCPU, 1.55GiB of memory and Low to moderate network performance to 6.775USD for 48vCPU, 317.77GiB of memory and 10Gigabit of network performance. The AppSync GraphQL Free Tier offers 250,000 query or data modification operations, 250,000 real-time updates and 600,000 connection-minutes.\cite{appsync}
+	\item \textbf{Data powered by Amazon DynamoDB} - Two pricing options available including on-demand and provisioned. DynamoDB on-demand mode is a serverless option with pay-per-request pricing and automatic scaling, with 0.705USD per million write request units (WCU) and 0.1415USD per million read request units (RCU), the first 25 GB stored per month is free using the DynamoDB Standard table class and 0.283USD per GB-month thereafter. With provisioned capacity mode, the developer must specify the number of reads and writes per second that expects the application to require, with 0.000735USD per WCU, 0.000147USD per RCU and the Data Storage is the same as the other plan.\cite{dynamoDb}
+	\item \textbf{Functions powered by AWS Lambda} Lambda counts a request each time it starts executing in response to an event notification trigger, duration is calculated from the time the code begins executing until it returns or otherwise terminates, rounded up to the nearest 1 ms, with the price depends on the amount of memory the developer allocates to the function.\cite{lambda}
+	\item \textbf{Storage powered by Amazon Simple} - Pay only for what is used. There is no minimum charge. Amazon S3 cost components are storage pricing, request and data retrieval pricing, data transfer and transfer acceleration pricing, data management and insights feature pricing, replication pricing, and transform and query feature pricing.\cite{s3}
+\end{itemize}
 
-\subsubsection{Microsoft Azure}
+\subsubsection{\textbf{Microsoft Azure}}
 
 Microsoft Azure used to have Azure Mobile Services, and in 2016 Microsoft announced the transition to Azure App Service\cite{azureMobileServices}.
 Now, Azure does not provide a MBaaS like the other providers, but through multiple services in Azure App Service\cite{azureappservices}.
 Azure App Services provides a fully managed platform for building, hosting and scaling web and mobile applications backends using multiple programming languages\cite{azureappservices}.
 It allows integrations with the following services:
 
-\begin{description}
-	\item[Azure Functions] - Execute event-driven serverless code that responds to HTTP requests, database changes or queue messages, with an end-to-end development experience for scalable APIs\cite{azureFunctions}.
-	\item[Azure Cosmos DB] A globally distributed, NoSQL database service that provides access to data with automatic scaling and multi-region replications. It supports several APIs, such asMongoDB, PostgreSQL and Apache Cassandra\cite{azureCosmos}
-	\item[Azure SQL Database] A fully managed relational Database as a Service that provides a fast, flexible and elastic SQL database\cite{azureSQL}.
-	\item[Microsoft Entra ID] Formerly known as Azure Active Directory (Azure AD), this service manages identity and access, supporting OAuth2, OpenID Connect, and enterprise-grade authentications\cite{azureEntraID}.
-	\item [Azure Notification Hubs] A cross-platform push notification service that allows the delivery of personalized messages to mobile devices with support for tagging and segmentation\cite{azureNotification}.
-	\item [Azure API Management] Enables the creation, protection, and monitoring of APIs used by mobile applications. It provides rate limiting, authentication, analytic and developer portal capabilities\cite{azureAPI}.
-	\item [Azure Storage] Offers scalable object, file and queue storage options for unstructured data, media files, and backend integration, forming a common storage layer for mobile applications\cite{azureStorage}.
-\end{description}
+\begin{itemize}
+	\item \textbf{Azure Functions} - Execute event-driven serverless code that responds to HTTP requests, database changes or queue messages, with an end-to-end development experience for scalable APIs\cite{azureFunctions}.
+	\item \textbf{Azure Cosmos DB} - A globally distributed, NoSQL database service that provides access to data with automatic scaling and multi-region replications. It supports several APIs, such asMongoDB, PostgreSQL and Apache Cassandra\cite{azureCosmos}
+	\item \textbf{Azure SQL Database} - A fully managed relational Database as a Service that provides a fast, flexible and elastic SQL database\cite{azureSQL}.
+	\item \textbf{Microsoft Entra ID} - Formerly known as Azure Active Directory (Azure AD), this service manages identity and access, supporting OAuth2, OpenID Connect, and enterprise-grade authentications\cite{azureEntraID}.
+	\item \textbf{Azure Notification Hubs} - A cross-platform push notification service that allows the delivery of personalized messages to mobile devices with support for tagging and segmentation\cite{azureNotification}.
+	\item \textbf{Azure API Management} - Enables the creation, protection, and monitoring of APIs used by mobile applications. It provides rate limiting, authentication, analytic and developer portal capabilities\cite{azureAPI}.
+	\item \textbf{Azure Storage} - Offers scalable object, file and queue storage options for unstructured data, media files, and backend integration, forming a common storage layer for mobile applications\cite{azureStorage}.
+\end{itemize}
 
 For the pricing, each service is billed independently, and has different plans for each services with multiple price variations, including different prices for different regions.
 

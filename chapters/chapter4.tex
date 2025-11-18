@@ -1,0 +1,107 @@
+\chapter{Methodology}
+
+\section{User-Center Design}
+For this project it was followed the User-Center Design (UCD) process.
+This is an iterative process focused on the users and theirs needs in each design phase, by involving them in the process.
+The goal of this process is to address the whole user experience, and shape the application to the specific target users\cite{IxDF2025}
+
+Following the \textit{ISO 9241-210:2019}\cite{iso9241-210}, there are 4 phases to UCD:
+\begin{itemize}
+	\item Understand and specify the context of use 
+	\item Specify the user requirements
+	\item Produce design solutions to meet these requirements
+	\item Evaluate the designs against requirements
+\end{itemize}
+
+\subsection{Understand and specify the context of use }
+
+In this phase it is essential to understand who is the target user and how will the application be used.
+For this phase a user research was conducted through a survey targeting basketball players in Portugal, then two persona where made based on the survey and then user scenarios.
+
+\subsubsection{User research}
+
+For the user research a survey was made with Microsoft Forms.
+This survey had the intend of understanding who goes to public basketball courts, how often they go, why they are not going more often, what gets them annoyed and what would they wish to improve in their experience playing in basketball courts.
+To collect data, the survey was shared through \textit{Whatsapp}, between different people and groups. Besides that, a flyer was made and distributed in a public basketball court in Lisbon.
+A total of 48 responses were gather and here are some takeaways:
+
+\begin{itemize}
+	\item 79\% of the responses were from men;
+	\item  27 responses are from people between 18-25 years old, and 15 from 26-35 years old;
+	\item The majority live in Lisbon, with 9 responses from Setúbal, 2 from Aveiro and 1 from Porto;
+	\item 26 people that responded work full time and 21 are studying in university;
+	\item When asked if they play basketball, 33 said that they play in public courts causal games, 20 go to private courts, 13 just shoot some balls and 6 play in a competitive team;
+	\item 37 started playing before they were 16 years old;
+	\item 15 participants go to play in Alcântara public court and 14 in Moinho do Penedo in Monsato public court, both in Lisbon;
+	\item When asked the frequency that they go to public courts, 18 said that go once a week and 13 responded with seasonal, with 88\% wanting to go more often;
+	\item 24 do not go more often because of time constraints and 21 said that they do not known enough people to play with, besides that, 10 said that nobody is in the court when they go;
+	\item Usually, 28 participants go with friends to play against each other, 31 go with friends to play against others, 17 go alone to shoot some balls, but are open to play some games if it comes up, and 12 just want to go shoot some balls;
+	\item 58\% want more competition, while the other 42\% are satisfied;
+	\item When asked to the participants what they find more annoying in the public courts, most complain about the conditions of the court, and other about the players, that some are unpleasant to play with, the level of competitiveness is not match, and lack of organization;
+\end{itemize}
+
+\subsubsection{Persona}
+
+A Persona is a fictional character created based on the user research that represents the different user types.
+Personas help to understand the user needs, guiding the next phases of the development process.
+For this project, 2 types of users were found, creating 2 different Personas.
+
+There are basketball players that want to play against other players, have more competition, as seen in the survey with 58\%, and as 21 participants do not play more often because they do not know enough people, and 10 complain that nobody is there when they go, it can be assume that they want to find other players to play with.
+In the Fig\ref{fig:persona-miguel} is the first persona, Miguel that wants to play competitive games more often.
+He usually goes with friends to play against other players that they find on the court, however they never know if a good amount competitors will be there, at the same time as them, maybe there is someone, but is already there for a long time and will leave soon, or does not want to play with others.
+Because of this, Miguel does not go more often, as it can be a waste of time.
+So, he needs a platform to meet other players that want to play a competitive game, or to just see how many players are in the court to play a spontaneous game.
+Miguel also wants to know if the players are the right match for him, if they play in the same level and if they will dedicate the same as him.
+
+\begin{figure}[h]
+	\caption{Persona 1 Miguel}
+	\centering
+	\includegraphics[width=0.5\textwidth]{figs/persona-miguel}
+	\label{fig:persona-miguel}
+\end{figure}
+
+
+The other type of user, is the player that just goes to the court to shoot some balls, as 29 usually go alone for that, some do not mind playing a game, this type of user wants to find a court or time slot to relax, without competition and space to shoot.
+In the Fig \ref{fig:persona-carlos} is the second persona, Carlos, he goes once a week to a public court to shoot some balls, and if someone asks to play, he accepts the invitation.
+Some times the court is full and Carlos does not have space to shoot and everyone is playing too aggressive.
+He needs a platform to see which courts have space to just shoot around. 
+
+
+\begin{figure}[h]
+	\caption{Persona 1 Carlos}
+	\centering
+	\includegraphics[width=0.5\textwidth]{figs/persona-carlos}
+	\label{fig:persona-carlos}
+\end{figure}
+
+
+\subsubsection{User Scenarios}
+
+
+\textbf{Miguel User Scenario}
+
+Miguel is 25 years old and used to play basketball on a team until he turned 20. Now, he usually goes on Sunday mornings to a court in Alcântara with two friends to play pickup games against other players who might be there. To play a 3v3 game, they need at least three more players. For a 4v4, they need five more, joining someone to complete their team.
+
+Typically, Sunday mornings bring older players to the court, and Miguel and his friends often end up joining their games. However, this isn’t the type of competition they want, so sometimes they try to come at a different time to find players with similar skill levels and physical condition. Occasionally, they encounter another group of friends around their age and level and challenge them to a game. Sometimes they find competitive teams, but other times they end up with players who are just fooling around or with team-mates who do not pass the ball, leaving Miguel and his friends frustrated.
+
+During the spring and summer, Miguel likes to play after work. But when he and his friends arrive at the court, no one is there, so they just shoot some hoops and don’t have as much fun or get as much running as they hoped. When they are about to leave, a pair of friends sometimes arrives, also hoping to find other players to challenge. However, by then Miguel and his friends are almost ready to go. If they had organized in advance or somehow known that others were coming, they might have adjusted their schedule and been able to play together.
+
+With a platform, Miguel would proceed as follows: He opens the application and creates a game, a 4v4, set for Saturday at 3 p.m., and invites his two friends, who accept. Miguel now needs five more players, but if he can’t find a fifth, he can reduce the game to a 3v3. He makes the game public, so anyone interested in playing a 3v3 or 4v4 receives a notification, or they see it in the list of upcoming games in the app. The first rival joins after seeing Miguel team’s ranking. Soon, a team of four expresses intent to join, and so, Miguel invites the first adversary to his team and accepts the other team as opponents.
+
+On Saturday afternoon, the group arrives at the available court and checks in via the app. Other people now know there are eight players present, and the game appears in the app as happening live at that location. Miguel’s team wins, and a member from each team records the result in the application. Because the game is ranked, every member of the winning team earns points toward their individual rankings. Miguel enjoyed playing with their fourth team-mate, so they decide to register the team and enter the league table for teams of four. The next time Miguel wants to play, he can create a game with his new team.
+
+\textbf{Carlos User Scenario}
+
+Carlos is 33 years old and has been playing basketball since before he was 16. These days, he enjoys going to the court to practice his shot. He goes at least once a week, and when other players invite him to join a pickup game, he’s always ready for the challenge.
+
+Carlos prefers to play on Saturday mornings at Monte do Penedo in Monsanto. However, especially when the weather is good, the court can become crowded, with several games going on at once and multiple people shooting at the same basket. During these times, Carlos often wishes he had gone to a different court.
+
+With a platform, Carlos could check court availability before leaving home, allowing him to choose a less crowded court. He could also discover courts he did not know about and read reviews from other players about court conditions. Before heading out, Carlos could use the app to indicate his intention to go to a specific court at a certain time, specifying that he plans to shoot around but is open to joining non-competitive games. Alternatively, he could check in when he arrives, letting others know he’s available for practice or casual play.
+
+
+
+
+
+
+
+

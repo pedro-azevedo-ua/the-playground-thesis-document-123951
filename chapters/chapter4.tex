@@ -1,104 +1,137 @@
 \chapter{Methodology}
 
-\section{User-Center Design}
-For this project it was followed the User-Center Design (UCD) process.
-This is an iterative process focused on the users and theirs needs in each design phase, by involving them in the process.
-The goal of this process is to address the whole user experience, and shape the application to the specific target users\cite{IxDF2025}
+Developing a platform to help basketball players organize games and enhance their satisfaction at public courts requires a development process that consistently prioritizes user needs.
+To achieve this, the project adopts a User-Centred Design (UCD) ensuring that the users are involved throughout the design process. 
+The UCD is applied across three iterations with each culminating in direct user evaluation.
+The iterative structure is complemented by Scrum, an Agile project management framework that promotes adaptive planning and continuous improvement, and Acceptance Test-Driven Development (ATDD), ensuring that the system's features align with user expectations and perform as intended.
+This chapter details the methodologies, tools and frameworks that are going to be used and followed during the design and development process, and the architecture that the platform will have.
 
-Following the \textit{ISO 9241-210:2019}\cite{iso9241-210}, there are 4 phases to UCD:
-\begin{itemize}
-	\item Understand and specify the context of use 
-	\item Specify the user requirements
-	\item Produce design solutions to meet these requirements
-	\item Evaluate the designs against requirements
-\end{itemize}
 
-\subsection{Understand and specify the context of use }
 
-In this phase it is essential to understand who is the target user and how will the application be used.
-For this phase a user research was conducted through a survey targeting basketball players in Portugal, then two persona where made based on the survey and then user scenarios.
+\section{User-Centered Design (UCD)}\label{sec:ucd}
 
-\subsubsection{User research}
+UCD is an iterative process focused on the users and theirs needs in each design phase, by actively involving users in the process.
+The goal of UCD is to address the whole user experience, and shape the application to the specific needs of target users\cite{IxDF2025}
 
-For the user research a survey was made with Microsoft Forms.
-This survey had the intend of understanding who goes to public basketball courts, how often they go, why they are not going more often, what gets them annoyed and what would they wish to improve in their experience playing in basketball courts.
-To collect data, the survey was shared through \textit{Whatsapp}, between different people and groups. Besides that, a flyer was made and distributed in a public basketball court in Lisbon.
-A total of 48 responses were gather and here are some takeaways:
+To implement UCD systematically, there are 4 phases defined by the \textit{ISO 9241-210:2019}\cite{iso9241-210}, which establish Human-Centred Design (HCD) principals applicable to UCD.
+While the standards focus on HCD, UCD applies these principals with explicit focus on a defined target user population rather than broader human contexts. The four phases are:
 
 \begin{itemize}
-	\item 79\% of the responses were from men;
-	\item  27 responses are from people between 18-25 years old, and 15 from 26-35 years old;
-	\item The majority live in Lisbon, with 9 responses from Setúbal, 2 from Aveiro and 1 from Porto;
-	\item 26 people that responded work full time and 21 are studying in university;
-	\item When asked if they play basketball, 33 said that they play in public courts causal games, 20 go to private courts, 13 just shoot some balls and 6 play in a competitive team;
-	\item 37 started playing before they were 16 years old;
-	\item 15 participants go to play in Alcântara public court and 14 in Moinho do Penedo in Monsato public court, both in Lisbon;
-	\item When asked the frequency that they go to public courts, 18 said that go once a week and 13 responded with seasonal, with 88\% wanting to go more often;
-	\item 24 do not go more often because of time constraints and 21 said that they do not known enough people to play with, besides that, 10 said that nobody is in the court when they go;
-	\item Usually, 28 participants go with friends to play against each other, 31 go with friends to play against others, 17 go alone to shoot some balls, but are open to play some games if it comes up, and 12 just want to go shoot some balls;
-	\item 58\% want more competition, while the other 42\% are satisfied;
-	\item When asked to the participants what they find more annoying in the public courts, most complain about the conditions of the court, and other about the players, that some are unpleasant to play with, the level of competitiveness is not match, and lack of organization;
+	\item \textbf{Understand and specify the context of use}: This phase focuses on understanding the target users, their needs, pain points, and the environment in which they will use the system. Research methods such as user interviews, observations, and contextual analysis are employed to build a comprehensive understanding of user contexts;
+	
+	\item \textbf{Specify the user requirements}: With a clear understanding of users and their contexts, this phase involves gathering and documenting specific user requirements and desired features. 
+	Requirements are derived from user research findings and articulate what the system must do to address identified user needs. 
+	Requirements are a set of guidelines that state what the functionality and capabilities of the platform system, which meet the user's needs and business's objectives.
+	This will guide the development process, ensuring the end product is user-friendly, accessible and valuable.\cite{requirementsIDF}
+	
+	\item \textbf{Produce design solutions to meet user requirements}: Based on validated user requirements, design solutions are created to address identified needs. This phase includes creating wire frames, prototypes, and mock-ups that translate requirements into tangible design artefacts;
+	
+	\item \textbf{Evaluate the designs against requirements}: Prototypes and design solutions are tested with actual users to validate that the designs meet specified requirements and user needs. Feedback from evaluation informs iterative refinements until user satisfaction and requirement fulfilment are achieved.
 \end{itemize}
 
-\subsubsection{Persona}
 
-A Persona is a fictional character created based on the user research that represents the different user types.
-Personas help to understand the user needs, guiding the next phases of the development process.
-For this project, 2 types of users were found, creating 2 different Personas.
+\section{Scrum}\label{sec:scrum}
 
-There are basketball players that want to play against other players, have more competition, as seen in the survey with 58\%, and as 21 participants do not play more often because they do not know enough people, and 10 complain that nobody is there when they go, it can be assume that they want to find other players to play with.
-In the Fig\ref{fig:persona-miguel} is the first persona, Miguel that wants to play competitive games more often.
-He usually goes with friends to play against other players that they find on the court, however they never know if a good amount competitors will be there, at the same time as them, maybe there is someone, but is already there for a long time and will leave soon, or does not want to play with others.
-Because of this, Miguel does not go more often, as it can be a waste of time.
-So, he needs a platform to meet other players that want to play a competitive game, or to just see how many players are in the court to play a spontaneous game.
-Miguel also wants to know if the players are the right match for him, if they play in the same level and if they will dedicate the same as him.
+Scrum is an Agile framework that helps developing complex project by organizing work into smaller, iterative cycles called Sprints\cite{scrumAtlassian}.
+The Agile methodology, which Scrum implements, divide development into phases that enables adaptive planning, rapid execution and continuous evaluation\cite{agileAtlassian}.
+This approach emphasizes planing only necessary work and delivering small, frequent increments while gathering feedback in each cycle which will be integrated into the next phase\cite{agileAtlassian}.
+While multiple Agile frameworks exist, Scrum is the most widely adopted due to its flexibility and applicability across projects different scales\cite{scrumAlternatives}.
+
+In this project, requirements gathered during the second phase of UCD (Section \ref{sec:ucd}) are documented as User Stories.
+User Stories employ non-technical language to provide development context written from the user's perspective, clarifying not only what is being built, but also the why and the value it delivers.
+User Stories integrate naturally into Scrum, where each story is assigned to a Sprint and marked as complete when users can successfully execute the outlined task\cite{userStoriesAtlassian}.
+This approached focused on the user aligns with the project's emphasis on User-Centred Design throughout development.
+
+To help implement Scrum effectively, this project uses Jira as a project management tool\cite{jira}, enabling systematic planning, task assignment, and progress tracking in the development phase
+
+\section{Acceptance Test-Driven Development (ATDD)}\label{sec:atdd}
+
+While Scrum (Section \ref{sec:scrum}) provides a framework for project management and the User Stories capture requirements, ATDD is a development methodology in which, acceptance test are written for each User Story before implementation\cite{agileAllianceATDD}.
+This ensures that requirements are precisely defined and verifiable with the tests serving as executable specifications of expected behaviour. 
+ATDD follows a test-first approach, acceptance tests are written first to define the expected behaviour, the feature is then implemented to satisfy these tests, and finally, the functionality is validated to ensure all tests pass.
+Acceptance Test can be written in different ways, scenario-oriented that uses a Given/When/Then template and  a rule-oriented that is a check-list\cite{acceptanceCriteria}, which is the one being use in this project.
+
+
+\section{Iteration Development Process}
+
+This project follows an iterative and incremental development model structured into three iterations, each integrating UCD, Scrum and ATDD methodologies, and culminating in user evaluation to maintain User-Centred Design principals throughout development
+
+\subsubsection{Iteration 1: Prototype and Feature Validation}
+
+The first iteration includes all four phases of UCD (Section \ref{sec:ucd})
+
+\begin{itemize}
+	\item A survey is conducted to understand the basketball players who uses public courts, including their habits, challenges and desired improvements to their experience. With that, \textit{personas} are created representing different user needs and pain points. User scenarios are also developed for each \textit{persona}, describing how they use public courts, what problems they encounter and when and how a platform would support them;
+	
+	\item Through the \textit{personas} and theirs scenarios, requirements are gathered to respond to their needs, documenting them as User Stories and added to the Jira project Backlog;
+	
+	\item The prototypes of  user stories are created in Figma to provide an interactive and testable design;
+	
+	\item Finally, users test the interactive prototype and provide feedback on the importance and relevance of the features. This feedback is use to update and prioritize the backlog for the next iterations.
+	
+\end{itemize}
+
+In this first iteration, the test that users will perform are Task-based usability testing using interactive Figma prototype, followed by a Feature Prioritization Survey assessing feature importance and relevance;
+
+\subsection{Iteration 2: MVP Development and UI/UX Evaluation}
+
+In the second iteration, instead of a prototype, a Minimum Viable Product (MVP) is developed, with enough features to be usable in early stages and receive feedback.
+This iteration start applying both Scrum and ATDD methodologies (Sections \ref{sec:scrum} and \ref{sec:atdd})  to implement the most critical user stories identified from the first iteration's feedback
+
+For each user story, it is follow the ATDD approach, where acceptance criteria are defined, tests are written to validate these criteria, the feature is developed and then validated ensuring all tests pass.
+User stories are organized into sprints according to the Scrum framework, enabling iterative and continuous progress, tracking in Jira.
+
+With a functional MVP, users evaluate the platform focusing on user experience (UX) and user interface (UI) aspects, through Task-Based Usability Testing to measure task performance, System Usability Scale (SUS) questionnaire combined with think-aloud protocol during task execution, and User Experience questionnair, providing feedback to guide refinements in the final iteration.
+
+\subsection{Iteration 3: Complete Application and Overall Evaluation}
+
+Following feedback from the second iteration, in the final one it is developed the complete platform, continuing to apply Scrum and ATDD. 
+Improvements from previous feedback are made and all remaining user stories are implemented, developing as well the tests first, ensuring consistent quality.
+Users conduct a comprehensive evaluation of the complete platform, assessing overall functionality, usability, reliability and satisfaction with th final product, using SUS, task-based testing, and semi-structured interviews.
+
+\section{Architecture}
+
+In Android Developers "Guide to app architecture"\cite{guideArchitecture}, it is recommended an architecture, that includes at least two layers, the UI Layer and the Data Layer, and optionally the Domain Layer.
+
+The UI Layer, or presentation layer, as the name implies, is the user interface and will display the application data on the screen, which should be updated whenever the data changes, either through user interaction or external events.
+This layer includes UI elements that render the data on the screen and state holders in order to keep and expose data to the UI, handling logic.
+
+The Data layer, contains business logic that determines how the application creates, stores and changes data.
+This layer has repositories, that are classes responsible to expose data to the rest of the application, centralizing changes to the data resolving conflicts between data sources and abstracting the data sources.
+These data sources, also included in the data layer, are responsible of working with only one source of data, this being a file, database, network source.
+
+The optional Domain Layer, sits between the UI and Data layers, encapsulating complex business logic or simpler logic which is reused by multiple view models.
+Classes on this layer are usually called "use cases" or "interactors" being responsible for a single functionality or user story.
+
+For this project it was followed this guide and, besides that, it will use the Model-View-Model (MVVM) pattern, where there is a clear separation between the logic and the UI, enabling a better development, testing and a clean code base.
+The View is responsible for the UI and the presentation to the user, it informs the ViewModel of user actions, and observes the ViewModel states, not contain any application logic, while the ViewModel exposes the data that the View is observing, serving a link between the Model and the View. Finally, the Model abstracts the data sources, working together with ViewModel to get and save data, has the business logic of the application. This can be represented in the layers, with the UI components being the View, and the Domain and Data layer being the Model. 
 
 \begin{figure}[h]
-	\caption{Persona 1 Miguel}
+	\caption{Architecture Diagram of the Multiplatform Application}
 	\centering
-	\includegraphics[width=0.5\textwidth]{figs/persona-miguel}
-	\label{fig:persona-miguel}
+	\includegraphics[width=0.5\textwidth]{figs/architectureDiagram}
+	\label{fig:architecture}
 \end{figure}
 
+The Figure \ref{fig:architecture} represents the project's architecture and some technologies that will be used, decided after the gathering of requirements.
+In the Presentation Layer there is the UI components will be developed using Compose Multiplatform, and  the ViewModel, classes that hold states of the application and exposes them to the View.
+The ViewModel will call the Use Cases, in the Domain Layer which use entities and the repositories interfaces to connect with the data layer. 
+Here will be use Kotlin Multiplatform taking advantage of the native capabilities while working in both Android and iOS.
 
-The other type of user, is the player that just goes to the court to shoot some balls, as 29 usually go alone for that, some do not mind playing a game, this type of user wants to find a court or time slot to relax, without competition and space to shoot.
-In the Fig \ref{fig:persona-carlos} is the second persona, Carlos, he goes once a week to a public court to shoot some balls, and if someone asks to play, he accepts the invitation.
-Some times the court is full and Carlos does not have space to shoot and everyone is playing too aggressive.
-He needs a platform to see which courts have space to just shoot around. 
+In the Data layer, there are the repositories, as the guide mentions\cite{guideArchitecture} which will work with a local and an external data source.
+The local data source will be Room\cite{room}  that is part of Android Jetpack suite, making a good option for this project, being an abstraction of SQLite database, that integrates naturally with flows and coroutines, providing a annotation-based API.
+Compare to SQLDelight, a considerable option, it has slight more boilerplate with entities and DAOs, and less control over raw SQL, making debugging complex queries harder. 
 
+For the external data source it will be use the Supabase, an open source MBaaS with several services available that will help with the project, including PostgreSQL Database that can handle complex relationship connections while offering built-in realtime features for realtime updates.
+Besides that, it has authentication, storage, and server-side functions, however, lacks native push notifications and mobile analytics, which forces third-party tools integrations.
+Supabase can be self-hosted or use theirs services that has different pricing options, with the free tier being enough for this project, as it has a limit of 50,000 monthly active users.
+Comparing to others, it is not a "black box" being easy to debug and  has less vendor lock-in, with a PostgresSQL database it can be run anywhere and can be exported.
 
-\begin{figure}[h]
-	\caption{Persona 1 Carlos}
-	\centering
-	\includegraphics[width=0.5\textwidth]{figs/persona-carlos}
-	\label{fig:persona-carlos}
-\end{figure}
-
-
-\subsubsection{User Scenarios}
-
-
-\textbf{Miguel User Scenario}
-
-Miguel is 25 years old and used to play basketball on a team until he turned 20. Now, he usually goes on Sunday mornings to a court in Alcântara with two friends to play pickup games against other players who might be there. To play a 3v3 game, they need at least three more players. For a 4v4, they need five more, joining someone to complete their team.
-
-Typically, Sunday mornings bring older players to the court, and Miguel and his friends often end up joining their games. However, this isn’t the type of competition they want, so sometimes they try to come at a different time to find players with similar skill levels and physical condition. Occasionally, they encounter another group of friends around their age and level and challenge them to a game. Sometimes they find competitive teams, but other times they end up with players who are just fooling around or with team-mates who do not pass the ball, leaving Miguel and his friends frustrated.
-
-During the spring and summer, Miguel likes to play after work. But when he and his friends arrive at the court, no one is there, so they just shoot some hoops and don’t have as much fun or get as much running as they hoped. When they are about to leave, a pair of friends sometimes arrives, also hoping to find other players to challenge. However, by then Miguel and his friends are almost ready to go. If they had organized in advance or somehow known that others were coming, they might have adjusted their schedule and been able to play together.
-
-With a platform, Miguel would proceed as follows: He opens the application and creates a game, a 4v4, set for Saturday at 3 p.m., and invites his two friends, who accept. Miguel now needs five more players, but if he can’t find a fifth, he can reduce the game to a 3v3. He makes the game public, so anyone interested in playing a 3v3 or 4v4 receives a notification, or they see it in the list of upcoming games in the app. The first rival joins after seeing Miguel team’s ranking. Soon, a team of four expresses intent to join, and so, Miguel invites the first adversary to his team and accepts the other team as opponents.
-
-On Saturday afternoon, the group arrives at the available court and checks in via the app. Other people now know there are eight players present, and the game appears in the app as happening live at that location. Miguel’s team wins, and a member from each team records the result in the application. Because the game is ranked, every member of the winning team earns points toward their individual rankings. Miguel enjoyed playing with their fourth team-mate, so they decide to register the team and enter the league table for teams of four. The next time Miguel wants to play, he can create a game with his new team.
-
-\textbf{Carlos User Scenario}
-
-Carlos is 33 years old and has been playing basketball since before he was 16. These days, he enjoys going to the court to practice his shot. He goes at least once a week, and when other players invite him to join a pickup game, he’s always ready for the challenge.
-
-Carlos prefers to play on Saturday mornings at Monte do Penedo in Monsanto. However, especially when the weather is good, the court can become crowded, with several games going on at once and multiple people shooting at the same basket. During these times, Carlos often wishes he had gone to a different court.
-
-With a platform, Carlos could check court availability before leaving home, allowing him to choose a less crowded court. He could also discover courts he did not know about and read reviews from other players about court conditions. Before heading out, Carlos could use the app to indicate his intention to go to a specific court at a certain time, specifying that he plans to shoot around but is open to joining non-competitive games. Alternatively, he could check in when he arrives, letting others know he’s available for practice or casual play.
-
-
+Using Ktor to communicate with Supabase being a  standard and recommend HTTP client, with multiple examples from Google, Jetbrains and other communities using Ktor as example in Kotlin Multiplatform projects.
+Another good option would be the Supabase Kotlin Client, however, this would make the application dependable on Supabase and if later the MBaaS was to be replaced, it would be more complex to migrate.
+With this, a little more code needs to be developed with Ktor, than Supabase Kotlin Client, but ideal to not get vendor lock-in.
+As some feature of the platform will need to work while the user is off-line or with bad connection, the application will have a synchronization manager that will check what needs to be updated in the local database and resolve conflicts.
+Finally a data mapper to convert data from Supabase to the Room database is needed.
 
 
 

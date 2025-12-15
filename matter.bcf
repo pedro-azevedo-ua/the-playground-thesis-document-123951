@@ -2532,6 +2532,20 @@
     <bcf:citekey order="147" intorder="1">pick-roll</bcf:citekey>
     <bcf:citekey order="148" intorder="1">meetup</bcf:citekey>
     <bcf:citekey order="149" intorder="1">meetup-basketball-group</bcf:citekey>
+    <bcf:citekey order="150" intorder="1">IxDF2025</bcf:citekey>
+    <bcf:citekey order="151" intorder="1">iso9241-210</bcf:citekey>
+    <bcf:citekey order="152" intorder="1">requirementsIDF</bcf:citekey>
+    <bcf:citekey order="153" intorder="1">scrumAtlassian</bcf:citekey>
+    <bcf:citekey order="154" intorder="1">agileAtlassian</bcf:citekey>
+    <bcf:citekey order="155" intorder="1">agileAtlassian</bcf:citekey>
+    <bcf:citekey order="156" intorder="1">scrumAlternatives</bcf:citekey>
+    <bcf:citekey order="157" intorder="1">userStoriesAtlassian</bcf:citekey>
+    <bcf:citekey order="158" intorder="1">jira</bcf:citekey>
+    <bcf:citekey order="159" intorder="1">agileAllianceATDD</bcf:citekey>
+    <bcf:citekey order="160" intorder="1">acceptanceCriteria</bcf:citekey>
+    <bcf:citekey order="161" intorder="1">guideArchitecture</bcf:citekey>
+    <bcf:citekey order="162" intorder="1">guideArchitecture</bcf:citekey>
+    <bcf:citekey order="163" intorder="1">room</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

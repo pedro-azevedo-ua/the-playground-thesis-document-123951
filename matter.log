@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.10.7)  6 NOV 2025 10:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.11.16)  5 DEC 2025 09:35
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1820,27 +1820,28 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'portuguese'.
  (./matter.aux
 (./glossary.aux) (./chapters/chapter1.aux) (./chapters/chapter2.aux)
-(./chapters/chapter3.aux) (./chapters/appendix-more.aux))
+(./chapters/chapter3.aux) (./chapters/chapter4.aux)
+(./chapters/appendix-more.aux))
 \openout1 = `matter.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 249.
-LaTeX Font Info:    ... okay on input line 249.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1864,19 +1865,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 249.
-Package microtype Info: Applying patch `item' on input line 249.
-Package microtype Info: Applying patch `toc' on input line 249.
-Package microtype Info: Applying patch `eqnum' on input line 249.
-Package microtype Info: Applying patch `footnote' on input line 249.
-Package microtype Info: Applying patch `verbatim' on input line 249.
+LaTeX Info: Redefining \microtypecontext on input line 252.
+Package microtype Info: Applying patch `item' on input line 252.
+Package microtype Info: Applying patch `toc' on input line 252.
+Package microtype Info: Applying patch `eqnum' on input line 252.
+Package microtype Info: Applying patch `footnote' on input line 252.
+Package microtype Info: Applying patch `verbatim' on input line 252.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 249.
+LaTeX Info: Redefining \showhyphens on input line 252.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1890,8 +1891,8 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 249.
-Package soulpos Info: Loading soulutf8 on input line 249.
+Package hyperref Info: Link coloring OFF on input line 252.
+Package soulpos Info: Loading soulutf8 on input line 252.
 
 (/usr/share/texlive/texmf-dist/tex/generic/soul/soulutf8.sty
 Package: soulutf8 2023-02-18 v3.0 Permit use of UTF-8 characters in soul (HO)
@@ -1956,10 +1957,10 @@ Package morewrites Warning: File 'matter.mw' exists, using 'matter.mw.mw'
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'matter.bbl' found.
 (./matter.bbl)
-Package biblatex Info: Reference section=0 on input line 249.
-Package biblatex Info: Reference segment=0 on input line 249.
+Package biblatex Info: Reference section=0 on input line 252.
+Package biblatex Info: Reference segment=0 on input line 252.
 Package translations Info: no dictionary file `translations-basic-dictionary-po
-rtuges.trsl' found. on input line 249.
+rtuges.trsl' found. on input line 252.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1967,7 +1968,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 249.
+or `english'. on input line 252.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2006,32 +2007,32 @@ or `english'. on input line 249.
 <cover.pdf, id=7, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf>
-Package pdftex.def Info: cover.pdf  used on input line 255.
+Package pdftex.def Info: cover.pdf  used on input line 258.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf>
-Package pdftex.def Info: cover.pdf  used on input line 255.
+Package pdftex.def Info: cover.pdf  used on input line 258.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 <cover.pdf, id=10, page=1, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 255.
+Package pdftex.def Info: cover.pdf , page1 used on input line 258.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 255.
+Package pdftex.def Info: cover.pdf , page1 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 255.
+Package pdftex.def Info: cover.pdf , page1 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 255.
+Package pdftex.def Info: cover.pdf , page1 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 255.
+Package pdftex.def Info: cover.pdf , page1 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter.mw.mw'.
 
@@ -2044,19 +2045,19 @@ Package pdftex.def Info: cover.pdf , page1 used on input line 255.
 \openout4 = `matter.upa'.
 
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 255.
+e 258.
 <cover.pdf, id=26, page=2, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 2>
-Package pdftex.def Info: cover.pdf , page2 used on input line 255.
+Package pdftex.def Info: cover.pdf , page2 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 2>
-Package pdftex.def Info: cover.pdf , page2 used on input line 255.
+Package pdftex.def Info: cover.pdf , page2 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 2>
-Package pdftex.def Info: cover.pdf , page2 used on input line 255.
+Package pdftex.def Info: cover.pdf , page2 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter.mw.mw'.
 
@@ -2066,15 +2067,15 @@ Package pdftex.def Info: cover.pdf , page2 used on input line 255.
 <cover.pdf, id=37, page=3, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 3>
-Package pdftex.def Info: cover.pdf , page3 used on input line 255.
+Package pdftex.def Info: cover.pdf , page3 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 3>
-Package pdftex.def Info: cover.pdf , page3 used on input line 255.
+Package pdftex.def Info: cover.pdf , page3 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 3>
-Package pdftex.def Info: cover.pdf , page3 used on input line 255.
+Package pdftex.def Info: cover.pdf , page3 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter.mw.mw'.
 
@@ -2085,15 +2086,15 @@ Package pdftex.def Info: cover.pdf , page3 used on input line 255.
 <cover.pdf, id=42, page=4, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 4>
-Package pdftex.def Info: cover.pdf , page4 used on input line 255.
+Package pdftex.def Info: cover.pdf , page4 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 4>
-Package pdftex.def Info: cover.pdf , page4 used on input line 255.
+Package pdftex.def Info: cover.pdf , page4 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 4>
-Package pdftex.def Info: cover.pdf , page4 used on input line 255.
+Package pdftex.def Info: cover.pdf , page4 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter.mw.mw'.
 
@@ -2103,15 +2104,15 @@ Package pdftex.def Info: cover.pdf , page4 used on input line 255.
 <cover.pdf, id=47, page=5, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 5>
-Package pdftex.def Info: cover.pdf , page5 used on input line 255.
+Package pdftex.def Info: cover.pdf , page5 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 5>
-Package pdftex.def Info: cover.pdf , page5 used on input line 255.
+Package pdftex.def Info: cover.pdf , page5 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 5>
-Package pdftex.def Info: cover.pdf , page5 used on input line 255.
+Package pdftex.def Info: cover.pdf , page5 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter.mw.mw'.
 
@@ -2122,15 +2123,15 @@ Package pdftex.def Info: cover.pdf , page5 used on input line 255.
 <cover.pdf, id=58, page=6, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 6>
-Package pdftex.def Info: cover.pdf , page6 used on input line 255.
+Package pdftex.def Info: cover.pdf , page6 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 6>
-Package pdftex.def Info: cover.pdf , page6 used on input line 255.
+Package pdftex.def Info: cover.pdf , page6 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 6>
-Package pdftex.def Info: cover.pdf , page6 used on input line 255.
+Package pdftex.def Info: cover.pdf , page6 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter.mw.mw'.
 
@@ -2233,11 +2234,11 @@ e 54.
 
  (./chapters/chapter1.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 6.
+(Font)              <10.95> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 6.
+(Font)              <8> on input line 8.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 6.
+(Font)              <6> on input line 8.
 )
 \openout4 = `matter.mw.mw'.
 
@@ -2251,7 +2252,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout4 = `matter.mw.mw'.
 
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 383.
+e 386.
 \openout2 = `chapters/chapter2.aux'.
 
  (./chapters/chapter2.tex
@@ -2270,12 +2271,6 @@ Package microtype Info: Character `029' is missing
 
 \openout4 = `matter.mw.mw'.
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-6.
-
-(/usr/share/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 \openout4 = `matter.mw.mw'.
 
  [2
@@ -2286,13 +2281,18 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ] (./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+6.
+
+(/usr/share/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 46.
 \openout4 = `matter.mw.mw'.
 
-
-[3{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-(./matter.mw.mw)
+ [3{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (./matter.mw.
+mw)
 \openout4 = `matter.mw.mw'.
 
 )
@@ -2303,11 +2303,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 \openout2 = `chapters/chapter3.aux'.
 
- (./chapters/chapter3.tex
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
+(./chapters/chapter3.tex
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -2327,8 +2323,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 
-]
-(./matter.mw.mw)
+] (./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -2343,7 +2338,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 \openout4 = `matter.mw.mw'.
 
-<figs/costofnativedev.png, id=217, 400.2179pt x 207.09303pt>
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+<figs/costofnativedev.png, id=235, 400.2179pt x 207.09303pt>
 File: figs/costofnativedev.png Graphic file (type png)
 <use figs/costofnativedev.png>
 Package pdftex.def Info: figs/costofnativedev.png  used on input line 37.
@@ -2354,18 +2353,18 @@ Package pdftex.def Info: figs/costofnativedev.png  used on input line 37.
 
 \openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
  [6{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/
 texlive/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texlive/texmf-dist/
 fonts/enc/dvips/lm/lm-mathsy.enc} <./figs/costofnativedev.png>] (./matter.mw.mw
 )
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -2459,7 +2458,8 @@ fonts/enc/dvips/lm/lm-mathsy.enc} <./figs/costofnativedev.png>] (./matter.mw.mw
 
 \openout4 = `matter.mw.mw'.
 
- [8] (./matter.mw.mw)
+ [8]
+(./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -2478,11 +2478,15 @@ fonts/enc/dvips/lm/lm-mathsy.enc} <./figs/costofnativedev.png>] (./matter.mw.mw
 
 \openout4 = `matter.mw.mw'.
 
-<figs/costofcross.png, id=275, 398.7529pt x 213.64026pt>
+<figs/costofcross.png, id=292, 398.7529pt x 213.64026pt>
 File: figs/costofcross.png Graphic file (type png)
 <use figs/costofcross.png>
 Package pdftex.def Info: figs/costofcross.png  used on input line 154.
 (pdftex.def)             Requested size: 226.48395pt x 121.34264pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -2519,7 +2523,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--176
 
 \openout4 = `matter.mw.mw'.
 
-[9 <./figs/costofcross.png>] (./matter.mw.mw)
+[9] (./matter.mw.mw)
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+ [10 <./figs/costofcross.png>] (./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -2538,14 +2547,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--176
 
 \openout4 = `matter.mw.mw'.
 
-<figs/tradicionalBack.png, id=293, 257.5221pt x 144.0582pt>
+<figs/tradicionalBack.png, id=316, 257.5221pt x 144.0582pt>
 File: figs/tradicionalBack.png Graphic file (type png)
 <use figs/tradicionalBack.png>
 Package pdftex.def Info: figs/tradicionalBack.png  used on input line 196.
 (pdftex.def)             Requested size: 226.48395pt x 126.69685pt.
 \openout4 = `matter.mw.mw'.
 
- [10] (./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -2568,16 +2576,14 @@ Package pdftex.def Info: figs/tradicionalBack.png  used on input line 196.
 
 \openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-<figs/firebaseback.png, id=305, 200.6697pt x 129.8451pt>
+<figs/firebaseback.png, id=324, 200.6697pt x 129.8451pt>
 File: figs/firebaseback.png Graphic file (type png)
 <use figs/firebaseback.png>
 Package pdftex.def Info: figs/firebaseback.png  used on input line 210.
 (pdftex.def)             Requested size: 226.48395pt x 146.5568pt.
-\openout4 = `matter.mw.mw'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter.mw.mw'.
 
@@ -2589,17 +2595,12 @@ Package pdftex.def Info: figs/firebaseback.png  used on input line 210.
 
 \openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
- [11 <./figs/tradicionalBack.png (PNG copy)> <./figs/firebaseback.png (PNG copy
-)>]
-(./matter.mw.mw)
+[11 <./figs/tradicionalBack.png (PNG copy)>] (./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
+ [12 <./figs/firebaseback.png (PNG copy)>] (./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -2648,17 +2649,6 @@ Package pdftex.def Info: figs/firebaseback.png  used on input line 210.
 
 \openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
- [12] (./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -2700,28 +2690,8 @@ Package pdftex.def Info: figs/firebaseback.png  used on input line 210.
 
 \openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
  [14]
 (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -2787,7 +2757,15 @@ Package pdftex.def Info: figs/firebaseback.png  used on input line 210.
 
 \openout4 = `matter.mw.mw'.
 
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
  [16] (./matter.mw.mw)
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -2826,6 +2804,22 @@ Package pdftex.def Info: figs/firebaseback.png  used on input line 210.
 
 \openout4 = `matter.mw.mw'.
 
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
  [18] (./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
@@ -2839,59 +2833,7 @@ Package pdftex.def Info: figs/firebaseback.png  used on input line 210.
 
 \openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
  [19] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -2934,6 +2876,38 @@ Package pdftex.def Info: figs/firebaseback.png  used on input line 210.
 
 \openout4 = `matter.mw.mw'.
 
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
  [21] (./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
@@ -2955,47 +2929,11 @@ Package pdftex.def Info: figs/firebaseback.png  used on input line 210.
 
 \openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
  [22] (./matter.mw.mw)
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -3046,7 +2984,80 @@ Package pdftex.def Info: figs/firebaseback.png  used on input line 210.
 
 \openout4 = `matter.mw.mw'.
 
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
  [24] (./matter.mw.mw)
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+ [25] (./matter.mw.mw)
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -3060,11 +3071,112 @@ Package pdftex.def Info: figs/firebaseback.png  used on input line 210.
 )
 \openout4 = `matter.mw.mw'.
 
- [25] (./matter.mw.mw)
+ [26]
+(./matter.mw.mw)
+\openout4 = `matter.mw.mw'.
+
+\openout2 = `chapters/chapter4.aux'.
+
+ (./chapters/chapter4.tex
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+ [27
+
+
+
+
+] (./matter.mw.mw)
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+ [28]
+(./matter.mw.mw)
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+ [29] (./matter.mw.mw)
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+<figs/architectureDiagram.png, id=644, 1780.6525pt x 533.995pt>
+File: figs/architectureDiagram.png Graphic file (type png)
+<use figs/architectureDiagram.png>
+Package pdftex.def Info: figs/architectureDiagram.png  used on input line 112.
+(pdftex.def)             Requested size: 452.9679pt x 135.83691pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\openout4 = `matter.mw.mw'.
+
+[30] (./matter.mw.mw)
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+)
+\openout4 = `matter.mw.mw'.
+
+ [31 <./figs/architectureDiagram.png>] (./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-07.
+10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -3078,7 +3190,7 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 \openout4 = `matter.mw.mw'.
 
- [26
+ [32
 
 
 
@@ -3089,48 +3201,53 @@ Package microtype Info: Character `029' is missing
 \openout4 = `matter.mw.mw'.
 
 
-[27] (./matter.mw.mw)
+[33] (./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
 
- [28] (./matter.mw.mw)
+ [34] (./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
 
- [29] (./matter.mw.mw)
+ [35] (./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
 []\T1/lmr/m/it/9 (+20) Lisbon bas-ket-ball courts\T1/lmr/m/n/9 (+20) . [On-line
 ]. Avail-able: []$\T1/lmtt/m/n/9 https : / / chatgpt . com / s / t _
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 407--407
+Underfull \hbox (badness 4940) in paragraph at lines 410--410
 []\T1/lmr/m/it/9 (+20) Lisbon bas-ket-ball courts games\T1/lmr/m/n/9 (+20) . [O
 n-line]. Avail-able: []$\T1/lmtt/m/n/9 https : / / chatgpt . com / s / t _
  []
 
 \openout4 = `matter.mw.mw'.
 
-[30] (./matter.mw.mw)
+[36] (./matter.mw.mw)
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+ [37] (./matter.mw.mw)
 \openout4 = `matter.mw.mw'.
 
 \openout2 = `chapters/appendix-more.aux'.
 
  (./chapters/appendix-more.tex)
-pdfTeX warning (ext4): destination with the same identifier (name{page.30}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.37}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.418 \include{chapters/appendix-more}
+l.421 \include{chapters/appendix-more}
                                       
 \openout4 = `matter.mw.mw'.
 
- [30
+ [37
 
 
 
@@ -3138,7 +3255,7 @@ l.418 \include{chapters/appendix-more}
 \openout4 = `matter.mw.mw'.
 
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 418.
+e 421.
 \tf@toc=\write26
 \openout4 = `matter.toc'.
 
@@ -3435,6 +3552,55 @@ e 418.
 
 \openout4 = `matter.mw.mw'.
 
+) (./chapters/chapter4.aux
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
+\openout4 = `matter.mw.mw'.
+
 )
 \openout4 = `matter.mw.mw'.
 
@@ -3448,7 +3614,8 @@ e 418.
 
 \openout4 = `matter.mw.mw'.
 
- (./chapters/appendix-more.aux
+
+(./chapters/appendix-more.aux
 \openout4 = `matter.mw.mw'.
 
 \openout4 = `matter.mw.mw'.
@@ -3684,6 +3851,8 @@ figs/costofnativedev.png
 figs/costofcross.png
 figs/tradicionalBack.png
 figs/firebaseback.png
+chapters/chapter4.tex
+figs/architectureDiagram.png
   t1lmtt.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
 chapters/appendix-more.tex
  ***********
@@ -3709,13 +3878,13 @@ Package logreq Info: Writing requests to 'matter.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52174 strings out of 476034
- 1055648 string characters out of 5792864
- 2232937 words of memory out of 6000000
- 71152 multiletter control sequences out of 15000+600000
- 610591 words of font info for 258 fonts, out of 8000000 for 9000
+ 52320 strings out of 476034
+ 1059544 string characters out of 5792863
+ 2238774 words of memory out of 6000000
+ 71234 multiletter control sequences out of 15000+600000
+ 611378 words of font info for 265 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 99i,17n,94p,2978b,2911s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,17n,94p,2978b,2927s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/lm/lmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
@@ -3733,10 +3902,10 @@ public/lm/lmri9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmsy10
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/zapfding/uzdr.pfb>
-Output written on matter.pdf (42 pages, 860336 bytes).
+Output written on matter.pdf (49 pages, 935615 bytes).
 PDF statistics:
- 995 PDF objects out of 1000 (max. 8388607)
- 879 compressed objects within 9 object streams
- 207 named destinations out of 1000 (max. 500000)
- 49958 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1130 PDF objects out of 1200 (max. 8388607)
+ 1003 compressed objects within 11 object streams
+ 235 named destinations out of 1000 (max. 500000)
+ 50027 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -103,17 +103,17 @@ These data sources, also included in the data layer, are responsible of working 
 The optional Domain Layer, sits between the UI and Data layers, encapsulating complex business logic or simpler logic which is reused by multiple view models.
 Classes on this layer are usually called "use cases" or "interactors" being responsible for a single functionality or user story.
 
-For this project it was followed this guide and, besides that, it will use the Model-View-Model (MVVM) pattern, where there is a clear separation between the logic and the UI, enabling a better development, testing and a clean code base.
+For this project it was followed this guide and, besides that, it will follow a Model-View-Model (MVVM) pattern, where there is a clear separation between the logic and the UI, enabling a better development, testing and a clean code base.
 The View is responsible for the UI and the presentation to the user, it informs the ViewModel of user actions, and observes the ViewModel states, not contain any application logic, while the ViewModel exposes the data that the View is observing, serving a link between the Model and the View. Finally, the Model abstracts the data sources, working together with ViewModel to get and save data, has the business logic of the application. This can be represented in the layers, with the UI components being the View, and the Domain and Data layer being the Model. 
 
 \begin{figure}[h]
 	\caption{Architecture Diagram of the Multiplatform Application}
 	\centering
-	\includegraphics[width=1\textwidth]{figs/architectureDiagram}
+	\includegraphics[width=0.5\textwidth]{figs/architectureDiagram}
 	\label{fig:architecture}
 \end{figure}
 
-The Figure \ref{fig:architecture} represents the project's architecture and some technologies that will be used, decided after the gathering of requirements.
+The Figure \ref{fig:architecture} represents the project's architecture where is also possible to see some technologies that will be used, decided after the development of requirements.
 In the Presentation Layer there is the UI components will be developed using Compose Multiplatform, and  the ViewModel, classes that hold states of the application and exposes them to the View.
 The ViewModel will call the Use Cases, in the Domain Layer which use entities and the repositories interfaces to connect with the data layer. 
 Here will be use Kotlin Multiplatform taking advantage of the native capabilities while working in both Android and iOS.
@@ -121,12 +121,10 @@ Here will be use Kotlin Multiplatform taking advantage of the native capabilitie
 In the Data layer, there are the repositories, as the guide mentions\cite{guideArchitecture} which will work with a local and an external data source.
 The local data source will be Room\cite{room}  that is part of Android Jetpack suite, making a good option for this project, being an abstraction of SQLite database, that integrates naturally with flows and coroutines, providing a annotation-based API.
 Compare to SQLDelight, a considerable option, it has slight more boilerplate with entities and DAOs, and less control over raw SQL, making debugging complex queries harder. 
-
 For the external data source it will be use the Supabase, an open source MBaaS with several services available that will help with the project, including PostgreSQL Database that can handle complex relationship connections while offering built-in realtime features for realtime updates.
 Besides that, it has authentication, storage, and server-side functions, however, lacks native push notifications and mobile analytics, which forces third-party tools integrations.
 Supabase can be self-hosted or use theirs services that has different pricing options, with the free tier being enough for this project, as it has a limit of 50,000 monthly active users.
 Comparing to others, it is not a "black box" being easy to debug and  has less vendor lock-in, with a PostgresSQL database it can be run anywhere and can be exported.
-
 Using Ktor to communicate with Supabase being a  standard and recommend HTTP client, with multiple examples from Google, Jetbrains and other communities using Ktor as example in Kotlin Multiplatform projects.
 Another good option would be the Supabase Kotlin Client, however, this would make the application dependable on Supabase and if later the MBaaS was to be replaced, it would be more complex to migrate.
 With this, a little more code needs to be developed with Ktor, than Supabase Kotlin Client, but ideal to not get vendor lock-in.

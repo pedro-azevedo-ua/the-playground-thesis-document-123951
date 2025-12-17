@@ -13,34 +13,95 @@ After her, Neemias Queta was drafted to the NBA in 2021, being the first Portugu
 Besides not being the most valuable player in his team in the USA, he played an important role with the National team in second appearance in the EuroBasket tournament in 2025.
 In this campaign, the Portuguese team made a surprise performance, passing through the group phase and then, confronting the German team.
 In this game the Portuguese team was holding up until the last quarter, where the world champions and the winners of the EuroBasket 2025 took the victory.
-After the first victory in the EuroBasket, Neemias mentioned that it was a great moment fo the sport in Portugal and wants the sport to grow more in Portugal.\cite{neemias}
-To help with this goal, a survey was made in order to understand how players and basketball enthusiasts use the public basketball courts, the frequency, and the problems.
+After the first victory in the EuroBasket, Neemias mentioned that it was a great moment for the sport in Portugal and wants the sport to grow more in Portugal.\cite{neemias}
+%To help with this goal, a survey was made in order to understand how players and basketball enthusiasts use the public basketball courts, the frequency, and the problems.
+
+
+According to data from the \textit{Instituto Português do Desporto e Juventude} (IPDJ), the Portuguese Basketball Federation registered 31,359 federated athletes in 2024, ranking it as the fifth most practiced federated sport in Portugal, following football, swimming, volleyball, and handball~\cite{ipdj2025stats}.
+
+While the COVID-19 pandemic caused a generalized decline in participation across all sports, basketball has shown a steady, albeit moderate, recovery. However, unlike some of its counterparts, it has not yet fully surpassed its historical peak numbers.
+
+Figure~\ref{fig:ipdjstats} illustrates these evolutionary trends from 2013 to 2024 for the top federated sports, excluding football. Football remains a distinct outlier with 238,441 athletes—nearly double that of swimming, the second-most practiced sport—and is omitted to maintain the readability of the comparative scale for the remaining modalities.
+
+According to data from the \textit{Instituto Português do Desporto e Juventude} (IPDJ) the Portuguese Basketball Federation registered 31,359 federated athletes in 2024, ranking it as the fifth sport most practised federated sport in Portugal, following football, swimming, volleyball and handball\cite{ipdj2025stats}.
+While the COVID-19 pandemic caused a generalized decline in participation across almost all sports, basketball has shown a steady recovery
+However, unlike counterparts, it has not surpass its historical peak numbers.
+The Figure \ref{fig:ipdjstats} illustrates these evolutionary trends from 2013 to 2024 for the top federated sports, excluding football, this remains a distinct outlier with 238,441 athletes in 2024, nearly the double that of swimming, and is omitted to maintain the readability of the comparative scale for the remaining modalities.
+
+\begin{figure}[h]
+	\caption{Evolution of federated athletes in Portugal's top sports (excluding football) from 2013 to 2024. Data source: IPDJ\cite{ipdj2025stats}}
+	\centering
+	\includegraphics[width=1\textwidth]{figs/ipdj_stats}
+	\label{fig:ipdjstats}
+\end{figure}
+
 
 \section{Problem Statement}\label{sec:problem}
 
-After a some conversations with few basketball players and leaning heavily in a survey responses, basketball players and enthusiasts wish to go more often to public courts.
-Besides time constraints, this two scenarios and the following complains are in these players mind:
 
-\paragraph{Key Scenarios}
+As a recurrent casual basketball player who frequents public courts with friends to play against other players, I usually encounter issues that degrade the overall experience.
+The most salient one is the uncertainty regarding how many players will be present at a given court, sometimes there are not enough players to form teams, other times there are too many players for the available court space, and other there is a good number of players.
+
+To validate these observations, I conducted a survey for players who frequent attend public courts, gathering 50 responses.
+This reveal several challenges:
+
 \begin{itemize}
-	\item \textbf{Insufficient players}: people arrive to play but cannot form a team because not enough players are present;
-	\item \textbf{Overcrowding}: courts are full, forcing players to wait or leave.
+	\item 22 players (44\%) report not knowing enough people to player with.
+	\item 11 players (22\%) say that court location is a barrier to play more frequently.
+	\item 10 players (20\%) complain that nobody is at the court when they arrive.
+	\item 8 players (16\%) complain that the court is always overcrowded.
 \end{itemize}
 
-\paragraph{Common annoyances reported}
-\begin{itemize}
-	\item Poor or unpredictable court conditions;
-	\item Courts that are either empty or overcrowded;
-	\item Social problems between players, including aggressive or unpleasant behaviour, individualistic style, and mismatched competitiveness (players who do not take the game seriously or whose skill and attitude creates a poor experience).
-\end{itemize}
+Notably, contradictory complaints emerge from players who frequent the same courts, some report arriving to empty courts while others experience overcrowding.
+This apparent paradox reflects temporal misalignment, these players visit at different times without knowing the others intentions or schedules.
+In practice, court usage fluctuates throughout the day and week, and the occupancy depends strongly when and where each player decides to go.
+This suggest a lack of initiative or communication mechanism to coordinate games and choose the right place and time to go to a court according to the player's preference.
+Players have limit information about who is planning to go to which court and when, causing a bad experience and low motivation to go back to the same court.
 
-These issues point to a coordination and information problem.
-Basketball players lack a platform to discover, schedule and evaluate informal games, and to verify court availability and condition.
-As a result, players often waste time visiting courts with unsatisfiable condition, which decreases participation and lower quality of both social and sporting experience.
+Players also report poor court conditions, and social problems between players, including aggressive or unpleasant behaviour, individualistic style and mismatched competitiveness (players who do not take the game as seriously as the others and whose skill and attitude creates poor experience for the others).
+
+From this analysis, it can be concluded that basketball players who want to go to public courts and play casual amateur games or practice alone, lack a shared reliable channel to signal intentions or to observe the occupancy in advance, or even to organize games, leading to individual and independent decisions that collectively result in inefficient usage of public court, missed opportunities for casual games, and fewer motivation to play basketball.
 
 \section{Proposed Solution}\label{subsec:proposed-solution}
 
-The proposed solution is to design and implement a digital platform that addresses the coordination and information gaps in amateur basketball in public courts, by focusing on two primary features:
+The proposed solution is to develop a digital platform where amateur basketball players can organise casual games in advance and check court availability to plan when and where to play.
+This platform improves upon the current fragmented coordination by making players' intentions visible, enabling them to find each other and use public courts more efficiently. 
+
+
+
+Development and initial maintenance of the platform will be conducted by the author, with institutional supervision provided by the University of Aveiro as the core component of the Master in Informatics Engineering dissertation.
+
+Upon completion of this project, the platform's future operation will depend on demonstrated value, community interest and available resources.
+Potential path forward include commercialisation as a start-up or adoption as a municipal public service tool, looking for partnerships and sponsorships.
+
+In the initial phases the platform will be free, with no fees, subscriptions or advertisements prioritizing accessibility and removing any friction to entry, which is critical for a community centred platform and for validating the product.
+However, in case the platform requiring long-term operation, a \textit{freemium} model is the most suitable option for sustainability, giving all users the base features for free and extra premium features, keeping the platform mission.
+This premium features will be based on users' feedback.
+
+In order for this platform to work, it needs to have a big number of active users, a community needs to be formed.
+For that, one approach is to launch the application in few courts, and when players the frequent these courts are active, expanding to others, giving incentives to the already active players to go to other courts and spread the platform, through \textit{gamification}.
+The first users will be invited to use the platform through social network groups, personal communication in the first courts, and an initial public tournament organized through the platform where participants must create an account.
+The primary objective is for the platform to be use in Portugal, starting with Lisbon.
+
+To keep user's engagement, the platform will use a gamification model using leaderboards, and for different courts to incentive players to go conquer the other courts giving life to other courts and not overcrowd the others, by spreading players.
+Also the use of notifications to inform about new games, friends' activity, giving challenges, badges and achievements,  rewards if partnerships are achieved, and keep bringing platform updates and novelties.
+
+To prevent misuse and maintain a trust environment, the platform will implement foundational safeguard from the start.
+First, accountability is established through linking account to a verified email address and phone number, discouraging disposable accounts and anonymous abuse.
+Second, the platform empowers the community to self-regulate using reporting and endorsement mechanism.
+A user reporting system allows players to flag inappropriate content or concerning behaviour for review.
+Complementing this, a peer-endorsement system enables players to recognise each other for positive qualities such as reliability, fair play, and good sportsmanship.
+This positive only approach builds trust without creating punitive scoring system that could discourage less skilled players and vindictive behaviour. 
+Users that organise regular games and have positive feedback receive a badge for verification.
+
+Technical safeguards ensure information quality and prevent manipulation. 
+Geolocation verification is using during check-in to confirm physical presence at a court, preventing false occupancy reporting.
+Players are able to decide you sees their location information, to prevent stalking.
+Finally, restricting the number of games a user can create per day to prevent spam and platform manipulation.
+
+
+
+The proposed solution will focus on two primary features:
 
 \begin{description}
 	\item [Informal Games] ``Pickup games''\footnote{``Pickup games'' is the name used by basketball players to call a game without a formal organization (not in a league, no referee, no strick rules)} -
@@ -66,3 +127,5 @@ The proposed solution is to design and implement a digital platform that address
 		\item Display short weather summary for the court location (optional)
 	\end{itemize}
 \end{description}
+
+These features work integrate with the gamification, community-building, and trust mechanisms decribed above, creating an integrated platform that reduces coordination friction while maintaining the social and competitive dimensions that define casual basketball culture.

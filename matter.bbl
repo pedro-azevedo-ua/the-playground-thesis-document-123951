@@ -20,8 +20,8 @@
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
     \entry{fiba}{misc}{}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labeltitlesource}{title}
       \field{title}{FIBA World Ranking for Men presented by NIKE- FIBA Basketball}
       \verb{urlraw}
@@ -32,8 +32,8 @@
       \endverb
     \endentry
     \entry{ticha}{misc}{}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labeltitlesource}{title}
       \field{title}{Ticha Penicheiro no Women's Basketball Hall of Fame}
       \verb{urlraw}
@@ -44,8 +44,8 @@
       \endverb
     \endentry
     \entry{neemias}{misc}{}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{«É um bom momento para o basquetebol em Portugal, queremos mais espaço» | MAISFUTEBOL}
       \verb{urlraw}
@@ -55,9 +55,42 @@
       \verb https://maisfutebol.iol.pt/basquetebol/selecao/e-um-bom-momento-para-o-basquetebol-em-portugal-queremos-mais-espaco
       \endverb
     \endentry
+    \entry{ipdj2025stats}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=73737abf19412d77d804f0da15fd6ac6}{%
+           family={Desporto\bibnamedelimb e\bibnamedelima Juventude},
+           familyi={D\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Instituto\bibnamedelima Português},
+           giveni={I\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={do},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{73737abf19412d77d804f0da15fd6ac6}
+      \strng{fullhash}{73737abf19412d77d804f0da15fd6ac6}
+      \strng{fullhashraw}{73737abf19412d77d804f0da15fd6ac6}
+      \strng{bibnamehash}{73737abf19412d77d804f0da15fd6ac6}
+      \strng{authorbibnamehash}{73737abf19412d77d804f0da15fd6ac6}
+      \strng{authornamehash}{73737abf19412d77d804f0da15fd6ac6}
+      \strng{authorfullhash}{73737abf19412d77d804f0da15fd6ac6}
+      \strng{authorfullhashraw}{73737abf19412d77d804f0da15fd6ac6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Excel spreadsheet (v.2025-10-27)}
+      \field{note}{Accessed: 2025-12-16}
+      \field{title}{Estatísticas e Dados do Desporto}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://ipdj.gov.pt/estatisticas
+      \endverb
+      \verb{url}
+      \verb https://ipdj.gov.pt/estatisticas
+      \endverb
+    \endentry
     \entry{statcount}{misc}{}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{Mobile Operating System Market Share Portugal | Statcounter Global Stats}
       \verb{urlraw}
@@ -174,8 +207,8 @@
       \strng{authornamehash}{cf24aed504d06223d118958b78c7e89d}
       \strng{authorfullhash}{b58586087f4e92f05ef84a2025faf8b5}
       \strng{authorfullhashraw}{b58586087f4e92f05ef84a2025faf8b5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Developing the same mobile app for multiple platforms is a prominent challenge for practitioners in mobile software development. When starting an app project, practitioners are faced with a plethora of development approaches to choose from. Progressive Web Apps (PWAs) are a novel and promising approach for mobile cross-platform development (MCPD). As mobile devices are limited regarding battery capacity, the energy footprint of a mobile app should be kept as low as possible. Thus, the aim of this study is to analyze the difference in energy consumption of PWAs and other mobile development approaches with a focus on UI rendering and interaction scenarios. For this, we implemented five versions of the same app with different development approaches and examined their energy footprint on two Android devices with four execution scenarios. The results show that the used development approach influences the energy footprint of a mobile app. Native development shows the lowest energy consumption. PWAs, albeit not the lowest energy consuming mobile development approach, are a viable alternative to other MCPD approaches. Moreover, the web-browser engine used to execute the PWA has a significant influence on the energy footprint of the app. © 2021, Springer Nature Switzerland AG.}
@@ -222,8 +255,8 @@
       \strng{authornamehash}{94223a1046990f41833c7bf4abffb815}
       \strng{authorfullhash}{94223a1046990f41833c7bf4abffb815}
       \strng{authorfullhashraw}{94223a1046990f41833c7bf4abffb815}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Growing use of the cell phones and tablets over the computer for humans’ daily life has increased the development of mobile apps. Different paradigms have been introduced to develop a mobile app. Up till now, the major paradigms have been introduced are native apps, hybrid apps, web app and the new trend namely progressive web app (PWA). Each methodology has its pros and cons. This paper discusses about native development issues and how web app aimed to solve these problems. The hybrid apps will be discussed as a solution of cross-platform development problem of native apps.  In addition, problems of web apps and the gap between web app and native apps will be introduced. PWA is supposed to bridge the gap between native apps and web apps. The main technologies –service worker- will also be discussed.  }
@@ -417,8 +450,8 @@
       \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authorfullhashraw}{8b36e9207c24c76e6719268e49201d94}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Jetpack Compose UI App Development Toolkit - Android Developers}
@@ -444,8 +477,8 @@
       \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authorfullhashraw}{8b36e9207c24c76e6719268e49201d94}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Material Design 3 - Google's latest open source design system}
@@ -471,8 +504,8 @@
       \strng{authorfullhash}{b6a77f3f5bead76a495a90d63703e1f9}
       \strng{authorfullhashraw}{b6a77f3f5bead76a495a90d63703e1f9}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Compose Multiplatform – Beautiful UIs Everywhere}
@@ -502,8 +535,8 @@
       \strng{authornamehash}{36c3fe777fc1b983e7dcc2b8976e692f}
       \strng{authorfullhash}{36c3fe777fc1b983e7dcc2b8976e692f}
       \strng{authorfullhashraw}{36c3fe777fc1b983e7dcc2b8976e692f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -530,8 +563,8 @@
       \strng{authornamehash}{0205beaf3c1ad4d288075b7556347fdf}
       \strng{authorfullhash}{0205beaf3c1ad4d288075b7556347fdf}
       \strng{authorfullhashraw}{0205beaf3c1ad4d288075b7556347fdf}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Firebase is a Cloud-hosted, NoSQL database that uses a document-model. It can be horizontally scaled while letting you store and synchronize data in real-time among users. This is great for applications that are used across multiple devices such as mobile applications. Firebase is optimized for offline use with strong user-based security that allows for serverless based apps as well. Firebase is built on the Google infrastructure and is built to scale automatically. In addition to standard NoSQL database functionality, Firebase includes analytics, authentication, performance monitoring, messaging, crash reporting and much more. Because it is a Google product, there is also integration into a lot of other products. This includes integration with Google Ads, AdMob, Google Marketing Platform, the Play Store, Data Studio, BigQuery, Slack, Jira, and more. The Firebase APIs are packaged into a single SDK that can be expanded to multiple platforms and languages. This includes C++ and Unity, which are both popular for mobile development.}
@@ -669,8 +702,8 @@
       \strng{authornamehash}{ad0a495a6e2fc16e73832d06cddd1540}
       \strng{authorfullhash}{026518339c3b78fe03c52a0d04f7919b}
       \strng{authorfullhashraw}{026518339c3b78fe03c52a0d04f7919b}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Artificial Intelligence, Data Science, and Machine Learning}
@@ -707,8 +740,8 @@
       \strng{authornamehash}{6df19a717a9856cbce90632924b10b51}
       \strng{authorfullhash}{6df19a717a9856cbce90632924b10b51}
       \strng{authorfullhashraw}{6df19a717a9856cbce90632924b10b51}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Mobile chat applications used within intranet-based environments often struggle with inconsistent, unstable, or unavailable internet connectivity, causing interruptions that significantly impact the user's experience (communication). This paper introduces an offline-first architecture designed explicitly for Android-based chat systems operating on the intranet, such as those available on cruise ships. By integrating local data storage using Android's database (either Room or SQLite), innovative caching strategies, and optimized sync techniques, the approach proposed ensures stable, consistent, and smooth messaging even during extended periods without connectivity. We have implemented and thoroughly tested this solution in simulated intranet environments, confirming its reliability and stability in maintaining a reliable network for exchanging messages, minimizing sync conflicts, and delivering a smooth user experience. The results highlight clear benefits, making the architecture highly compatible with Android developers and aiming to improve application stability and performance in cases with limited or intermittent network availability. 1. Introduction Over the past decade, mobile chat applications have become integral to effective communication in many industries, including entertainment, hospitality, e-commerce, and corporate environments [5]. Typically, these chat applications depend on stable internet connections to provide smooth and real-time messaging capabilities [6]. However, consistent internet connectivity isn't always guaranteed, particularly in intranet-based or isolated environments like cruise ships, remote sites, or event venues [7]. When connectivity is limited or disrupted, conventional chat systems struggle to maintain reliable service, resulting in user frustration and operational inefficiencies [8]. To overcome these limitations, an offline-first architecture has become essential. Unlike traditional applications, offline-first solutions prioritize local data storage and functionality, allowing apps to operate seamlessly even without active internet connections. Once connectivity resumes, stored data is synchronized with backend servers, maintaining consistency and continuity [9]. Android, the dominant mobile operating system globally, offers tools and libraries-such as Room Database for local data persistence [2] and WorkManager for background synchronization [10]-which effectively support offline-first design. In this paper, we describe the implementation of an offline-first architecture tailored explicitly for Android-based chat applications operating within closed intranet environments. Our approach utilizes locally cached data, efficient message queuing, and optimized synchronization algorithms, ensuring uninterrupted messaging capability irrespective of external network conditions [3] .}
@@ -856,8 +889,8 @@
       \strng{authornamehash}{d7675d104699114cf794a50fc86fcded}
       \strng{authorfullhash}{d7675d104699114cf794a50fc86fcded}
       \strng{authorfullhashraw}{d7675d104699114cf794a50fc86fcded}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -885,8 +918,8 @@
       \strng{authornamehash}{206e3718af092fd1d12f80cae771ccac}
       \strng{authorfullhash}{206e3718af092fd1d12f80cae771ccac}
       \strng{authorfullhashraw}{206e3718af092fd1d12f80cae771ccac}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -914,8 +947,8 @@
       \strng{authornamehash}{e111446745a1825b862f8727ae63bce4}
       \strng{authorfullhash}{e111446745a1825b862f8727ae63bce4}
       \strng{authorfullhashraw}{e111446745a1825b862f8727ae63bce4}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -944,8 +977,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -974,8 +1007,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1150,8 +1183,8 @@
       \endverb
     \endentry
     \entry{LastWriteWin}{misc}{}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labeltitlesource}{title}
       \field{title}{Conflict Resolution}
       \verb{urlraw}
@@ -1175,8 +1208,8 @@
       \strng{authornamehash}{e84e30b9390cdb64db6db2c9ab87846d}
       \strng{authorfullhash}{e84e30b9390cdb64db6db2c9ab87846d}
       \strng{authorfullhashraw}{e84e30b9390cdb64db6db2c9ab87846d}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1206,8 +1239,8 @@
       \strng{authornamehash}{8c1c116768386554ee97f9c439ba8058}
       \strng{authorfullhash}{8c1c116768386554ee97f9c439ba8058}
       \strng{authorfullhashraw}{8c1c116768386554ee97f9c439ba8058}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1236,8 +1269,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1386,8 +1419,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{8}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1416,8 +1449,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{9}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1446,8 +1479,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{10}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1476,8 +1509,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{11}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1492,8 +1525,8 @@
       \endverb
     \endentry
     \entry{supabase}{misc}{}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{Supabase}
       \verb{urlraw}
@@ -1632,8 +1665,8 @@
       \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
       \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
       \field{extraname}{4}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1662,8 +1695,8 @@
       \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
       \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
       \field{extraname}{5}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1692,8 +1725,8 @@
       \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
       \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
       \field{extraname}{6}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1708,8 +1741,8 @@
       \endverb
     \endentry
     \entry{ParseBack4App}{misc}{}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{What is Parse? | Back4App}
       \verb{urlraw}
@@ -1733,8 +1766,8 @@
       \strng{authornamehash}{c9ad95228aa735bdda1aebf38da022af}
       \strng{authorfullhash}{c9ad95228aa735bdda1aebf38da022af}
       \strng{authorfullhashraw}{c9ad95228aa735bdda1aebf38da022af}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}

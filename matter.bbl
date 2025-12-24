@@ -20,8 +20,8 @@
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
     \entry{fiba}{misc}{}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{title}{FIBA World Ranking for Men presented by NIKE- FIBA Basketball}
       \verb{urlraw}
@@ -32,8 +32,8 @@
       \endverb
     \endentry
     \entry{ticha}{misc}{}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{title}{Ticha Penicheiro no Women's Basketball Hall of Fame}
       \verb{urlraw}
@@ -44,8 +44,8 @@
       \endverb
     \endentry
     \entry{neemias}{misc}{}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labeltitlesource}{title}
       \field{title}{«É um bom momento para o basquetebol em Portugal, queremos mais espaço» | MAISFUTEBOL}
       \verb{urlraw}
@@ -73,8 +73,8 @@
       \strng{authornamehash}{73737abf19412d77d804f0da15fd6ac6}
       \strng{authorfullhash}{73737abf19412d77d804f0da15fd6ac6}
       \strng{authorfullhashraw}{73737abf19412d77d804f0da15fd6ac6}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Excel spreadsheet (v.2025-10-27)}
@@ -177,6 +177,61 @@
       \field{pages}{184}
       \range{pages}{1}
     \endentry
+    \entry{santos}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=741d7b016d249e91242ecbec6f9ab76f}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={André\bibnamedelima C},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c873a2c080fd05466a8d589374462355}{%
+           family={Tarrataca},
+           familyi={T\bibinitperiod},
+           given={Luís},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3a0ad65caee07ec6187f6bd8035d4598}{%
+           family={Cardoso},
+           familyi={C\bibinitperiod},
+           given={João\bibnamedelimb M\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7992454f34d6f024e5173075b2be6d24}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={Diogo\bibnamedelima R},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=633eb2dd0a947954f7f76444dca0d666}{%
+           family={Diniz},
+           familyi={D\bibinitperiod},
+           given={Pedro\bibnamedelima C},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=d7e3af3507d08109fbe7fb5c3ff07955}{%
+           family={Chainho},
+           familyi={C\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{648a23d466bdb40d781104d29d4655db}
+      \strng{fullhash}{1200612755c82574c175075ea9f9a6a2}
+      \strng{fullhashraw}{1200612755c82574c175075ea9f9a6a2}
+      \strng{bibnamehash}{1200612755c82574c175075ea9f9a6a2}
+      \strng{authorbibnamehash}{1200612755c82574c175075ea9f9a6a2}
+      \strng{authornamehash}{648a23d466bdb40d781104d29d4655db}
+      \strng{authorfullhash}{1200612755c82574c175075ea9f9a6a2}
+      \strng{authorfullhashraw}{1200612755c82574c175075ea9f9a6a2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The growing processing capabilities of mobile devices coupled with portable and wearable sensors have enabled the development of context-aware services tailored to the user environment and its daily activities. The problem of determining the user context at each particular point in time is one of the main challenges in this area. In this paper, we describe the approach pursued in the UPCASE project, which makes use of sensors available in the mobile device as well as sensors externally connected via Bluetooth. We describe the system architecture from raw data acquisition to feature extraction and context inference. As a proof of concept, the inference of contexts is based on a decision tree to learn and identify contexts automatically and dynamically at runtime. Preliminary results suggest that this is a promising approach for context inference in several application scenarios.}
+      \field{title}{Context Inference for Mobile Applications in the UPCASE Project}
+      \verb{urlraw}
+      \verb http://www.ist-esense.org/
+      \endverb
+      \verb{url}
+      \verb http://www.ist-esense.org/
+      \endverb
+      \keyw{Context-aware services,context inference,decision trees,smartphones,wearable sensors}
+    \endentry
     \entry{Huber2021}{article}{}{}
       \name{author}{3}{}{%
         {{hash=57da754fd27e260e33f3a3c7463accb3}{%
@@ -207,8 +262,8 @@
       \strng{authornamehash}{cf24aed504d06223d118958b78c7e89d}
       \strng{authorfullhash}{b58586087f4e92f05ef84a2025faf8b5}
       \strng{authorfullhashraw}{b58586087f4e92f05ef84a2025faf8b5}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Developing the same mobile app for multiple platforms is a prominent challenge for practitioners in mobile software development. When starting an app project, practitioners are faced with a plethora of development approaches to choose from. Progressive Web Apps (PWAs) are a novel and promising approach for mobile cross-platform development (MCPD). As mobile devices are limited regarding battery capacity, the energy footprint of a mobile app should be kept as low as possible. Thus, the aim of this study is to analyze the difference in energy consumption of PWAs and other mobile development approaches with a focus on UI rendering and interaction scenarios. For this, we implemented five versions of the same app with different development approaches and examined their energy footprint on two Android devices with four execution scenarios. The results show that the used development approach influences the energy footprint of a mobile app. Native development shows the lowest energy consumption. PWAs, albeit not the lowest energy consuming mobile development approach, are a viable alternative to other MCPD approaches. Moreover, the web-browser engine used to execute the PWA has a significant influence on the energy footprint of the app. © 2021, Springer Nature Switzerland AG.}
@@ -335,7 +390,7 @@
       \endverb
       \keyw{Cross-platform mobile development,Interpretation approach,Cloud computing,Compilation approach,Component-Based approach,Model-Driven Engineering}
     \endentry
-    \entry{10667693}{inproceedings}{}{}
+    \entry{10667693}{misc}{}{}
       \name{author}{2}{}{%
         {{hash=82005b5e4d20bda971e961b0aadc3fac}{%
            family={Zou},
@@ -369,6 +424,51 @@
       \verb 10.1109/ISCI62787.2024.10667693
       \endverb
       \keyw{Technological innovation;Navigation;Grasping;Programming;Mobile communication;Market research;Corona;Mobile Development Frameworks;Cross-platform Development;Framework Comparison}
+    \endentry
+    \entry{9908726}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=3036fb798a06c024b00da41392bf3ec5}{%
+           family={Phalake},
+           familyi={P\bibinitperiod},
+           given={Vaishali},
+           giveni={V\bibinitperiod}}}%
+        {{hash=3a6aab405a1515dbfc2f7337f867a95b}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Shashank},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b856a4c72d20b70c9fad7c4569accf1e}{%
+           family={Rade},
+           familyi={R\bibinitperiod},
+           given={Kuldip},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9337e5c0ce2914db6f40aae76e544202}{%
+           family={Phalke},
+           familyi={P\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{a122583a0868ad2bcf00fe868c8d27f1}
+      \strng{fullhash}{7fd5eb24a14d60fc46fe97bfeade289f}
+      \strng{fullhashraw}{7fd5eb24a14d60fc46fe97bfeade289f}
+      \strng{bibnamehash}{7fd5eb24a14d60fc46fe97bfeade289f}
+      \strng{authorbibnamehash}{7fd5eb24a14d60fc46fe97bfeade289f}
+      \strng{authornamehash}{a122583a0868ad2bcf00fe868c8d27f1}
+      \strng{authorfullhash}{7fd5eb24a14d60fc46fe97bfeade289f}
+      \strng{authorfullhashraw}{7fd5eb24a14d60fc46fe97bfeade289f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2022 2nd Asian Conference on Innovation in Technology (ASIANCON)}
+      \field{title}{Modernized Application Development Using Optimized Low Code Platform}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ASIANCON55314.2022.9908726
+      \endverb
+      \keyw{Visualization;Technological innovation;Codes;Databases;Source coding;Writing;User interfaces;Low Code Development Platform;Drag and Drop;Visual model;Digitized applications;Optimization}
     \endentry
     \entry{kmp}{misc}{}{}
       \name{author}{1}{}{%
@@ -417,8 +517,8 @@
       \strng{authornamehash}{3c25804d9a2d980ca417291cc9f58fc8}
       \strng{authorfullhash}{3c25804d9a2d980ca417291cc9f58fc8}
       \strng{authorfullhashraw}{3c25804d9a2d980ca417291cc9f58fc8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Kotlin Multiplatform Mobile (KMP) represents a strategic advancement in cross-platform development, addressing a long-standing challenge in mobile application engineering: achieving code reuse without sacrificing native performance. Unlike frameworks like Flutter or React Native, which abstract UI layers, KMP emphasizes sharing business logic while preserving platform-specific user experiences. This synthesis examines KMP's architectural design, repository structuring strategies, implementation best practices, and its broader ecosystem positioning. It dissects the expect/actual mechanism that elegantly bridges shared logic and platform-specific implementations. Practical considerations such as dependency injection, state management, and testing strategies are analyzed alongside challenges including build system complexity, platform API bridging, and ecosystem maturity. By evaluating these facets, the article positions KMP as a robust solution for mobile teams aiming to streamline cross-platform development without compromising on performance or user experience.}
@@ -544,6 +644,208 @@
       \field{title}{Kotlin Multiplatform Projects: Sharing Code Between Android, iOS, and the Web}
       \field{year}{2025}
     \endentry
+    \entry{agile-manifesto}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=2fa161072e0d5510aee19af0aece9fdd}{%
+           family={Lemos\bibnamedelima Meira},
+           familyi={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Sílvio\bibnamedelimb Romero\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=5985b8ebf8e9d57b2cb99e2e07f89593}{%
+           family={De\bibnamedelima Almeida},
+           familyi={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Eduardo\bibnamedelimb Santana\bibnamedelima D.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1b1033001089b6eb342237c4ff6cde9b}{%
+           family={Goulão},
+           familyi={G\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b73a2e9122b9918f84e7bdee76865489}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Carla},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ScienceDirect}%
+      }
+      \strng{namehash}{d57d5fdb354c1d43081261771cbbf7da}
+      \strng{fullhash}{22fa0e7eec1528126033fed5c9c32f60}
+      \strng{fullhashraw}{22fa0e7eec1528126033fed5c9c32f60}
+      \strng{bibnamehash}{22fa0e7eec1528126033fed5c9c32f60}
+      \strng{authorbibnamehash}{22fa0e7eec1528126033fed5c9c32f60}
+      \strng{authornamehash}{d57d5fdb354c1d43081261771cbbf7da}
+      \strng{authorfullhash}{22fa0e7eec1528126033fed5c9c32f60}
+      \strng{authorfullhashraw}{22fa0e7eec1528126033fed5c9c32f60}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Agile Manifesto}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/topics/computer-science/agile-manifesto
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/topics/computer-science/agile-manifesto
+      \endverb
+    \endentry
+    \entry{originalAgileMani}{online}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=c5dcbe71f60a8d55caa11fe1493614d0}{%
+           family={Beck},
+           familyi={B\bibinitperiod},
+           given={Kent},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b081a82bcbc247aeb2a2ca9ae72f9566}{%
+           family={Beedle},
+           familyi={B\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a3d49db7c8b6de036095a80d96ee1461}{%
+           family={Bennekum},
+           familyi={B\bibinitperiod},
+           given={Arie},
+           giveni={A\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0e8f5a23c6124fea7c2eb7da286ea5e}
+      \strng{fullhash}{313c39d432f5bfc7cc4b41bada35a724}
+      \strng{fullhashraw}{313c39d432f5bfc7cc4b41bada35a724}
+      \strng{bibnamehash}{313c39d432f5bfc7cc4b41bada35a724}
+      \strng{authorbibnamehash}{313c39d432f5bfc7cc4b41bada35a724}
+      \strng{authornamehash}{e0e8f5a23c6124fea7c2eb7da286ea5e}
+      \strng{authorfullhash}{313c39d432f5bfc7cc4b41bada35a724}
+      \strng{authorfullhashraw}{313c39d432f5bfc7cc4b41bada35a724}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Manifesto for Agile Software Development}
+      \field{year}{2001}
+      \verb{urlraw}
+      \verb https://agilemanifesto.org/
+      \endverb
+      \verb{url}
+      \verb https://agilemanifesto.org/
+      \endverb
+    \endentry
+    \entry{10795519}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=c8286b51ff95f9621be4248d8a6945bd}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={Alejandro\bibnamedelima Chacón},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6ab7a50145a42993adcccfc5d875e25f}{%
+           family={Flores},
+           familyi={F\bibinitperiod},
+           given={Itzel\bibnamedelimb Alessandra\bibnamedelima Reyes},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a32bb3c3fee8c78b960dc7ed37c44f1d}{%
+           family={Estrella},
+           familyi={E\bibinitperiod},
+           given={Ana\bibnamedelimb Luz\bibnamedelima Polo},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{229eaaa0678fd51d9a906bfcbb66af42}
+      \strng{fullhash}{94bb710f2741b8c2457c930dd628fb8a}
+      \strng{fullhashraw}{94bb710f2741b8c2457c930dd628fb8a}
+      \strng{bibnamehash}{94bb710f2741b8c2457c930dd628fb8a}
+      \strng{authorbibnamehash}{94bb710f2741b8c2457c930dd628fb8a}
+      \strng{authornamehash}{229eaaa0678fd51d9a906bfcbb66af42}
+      \strng{authorfullhash}{94bb710f2741b8c2457c930dd628fb8a}
+      \strng{authorfullhashraw}{94bb710f2741b8c2457c930dd628fb8a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2024 12th International Conference in Software Engineering Research and Innovation (CONISOFT)}
+      \field{title}{Agile User-Centered Development of Mobile Applications: A Systematic Literature Review}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/CONISOFT63288.2024.00012
+      \endverb
+      \keyw{Technological innovation;Prevention and mitigation;User centered design;Agile software development;Mobile communication;Mobile applications;Usability;Software tools;Software engineering;Application programming interfaces;agile software development;user-centered design;mobile applications}
+    \endentry
+    \entry{IxDF2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1ad0c43ad55827f1fd4811e3b0ca59a0}{%
+           family={{Interaction Design Foundation - IxDF}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \strng{fullhash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \strng{fullhashraw}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \strng{bibnamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \strng{authorbibnamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \strng{authornamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \strng{authorfullhash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \strng{authorfullhashraw}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: Nov.17, 2025}
+      \field{title}{What is User Centered Design (UCD)?}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/topics/user-centered-design
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/topics/user-centered-design
+      \endverb
+    \endentry
+    \entry{iso9241-210}{misc}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{ISO 9241-210:2019 - Ergonomics of human-system interaction — Part 210: Human-centred design for interactive systems}
+      \verb{urlraw}
+      \verb https://www.iso.org/standard/77520.html
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org/standard/77520.html
+      \endverb
+    \endentry
+    \entry{requirementsIDF}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1ad0c43ad55827f1fd4811e3b0ca59a0}{%
+           family={{Interaction Design Foundation - IxDF}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \strng{fullhash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \strng{fullhashraw}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \strng{bibnamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \strng{authorbibnamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \strng{authornamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \strng{authorfullhash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \strng{authorfullhashraw}{1ad0c43ad55827f1fd4811e3b0ca59a0}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: Nov.19, 2025}
+      \field{title}{What are Functional Requirements?}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/topics/functional-requirements
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/topics/functional-requirements
+      \endverb
+    \endentry
     \entry{DeCarli2023}{inbook}{}{}
       \name{author}{1}{}{%
         {{hash=0205beaf3c1ad4d288075b7556347fdf}{%
@@ -563,8 +865,8 @@
       \strng{authornamehash}{0205beaf3c1ad4d288075b7556347fdf}
       \strng{authorfullhash}{0205beaf3c1ad4d288075b7556347fdf}
       \strng{authorfullhashraw}{0205beaf3c1ad4d288075b7556347fdf}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Firebase is a Cloud-hosted, NoSQL database that uses a document-model. It can be horizontally scaled while letting you store and synchronize data in real-time among users. This is great for applications that are used across multiple devices such as mobile applications. Firebase is optimized for offline use with strong user-based security that allows for serverless based apps as well. Firebase is built on the Google infrastructure and is built to scale automatically. In addition to standard NoSQL database functionality, Firebase includes analytics, authentication, performance monitoring, messaging, crash reporting and much more. Because it is a Google product, there is also integration into a lot of other products. This includes integration with Google Ads, AdMob, Google Marketing Platform, the Play Store, Data Studio, BigQuery, Slack, Jira, and more. The Firebase APIs are packaged into a single SDK that can be expanded to multiple platforms and languages. This includes C++ and Unity, which are both popular for mobile development.}
@@ -583,7 +885,7 @@
       \verb https://learning.oreilly.com/library/view/build-mobile-apps/9781484294529/html/533376_1_En_2_Chapter.xhtml
       \endverb
     \endentry
-    \entry{inproceedings}{inproceedings}{}{}
+    \entry{Kuo}{inproceedings}{}{}
       \name{author}{4}{}{%
         {{hash=b8397266640ca235d848331d4efdc4d7}{%
            family={Kuo},
@@ -614,8 +916,8 @@
       \strng{authornamehash}{3488dd6cfca842594883bcb5b7a83acc}
       \strng{authorfullhash}{9b3bf23bfe36d65b81cec83c12813e9f}
       \strng{authorfullhashraw}{9b3bf23bfe36d65b81cec83c12813e9f}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -647,8 +949,8 @@
       \strng{authornamehash}{29135b061b1d7d87670b4928e3507290}
       \strng{authorfullhash}{29135b061b1d7d87670b4928e3507290}
       \strng{authorfullhashraw}{29135b061b1d7d87670b4928e3507290}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Abstract: If we see current scenario mobile users are rapidly increasing in a very large scale. Better performance and good visuals are needed while developing any mobile applications. In the current mobile market, there are various operating system which are supported by many mobile devices. . Since these platforms have different SDKs and tools for developing mobile applications, SDK tools will include a range of things, including libraries, documentation, code samples, processes, and different guides that developers can use and integrate/combined into their own apps. Cross platform development offers the flexibility for building applications using universal language like Javascript which can then be exported to numerous smartphone platforms. Firebase is a platform for mobile and web application with tools and infrastructure which allows developers to build high quality applications. Firebase consists of features that developers can use together to meet their needs. Earlier Firebase was used as a real-time database, which provides developers an API to sync and store data across various clients. Over time, it’s product has been expanded to become a full suite for an app development. Day by day new platform approaches are evolved. Firebase is also powerful API i.e Application Program Interface to sync and store data in realtime helping to build realtime apps for the web. It also takes care of most of the backend concerns and is dubbed a Backend as a Service (BaaS) and also pushes state to your application utilizing web sockets. Keywords: Android, iOS, Cross Platform Development, Flutter, Dart, Widgets, Firebase.}
@@ -665,8 +967,8 @@
       \endverb
     \endentry
     \entry{firebaseGoogle}{misc}{}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{title}{Firebase}
       \verb{urlraw}
@@ -702,8 +1004,8 @@
       \strng{authornamehash}{ad0a495a6e2fc16e73832d06cddd1540}
       \strng{authorfullhash}{026518339c3b78fe03c52a0d04f7919b}
       \strng{authorfullhashraw}{026518339c3b78fe03c52a0d04f7919b}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Artificial Intelligence, Data Science, and Machine Learning}
@@ -724,6 +1026,18 @@
       \verb https://ijaidsml.org/index.php/ijaidsml/article/view/148
       \endverb
     \endentry
+    \entry{dataLayer}{misc}{}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{title}{Data Layer}
+      \verb{urlraw}
+      \verb https://developer.android.com/topic/architecture/data-layer
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/topic/architecture/data-layer
+      \endverb
+    \endentry
     \entry{offlineFirst1}{article}{}{}
       \name{author}{1}{}{%
         {{hash=6df19a717a9856cbce90632924b10b51}{%
@@ -740,8 +1054,8 @@
       \strng{authornamehash}{6df19a717a9856cbce90632924b10b51}
       \strng{authorfullhash}{6df19a717a9856cbce90632924b10b51}
       \strng{authorfullhashraw}{6df19a717a9856cbce90632924b10b51}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Mobile chat applications used within intranet-based environments often struggle with inconsistent, unstable, or unavailable internet connectivity, causing interruptions that significantly impact the user's experience (communication). This paper introduces an offline-first architecture designed explicitly for Android-based chat systems operating on the intranet, such as those available on cruise ships. By integrating local data storage using Android's database (either Room or SQLite), innovative caching strategies, and optimized sync techniques, the approach proposed ensures stable, consistent, and smooth messaging even during extended periods without connectivity. We have implemented and thoroughly tested this solution in simulated intranet environments, confirming its reliability and stability in maintaining a reliable network for exchanging messages, minimizing sync conflicts, and delivering a smooth user experience. The results highlight clear benefits, making the architecture highly compatible with Android developers and aiming to improve application stability and performance in cases with limited or intermittent network availability. 1. Introduction Over the past decade, mobile chat applications have become integral to effective communication in many industries, including entertainment, hospitality, e-commerce, and corporate environments [5]. Typically, these chat applications depend on stable internet connections to provide smooth and real-time messaging capabilities [6]. However, consistent internet connectivity isn't always guaranteed, particularly in intranet-based or isolated environments like cruise ships, remote sites, or event venues [7]. When connectivity is limited or disrupted, conventional chat systems struggle to maintain reliable service, resulting in user frustration and operational inefficiencies [8]. To overcome these limitations, an offline-first architecture has become essential. Unlike traditional applications, offline-first solutions prioritize local data storage and functionality, allowing apps to operate seamlessly even without active internet connections. Once connectivity resumes, stored data is synchronized with backend servers, maintaining consistency and continuity [9]. Android, the dominant mobile operating system globally, offers tools and libraries-such as Room Database for local data persistence [2] and WorkManager for background synchronization [10]-which effectively support offline-first design. In this paper, we describe the implementation of an offline-first architecture tailored explicitly for Android-based chat applications operating within closed intranet environments. Our approach utilizes locally cached data, efficient message queuing, and optimized synchronization algorithms, ensuring uninterrupted messaging capability irrespective of external network conditions [3] .}
@@ -758,370 +1072,56 @@
       \endverb
       \keyw{Android Application,Intranet-Based Chat,Limited Connectivity,Local Caching,Offline-First Architecture,Room Database,Synchronization Algorithms}
     \endentry
-    \entry{chiriac2025nosql}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=99b38d2fc1c19d928d5859815bd40bc4}{%
-           family={Chiriac},
-           familyi={C\bibinitperiod},
-           given={Mario-Tudor},
-           giveni={M\bibinithyphendelim T\bibinitperiod}}}%
-      }
-      \strng{namehash}{99b38d2fc1c19d928d5859815bd40bc4}
-      \strng{fullhash}{99b38d2fc1c19d928d5859815bd40bc4}
-      \strng{fullhashraw}{99b38d2fc1c19d928d5859815bd40bc4}
-      \strng{bibnamehash}{99b38d2fc1c19d928d5859815bd40bc4}
-      \strng{authorbibnamehash}{99b38d2fc1c19d928d5859815bd40bc4}
-      \strng{authornamehash}{99b38d2fc1c19d928d5859815bd40bc4}
-      \strng{authorfullhash}{99b38d2fc1c19d928d5859815bd40bc4}
-      \strng{authorfullhashraw}{99b38d2fc1c19d928d5859815bd40bc4}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The aim of this article is to show the advantages of No-SQL databases compared to SQL (relational) databases. Traditionally, the concept of database is implicitly associated with relational databases, most often ignoring the huge potential that non-relational databases have in the fields such as BigData, Data Analysis, Artificial Intelligence. Besides, non-relational databases are also remarkable for their structure flexibility, their speed and for the distribution of their data on multiple servers simultaneously, for their fast writing and reading speed, which is crucial when analysing very large volumes of data.}
-      \field{journaltitle}{Database Systems Journal}
-      \field{title}{The Advantage of NoSQL Databases over SQL Databases}
-      \field{volume}{XVI}
-      \field{pages}{2025}
-      \range{pages}{1}
-      \keyw{No-SQL,No-SQL databases,Relational databases,SQL,SQL databases,efficiency,large,non-relational databases,portability,redundancy,scalability}
-    \endentry
-    \entry{mysql}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=62a004b95946bb97541afa471dcca73a}{%
-           family={MySQL},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{62a004b95946bb97541afa471dcca73a}
-      \strng{fullhash}{62a004b95946bb97541afa471dcca73a}
-      \strng{fullhashraw}{62a004b95946bb97541afa471dcca73a}
-      \strng{bibnamehash}{62a004b95946bb97541afa471dcca73a}
-      \strng{authorbibnamehash}{62a004b95946bb97541afa471dcca73a}
-      \strng{authornamehash}{62a004b95946bb97541afa471dcca73a}
-      \strng{authorfullhash}{62a004b95946bb97541afa471dcca73a}
-      \strng{authorfullhashraw}{62a004b95946bb97541afa471dcca73a}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{MySQL Documentation}
-      \field{title}{MySQL}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.mysql.com/
-      \endverb
-      \verb{url}
-      \verb https://www.mysql.com/
-      \endverb
-    \endentry
-    \entry{postgresql}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=399bd1ee587245ecac6f39beaa99886f}{%
-           family={PostgreSQL},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{399bd1ee587245ecac6f39beaa99886f}
-      \strng{fullhash}{399bd1ee587245ecac6f39beaa99886f}
-      \strng{fullhashraw}{399bd1ee587245ecac6f39beaa99886f}
-      \strng{bibnamehash}{399bd1ee587245ecac6f39beaa99886f}
-      \strng{authorbibnamehash}{399bd1ee587245ecac6f39beaa99886f}
-      \strng{authornamehash}{399bd1ee587245ecac6f39beaa99886f}
-      \strng{authorfullhash}{399bd1ee587245ecac6f39beaa99886f}
-      \strng{authorfullhashraw}{399bd1ee587245ecac6f39beaa99886f}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{PostgreSQL Documentation}
-      \field{title}{PostgreSQL}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.postgresql.org/
-      \endverb
-      \verb{url}
-      \verb https://www.postgresql.org/
-      \endverb
-    \endentry
-    \entry{SQLite}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=497757a9c5b2ec17ded656170b51c788}{%
-           family={SQLite},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{497757a9c5b2ec17ded656170b51c788}
-      \strng{fullhash}{497757a9c5b2ec17ded656170b51c788}
-      \strng{fullhashraw}{497757a9c5b2ec17ded656170b51c788}
-      \strng{bibnamehash}{497757a9c5b2ec17ded656170b51c788}
-      \strng{authorbibnamehash}{497757a9c5b2ec17ded656170b51c788}
-      \strng{authornamehash}{497757a9c5b2ec17ded656170b51c788}
-      \strng{authorfullhash}{497757a9c5b2ec17ded656170b51c788}
-      \strng{authorfullhashraw}{497757a9c5b2ec17ded656170b51c788}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{SQLite Documentation}
-      \field{title}{SQLite}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.sqlite.org/
-      \endverb
-      \verb{url}
-      \verb https://www.sqlite.org/
-      \endverb
-    \endentry
-    \entry{realm}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=d7675d104699114cf794a50fc86fcded}{%
-           family={Realm},
+    \entry{FERNANDO201384}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=3e41477c0c74558ba08c3e1e5b69ff24}{%
+           family={Fernando},
+           familyi={F\bibinitperiod},
+           given={Niroshinie},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6bcd271097f3f679d0f928489e2c58f7}{%
+           family={Loke},
+           familyi={L\bibinitperiod},
+           given={Seng\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=d6b083e5db90da1a900af909315d60e6}{%
+           family={Rahayu},
            familyi={R\bibinitperiod},
-           given={MongoDB},
-           giveni={M\bibinitperiod}}}%
+           given={Wenny},
+           giveni={W\bibinitperiod}}}%
       }
-      \strng{namehash}{d7675d104699114cf794a50fc86fcded}
-      \strng{fullhash}{d7675d104699114cf794a50fc86fcded}
-      \strng{fullhashraw}{d7675d104699114cf794a50fc86fcded}
-      \strng{bibnamehash}{d7675d104699114cf794a50fc86fcded}
-      \strng{authorbibnamehash}{d7675d104699114cf794a50fc86fcded}
-      \strng{authornamehash}{d7675d104699114cf794a50fc86fcded}
-      \strng{authorfullhash}{d7675d104699114cf794a50fc86fcded}
-      \strng{authorfullhashraw}{d7675d104699114cf794a50fc86fcded}
+      \strng{namehash}{b4e0e606ea82542b7a8460bfa5ef95fe}
+      \strng{fullhash}{5fe8726469e2a727bf194703920f8730}
+      \strng{fullhashraw}{5fe8726469e2a727bf194703920f8730}
+      \strng{bibnamehash}{5fe8726469e2a727bf194703920f8730}
+      \strng{authorbibnamehash}{5fe8726469e2a727bf194703920f8730}
+      \strng{authornamehash}{b4e0e606ea82542b7a8460bfa5ef95fe}
+      \strng{authorfullhash}{5fe8726469e2a727bf194703920f8730}
+      \strng{authorfullhashraw}{5fe8726469e2a727bf194703920f8730}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{MongoDB Realm Documentation}
-      \field{title}{MongoDB Realm}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://realm.netlify.app/
-      \endverb
-      \verb{url}
-      \verb https://realm.netlify.app/
-      \endverb
-    \endentry
-    \entry{mongo}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=206e3718af092fd1d12f80cae771ccac}{%
-           family={MongoDB},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{206e3718af092fd1d12f80cae771ccac}
-      \strng{fullhash}{206e3718af092fd1d12f80cae771ccac}
-      \strng{fullhashraw}{206e3718af092fd1d12f80cae771ccac}
-      \strng{bibnamehash}{206e3718af092fd1d12f80cae771ccac}
-      \strng{authorbibnamehash}{206e3718af092fd1d12f80cae771ccac}
-      \strng{authornamehash}{206e3718af092fd1d12f80cae771ccac}
-      \strng{authorfullhash}{206e3718af092fd1d12f80cae771ccac}
-      \strng{authorfullhashraw}{206e3718af092fd1d12f80cae771ccac}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{MongoDB Documentation}
-      \field{title}{MongoDB}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.mongodb.com/
-      \endverb
-      \verb{url}
-      \verb https://www.mongodb.com/
-      \endverb
-    \endentry
-    \entry{redis}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=e111446745a1825b862f8727ae63bce4}{%
-           family={Redis},
-           familyi={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{e111446745a1825b862f8727ae63bce4}
-      \strng{fullhash}{e111446745a1825b862f8727ae63bce4}
-      \strng{fullhashraw}{e111446745a1825b862f8727ae63bce4}
-      \strng{bibnamehash}{e111446745a1825b862f8727ae63bce4}
-      \strng{authorbibnamehash}{e111446745a1825b862f8727ae63bce4}
-      \strng{authornamehash}{e111446745a1825b862f8727ae63bce4}
-      \strng{authorfullhash}{e111446745a1825b862f8727ae63bce4}
-      \strng{authorfullhashraw}{e111446745a1825b862f8727ae63bce4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Redis Documentation}
-      \field{title}{Redis}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://redis.io/
-      \endverb
-      \verb{url}
-      \verb https://redis.io/
-      \endverb
-    \endentry
-    \entry{firebaseRealtime2025}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
-           family={{Google Firebase}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Firebase Documentation}
-      \field{title}{Firebase Realtime Database}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://firebase.google.com/docs/database
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/docs/database
-      \endverb
-    \endentry
-    \entry{firestore2025}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
-           family={{Google Firebase}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Firebase Documentation}
-      \field{title}{Cloud Firestore}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://firebase.google.com/docs/firestore
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/docs/firestore
-      \endverb
-    \endentry
-    \entry{room}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=7ace771b22ac28958ff5694e260839cc}{%
-           family={{Android Developers}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{7ace771b22ac28958ff5694e260839cc}
-      \strng{fullhash}{7ace771b22ac28958ff5694e260839cc}
-      \strng{fullhashraw}{7ace771b22ac28958ff5694e260839cc}
-      \strng{bibnamehash}{7ace771b22ac28958ff5694e260839cc}
-      \strng{authorbibnamehash}{7ace771b22ac28958ff5694e260839cc}
-      \strng{authornamehash}{7ace771b22ac28958ff5694e260839cc}
-      \strng{authorfullhash}{7ace771b22ac28958ff5694e260839cc}
-      \strng{authorfullhashraw}{7ace771b22ac28958ff5694e260839cc}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Android Jetpack Documentation}
-      \field{title}{Save data in a local database using Room}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://developer.android.com/training/data-storage/room
-      \endverb
-      \verb{url}
-      \verb https://developer.android.com/training/data-storage/room
-      \endverb
-    \endentry
-    \entry{coreData}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=3dd122ecce0ce9058f026211834f686e}{%
-           family={{Apple Developer}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{fullhash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{fullhashraw}{3dd122ecce0ce9058f026211834f686e}
-      \strng{bibnamehash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{authorbibnamehash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{authornamehash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{authorfullhash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{authorfullhashraw}{3dd122ecce0ce9058f026211834f686e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Core Data Documentation}
-      \field{title}{Core Data}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://developer.apple.com/documentation/coredata/
-      \endverb
-      \verb{url}
-      \verb https://developer.apple.com/documentation/coredata/
-      \endverb
-    \endentry
-    \entry{Taipalus2024}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=0e25ec6249f5d1a010fa5faa26a828d8}{%
-           family={Taipalus},
-           familyi={T\bibinitperiod},
-           given={Toni},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \strng{fullhash}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \strng{fullhashraw}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \strng{bibnamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \strng{authorbibnamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \strng{authornamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \strng{authorfullhash}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \strng{authorfullhashraw}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Efficiency has been a pivotal aspect of the software industry since its inception, as a system that serves the end-user fast, and the service provider cost-efficiently benefits all parties. A database management system (DBMS) is an integral part of effectively all software systems, and therefore it is logical that different studies have compared the performance of different DBMSs in hopes of finding the most efficient one. This study systematically synthesizes the results and approaches of studies that compare DBMS performance and provides recommendations for industry and research. The results show that performance is usually tested in a way that does not reflect real-world use cases, and that tests are typically reported in insufficient detail for replication or for drawing conclusions from the stated results.}
-      \field{issn}{0164-1212}
-      \field{journaltitle}{Journal of Systems and Software}
-      \field{month}{2}
-      \field{title}{Database management system performance comparisons: A systematic literature review}
-      \field{volume}{208}
-      \field{year}{2024}
-      \field{pages}{111872}
-      \range{pages}{1}
+      \field{abstract}{Despite increasing usage of mobile computing, exploiting its full potential is difficult due to its inherent problems such as resource scarcity, frequent disconnections, and mobility. Mobile cloud computing can address these problems by executing mobile applications on resource providers external to the mobile device. In this paper, we provide an extensive survey of mobile cloud computing research, while highlighting the specific concerns in mobile cloud computing. We present a taxonomy based on the key issues in this area, and discuss the different approaches taken to tackle these issues. We conclude the paper with a critical analysis of challenges that have not yet been fully met, and highlight directions for future work.}
+      \field{issn}{0167-739X}
+      \field{journaltitle}{Future Generation Computer Systems}
+      \field{note}{Including Special section: AIRCC-NetCoM 2009 and Special section: Clouds and Service-Oriented Architectures}
+      \field{number}{1}
+      \field{title}{Mobile cloud computing: A survey}
+      \field{volume}{29}
+      \field{year}{2013}
+      \field{pages}{84\bibrangedash 106}
+      \range{pages}{23}
       \verb{doi}
-      \verb 10.1016/J.JSS.2023.111872
+      \verb https://doi.org/10.1016/j.future.2012.05.023
       \endverb
       \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0164121223002674
+      \verb https://www.sciencedirect.com/science/article/pii/S0167739X12001318
       \endverb
       \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0164121223002674
+      \verb https://www.sciencedirect.com/science/article/pii/S0167739X12001318
       \endverb
-      \keyw{Comparison,Database,Database management system,NewSQL,NoSQL,Performance,Relational database}
+      \keyw{Mobile cloud computing,Task offload,Pervasive networks}
     \endentry
     \entry{mccormick}{article}{}{}
       \name{author}{2}{}{%
@@ -1168,8 +1168,8 @@
       \strng{authornamehash}{d4cb8acf2342429bb8e528d95c1bd1aa}
       \strng{authorfullhash}{d4cb8acf2342429bb8e528d95c1bd1aa}
       \strng{authorfullhashraw}{d4cb8acf2342429bb8e528d95c1bd1aa}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -1180,18 +1180,6 @@
       \endverb
       \verb{url}
       \verb https://medium.com/@engineervishvnath/designing-a-robust-data-synchronization-system-for-multi-device-mobile-applications-c0b23e4fc0cb
-      \endverb
-    \endentry
-    \entry{LastWriteWin}{misc}{}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labeltitlesource}{title}
-      \field{title}{Conflict Resolution}
-      \verb{urlraw}
-      \verb https://developer.android.com/topic/architecture/data-layer/offline-first#conflict-resolution
-      \endverb
-      \verb{url}
-      \verb https://developer.android.com/topic/architecture/data-layer/offline-first#conflict-resolution
       \endverb
     \endentry
     \entry{workmanager}{misc}{}{}
@@ -1254,6 +1242,371 @@
       \verb https://developer.apple.com/documentation/backgroundtasks
       \endverb
     \endentry
+    \entry{chiriac2025nosql}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=99b38d2fc1c19d928d5859815bd40bc4}{%
+           family={Chiriac},
+           familyi={C\bibinitperiod},
+           given={Mario-Tudor},
+           giveni={M\bibinithyphendelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{fullhash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{fullhashraw}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{bibnamehash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{authorbibnamehash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{authornamehash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{authorfullhash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{authorfullhashraw}{99b38d2fc1c19d928d5859815bd40bc4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The aim of this article is to show the advantages of No-SQL databases compared to SQL (relational) databases. Traditionally, the concept of database is implicitly associated with relational databases, most often ignoring the huge potential that non-relational databases have in the fields such as BigData, Data Analysis, Artificial Intelligence. Besides, non-relational databases are also remarkable for their structure flexibility, their speed and for the distribution of their data on multiple servers simultaneously, for their fast writing and reading speed, which is crucial when analysing very large volumes of data.}
+      \field{journaltitle}{Database Systems Journal}
+      \field{title}{The Advantage of NoSQL Databases over SQL Databases}
+      \field{volume}{XVI}
+      \field{pages}{2025}
+      \range{pages}{1}
+      \keyw{No-SQL,No-SQL databases,Relational databases,SQL,SQL databases,efficiency,large,non-relational databases,portability,redundancy,scalability}
+    \endentry
+    \entry{mysql}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=62a004b95946bb97541afa471dcca73a}{%
+           family={MySQL},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{fullhash}{62a004b95946bb97541afa471dcca73a}
+      \strng{fullhashraw}{62a004b95946bb97541afa471dcca73a}
+      \strng{bibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorbibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authornamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorfullhash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorfullhashraw}{62a004b95946bb97541afa471dcca73a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{MySQL Documentation}
+      \field{title}{MySQL}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.mysql.com/
+      \endverb
+      \verb{url}
+      \verb https://www.mysql.com/
+      \endverb
+    \endentry
+    \entry{postgresql}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=399bd1ee587245ecac6f39beaa99886f}{%
+           family={PostgreSQL},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{fullhash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{fullhashraw}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{bibnamehash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{authorbibnamehash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{authornamehash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{authorfullhash}{399bd1ee587245ecac6f39beaa99886f}
+      \strng{authorfullhashraw}{399bd1ee587245ecac6f39beaa99886f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{PostgreSQL Documentation}
+      \field{title}{PostgreSQL}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.postgresql.org/
+      \endverb
+      \verb{url}
+      \verb https://www.postgresql.org/
+      \endverb
+    \endentry
+    \entry{SQLite}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=497757a9c5b2ec17ded656170b51c788}{%
+           family={SQLite},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{497757a9c5b2ec17ded656170b51c788}
+      \strng{fullhash}{497757a9c5b2ec17ded656170b51c788}
+      \strng{fullhashraw}{497757a9c5b2ec17ded656170b51c788}
+      \strng{bibnamehash}{497757a9c5b2ec17ded656170b51c788}
+      \strng{authorbibnamehash}{497757a9c5b2ec17ded656170b51c788}
+      \strng{authornamehash}{497757a9c5b2ec17ded656170b51c788}
+      \strng{authorfullhash}{497757a9c5b2ec17ded656170b51c788}
+      \strng{authorfullhashraw}{497757a9c5b2ec17ded656170b51c788}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{SQLite Documentation}
+      \field{title}{SQLite}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.sqlite.org/
+      \endverb
+      \verb{url}
+      \verb https://www.sqlite.org/
+      \endverb
+    \endentry
+    \entry{realm}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d7675d104699114cf794a50fc86fcded}{%
+           family={Realm},
+           familyi={R\bibinitperiod},
+           given={MongoDB},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7675d104699114cf794a50fc86fcded}
+      \strng{fullhash}{d7675d104699114cf794a50fc86fcded}
+      \strng{fullhashraw}{d7675d104699114cf794a50fc86fcded}
+      \strng{bibnamehash}{d7675d104699114cf794a50fc86fcded}
+      \strng{authorbibnamehash}{d7675d104699114cf794a50fc86fcded}
+      \strng{authornamehash}{d7675d104699114cf794a50fc86fcded}
+      \strng{authorfullhash}{d7675d104699114cf794a50fc86fcded}
+      \strng{authorfullhashraw}{d7675d104699114cf794a50fc86fcded}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{MongoDB Realm Documentation}
+      \field{title}{MongoDB Realm}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://realm.netlify.app/
+      \endverb
+      \verb{url}
+      \verb https://realm.netlify.app/
+      \endverb
+    \endentry
+    \entry{mongo}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=206e3718af092fd1d12f80cae771ccac}{%
+           family={MongoDB},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{fullhash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{fullhashraw}{206e3718af092fd1d12f80cae771ccac}
+      \strng{bibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorbibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authornamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorfullhash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorfullhashraw}{206e3718af092fd1d12f80cae771ccac}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{MongoDB Documentation}
+      \field{title}{MongoDB}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/
+      \endverb
+    \endentry
+    \entry{redis}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e111446745a1825b862f8727ae63bce4}{%
+           family={Redis},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e111446745a1825b862f8727ae63bce4}
+      \strng{fullhash}{e111446745a1825b862f8727ae63bce4}
+      \strng{fullhashraw}{e111446745a1825b862f8727ae63bce4}
+      \strng{bibnamehash}{e111446745a1825b862f8727ae63bce4}
+      \strng{authorbibnamehash}{e111446745a1825b862f8727ae63bce4}
+      \strng{authornamehash}{e111446745a1825b862f8727ae63bce4}
+      \strng{authorfullhash}{e111446745a1825b862f8727ae63bce4}
+      \strng{authorfullhashraw}{e111446745a1825b862f8727ae63bce4}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Redis Documentation}
+      \field{title}{Redis}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://redis.io/
+      \endverb
+      \verb{url}
+      \verb https://redis.io/
+      \endverb
+    \endentry
+    \entry{firebaseRealtime2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
+           family={{Google Firebase}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Firebase Documentation}
+      \field{title}{Firebase Realtime Database}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://firebase.google.com/docs/database
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/docs/database
+      \endverb
+    \endentry
+    \entry{firestore2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
+           family={{Google Firebase}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Firebase Documentation}
+      \field{title}{Cloud Firestore}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://firebase.google.com/docs/firestore
+      \endverb
+      \verb{url}
+      \verb https://firebase.google.com/docs/firestore
+      \endverb
+    \endentry
+    \entry{room}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7ace771b22ac28958ff5694e260839cc}{%
+           family={{Android Developers}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{fullhash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{fullhashraw}{7ace771b22ac28958ff5694e260839cc}
+      \strng{bibnamehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authorbibnamehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authornamehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authorfullhash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authorfullhashraw}{7ace771b22ac28958ff5694e260839cc}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Android Jetpack Documentation}
+      \field{title}{Save data in a local database using Room}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://developer.android.com/training/data-storage/room
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/training/data-storage/room
+      \endverb
+    \endentry
+    \entry{coreData}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=3dd122ecce0ce9058f026211834f686e}{%
+           family={{Apple Developer}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{fullhash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{fullhashraw}{3dd122ecce0ce9058f026211834f686e}
+      \strng{bibnamehash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{authorbibnamehash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{authornamehash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{authorfullhash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{authorfullhashraw}{3dd122ecce0ce9058f026211834f686e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Core Data Documentation}
+      \field{title}{Core Data}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://developer.apple.com/documentation/coredata/
+      \endverb
+      \verb{url}
+      \verb https://developer.apple.com/documentation/coredata/
+      \endverb
+    \endentry
+    \entry{Taipalus2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0e25ec6249f5d1a010fa5faa26a828d8}{%
+           family={Taipalus},
+           familyi={T\bibinitperiod},
+           given={Toni},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{fullhash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{fullhashraw}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{bibnamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{authorbibnamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{authornamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{authorfullhash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{authorfullhashraw}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Efficiency has been a pivotal aspect of the software industry since its inception, as a system that serves the end-user fast, and the service provider cost-efficiently benefits all parties. A database management system (DBMS) is an integral part of effectively all software systems, and therefore it is logical that different studies have compared the performance of different DBMSs in hopes of finding the most efficient one. This study systematically synthesizes the results and approaches of studies that compare DBMS performance and provides recommendations for industry and research. The results show that performance is usually tested in a way that does not reflect real-world use cases, and that tests are typically reported in insufficient detail for replication or for drawing conclusions from the stated results.}
+      \field{issn}{0164-1212}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{month}{2}
+      \field{title}{Database management system performance comparisons: A systematic literature review}
+      \field{volume}{208}
+      \field{year}{2024}
+      \field{pages}{111872}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/J.JSS.2023.111872
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0164121223002674
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0164121223002674
+      \endverb
+      \keyw{Comparison,Database,Database management system,NewSQL,NoSQL,Performance,Relational database}
+    \endentry
     \entry{firebasefunctions}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
@@ -1269,8 +1622,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{3}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1299,8 +1652,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{4}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1329,8 +1682,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{5}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1359,8 +1712,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{6}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1389,8 +1742,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{7}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1419,8 +1772,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{8}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1449,8 +1802,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{9}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1479,8 +1832,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{10}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1509,8 +1862,8 @@
       \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
       \field{extraname}{11}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1525,8 +1878,8 @@
       \endverb
     \endentry
     \entry{supabase}{misc}{}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{Supabase}
       \verb{urlraw}
@@ -1552,8 +1905,8 @@
       \strng{authornamehash}{00d488db4070ac234b2610e4fb93acb5}
       \strng{authorfullhash}{00d488db4070ac234b2610e4fb93acb5}
       \strng{authorfullhashraw}{00d488db4070ac234b2610e4fb93acb5}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ayezabu Amanuel Supabase vs Firebase: Evaluation of performance and development of Progressive Web Apps}
@@ -1575,8 +1928,8 @@
       \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
       \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1605,8 +1958,8 @@
       \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
       \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -1635,8 +1988,8 @@
       \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
       \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
       \field{extraname}{3}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -2033,54 +2386,6 @@
       \verb https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction
       \endverb
     \endentry
-    \entry{other1}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Top 10 Backend Platforms For Mobile Apps}
-      \verb{urlraw}
-      \verb https://blog.back4app.com/backend-platform-for-mobile-apps/
-      \endverb
-      \verb{url}
-      \verb https://blog.back4app.com/backend-platform-for-mobile-apps/
-      \endverb
-    \endentry
-    \entry{other2}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Best Mobile Backend-as-a-Service (mBaaS) Software}
-      \verb{urlraw}
-      \verb https://www.g2.com/categories/mobile-backend-as-a-service-mbaas
-      \endverb
-      \verb{url}
-      \verb https://www.g2.com/categories/mobile-backend-as-a-service-mbaas
-      \endverb
-    \endentry
-    \entry{other3}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Mobile Backend as a Service (MBaaS) List (November 2025)}
-      \verb{urlraw}
-      \verb https://www.saasworthy.com/list/mobile-backend-as-a-service-mbaas
-      \endverb
-      \verb{url}
-      \verb https://www.saasworthy.com/list/mobile-backend-as-a-service-mbaas
-      \endverb
-    \endentry
-    \entry{other4}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{21 Best MBaaS Software Picks of 2025}
-      \verb{urlraw}
-      \verb https://thectoclub.com/tools/best-mbaas-software/
-      \endverb
-      \verb{url}
-      \verb https://thectoclub.com/tools/best-mbaas-software/
-      \endverb
-    \endentry
     \entry{fiba-courts}{misc}{}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -2159,10 +2464,10 @@
       \field{labeltitlesource}{title}
       \field{title}{Fullcourt: Pickup Basketball}
       \verb{urlraw}
-      \verb https://play.google.com/store/apps/details?id=com.fullcourt.fullcourt\&hl=en
+      \verb https://play.google.com/store/apps/details?id=com.fullcourt.fullcourt&hl=en_US
       \endverb
       \verb{url}
-      \verb https://play.google.com/store/apps/details?id=com.fullcourt.fullcourt%5C&hl=en
+      \verb https://play.google.com/store/apps/details?id=com.fullcourt.fullcourt&hl=en_US
       \endverb
     \endentry
     \entry{chatgpt1}{misc}{}{}
@@ -2319,76 +2624,6 @@
       \endverb
       \verb{url}
       \verb https://www.meetup.com/lisbon-basketball-meetup/
-      \endverb
-    \endentry
-    \entry{IxDF2025}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=1ad0c43ad55827f1fd4811e3b0ca59a0}{%
-           family={{Interaction Design Foundation - IxDF}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{fullhash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{fullhashraw}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{bibnamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{authorbibnamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{authornamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{authorfullhash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{authorfullhashraw}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed: Nov.17, 2025}
-      \field{title}{What is User Centered Design (UCD)?}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.interaction-design.org/literature/topics/user-centered-design
-      \endverb
-      \verb{url}
-      \verb https://www.interaction-design.org/literature/topics/user-centered-design
-      \endverb
-    \endentry
-    \entry{iso9241-210}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{ISO 9241-210:2019 - Ergonomics of human-system interaction — Part 210: Human-centred design for interactive systems}
-      \verb{urlraw}
-      \verb https://www.iso.org/standard/77520.html
-      \endverb
-      \verb{url}
-      \verb https://www.iso.org/standard/77520.html
-      \endverb
-    \endentry
-    \entry{requirementsIDF}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=1ad0c43ad55827f1fd4811e3b0ca59a0}{%
-           family={{Interaction Design Foundation - IxDF}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{fullhash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{fullhashraw}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{bibnamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{authorbibnamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{authornamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{authorfullhash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{authorfullhashraw}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed: Nov.19, 2025}
-      \field{title}{What are Functional Requirements?}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.interaction-design.org/literature/topics/functional-requirements
-      \endverb
-      \verb{url}
-      \verb https://www.interaction-design.org/literature/topics/functional-requirements
       \endverb
     \endentry
     \entry{scrumAtlassian}{misc}{}{}

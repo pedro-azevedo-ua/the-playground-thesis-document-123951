@@ -11,51 +11,56 @@
 \contentsline {section}{\numberline {2.2}Problem Statement}{3}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Proposed Solution}{4}{section.2.3}%
 \contentsline {chapter}{\chapternumberline {3}State of the Art \& Related Work}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Mobile Application Development Approaches}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Mobile Application Implementation Technologies}{7}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Native Apps}{7}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Web Applications}{8}{subsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.1.3}Hybrid Applications}{9}{subsection.3.1.3}%
 \contentsline {subsection}{\numberline {3.1.4}Cross-Platform Apps}{9}{subsection.3.1.4}%
-\contentsline {subsubsection}{Interpreted Approach - React Native}{9}{section*.7}%
-\contentsline {subsubsection}{Cross-Compiled Approach - Flutter}{9}{section*.8}%
-\contentsline {subsubsection}{Cloud-based Approach and Modelling Approach}{10}{section*.9}%
+\contentsline {subsubsection}{Interpreted Approach - React Native}{9}{section*.6}%
+\contentsline {subsubsection}{Cross-Compiled Approach - Flutter}{9}{section*.7}%
+\contentsline {subsubsection}{Cloud-based Approach and Modelling Approach}{10}{section*.8}%
 \contentsline {subsection}{\numberline {3.1.5}Kotlin Multiplatform}{10}{subsection.3.1.5}%
 \contentsline {subsection}{\numberline {3.1.6}Comparative Analysis}{11}{subsection.3.1.6}%
-\contentsline {section}{\numberline {3.2}Mobile Backend Development Strategies}{12}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Backend Fundamentals}{12}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Data management strategies}{15}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Data Synchronization}{15}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}MBaaS Providers}{17}{subsection.3.2.4}%
-\contentsline {subsubsection}{\textbf {Google Firebase}}{17}{section*.14}%
-\contentsline {subsubsection}{\textbf {Supabase}}{18}{section*.15}%
-\contentsline {subsubsection}{\textbf {Parse}}{19}{section*.16}%
-\contentsline {subsubsection}{\textbf {Back4App}}{20}{section*.17}%
-\contentsline {subsubsection}{\textbf {AWS Amplify}}{21}{section*.18}%
-\contentsline {subsubsection}{\textbf {Microsoft Azure}}{23}{section*.19}%
-\contentsline {subsubsection}{Other Providers}{24}{section*.20}%
-\contentsline {subsubsection}{MBaaS Provider Comparison}{24}{section*.21}%
-\contentsline {section}{\numberline {3.3}Related Work}{25}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Methodology}{25}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Existing Projects}{26}{subsection.3.3.2}%
-\contentsline {subsubsection}{Court Discovery Platforms}{26}{section*.23}%
-\contentsline {paragraph}{\textbf {Courts of the World}}{26}{section*.24}%
-\contentsline {paragraph}{\textbf {Jogabasket}}{27}{section*.25}%
-\contentsline {subsubsection}{Game Organization Platforms}{27}{section*.26}%
-\contentsline {paragraph}{\textbf {Pickup Sports (Adult League)}\blx@tocontentsinit {0}\cite {pickup-adult, pickup-adult-app}}{27}{section*.27}%
-\contentsline {paragraph}{\textbf {Fullcourt: Pickup Basketball}\blx@tocontentsinit {0}\cite {fullcourt, fullcourt-pp}}{27}{section*.28}%
-\contentsline {paragraph}{\textbf {Pickup: Play \& Host Sports}\blx@tocontentsinit {0}\cite {pickup, pickup-app}}{27}{section*.29}%
-\contentsline {paragraph}{\textbf {WOOOBA}\blx@tocontentsinit {0}\cite {woooba}}{28}{section*.30}%
-\contentsline {paragraph}{\textbf {Pick-Roll}\blx@tocontentsinit {0}\cite {pick-roll}}{28}{section*.31}%
-\contentsline {subsubsection}{General Community Platforms}{28}{section*.32}%
-\contentsline {paragraph}{\textbf {Meetup}\blx@tocontentsinit {0}\cite {meetup}}{28}{section*.33}%
-\contentsline {chapter}{\chapternumberline {4}Methodology}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}User-Centered Design (UCD)}{29}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Scrum}{30}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Acceptance Test-Driven Development (ATDD)}{30}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Iteration Development Process}{31}{section.4.4}%
-\contentsline {subsubsection}{Iteration 1: Prototype and Feature Validation}{31}{section*.34}%
-\contentsline {subsection}{\numberline {4.4.1}Iteration 2: MVP Development and UI/UX Evaluation}{31}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Iteration 3: Complete Application and Overall Evaluation}{32}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Architecture}{32}{section.4.5}%
-\contentsline {chapter}{References}{34}{chapter*.36}%
-\contentsline {appendix}{\chapternumberline {A}Additional content}{39}{appendix.A}%
+\contentsline {section}{\numberline {3.2}Mobile Application Development Methodologies}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Agile}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}User-Centred Design (UCD)}{15}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Agile User-Centred Design Development (AUCD)}{16}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Mobile Backend Development Strategies}{16}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Backend Fundamentals}{16}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Data management strategies}{18}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Data Synchronization}{19}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Databases}{20}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}MBaaS Providers}{21}{subsection.3.3.5}%
+\contentsline {subsubsection}{\textbf {Google Firebase}}{21}{section*.12}%
+\contentsline {subsubsection}{\textbf {Supabase}}{23}{section*.13}%
+\contentsline {subsubsection}{\textbf {Parse}}{24}{section*.14}%
+\contentsline {subsubsection}{\textbf {Back4App}}{24}{section*.15}%
+\contentsline {subsubsection}{\textbf {AWS Amplify}}{25}{section*.16}%
+\contentsline {subsubsection}{\textbf {Microsoft Azure}}{27}{section*.17}%
+\contentsline {subsubsection}{MBaaS Provider Comparison}{28}{section*.18}%
+\contentsline {section}{\numberline {3.4}Related Work}{29}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Methodology}{29}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Existing Projects}{30}{subsection.3.4.2}%
+\contentsline {subsubsection}{Court Discovery Platforms}{30}{section*.20}%
+\contentsline {paragraph}{\textbf {Courts of the World}}{30}{section*.21}%
+\contentsline {paragraph}{\textbf {Jogabasket}}{31}{section*.22}%
+\contentsline {subsubsection}{Game Organization Platforms}{31}{section*.23}%
+\contentsline {paragraph}{\textbf {Pickup Sports (Adult League)}\blx@tocontentsinit {0}\cite {pickup-adult, pickup-adult-app}}{31}{section*.24}%
+\contentsline {paragraph}{\textbf {Fullcourt: Pickup Basketball}\blx@tocontentsinit {0}\cite {fullcourt, fullcourt-pp}}{31}{section*.25}%
+\contentsline {paragraph}{\textbf {Pickup: Play \& Host Sports}\blx@tocontentsinit {0}\cite {pickup, pickup-app}}{31}{section*.26}%
+\contentsline {paragraph}{\textbf {WOOOBA}\blx@tocontentsinit {0}\cite {woooba}}{32}{section*.27}%
+\contentsline {paragraph}{\textbf {Pick-Roll}\blx@tocontentsinit {0}\cite {pick-roll}}{32}{section*.28}%
+\contentsline {subsubsection}{General Community Platforms}{32}{section*.29}%
+\contentsline {paragraph}{\textbf {Meetup}\blx@tocontentsinit {0}\cite {meetup}}{32}{section*.30}%
+\contentsline {subsection}{\numberline {3.4.3}Analysis of Existing Solutions}{32}{subsection.3.4.3}%
+\contentsline {chapter}{\chapternumberline {4}Methodology}{34}{chapter.4}%
+\contentsline {section}{\numberline {4.1}User-Centered Design (UCD)}{34}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Scrum}{35}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Acceptance Test-Driven Development (ATDD)}{35}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Iteration Development Process}{36}{section.4.4}%
+\contentsline {subsubsection}{Iteration 1: Prototype and Feature Validation}{36}{section*.31}%
+\contentsline {subsection}{\numberline {4.4.1}Iteration 2: MVP Development and UI/UX Evaluation}{36}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Iteration 3: Complete Application and Overall Evaluation}{37}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Architecture}{37}{section.4.5}%
+\contentsline {chapter}{References}{39}{chapter*.33}%
+\contentsline {appendix}{\chapternumberline {A}Additional content}{44}{appendix.A}%

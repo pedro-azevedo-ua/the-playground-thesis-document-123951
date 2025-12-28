@@ -19,21 +19,9 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{fiba}{misc}{}{}
+    \entry{ticha}{misc}{}{}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labeltitlesource}{title}
-      \field{title}{FIBA World Ranking for Men presented by NIKE- FIBA Basketball}
-      \verb{urlraw}
-      \verb https://www.fiba.basketball/en/ranking/men
-      \endverb
-      \verb{url}
-      \verb https://www.fiba.basketball/en/ranking/men
-      \endverb
-    \endentry
-    \entry{ticha}{misc}{}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{title}{Ticha Penicheiro no Women's Basketball Hall of Fame}
       \verb{urlraw}
@@ -44,8 +32,8 @@
       \endverb
     \endentry
     \entry{neemias}{misc}{}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{title}{«É um bom momento para o basquetebol em Portugal, queremos mais espaço» | MAISFUTEBOL}
       \verb{urlraw}
@@ -73,8 +61,8 @@
       \strng{authornamehash}{73737abf19412d77d804f0da15fd6ac6}
       \strng{authorfullhash}{73737abf19412d77d804f0da15fd6ac6}
       \strng{authorfullhashraw}{73737abf19412d77d804f0da15fd6ac6}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Excel spreadsheet (v.2025-10-27)}
@@ -82,10 +70,10 @@
       \field{title}{Estatísticas e Dados do Desporto}
       \field{year}{2025}
       \verb{urlraw}
-      \verb https://ipdj.gov.pt/estatisticas
+      \verb https://ipdj.gov.pt/estat%C3%ADsticas
       \endverb
       \verb{url}
-      \verb https://ipdj.gov.pt/estatisticas
+      \verb https://ipdj.gov.pt/estat%C3%ADsticas
       \endverb
     \endentry
     \entry{statcount}{misc}{}{}
@@ -310,8 +298,8 @@
       \strng{authornamehash}{94223a1046990f41833c7bf4abffb815}
       \strng{authorfullhash}{94223a1046990f41833c7bf4abffb815}
       \strng{authorfullhashraw}{94223a1046990f41833c7bf4abffb815}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Growing use of the cell phones and tablets over the computer for humans’ daily life has increased the development of mobile apps. Different paradigms have been introduced to develop a mobile app. Up till now, the major paradigms have been introduced are native apps, hybrid apps, web app and the new trend namely progressive web app (PWA). Each methodology has its pros and cons. This paper discusses about native development issues and how web app aimed to solve these problems. The hybrid apps will be discussed as a solution of cross-platform development problem of native apps.  In addition, problems of web apps and the gap between web app and native apps will be introduced. PWA is supposed to bridge the gap between native apps and web apps. The main technologies –service worker- will also be discussed.  }
@@ -517,8 +505,8 @@
       \strng{authornamehash}{3c25804d9a2d980ca417291cc9f58fc8}
       \strng{authorfullhash}{3c25804d9a2d980ca417291cc9f58fc8}
       \strng{authorfullhashraw}{3c25804d9a2d980ca417291cc9f58fc8}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Kotlin Multiplatform Mobile (KMP) represents a strategic advancement in cross-platform development, addressing a long-standing challenge in mobile application engineering: achieving code reuse without sacrificing native performance. Unlike frameworks like Flutter or React Native, which abstract UI layers, KMP emphasizes sharing business logic while preserving platform-specific user experiences. This synthesis examines KMP's architectural design, repository structuring strategies, implementation best practices, and its broader ecosystem positioning. It dissects the expect/actual mechanism that elegantly bridges shared logic and platform-specific implementations. Practical considerations such as dependency injection, state management, and testing strategies are analyzed alongside challenges including build system complexity, platform API bridging, and ecosystem maturity. By evaluating these facets, the article positions KMP as a robust solution for mobile teams aiming to streamline cross-platform development without compromising on performance or user experience.}
@@ -535,33 +523,6 @@
       \verb 10.37745/EJCSIT.2013/VOL13N44121141
       \endverb
     \endentry
-    \entry{jetpack}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=8b36e9207c24c76e6719268e49201d94}{%
-           family={Google},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{fullhashraw}{8b36e9207c24c76e6719268e49201d94}
-      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorfullhashraw}{8b36e9207c24c76e6719268e49201d94}
-      \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Jetpack Compose UI App Development Toolkit - Android Developers}
-      \verb{urlraw}
-      \verb https://developer.android.com/compose
-      \endverb
-      \verb{url}
-      \verb https://developer.android.com/compose
-      \endverb
-    \endentry
     \entry{materialD}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=8b36e9207c24c76e6719268e49201d94}{%
@@ -576,7 +537,6 @@
       \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
       \strng{authorfullhashraw}{8b36e9207c24c76e6719268e49201d94}
-      \field{extraname}{2}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -680,8 +640,8 @@
       \strng{authornamehash}{d57d5fdb354c1d43081261771cbbf7da}
       \strng{authorfullhash}{22fa0e7eec1528126033fed5c9c32f60}
       \strng{authorfullhashraw}{22fa0e7eec1528126033fed5c9c32f60}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Agile Manifesto}
@@ -832,8 +792,8 @@
       \strng{authorfullhash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
       \strng{authorfullhashraw}{1ad0c43ad55827f1fd4811e3b0ca59a0}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: Nov.19, 2025}
@@ -966,18 +926,6 @@
       \verb 10.22214/IJRASET.2022.39958
       \endverb
     \endentry
-    \entry{firebaseGoogle}{misc}{}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labeltitlesource}{title}
-      \field{title}{Firebase}
-      \verb{urlraw}
-      \verb https://firebase.google.com/
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/
-      \endverb
-    \endentry
     \entry{ShahJagtapJain2025}{article}{}{}
       \name{author}{3}{}{%
         {{hash=4cfb2773414f2fadd65f94aa142383bf}{%
@@ -1004,8 +952,8 @@
       \strng{authornamehash}{ad0a495a6e2fc16e73832d06cddd1540}
       \strng{authorfullhash}{026518339c3b78fe03c52a0d04f7919b}
       \strng{authorfullhashraw}{026518339c3b78fe03c52a0d04f7919b}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Artificial Intelligence, Data Science, and Machine Learning}
@@ -1211,37 +1159,6 @@
       \verb https://developer.android.com/develop/background-work/background-tasks/persistent
       \endverb
     \endentry
-    \entry{iosbackgroundtasks}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=8c1c116768386554ee97f9c439ba8058}{%
-           family={Developer},
-           familyi={D\bibinitperiod},
-           given={Apple},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{8c1c116768386554ee97f9c439ba8058}
-      \strng{fullhash}{8c1c116768386554ee97f9c439ba8058}
-      \strng{fullhashraw}{8c1c116768386554ee97f9c439ba8058}
-      \strng{bibnamehash}{8c1c116768386554ee97f9c439ba8058}
-      \strng{authorbibnamehash}{8c1c116768386554ee97f9c439ba8058}
-      \strng{authornamehash}{8c1c116768386554ee97f9c439ba8058}
-      \strng{authorfullhash}{8c1c116768386554ee97f9c439ba8058}
-      \strng{authorfullhashraw}{8c1c116768386554ee97f9c439ba8058}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Background Tasks docs}
-      \field{title}{Background Tasks}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://developer.apple.com/documentation/backgroundtasks
-      \endverb
-      \verb{url}
-      \verb https://developer.apple.com/documentation/backgroundtasks
-      \endverb
-    \endentry
     \entry{chiriac2025nosql}{article}{}{}
       \name{author}{1}{}{%
         {{hash=99b38d2fc1c19d928d5859815bd40bc4}{%
@@ -1270,300 +1187,6 @@
       \range{pages}{1}
       \keyw{No-SQL,No-SQL databases,Relational databases,SQL,SQL databases,efficiency,large,non-relational databases,portability,redundancy,scalability}
     \endentry
-    \entry{mysql}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=62a004b95946bb97541afa471dcca73a}{%
-           family={MySQL},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{62a004b95946bb97541afa471dcca73a}
-      \strng{fullhash}{62a004b95946bb97541afa471dcca73a}
-      \strng{fullhashraw}{62a004b95946bb97541afa471dcca73a}
-      \strng{bibnamehash}{62a004b95946bb97541afa471dcca73a}
-      \strng{authorbibnamehash}{62a004b95946bb97541afa471dcca73a}
-      \strng{authornamehash}{62a004b95946bb97541afa471dcca73a}
-      \strng{authorfullhash}{62a004b95946bb97541afa471dcca73a}
-      \strng{authorfullhashraw}{62a004b95946bb97541afa471dcca73a}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{MySQL Documentation}
-      \field{title}{MySQL}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.mysql.com/
-      \endverb
-      \verb{url}
-      \verb https://www.mysql.com/
-      \endverb
-    \endentry
-    \entry{postgresql}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=399bd1ee587245ecac6f39beaa99886f}{%
-           family={PostgreSQL},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{399bd1ee587245ecac6f39beaa99886f}
-      \strng{fullhash}{399bd1ee587245ecac6f39beaa99886f}
-      \strng{fullhashraw}{399bd1ee587245ecac6f39beaa99886f}
-      \strng{bibnamehash}{399bd1ee587245ecac6f39beaa99886f}
-      \strng{authorbibnamehash}{399bd1ee587245ecac6f39beaa99886f}
-      \strng{authornamehash}{399bd1ee587245ecac6f39beaa99886f}
-      \strng{authorfullhash}{399bd1ee587245ecac6f39beaa99886f}
-      \strng{authorfullhashraw}{399bd1ee587245ecac6f39beaa99886f}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{PostgreSQL Documentation}
-      \field{title}{PostgreSQL}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.postgresql.org/
-      \endverb
-      \verb{url}
-      \verb https://www.postgresql.org/
-      \endverb
-    \endentry
-    \entry{SQLite}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=497757a9c5b2ec17ded656170b51c788}{%
-           family={SQLite},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{497757a9c5b2ec17ded656170b51c788}
-      \strng{fullhash}{497757a9c5b2ec17ded656170b51c788}
-      \strng{fullhashraw}{497757a9c5b2ec17ded656170b51c788}
-      \strng{bibnamehash}{497757a9c5b2ec17ded656170b51c788}
-      \strng{authorbibnamehash}{497757a9c5b2ec17ded656170b51c788}
-      \strng{authornamehash}{497757a9c5b2ec17ded656170b51c788}
-      \strng{authorfullhash}{497757a9c5b2ec17ded656170b51c788}
-      \strng{authorfullhashraw}{497757a9c5b2ec17ded656170b51c788}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{SQLite Documentation}
-      \field{title}{SQLite}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.sqlite.org/
-      \endverb
-      \verb{url}
-      \verb https://www.sqlite.org/
-      \endverb
-    \endentry
-    \entry{realm}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=d7675d104699114cf794a50fc86fcded}{%
-           family={Realm},
-           familyi={R\bibinitperiod},
-           given={MongoDB},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{d7675d104699114cf794a50fc86fcded}
-      \strng{fullhash}{d7675d104699114cf794a50fc86fcded}
-      \strng{fullhashraw}{d7675d104699114cf794a50fc86fcded}
-      \strng{bibnamehash}{d7675d104699114cf794a50fc86fcded}
-      \strng{authorbibnamehash}{d7675d104699114cf794a50fc86fcded}
-      \strng{authornamehash}{d7675d104699114cf794a50fc86fcded}
-      \strng{authorfullhash}{d7675d104699114cf794a50fc86fcded}
-      \strng{authorfullhashraw}{d7675d104699114cf794a50fc86fcded}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{MongoDB Realm Documentation}
-      \field{title}{MongoDB Realm}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://realm.netlify.app/
-      \endverb
-      \verb{url}
-      \verb https://realm.netlify.app/
-      \endverb
-    \endentry
-    \entry{mongo}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=206e3718af092fd1d12f80cae771ccac}{%
-           family={MongoDB},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{206e3718af092fd1d12f80cae771ccac}
-      \strng{fullhash}{206e3718af092fd1d12f80cae771ccac}
-      \strng{fullhashraw}{206e3718af092fd1d12f80cae771ccac}
-      \strng{bibnamehash}{206e3718af092fd1d12f80cae771ccac}
-      \strng{authorbibnamehash}{206e3718af092fd1d12f80cae771ccac}
-      \strng{authornamehash}{206e3718af092fd1d12f80cae771ccac}
-      \strng{authorfullhash}{206e3718af092fd1d12f80cae771ccac}
-      \strng{authorfullhashraw}{206e3718af092fd1d12f80cae771ccac}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{MongoDB Documentation}
-      \field{title}{MongoDB}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.mongodb.com/
-      \endverb
-      \verb{url}
-      \verb https://www.mongodb.com/
-      \endverb
-    \endentry
-    \entry{redis}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=e111446745a1825b862f8727ae63bce4}{%
-           family={Redis},
-           familyi={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{e111446745a1825b862f8727ae63bce4}
-      \strng{fullhash}{e111446745a1825b862f8727ae63bce4}
-      \strng{fullhashraw}{e111446745a1825b862f8727ae63bce4}
-      \strng{bibnamehash}{e111446745a1825b862f8727ae63bce4}
-      \strng{authorbibnamehash}{e111446745a1825b862f8727ae63bce4}
-      \strng{authornamehash}{e111446745a1825b862f8727ae63bce4}
-      \strng{authorfullhash}{e111446745a1825b862f8727ae63bce4}
-      \strng{authorfullhashraw}{e111446745a1825b862f8727ae63bce4}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Redis Documentation}
-      \field{title}{Redis}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://redis.io/
-      \endverb
-      \verb{url}
-      \verb https://redis.io/
-      \endverb
-    \endentry
-    \entry{firebaseRealtime2025}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
-           family={{Google Firebase}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Firebase Documentation}
-      \field{title}{Firebase Realtime Database}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://firebase.google.com/docs/database
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/docs/database
-      \endverb
-    \endentry
-    \entry{firestore2025}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
-           family={{Google Firebase}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Firebase Documentation}
-      \field{title}{Cloud Firestore}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://firebase.google.com/docs/firestore
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/docs/firestore
-      \endverb
-    \endentry
-    \entry{room}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=7ace771b22ac28958ff5694e260839cc}{%
-           family={{Android Developers}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{7ace771b22ac28958ff5694e260839cc}
-      \strng{fullhash}{7ace771b22ac28958ff5694e260839cc}
-      \strng{fullhashraw}{7ace771b22ac28958ff5694e260839cc}
-      \strng{bibnamehash}{7ace771b22ac28958ff5694e260839cc}
-      \strng{authorbibnamehash}{7ace771b22ac28958ff5694e260839cc}
-      \strng{authornamehash}{7ace771b22ac28958ff5694e260839cc}
-      \strng{authorfullhash}{7ace771b22ac28958ff5694e260839cc}
-      \strng{authorfullhashraw}{7ace771b22ac28958ff5694e260839cc}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Android Jetpack Documentation}
-      \field{title}{Save data in a local database using Room}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://developer.android.com/training/data-storage/room
-      \endverb
-      \verb{url}
-      \verb https://developer.android.com/training/data-storage/room
-      \endverb
-    \endentry
-    \entry{coreData}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=3dd122ecce0ce9058f026211834f686e}{%
-           family={{Apple Developer}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{fullhash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{fullhashraw}{3dd122ecce0ce9058f026211834f686e}
-      \strng{bibnamehash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{authorbibnamehash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{authornamehash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{authorfullhash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{authorfullhashraw}{3dd122ecce0ce9058f026211834f686e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Core Data Documentation}
-      \field{title}{Core Data}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://developer.apple.com/documentation/coredata/
-      \endverb
-      \verb{url}
-      \verb https://developer.apple.com/documentation/coredata/
-      \endverb
-    \endentry
     \entry{Taipalus2024}{article}{}{}
       \name{author}{1}{}{%
         {{hash=0e25ec6249f5d1a010fa5faa26a828d8}{%
@@ -1583,8 +1206,8 @@
       \strng{authornamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
       \strng{authorfullhash}{0e25ec6249f5d1a010fa5faa26a828d8}
       \strng{authorfullhashraw}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Efficiency has been a pivotal aspect of the software industry since its inception, as a system that serves the end-user fast, and the service provider cost-efficiently benefits all parties. A database management system (DBMS) is an integral part of effectively all software systems, and therefore it is logical that different studies have compared the performance of different DBMSs in hopes of finding the most efficient one. This study systematically synthesizes the results and approaches of studies that compare DBMS performance and provides recommendations for industry and research. The results show that performance is usually tested in a way that does not reflect real-world use cases, and that tests are typically reported in insufficient detail for replication or for drawing conclusions from the stated results.}
@@ -1607,288 +1230,6 @@
       \endverb
       \keyw{Comparison,Database,Database management system,NewSQL,NoSQL,Performance,Relational database}
     \endentry
-    \entry{firebasefunctions}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
-           family={{Google Firebase}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Firebase Documentation}
-      \field{title}{Cloud Functions}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://firebase.google.com/docs/functions
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/docs/functions
-      \endverb
-    \endentry
-    \entry{firebaseAuthentication}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
-           family={{Google Firebase}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \field{extraname}{4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Firebase Documentation}
-      \field{title}{Authentication}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://firebase.google.com/docs/auth
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/docs/auth
-      \endverb
-    \endentry
-    \entry{emulatorSuite}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
-           family={{Google Firebase}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \field{extraname}{5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Firebase Documentation}
-      \field{title}{Local Emulator Suite}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://firebase.google.com/docs/emulator-suite
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/docs/emulator-suite
-      \endverb
-    \endentry
-    \entry{firebaseDataConnect}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
-           family={{Google Firebase}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \field{extraname}{6}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Firebase Documentation}
-      \field{title}{Data Connect}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://firebase.google.com/docs/data-connect
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/docs/data-connect
-      \endverb
-    \endentry
-    \entry{firebaseRules}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
-           family={{Google Firebase}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \field{extraname}{7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Firebase Documentation}
-      \field{title}{Security Rules}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://firebase.google.com/docs/rules
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/docs/rules
-      \endverb
-    \endentry
-    \entry{firebaseAppCheck}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
-           family={{Google Firebase}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \field{extraname}{8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Firebase Documentation}
-      \field{title}{App Check}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://firebase.google.com/docs/app-check
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/docs/app-check
-      \endverb
-    \endentry
-    \entry{firebaseMsg}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
-           family={{Google Firebase}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \field{extraname}{9}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Firebase Documentation}
-      \field{title}{Cloud Messaging}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://firebase.google.com/docs/cloud-messaging
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/docs/cloud-messaging
-      \endverb
-    \endentry
-    \entry{firebaseOverview}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
-           family={{Google Firebase}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \field{extraname}{10}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Firebase Documentation}
-      \field{title}{Learn about products to help you RUN your app}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://firebase.google.com/docs/run
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/docs/run
-      \endverb
-    \endentry
-    \entry{firebasePrice}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=9af7e6c335459a54c7ccd1ed5bce15cb}{%
-           family={{Google Firebase}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{fullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{bibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorbibnamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authornamehash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhash}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \strng{authorfullhashraw}{9af7e6c335459a54c7ccd1ed5bce15cb}
-      \field{extraname}{11}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Firebase Pricing plans}
-      \field{title}{Pricing plans}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://firebase.google.com/pricing
-      \endverb
-      \verb{url}
-      \verb https://firebase.google.com/pricing
-      \endverb
-    \endentry
-    \entry{supabase}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Supabase}
-      \verb{urlraw}
-      \verb https://supabase.com/
-      \endverb
-      \verb{url}
-      \verb https://supabase.com/
-      \endverb
-    \endentry
     \entry{ZewdieAyezabu2022}{article}{}{}
       \name{author}{1}{}{%
         {{hash=00d488db4070ac234b2610e4fb93acb5}{%
@@ -1905,274 +1246,17 @@
       \strng{authornamehash}{00d488db4070ac234b2610e4fb93acb5}
       \strng{authorfullhash}{00d488db4070ac234b2610e4fb93acb5}
       \strng{authorfullhashraw}{00d488db4070ac234b2610e4fb93acb5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ayezabu Amanuel Supabase vs Firebase: Evaluation of performance and development of Progressive Web Apps}
       \field{year}{2022}
       \keyw{firebase,pwa,supabase,web development}
     \endentry
-    \entry{supabaseAuth}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=af07a053f31f1c94fcf389327c68f6dd}{%
-           family={{Supabase}},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{fullhash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{fullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{bibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorbibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authornamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Supabase Documentation}
-      \field{title}{Auth}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://supabase.com/docs/guides/auth
-      \endverb
-      \verb{url}
-      \verb https://supabase.com/docs/guides/auth
-      \endverb
-    \endentry
-    \entry{supabaseStorage}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=af07a053f31f1c94fcf389327c68f6dd}{%
-           family={{Supabase}},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{fullhash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{fullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{bibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorbibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authornamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Supabase Documentation}
-      \field{title}{Storage}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://supabase.com/docs/guides/storage
-      \endverb
-      \verb{url}
-      \verb https://supabase.com/docs/guides/storage
-      \endverb
-    \endentry
-    \entry{supabaseEdge}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=af07a053f31f1c94fcf389327c68f6dd}{%
-           family={{Supabase}},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{fullhash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{fullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{bibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorbibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authornamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
-      \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Supabase Documentation}
-      \field{title}{Edge Funtions}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://supabase.com/docs/guides/functions
-      \endverb
-      \verb{url}
-      \verb https://supabase.com/docs/guides/functions
-      \endverb
-    \endentry
-    \entry{supabaseRealtime}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=af07a053f31f1c94fcf389327c68f6dd}{%
-           family={{Supabase}},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{fullhash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{fullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{bibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorbibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authornamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
-      \field{extraname}{4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Supabase Documentation}
-      \field{title}{Realtime}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://supabase.com/docs/guides/realtime
-      \endverb
-      \verb{url}
-      \verb https://supabase.com/docs/guides/realtime
-      \endverb
-    \endentry
-    \entry{supabaseIntegrations}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=af07a053f31f1c94fcf389327c68f6dd}{%
-           family={{Supabase}},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{fullhash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{fullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{bibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorbibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authornamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
-      \field{extraname}{5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Supabase Pricing}
-      \field{title}{Integrations}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://supabase.com/partners/integrations
-      \endverb
-      \verb{url}
-      \verb https://supabase.com/partners/integrations
-      \endverb
-    \endentry
-    \entry{supabasePricing}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=af07a053f31f1c94fcf389327c68f6dd}{%
-           family={{Supabase}},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{fullhash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{fullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{bibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorbibnamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authornamehash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorfullhash}{af07a053f31f1c94fcf389327c68f6dd}
-      \strng{authorfullhashraw}{af07a053f31f1c94fcf389327c68f6dd}
-      \field{extraname}{6}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Supabase Pricing}
-      \field{title}{Pricing}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://supabase.com/pricing
-      \endverb
-      \verb{url}
-      \verb https://supabase.com/pricing
-      \endverb
-    \endentry
-    \entry{ParseBack4App}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{What is Parse? | Back4App}
-      \verb{urlraw}
-      \verb https://www.back4app.com/parse
-      \endverb
-      \verb{url}
-      \verb https://www.back4app.com/parse
-      \endverb
-    \endentry
-    \entry{ParseFeatures}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=c9ad95228aa735bdda1aebf38da022af}{%
-           family={{Parse}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{c9ad95228aa735bdda1aebf38da022af}
-      \strng{fullhash}{c9ad95228aa735bdda1aebf38da022af}
-      \strng{fullhashraw}{c9ad95228aa735bdda1aebf38da022af}
-      \strng{bibnamehash}{c9ad95228aa735bdda1aebf38da022af}
-      \strng{authorbibnamehash}{c9ad95228aa735bdda1aebf38da022af}
-      \strng{authornamehash}{c9ad95228aa735bdda1aebf38da022af}
-      \strng{authorfullhash}{c9ad95228aa735bdda1aebf38da022af}
-      \strng{authorfullhashraw}{c9ad95228aa735bdda1aebf38da022af}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Parse Platform}
-      \field{title}{Parse Features}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://parseplatform.org/#features
-      \endverb
-      \verb{url}
-      \verb https://parseplatform.org/#features
-      \endverb
-    \endentry
-    \entry{Gridfs}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{GridFS}
-      \verb{urlraw}
-      \verb https://www.mongodb.com/docs/manual/core/gridfs/
-      \endverb
-      \verb{url}
-      \verb https://www.mongodb.com/docs/manual/core/gridfs/
-      \endverb
-    \endentry
-    \entry{Back4AppParse}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Parse on Back4App}
-      \verb{urlraw}
-      \verb https://www.back4app.com/product/parse-baas
-      \endverb
-      \verb{url}
-      \verb https://www.back4app.com/product/parse-baas
-      \endverb
-    \endentry
-    \entry{Back4App}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Back4App}
-      \verb{urlraw}
-      \verb https://www.back4app.com/
-      \endverb
-      \verb{url}
-      \verb https://www.back4app.com/
-      \endverb
-    \endentry
     \entry{Back4AppAlternatives}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labeltitlesource}{title}
       \field{title}{2025’s Best Firebase Alternatives: Open-Source \& Scalable Solutions}
       \verb{urlraw}
@@ -2182,33 +1266,9 @@
       \verb https://blog.back4app.com/firebase-alternatives/
       \endverb
     \endentry
-    \entry{Back4AppPrice}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Back4App Price}
-      \verb{urlraw}
-      \verb https://www.back4app.com/pricing/backend-as-a-service
-      \endverb
-      \verb{url}
-      \verb https://www.back4app.com/pricing/backend-as-a-service
-      \endverb
-    \endentry
-    \entry{awsAmplify}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{AWS Amplify}
-      \verb{urlraw}
-      \verb https://docs.amplify.aws/android/
-      \endverb
-      \verb{url}
-      \verb https://docs.amplify.aws/android/
-      \endverb
-    \endentry
     \entry{awsAmplifyFeatures}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{AWS Amplify Features}
       \verb{urlraw}
@@ -2218,81 +1278,9 @@
       \verb https://aws.amazon.com/amplify/features/
       \endverb
     \endentry
-    \entry{cognito}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Amazon Cognito Pricing}
-      \verb{urlraw}
-      \verb https://aws.amazon.com/cognito/pricing/
-      \endverb
-      \verb{url}
-      \verb https://aws.amazon.com/cognito/pricing/
-      \endverb
-    \endentry
-    \entry{appsync}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{AWS AppSync Pricing}
-      \verb{urlraw}
-      \verb https://aws.amazon.com/appsync/pricing/
-      \endverb
-      \verb{url}
-      \verb https://aws.amazon.com/appsync/pricing/
-      \endverb
-    \endentry
-    \entry{dynamoDb}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Amazon DynamoDB}
-      \verb{urlraw}
-      \verb https://aws.amazon.com/dynamodb/
-      \endverb
-      \verb{url}
-      \verb https://aws.amazon.com/dynamodb/
-      \endverb
-    \endentry
-    \entry{lambda}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{AWS Lambda pricing}
-      \verb{urlraw}
-      \verb https://aws.amazon.com/lambda/pricing/
-      \endverb
-      \verb{url}
-      \verb https://aws.amazon.com/lambda/pricing/
-      \endverb
-    \endentry
-    \entry{s3}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Amazon S3}
-      \verb{urlraw}
-      \verb https://aws.amazon.com/s3/pricing/
-      \endverb
-      \verb{url}
-      \verb https://aws.amazon.com/s3/pricing/
-      \endverb
-    \endentry
-    \entry{azureMobileServices}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Announcing Azure Mobile Services transition to Azure App Service}
-      \verb{urlraw}
-      \verb https://azure.microsoft.com/en-us/blog/transition-of-azure-mobile-services/
-      \endverb
-      \verb{url}
-      \verb https://azure.microsoft.com/en-us/blog/transition-of-azure-mobile-services/
-      \endverb
-    \endentry
     \entry{azureappservices}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{Microsoft Azure App Service}
       \verb{urlraw}
@@ -2303,8 +1291,8 @@
       \endverb
     \endentry
     \entry{azureFunctions}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{Azure Functions}
       \verb{urlraw}
@@ -2314,321 +1302,9 @@
       \verb https://azure.microsoft.com/en-us/products/functions
       \endverb
     \endentry
-    \entry{azureCosmos}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Azure Cosmos DB}
-      \verb{urlraw}
-      \verb https://learn.microsoft.com/en-us/azure/cosmos-db/introduction
-      \endverb
-      \verb{url}
-      \verb https://learn.microsoft.com/en-us/azure/cosmos-db/introduction
-      \endverb
-    \endentry
-    \entry{azureSQL}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Azure SQL Database}
-      \verb{urlraw}
-      \verb https://azure.microsoft.com/en-us/products/azure-sql/database
-      \endverb
-      \verb{url}
-      \verb https://azure.microsoft.com/en-us/products/azure-sql/database
-      \endverb
-    \endentry
-    \entry{azureEntraID}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Microsoft Entra ID}
-      \verb{urlraw}
-      \verb https://learn.microsoft.com/en-us/entra/identity/
-      \endverb
-      \verb{url}
-      \verb https://learn.microsoft.com/en-us/entra/identity/
-      \endverb
-    \endentry
-    \entry{azureNotification}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Azure Notification Hubs}
-      \verb{urlraw}
-      \verb https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-overview
-      \endverb
-      \verb{url}
-      \verb https://learn.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-overview
-      \endverb
-    \endentry
-    \entry{azureAPI}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Azure API Management}
-      \verb{urlraw}
-      \verb https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts
-      \endverb
-      \verb{url}
-      \verb https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts
-      \endverb
-    \endentry
-    \entry{azureStorage}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Azure Storage}
-      \verb{urlraw}
-      \verb https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction
-      \endverb
-      \verb{url}
-      \verb https://learn.microsoft.com/en-us/azure/storage/common/storage-introduction
-      \endverb
-    \endentry
-    \entry{fiba-courts}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Basketball Courts of the World – Courts of the World}
-      \verb{urlraw}
-      \verb https://www.courtsoftheworld.com/
-      \endverb
-      \verb{url}
-      \verb https://www.courtsoftheworld.com/
-      \endverb
-    \endentry
-    \entry{meetup}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Find Events \& Groups in Portugal}
-      \verb{urlraw}
-      \verb https://www.meetup.com/find/portugal/
-      \endverb
-      \verb{url}
-      \verb https://www.meetup.com/find/portugal/
-      \endverb
-    \endentry
-    \entry{reddit}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Anywhere to play pickup basketball in Lisbon?}
-      \verb{urlraw}
-      \verb https://www.reddit.com/r/lisboa/comments/qtokhf/anywhere_to_play_pickup_basketball_in_lisbon/
-      \endverb
-      \verb{url}
-      \verb https://www.reddit.com/r/lisboa/comments/qtokhf/anywhere_to_play_pickup_basketball_in_lisbon/
-      \endverb
-    \endentry
-    \entry{worldBaller}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Pickup Basketball In Every City - Lisbon}
-      \verb{urlraw}
-      \verb https://www.worldballer.com/europe/lisbon
-      \endverb
-      \verb{url}
-      \verb https://www.worldballer.com/europe/lisbon
-      \endverb
-    \endentry
-    \entry{perplexity}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{I am from Lisbon and I play basketball. I would like to go play on the weekend in a public court. Where can I go? Is there any platform I can find some casual games to join?}
-      \verb{urlraw}
-      \verb https://www.perplexity.ai/search/i-am-from-lisbon-and-i-play-ba-8VmBq1GuQFGTna4LnR3VXg#0
-      \endverb
-      \verb{url}
-      \verb https://www.perplexity.ai/search/i-am-from-lisbon-and-i-play-ba-8VmBq1GuQFGTna4LnR3VXg#0
-      \endverb
-    \endentry
-    \entry{pickup-adult}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Pickup Sports}
-      \verb{urlraw}
-      \verb https://pickup-sports.com/
-      \endverb
-      \verb{url}
-      \verb https://pickup-sports.com/
-      \endverb
-    \endentry
-    \entry{fullcourt-pp}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Fullcourt: Pickup Basketball}
-      \verb{urlraw}
-      \verb https://play.google.com/store/apps/details?id=com.fullcourt.fullcourt&hl=en_US
-      \endverb
-      \verb{url}
-      \verb https://play.google.com/store/apps/details?id=com.fullcourt.fullcourt&hl=en_US
-      \endverb
-    \endentry
-    \entry{chatgpt1}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Lisbon basketball courts}
-      \verb{urlraw}
-      \verb https://chatgpt.com/s/t_68ef91bd97b881918a2f64248073502a
-      \endverb
-      \verb{url}
-      \verb https://chatgpt.com/s/t_68ef91bd97b881918a2f64248073502a
-      \endverb
-    \endentry
-    \entry{chatgpt2}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Lisbon basketball courts games}
-      \verb{urlraw}
-      \verb https://chatgpt.com/s/t_68ef915fde548191a794cd0d4dbdbd67
-      \endverb
-      \verb{url}
-      \verb https://chatgpt.com/s/t_68ef915fde548191a794cd0d4dbdbd67
-      \endverb
-    \endentry
-    \entry{aircourts}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{AirCourts - Reserva grátis 1,500 campos de Padel, Ténis e Futebol em Portugal}
-      \verb{urlraw}
-      \verb https://www.aircourts.com/
-      \endverb
-      \verb{url}
-      \verb https://www.aircourts.com/
-      \endverb
-    \endentry
-    \entry{playtonic}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Join the community and book courts online in one app | Playtomic}
-      \verb{urlraw}
-      \verb https://playtomic.com/
-      \endverb
-      \verb{url}
-      \verb https://playtomic.com/
-      \endverb
-    \endentry
-    \entry{jogabasket}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Lisbon basketball courts games}
-      \verb{urlraw}
-      \verb http://www.jogabasket.pt/
-      \endverb
-      \verb{url}
-      \verb http://www.jogabasket.pt/
-      \endverb
-    \endentry
-    \entry{pickup}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Pickup: Play \& Host Sports}
-      \verb{urlraw}
-      \verb https://www.pickupgames.app/
-      \endverb
-      \verb{url}
-      \verb https://www.pickupgames.app/
-      \endverb
-    \endentry
-    \entry{pickup-app}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Pickup: Play \& Host Sports Play Store}
-      \verb{urlraw}
-      \verb https://play.google.com/store/apps/details?id=com.testpickup.app
-      \endverb
-      \verb{url}
-      \verb https://play.google.com/store/apps/details?id=com.testpickup.app
-      \endverb
-    \endentry
-    \entry{goodrec}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{GoodRec}
-      \verb{urlraw}
-      \verb https://play.google.com/store/apps/details?id=com.lewisblack.JustPlay
-      \endverb
-      \verb{url}
-      \verb https://play.google.com/store/apps/details?id=com.lewisblack.JustPlay
-      \endverb
-    \endentry
-    \entry{woooba}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{WOOBA}
-      \verb{urlraw}
-      \verb https://play.google.com/store/apps/details?id=io.woooba
-      \endverb
-      \verb{url}
-      \verb https://play.google.com/store/apps/details?id=io.woooba
-      \endverb
-    \endentry
-    \entry{pick-roll}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Pick-Roll}
-      \verb{urlraw}
-      \verb https://play.google.com/store/apps/details?id=com.iperskill.pickroll
-      \endverb
-      \verb{url}
-      \verb https://play.google.com/store/apps/details?id=com.iperskill.pickroll
-      \endverb
-    \endentry
-    \entry{pickup-adult-app}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Pickup Sports Play Store}
-      \verb{urlraw}
-      \verb https://play.google.com/store/apps/details?id=com.pickup.sports
-      \endverb
-      \verb{url}
-      \verb https://play.google.com/store/apps/details?id=com.pickup.sports
-      \endverb
-    \endentry
-    \entry{fullcourt}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Fullcourt: Pickup Basketball}
-      \verb{urlraw}
-      \verb https://www.50four.com/
-      \endverb
-      \verb{url}
-      \verb https://www.50four.com/
-      \endverb
-    \endentry
-    \entry{meetup-basketball-group}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Lisbon Basketball Club | Meetup}
-      \verb{urlraw}
-      \verb https://www.meetup.com/lisbon-basketball-meetup/
-      \endverb
-      \verb{url}
-      \verb https://www.meetup.com/lisbon-basketball-meetup/
-      \endverb
-    \endentry
     \entry{scrumAtlassian}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{Scrum | Atlassian}
       \verb{urlraw}
@@ -2639,8 +1315,8 @@
       \endverb
     \endentry
     \entry{agileAtlassian}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{What is Agile?}
       \verb{urlraw}
@@ -2651,8 +1327,8 @@
       \endverb
     \endentry
     \entry{scrumAlternatives}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{5 Alternative Agile Methodologies Other Than Scrum | Do Async | April 4, 2024}
       \verb{urlraw}
@@ -2663,8 +1339,8 @@
       \endverb
     \endentry
     \entry{userStoriesAtlassian}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{User stories with examples and a template | Atlassian}
       \verb{urlraw}
@@ -2672,18 +1348,6 @@
       \endverb
       \verb{url}
       \verb https://www.atlassian.com/agile/project-management/user-stories
-      \endverb
-    \endentry
-    \entry{jira}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{Jira | Issue \& Project Tracking Software | Atlassian}
-      \verb{urlraw}
-      \verb https://www.atlassian.com/software/jira
-      \endverb
-      \verb{url}
-      \verb https://www.atlassian.com/software/jira
       \endverb
     \endentry
     \entry{agileAllianceATDD}{misc}{}{}
@@ -2702,8 +1366,8 @@
       \strng{authornamehash}{7027867c463fb47d4703a82b55cbbbb5}
       \strng{authorfullhash}{7027867c463fb47d4703a82b55cbbbb5}
       \strng{authorfullhashraw}{7027867c463fb47d4703a82b55cbbbb5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Acceptance Test Driven Development (ATDD)}
@@ -2716,8 +1380,8 @@
       \endverb
     \endentry
     \entry{acceptanceCriteria}{misc}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{Acceptance Criteria for User Stories in Agile: Purposes, Formats, Examples, and Best Practices}
       \verb{urlraw}
@@ -2753,6 +1417,62 @@
       \endverb
       \verb{url}
       \verb https://developer.android.com/topic/architecture
+      \endverb
+    \endentry
+    \entry{room}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7ace771b22ac28958ff5694e260839cc}{%
+           family={{Android Developers}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{fullhash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{fullhashraw}{7ace771b22ac28958ff5694e260839cc}
+      \strng{bibnamehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authorbibnamehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authornamehash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authorfullhash}{7ace771b22ac28958ff5694e260839cc}
+      \strng{authorfullhashraw}{7ace771b22ac28958ff5694e260839cc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Android Jetpack Documentation}
+      \field{title}{Save data in a local database using Room}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://developer.android.com/training/data-storage/room
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/training/data-storage/room
+      \endverb
+    \endentry
+    \entry{ISO25010}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0828a8408614177181026ea908d5594a}{%
+           family={ISO/IEC},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{0828a8408614177181026ea908d5594a}
+      \strng{fullhash}{0828a8408614177181026ea908d5594a}
+      \strng{fullhashraw}{0828a8408614177181026ea908d5594a}
+      \strng{bibnamehash}{0828a8408614177181026ea908d5594a}
+      \strng{authorbibnamehash}{0828a8408614177181026ea908d5594a}
+      \strng{authornamehash}{0828a8408614177181026ea908d5594a}
+      \strng{authorfullhash}{0828a8408614177181026ea908d5594a}
+      \strng{authorfullhashraw}{0828a8408614177181026ea908d5594a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{last access: 28 December 2025}
+      \field{title}{ISO/IEC 25000 - Software and data Quality - ISO/IEC 25010}
+      \verb{urlraw}
+      \verb https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+      \endverb
+      \verb{url}
+      \verb https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
       \endverb
     \endentry
   \enddatalist

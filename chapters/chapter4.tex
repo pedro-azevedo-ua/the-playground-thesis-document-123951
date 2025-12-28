@@ -1,34 +1,10 @@
 \chapter{Methodology}
 
-Developing a platform to help basketball players organize games and enhance their satisfaction at public courts requires a development process that consistently prioritizes user needs.
-To achieve this, the project adopts a User-Centred Design (UCD) ensuring that the users are involved throughout the design process. 
-The UCD is applied across three iterations with each culminating in direct user evaluation.
-The iterative structure is complemented by Scrum, an Agile project management framework that promotes adaptive planning and continuous improvement, and Acceptance Test-Driven Development (ATDD), ensuring that the system's features align with user expectations and perform as intended.
-This chapter details the methodologies, tools and frameworks that are going to be used and followed during the design and development process, and the architecture that the platform will have.
-
-
-
-\section{User-Centered Design (UCD)}\label{sec:ucd}
-
-UCD is an iterative process focused on the users and theirs needs in each design phase, by actively involving users in the process.
-The goal of UCD is to address the whole user experience, and shape the application to the specific needs of target users\cite{IxDF2025}
-
-To implement UCD systematically, there are 4 phases defined by the \textit{ISO 9241-210:2019}\cite{iso9241-210}, which establish Human-Centred Design (HCD) principals applicable to UCD.
-While the standards focus on HCD, UCD applies these principals with explicit focus on a defined target user population rather than broader human contexts. The four phases are:
-
-\begin{itemize}
-	\item \textbf{Understand and specify the context of use}: This phase focuses on understanding the target users, their needs, pain points, and the environment in which they will use the system. Research methods such as user interviews, observations, and contextual analysis are employed to build a comprehensive understanding of user contexts;
-	
-	\item \textbf{Specify the user requirements}: With a clear understanding of users and their contexts, this phase involves gathering and documenting specific user requirements and desired features. 
-	Requirements are derived from user research findings and articulate what the system must do to address identified user needs. 
-	Requirements are a set of guidelines that state what the functionality and capabilities of the platform system, which meet the user's needs and business's objectives.
-	This will guide the development process, ensuring the end product is user-friendly, accessible and valuable.\cite{requirementsIDF}
-	
-	\item \textbf{Produce design solutions to meet user requirements}: Based on validated user requirements, design solutions are created to address identified needs. This phase includes creating wire frames, prototypes, and mock-ups that translate requirements into tangible design artefacts;
-	
-	\item \textbf{Evaluate the designs against requirements}: Prototypes and design solutions are tested with actual users to validate that the designs meet specified requirements and user needs. Feedback from evaluation informs iterative refinements until user satisfaction and requirement fulfilment are achieved.
-\end{itemize}
-
+Developing a platform to help basketball players organise games and enhance their satisfaction at public courts requires a development process that consistently prioritizes user needs. 
+To achieve this, the project adopts User-Centred Design (UCD), ensuring that users are involved throughout the design process integrated with Agile.
+ The UCD is applied across three iterative cycles, each culminating in direct user evaluation. 
+ This iterative structure is complemented by Scrum, an Agile project management framework that promotes adaptive planning and continuous improvement, and Acceptance Test-Driven Development (ATDD), ensuring that the system's features align with user expectations and perform as intended. 
+ This chapter details the methodologies, tools, and frameworks employed during the design and development process (UCD, Agile and the Agile-UCD integration are discussed in the Section \ref{sec:app-dev-meth}), explains how they were applied in practice across the three iterations, as well as the system architecture and the main technology decisions that support it.
 
 \section{Scrum}\label{sec:scrum}
 
@@ -37,12 +13,12 @@ The Agile methodology, which Scrum implements, divide development into phases th
 This approach emphasizes planing only necessary work and delivering small, frequent increments while gathering feedback in each cycle which will be integrated into the next phase\cite{agileAtlassian}.
 While multiple Agile frameworks exist, Scrum is the most widely adopted due to its flexibility and applicability across projects different scales\cite{scrumAlternatives}.
 
-In this project, requirements gathered during the second phase of UCD (Section \ref{sec:ucd}) are documented as User Stories.
+In this project, requirements gathered during the second phase of UCD (SubSection \ref{subsec:ucd}) are documented as User Stories.
 User Stories employ non-technical language to provide development context written from the user's perspective, clarifying not only what is being built, but also the why and the value it delivers.
 User Stories integrate naturally into Scrum, where each story is assigned to a Sprint and marked as complete when users can successfully execute the outlined task\cite{userStoriesAtlassian}.
 This approached focused on the user aligns with the project's emphasis on User-Centred Design throughout development.
 
-To help implement Scrum effectively, this project uses Jira as a project management tool\cite{jira}, enabling systematic planning, task assignment, and progress tracking in the development phase
+To help implement Scrum effectively, this project uses Jira as a project management tool\footnote{https://www.atlassian.com/software/jira}, enabling systematic planning, task assignment, and progress tracking in the development phase
 
 \section{Acceptance Test-Driven Development (ATDD)}\label{sec:atdd}
 
@@ -54,11 +30,24 @@ Acceptance Test can be written in different ways, scenario-oriented that uses a 
 
 \section{Iteration Development Process}
 
-This project follows an iterative and incremental development model structured into three iterations, each integrating UCD, Scrum and ATDD methodologies, and culminating in user evaluation to maintain User-Centred Design principals throughout development
+This project follows an iterative and incremental development model structured into three major phases, each following User-Centered Design principles. 
+While Phase 1 focuses entirely on user research and prototyping, Phases 2 and 3 integrate Scrum sprints to incrementally develop and evaluate working features. 
+This approach applies UCD's complete research-design-evaluation cycle across the entire project, while using Scrum's sprint structure to organize development work within Phases 2 and 3.
+The Figure \ref{fig:roadmap} represents the timeline of the different phases.
 
-\subsubsection{Iteration 1: Prototype and Feature Validation}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1.15\textwidth]{figs/roadmap}
+	\caption{Project Development Roadmap}
+	\label{fig:roadmap}
+\end{figure}
 
-The first iteration includes all four phases of UCD (Section \ref{sec:ucd})
+
+
+\subsubsection{Phase 1: Prototype and Feature Validation}
+
+The first phase includes all four steps of UCD (SubSection \ref{subsec:ucd}) in order to research the problem, design a proposed solution and evaluate with the possible users.
+These are the following steps:
 
 \begin{itemize}
 	\item A survey is conducted to understand the basketball players who uses public courts, including their habits, challenges and desired improvements to their experience. With that, \textit{personas} are created representing different user needs and pain points. User scenarios are also developed for each \textit{persona}, describing how they use public courts, what problems they encounter and when and how a platform would support them;
@@ -67,27 +56,29 @@ The first iteration includes all four phases of UCD (Section \ref{sec:ucd})
 	
 	\item The prototypes of  user stories are created in Figma to provide an interactive and testable design;
 	
-	\item Finally, users test the interactive prototype and provide feedback on the importance and relevance of the features. This feedback is use to update and prioritize the backlog for the next iterations.
+	\item Finally, users test the interactive prototype and provide feedback on the importance and relevance of the features. This feedback is used to update and prioritize the backlog for the next iterations.
 	
 \end{itemize}
 
-In this first iteration, the test that users will perform are Task-based usability testing using interactive Figma prototype, followed by a Feature Prioritization Survey assessing feature importance and relevance;
+In this first phase, the tests that users will perform are Task-based usability testing using interactive Figma prototype, followed by a Feature Prioritization Survey assessing feature importance and relevance;
 
-\subsection{Iteration 2: MVP Development and UI/UX Evaluation}
+\subsection{Phase 2: MVP Development and UI/UX Evaluation}
 
-In the second iteration, instead of a prototype, a Minimum Viable Product (MVP) is developed, with enough features to be usable in early stages and receive feedback.
-This iteration start applying both Scrum and ATDD methodologies (Sections \ref{sec:scrum} and \ref{sec:atdd})  to implement the most critical user stories identified from the first iteration's feedback
+In the second phase, instead of a prototype, a Minimum Viable Product (MVP) is developed, with enough features to be usable in early stages and receive feedback.
+This phase starts applying both Scrum and ATDD methodologies (Sections \ref{sec:scrum} and \ref{sec:atdd})  to implement the most critical user stories identified from the first phase's feedback
 
-For each user story, it is follow the ATDD approach, where acceptance criteria are defined, tests are written to validate these criteria, the feature is developed and then validated ensuring all tests pass.
+Each user story follows the ATDD approach, where acceptance criteria are defined, tests are written to validate these criteria, the feature is developed and then validated ensuring all tests pass.
 User stories are organized into sprints according to the Scrum framework, enabling iterative and continuous progress, tracking in Jira.
 
-With a functional MVP, users evaluate the platform focusing on user experience (UX) and user interface (UI) aspects, through Task-Based Usability Testing to measure task performance, System Usability Scale (SUS) questionnaire combined with think-aloud protocol during task execution, and User Experience questionnair, providing feedback to guide refinements in the final iteration.
+With a functional MVP, users evaluate the platform focusing on user experience (UX) and user interface (UI) aspects, through Task-Based Usability Testing to measure task performance, System Usability Scale (SUS) questionnaire combined with think-aloud protocol during task execution, and User Experience questionnaire, providing feedback to guide refinements in the final phase.
 
-\subsection{Iteration 3: Complete Application and Overall Evaluation}
+\subsection{Phase 3: Complete Application and Overall Evaluation}
 
-Following feedback from the second iteration, in the final one it is developed the complete platform, continuing to apply Scrum and ATDD. 
-Improvements from previous feedback are made and all remaining user stories are implemented, developing as well the tests first, ensuring consistent quality.
-Users conduct a comprehensive evaluation of the complete platform, assessing overall functionality, usability, reliability and satisfaction with th final product, using SUS, task-based testing, and semi-structured interviews.
+Following feedback from the second phase, in the final one it is developed the complete platform, continuing to apply Scrum and ATDD. 
+Improvements from previous feedback are made and all remaining user stories are implemented, developing as well the tests first, ensuring consistent quality throughout.
+Users conduct a comprehensive evaluation of the complete platform, assessing overall functionality, usability, reliability and satisfaction with the final product, using SUS, task-based testing, and semi-structured interviews.
+
+
 
 \section{Architecture}
 
@@ -107,9 +98,9 @@ For this project it was followed this guide and, besides that, it will use the M
 The View is responsible for the UI and the presentation to the user, it informs the ViewModel of user actions, and observes the ViewModel states, not contain any application logic, while the ViewModel exposes the data that the View is observing, serving a link between the Model and the View. Finally, the Model abstracts the data sources, working together with ViewModel to get and save data, has the business logic of the application. This can be represented in the layers, with the UI components being the View, and the Domain and Data layer being the Model. 
 
 \begin{figure}[h]
-	\caption{Architecture Diagram of the Multiplatform Application}
 	\centering
 	\includegraphics[width=1\textwidth]{figs/architectureDiagram}
+	\caption{Architecture Diagram of the Multiplatform Application}
 	\label{fig:architecture}
 \end{figure}
 
@@ -134,7 +125,38 @@ As some feature of the platform will need to work while the user is off-line or 
 Finally a data mapper to convert data from Supabase to the Room database is needed.
 
 
+\subsection{Maps Engine}
+
+An important piece of this project is to have a map identifying the courts for the users to find and visualize.
+There are several tools and libraries for this, however the most compatible and cheap option is MapLibre Compose\footnote{https://maplibre.org/maplibre-compose/}.
+This is a Compose Multiplatform wrapper around the MapLibre\footnote{https://maplibre.org/} SDKs, an organization that provides open-source mapping libraries, which enables to render interactive maps.
+The MapLibre Compose will work in both Android and iOS, and it is possible to configure gestures, respond to a map click or long click, download offline images and more other features.
+
+A disadvantage of this library is that the community and support is still growing.
+An alternative would be Google Maps SDK\footnote{https://developers.google.com/maps/documentation/android-sdk/overview?section=start}, however, it has vendor lock-in, with costs passing the USD 300 trial credits.
+Besides that, it is not Kotlin Multiplatform native, needing a platform-specific implementation.
+Mapbox\footnote{https://www.mapbox.com/} is another option, with a free tier and then price, with no direct support to KMP.
+
+MapLibre Compose is utilized strictly as a Presentation Layer component. 
+It functions as a UI rendering engine responsible for visualizing geospatial data provided by the ViewModel. 
+It is decoupled from business logic and data access, ensuring that the underlying domain rules regarding court management remain agnostic to the specific mapping technology employed.
+
+MapLibre also integrates with the Data Layer, which handles the retrieval of map tiles from external MapLibre servers. 
+When the user interacts with the map (panning, zooming, or changing location), it makes API calls to MapLibre to fetch the necessary map tile data for the requested coordinates and zoom level. 
+Additionally, the it implements caching strategies to store map assets locally, enabling offline map functionality. 
+It also manages map styling configurations by fetching and applying the MapLibre style JSON, which defines layer styles, colours, and visual properties.
 
 
+\subsection{Notifications Engine}
 
+To keep user's engagement, it is essential to have notifications, when they are in the application and when they have the application closed, so they get notified when someone has created a game in their favourite court.
+Supabase have a real-time feature that enables to create in-app notifications, however, when the application is closed there it is no communication between the Supabase backend and the client side.
+For push notifications for when the application is closed, there are different options.
+Google's Firebase has the Firebase Cloud Messaging (FCM)\footnote{https://firebase.google.com/docs/cloud-messaging} that can notify the application about available synchronizations, and send notification messages to single devices, to groups of devices, or to devices subscribed to topics, all this with no costs.
+Another option is OneSignal\footnote{https://onesignal.com/} that has multiple functionalities including sending notifications when the application is closed.
+OneSignal has some pricing options, but in the free tier, the push notifications are unlimited.
+For this project, OneSignal will be use, as the set-up is easier because it handles user's tokens while in Firebase, it needs more code to handle user's tokens.
 
+OneSignal integrates with the Data Layer, which handles push notification functionality.
+When a user creates a game, for example, the application makes an API call to OneSignal to send a push notification to users. 
+By isolating notification logic in the Data Layer, the architecture remains agnostic to the specific notification provider, allowing future migration to alternative services without impacting business logic.

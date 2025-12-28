@@ -29,38 +29,52 @@
 \contentsline {subsection}{\numberline {3.3.1}Backend Fundamentals}{16}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Data management strategies}{18}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Data Synchronization}{19}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Databases}{20}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.4}Databases}{21}{subsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.3.5}MBaaS Providers}{21}{subsection.3.3.5}%
 \contentsline {subsubsection}{\textbf {Google Firebase}}{21}{section*.12}%
 \contentsline {subsubsection}{\textbf {Supabase}}{23}{section*.13}%
 \contentsline {subsubsection}{\textbf {Parse}}{24}{section*.14}%
-\contentsline {subsubsection}{\textbf {Back4App}}{24}{section*.15}%
-\contentsline {subsubsection}{\textbf {AWS Amplify}}{25}{section*.16}%
-\contentsline {subsubsection}{\textbf {Microsoft Azure}}{27}{section*.17}%
-\contentsline {subsubsection}{MBaaS Provider Comparison}{28}{section*.18}%
-\contentsline {section}{\numberline {3.4}Related Work}{29}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Methodology}{29}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Existing Projects}{30}{subsection.3.4.2}%
-\contentsline {subsubsection}{Court Discovery Platforms}{30}{section*.20}%
-\contentsline {paragraph}{\textbf {Courts of the World}}{30}{section*.21}%
-\contentsline {paragraph}{\textbf {Jogabasket}}{31}{section*.22}%
-\contentsline {subsubsection}{Game Organization Platforms}{31}{section*.23}%
-\contentsline {paragraph}{\textbf {Pickup Sports (Adult League)}\blx@tocontentsinit {0}\cite {pickup-adult, pickup-adult-app}}{31}{section*.24}%
-\contentsline {paragraph}{\textbf {Fullcourt: Pickup Basketball}\blx@tocontentsinit {0}\cite {fullcourt, fullcourt-pp}}{31}{section*.25}%
-\contentsline {paragraph}{\textbf {Pickup: Play \& Host Sports}\blx@tocontentsinit {0}\cite {pickup, pickup-app}}{31}{section*.26}%
-\contentsline {paragraph}{\textbf {WOOOBA}\blx@tocontentsinit {0}\cite {woooba}}{32}{section*.27}%
-\contentsline {paragraph}{\textbf {Pick-Roll}\blx@tocontentsinit {0}\cite {pick-roll}}{32}{section*.28}%
-\contentsline {subsubsection}{General Community Platforms}{32}{section*.29}%
-\contentsline {paragraph}{\textbf {Meetup}\blx@tocontentsinit {0}\cite {meetup}}{32}{section*.30}%
-\contentsline {subsection}{\numberline {3.4.3}Analysis of Existing Solutions}{32}{subsection.3.4.3}%
-\contentsline {chapter}{\chapternumberline {4}Methodology}{34}{chapter.4}%
-\contentsline {section}{\numberline {4.1}User-Centered Design (UCD)}{34}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Scrum}{35}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Acceptance Test-Driven Development (ATDD)}{35}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Iteration Development Process}{36}{section.4.4}%
-\contentsline {subsubsection}{Iteration 1: Prototype and Feature Validation}{36}{section*.31}%
-\contentsline {subsection}{\numberline {4.4.1}Iteration 2: MVP Development and UI/UX Evaluation}{36}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Iteration 3: Complete Application and Overall Evaluation}{37}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Architecture}{37}{section.4.5}%
-\contentsline {chapter}{References}{39}{chapter*.33}%
-\contentsline {appendix}{\chapternumberline {A}Additional content}{44}{appendix.A}%
+\contentsline {subsubsection}{\textbf {Back4App}}{25}{section*.15}%
+\contentsline {subsubsection}{\textbf {AWS Amplify}}{26}{section*.16}%
+\contentsline {subsubsection}{\textbf {Microsoft Azure}}{28}{section*.17}%
+\contentsline {subsubsection}{MBaaS Provider Comparison}{29}{section*.18}%
+\contentsline {section}{\numberline {3.4}Related Work}{30}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Methodology}{30}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Existing Projects}{32}{subsection.3.4.2}%
+\contentsline {subsubsection}{Court Discovery Platforms}{32}{section*.20}%
+\contentsline {paragraph}{\textbf {Courts of the World}}{32}{section*.21}%
+\contentsline {paragraph}{\textbf {Jogabasket}}{32}{section*.22}%
+\contentsline {subsubsection}{Game Organization Platforms}{32}{section*.23}%
+\contentsline {paragraph}{\textbf {Pickup Sports (Adult League)}}{32}{section*.24}%
+\contentsline {paragraph}{\textbf {Fullcourt: Pickup Basketball}}{32}{section*.25}%
+\contentsline {paragraph}{\textbf {Pickup: Play \& Host Sports}}{33}{section*.26}%
+\contentsline {paragraph}{\textbf {WOOOBA}}{33}{section*.27}%
+\contentsline {paragraph}{\textbf {Pick-Roll}}{33}{section*.28}%
+\contentsline {subsubsection}{General Community Platforms}{34}{section*.29}%
+\contentsline {paragraph}{\textbf {Meetup}}{34}{section*.30}%
+\contentsline {subsection}{\numberline {3.4.3}Analysis of Existing Solutions}{34}{subsection.3.4.3}%
+\contentsline {chapter}{\chapternumberline {4}Methodology}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Scrum}{35}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Acceptance Test-Driven Development (ATDD)}{36}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Iteration Development Process}{36}{section.4.3}%
+\contentsline {subsubsection}{Phase 1: Prototype and Feature Validation}{36}{section*.32}%
+\contentsline {subsection}{\numberline {4.3.1}Phase 2: MVP Development and UI/UX Evaluation}{37}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Phase 3: Complete Application and Overall Evaluation}{37}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Architecture}{38}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Maps Engine}{39}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Notifications Engine}{40}{subsection.4.4.2}%
+\contentsline {chapter}{\chapternumberline {5}Implementation}{42}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Understand and specify the context of use }{42}{section.5.1}%
+\contentsline {subsubsection}{User research}{42}{section*.34}%
+\contentsline {subsubsection}{Persona}{43}{section*.35}%
+\contentsline {subsubsection}{User Scenarios}{44}{section*.38}%
+\contentsline {section}{\numberline {5.2}Specifying the user requirements}{45}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Functional Requirements/User Stories}{45}{subsection.5.2.1}%
+\contentsline {subsubsection}{Game Management (Epic PLY-5)}{45}{section*.39}%
+\contentsline {subsubsection}{Court Availability (Epic PLY-6)}{54}{section*.40}%
+\contentsline {subsubsection}{Ranking and Team System (Epic PLY-8)}{59}{section*.41}%
+\contentsline {subsubsection}{Players and Social Features (Epic PLY-7)}{61}{section*.42}%
+\contentsline {subsubsection}{User Profile and Settings (Epic PLY-9)}{65}{section*.43}%
+\contentsline {subsection}{\numberline {5.2.2}Non-Functional Requirements}{68}{subsection.5.2.2}%
+\contentsline {chapter}{References}{78}{chapter*.44}%
+\contentsline {appendix}{\chapternumberline {A}Additional content}{80}{appendix.A}%

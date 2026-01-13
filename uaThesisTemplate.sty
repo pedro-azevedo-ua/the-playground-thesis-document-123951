@@ -46,7 +46,7 @@
 \newcommand{\GrantText}[2]{\def\ciGrantFirst{#1}\def\ciGrantSecond{#2}}
 \newcommand{\Acknowledgements}[1]{\def\ciAcknowledgements{#1}}
 \newcommand{\JuriMember}[2]{
-    \listadd{\ciJuriMember}{\JURI{\JURICATEGORY}{#1}{#2}}
+   \listadd{\ciJuriMember}{\JURI{\JURICATEGORY}{#1}{#2}}
 }
 \newcommand{\Abstract}[4]{\def\ciAbstractText{#4}
 \listadd{\ciAbstract}{
@@ -575,12 +575,12 @@ do {\ua@textA} {\ua@textB} da Universidade de Aveiro\dolistloop{\ciSupervisorMem
 % Juri Page
 %
 %
-\TitlePage
-  \vspace*{95mm}
-  \SECTION{o j\'uri~/~the jury}
-       {}
-    \dolistloop{\ciJuriMember}
-\EndTitlePage
+%\TitlePage
+ % \vspace*{95mm}
+%  \SECTION{o j\'uri~/~the jury}
+%       {}
+ %   \dolistloop{\ciJuriMember}
+%\EndTitlePage
 
 %
 % Acknowledgement page

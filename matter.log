@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.12.15)  28 DEC 2025 16:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.12.15)  13 JAN 2026 16:07
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1819,8 +1819,9 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'portuguese'.
  (./matter.aux
-(./glossary.aux) (./chapters/chapter1.aux) (./chapters/chapter2.aux)
-(./chapters/chapter3.aux) (./chapters/chapter4.aux) (./chapters/chapter5.aux))
+(./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux)
+(./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/appendix-a.aux)
+(./chapters/appendix-b.aux))
 \openout1 = `matter.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 252.
@@ -1949,9 +1950,13 @@ Package biblatex Info: Automatic encoding selection.
 Package morewrites Warning: File 'matter.mw' exists, using 'matter.mw.mw'
 (morewrites)                instead.
 
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Package morewrites Warning: File 'matter.mw.mw' exists, using
+(morewrites)                'matter.mw.mw.mw' instead.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'matter.bbl' found.
@@ -2033,13 +2038,13 @@ File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
 Package pdftex.def Info: cover.pdf , page1 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
 [0
 
  <./cover.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+(./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
 \openout4 = `matter.upa'.
 
@@ -2058,10 +2063,10 @@ File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 2>
 Package pdftex.def Info: cover.pdf , page2 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [1 <./cover.pdf>] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [1 <./cover.pdf>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
 <cover.pdf, id=37, page=3, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
@@ -2076,11 +2081,11 @@ File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 3>
 Package pdftex.def Info: cover.pdf , page3 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
  [2 <./cover.pdf>]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+(./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
 <cover.pdf, id=42, page=4, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
@@ -2095,10 +2100,10 @@ File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 4>
 Package pdftex.def Info: cover.pdf , page4 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [3 <./cover.pdf>] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [3 <./cover.pdf>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
 <cover.pdf, id=47, page=5, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
@@ -2113,29 +2118,11 @@ File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 5>
 Package pdftex.def Info: cover.pdf , page5 used on input line 258.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
  [4 <./cover.pdf>]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
-
-<cover.pdf, id=58, page=6, 597.50829pt x 845.0471pt>
-File: cover.pdf Graphic file (type pdf)
-<use cover.pdf, page 6>
-Package pdftex.def Info: cover.pdf , page6 used on input line 258.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: cover.pdf Graphic file (type pdf)
-<use cover.pdf, page 6>
-Package pdftex.def Info: cover.pdf , page6 used on input line 258.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: cover.pdf Graphic file (type pdf)
-<use cover.pdf, page 6>
-Package pdftex.def Info: cover.pdf , page6 used on input line 258.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-\openout4 = `matter.mw.mw'.
-
- [5 <./cover.pdf>] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+(./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
  (./matter.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
@@ -2184,358 +2171,337 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
  [1
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] (./matter.mw.mw.m
+w)
+\openout4 = `matter.mw.mw.mw'.
 
-Package marginnote Info: Using workaround for absolute page number on input lin
-e 41.
 )
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
  [2]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+(./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
  (./matter.lof)
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
  [3
 
-] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
  (./matter.lot)
-\openout4 = `matter.mw.mw'.
-
- [4
-
-]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
-
-\openout2 = `glossary.aux'.
-
- (./glossary.tex)
-\openout4 = `matter.mw.mw'.
-
- [5
+\openout4 = `matter.mw.mw.mw'.
 
 
+[4
 
-] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
 \openout2 = `chapters/chapter1.aux'.
 
- (./chapters/chapter1.tex
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 13.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 13.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 13.
-
-Overfull \hbox (17.0pt too wide) in paragraph at lines 4--13
-[]$[]$ 
- []
-
-)
-\openout4 = `matter.mw.mw'.
-
- [1
-
-
-
-
-
-] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
-
-Package marginnote Info: Using workaround for absolute page number on input lin
-e 386.
+ (./chapters/chapter1.tex)
 \openout2 = `chapters/chapter2.aux'.
 
  (./chapters/chapter2.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 11.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 11.
+
+Overfull \hbox (17.0pt too wide) in paragraph at lines 4--11
+[]$[]$ 
+ []
+
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 5.
-\openout4 = `matter.mw.mw'.
+(Font)              <9> on input line 16.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
- [2
+[1
 
 
 
 
-] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-<figs/ipdj_stats.png, id=233, 925.056pt x 450.483pt>
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+ [2] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+<figs/ipdj_stats.png, id=251, 925.056pt x 450.483pt>
 File: figs/ipdj_stats.png Graphic file (type png)
 <use figs/ipdj_stats.png>
-Package pdftex.def Info: figs/ipdj_stats.png  used on input line 33.
+Package pdftex.def Info: figs/ipdj_stats.png  used on input line 44.
 (pdftex.def)             Requested size: 452.9679pt x 220.58737pt.
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-9.
+\openout4 = `matter.mw.mw.mw'.
+
+ [3 <./figs/ipdj_stats.png>]
+(./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+ [4] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+08.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-\openout4 = `matter.mw.mw'.
+))
+\openout4 = `matter.mw.mw.mw'.
 
- [3 <./figs/ipdj_stats.png>] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
- [4{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (./matter.mw.
-mw)
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
- [5] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
-
-)
-\openout4 = `matter.mw.mw'.
-
- [6] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [5{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (./matter.mw.
+mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
 \openout2 = `chapters/chapter3.aux'.
 
 
 (./chapters/chapter3.tex
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [7
-
-
+ [6
 
 
-] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [8{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+ [7{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/
 texlive/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texlive/texmf-dist/
-fonts/enc/dvips/lm/lm-mathsy.enc}] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+fonts/enc/dvips/lm/lm-mathsy.enc}] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [9] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [8] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [10] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [9] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [11]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+[10] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 203--203
@@ -2547,672 +2513,724 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--203
 []|\T1/lmr/m/n/10 (+20) Flutter (cross-
  []
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-[12] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+[11] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [13] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [12] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [14
+ [13
 
-] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
- [15]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
 
+[14] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-LaTeX Warning: Reference `10795519' on page 16 undefined on input line 274.
+\openout4 = `matter.mw.mw.mw'.
 
+\openout4 = `matter.mw.mw.mw'.
 
-LaTeX Warning: Reference `10795519' on page 16 undefined on input line 279.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-[16] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-<figs/tradicionalBack.png, id=386, 257.5221pt x 144.0582pt>
+ [15] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+<figs/tradicionalBack.png, id=405, 257.5221pt x 144.0582pt>
 File: figs/tradicionalBack.png Graphic file (type png)
 <use figs/tradicionalBack.png>
-Package pdftex.def Info: figs/tradicionalBack.png  used on input line 301.
+Package pdftex.def Info: figs/tradicionalBack.png  used on input line 300.
 (pdftex.def)             Requested size: 226.48395pt x 126.69685pt.
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-<figs/firebaseback.png, id=394, 200.6697pt x 129.8451pt>
+<figs/firebaseback.png, id=413, 200.6697pt x 129.8451pt>
 File: figs/firebaseback.png Graphic file (type png)
 <use figs/firebaseback.png>
-Package pdftex.def Info: figs/firebaseback.png  used on input line 316.
+Package pdftex.def Info: figs/firebaseback.png  used on input line 315.
 (pdftex.def)             Requested size: 226.48395pt x 146.5568pt.
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-[17 <./figs/tradicionalBack.png (PNG copy)>] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+[16 <./figs/tradicionalBack.png (PNG copy)>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [18 <./figs/firebaseback.png (PNG copy)>] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [17 <./figs/firebaseback.png (PNG copy)>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [19] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [18] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+[19] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
- [20]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [21] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+ [20] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
- [22] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+ [21] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [23]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
 
- [24] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+[22] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+ [23] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [25] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [26]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [24] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+[25] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
- [27] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+ [26] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [28] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
+\openout4 = `matter.mw.mw.mw'.
 
+\openout4 = `matter.mw.mw.mw'.
 
-Package caption Warning: \label without proper reference on input line 575.
-See the caption package documentation for explanation.
+ [27] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
 
-LaTeX Warning: Reference `tab:mbaasfeatures' on page 29 undefined on input line
- 566.
-
-
-Overfull \hbox (16.75845pt too wide) in paragraph at lines 579--652
+Overfull \hbox (16.75845pt too wide) in paragraph at lines 575--646
 [][] 
  []
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-[29] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+[28] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [30] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [29] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [31] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [30] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
- [32]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
- [33] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
-
-)
-\openout4 = `matter.mw.mw'.
-
- [34] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
-
-\openout2 = `chapters/chapter4.aux'.
+\openout4 = `matter.mw.mw.mw'.
 
 
-(./chapters/chapter4.tex
-\openout4 = `matter.mw.mw'.
+[31] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
- [35
+ [32] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
 
-
-
-] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-<figs/roadmap.png, id=702, 9430.23125pt x 3031.325pt>
-File: figs/roadmap.png Graphic file (type png)
-<use figs/roadmap.png>
-Package pdftex.def Info: figs/roadmap.png  used on input line 40.
-(pdftex.def)             Requested size: 520.91031pt x 167.44032pt.
-
-Overfull \hbox (67.94241pt too wide) in paragraph at lines 40--41
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 824--824
+[]|\T1/lmr/m/n/10 (+20) Informational web-site
  []
 
-\openout4 = `matter.mw.mw'.
 
-[36 <./figs/roadmap.png>] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+Underfull \hbox (badness 5533) in paragraph at lines 824--824
+\T1/lmr/m/n/10 (+20) with-out user ac-counts,
+ []
 
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
- [37] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
-
-<figs/architectureDiagram.png, id=721, 1766.6pt x 769.87625pt>
-File: figs/architectureDiagram.png Graphic file (type png)
-<use figs/architectureDiagram.png>
-Package pdftex.def Info: figs/architectureDiagram.png  used on input line 102.
-(pdftex.def)             Requested size: 452.9679pt x 197.39073pt.
+Underfull \hbox (badness 7397) in paragraph at lines 824--824
+\T1/lmr/m/n/10 (+20) ing courts, or-gan-is-ing
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-\openout4 = `matter.mw.mw'.
+)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+ [33] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+ [34] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout2 = `chapters/chapter4.aux'.
 
-[38] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ (./chapters/chapter4.tex
+<figs/roadmap.png, id=710, 8221.71625pt x 2222.3025pt>
+File: figs/roadmap.png Graphic file (type png)
+<use figs/roadmap.png>
+Package pdftex.def Info: figs/roadmap.png  used on input line 18.
+(pdftex.def)             Requested size: 452.9679pt x 122.41351pt.
 
-\openout4 = `matter.mw.mw'.
 
- [39 <./figs/architectureDiagram.png>] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+[35
+
+
+
+
+] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+ [36 <./figs/roadmap.png>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+ [37]
+(./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+<figs/jiraSprintsRoadmap.png, id=736, 1297.84875pt x 277.035pt>
+File: figs/jiraSprintsRoadmap.png Graphic file (type png)
+<use figs/jiraSprintsRoadmap.png>
+Package pdftex.def Info: figs/jiraSprintsRoadmap.png  used on input line 83.
+(pdftex.def)             Requested size: 452.9679pt x 96.68892pt.
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+<figs/architectureDiagram.png, id=740, 1330.9725pt x 534.99875pt>
+File: figs/architectureDiagram.png Graphic file (type png)
+<use figs/architectureDiagram.png>
+Package pdftex.def Info: figs/architectureDiagram.png  used on input line 119.
+(pdftex.def)             Requested size: 452.9679pt x 182.06859pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+[38 <./figs/jiraSprintsRoadmap.png>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+ [39 <./figs/architectureDiagram.png>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+ [40] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
 )
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-
-[40] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
- [41] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [41]
+(./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
  [42
 
 
 
 
-]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-<figs/persona-miguel.png, id=763, 1445.4pt x 813.0375pt>
+<figs/persona-miguel.png, id=785, 1445.4pt x 813.0375pt>
 File: figs/persona-miguel.png Graphic file (type png)
 <use figs/persona-miguel.png>
-Package pdftex.def Info: figs/persona-miguel.png  used on input line 44.
+Package pdftex.def Info: figs/persona-miguel.png  used on input line 46.
 (pdftex.def)             Requested size: 407.66833pt x 229.31134pt.
-\openout4 = `matter.mw.mw'.
 
- [43 <./figs/persona-miguel.png (PNG copy)>] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-<figs/persona-carlos.png, id=770, 1445.4pt x 813.0375pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+[43] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+ [44 <./figs/persona-miguel.png (PNG copy)>]
+(./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+<figs/persona-carlos.png, id=798, 1445.4pt x 813.0375pt>
 File: figs/persona-carlos.png Graphic file (type png)
 <use figs/persona-carlos.png>
-Package pdftex.def Info: figs/persona-carlos.png  used on input line 59.
+Package pdftex.def Info: figs/persona-carlos.png  used on input line 76.
 (pdftex.def)             Requested size: 407.66833pt x 229.31134pt.
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
+ [45 <./figs/persona-carlos.png (PNG copy)>]
+(./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-[44 <./figs/persona-carlos.png (PNG copy)>] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
+[]|\T1/lmr/m/n/10.95 (+20) Browse and Search
+ []
 
 
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 94.
+LaTeX Warning: Float too large for page by 13.96402pt on input line 138.
 
-\openout4 = `matter.mw.mw'.
 
-[45] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-\openout4 = `matter.mw.mw'.
 
- [46] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-\openout4 = `matter.mw.mw'.
 
- [47] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\T1/lmr/m/n/10.95 (+20) Search Play-ers and
+ []
 
-\openout4 = `matter.mw.mw'.
 
- [48]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-\openout4 = `matter.mw.mw'.
 
- [49] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-\openout4 = `matter.mw.mw'.
 
- [50] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [51]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+[46] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [52] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [47] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [53] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [48] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [54]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+[49] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
- [55] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [56] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [57]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
 
- [58] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Underfull \hbox (badness 8019) in paragraph at lines 267--267
+[]|\T1/lmr/m/n/10.95 (+20) Session State Per-sis-
+ []
 
- [59] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
 
- [60]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
 
- [61] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 255--276
+ [][] 
+ []
 
- [62] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [63]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 285--302
+ [][] 
+ []
 
- [64] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [65] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
 
- [66]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
 
- [67] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 311--326
+ [][] 
+ []
 
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
+[]|\T1/lmr/m/n/10.95 (+20) Camera/Storage In-te-
+ []
 
- [68] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 335--350
+ [][] 
+ []
 
- [69]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [70] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
 
- [71] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 359--370
+ [][] 
+ []
 
- [72]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [73] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
 
- [74] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
 
- [75]
-(./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
 
- [76] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 379--394
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 403--412
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 421--436
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [77] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+ [50
+
+] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+ [51] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+ [52] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+
+[53] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+ [54] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+ [55] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
 11.
@@ -3227,26 +3245,272 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/9'.
 (microtype)             Ignoring protrusion settings for this character.
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [78
-
-
+ [56
 
 
-] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
 
 
-[79] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- [80] (./matter.mw.mw)
-\openout4 = `matter.mw.mw'.
+[57] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+ [58] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout2 = `chapters/appendix-a.aux'.
+
+ (./chapters/appendix-a.tex
+<appendices/survey.pdf, id=953, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf>
+Package pdftex.def Info: appendices/survey.pdf  used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf>
+Package pdftex.def Info: appendices/survey.pdf  used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<appendices/survey.pdf, id=956, page=1, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 1>
+Package pdftex.def Info: appendices/survey.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 1>
+Package pdftex.def Info: appendices/survey.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.58}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 ...es=-,pagecommand={}]{appendices/survey.pdf}
+                                                  
+\openout4 = `matter.mw.mw.mw'.
+
+ [58
+
+
+
+] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+Package marginnote Info: Using workaround for absolute page number on input lin
+e 6.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 1>
+Package pdftex.def Info: appendices/survey.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 1>
+Package pdftex.def Info: appendices/survey.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 1>
+Package pdftex.def Info: appendices/survey.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+\openout4 = `matter.mw.mw.mw'.
+
+
+[59 <./appendices/survey.pdf>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+<appendices/survey.pdf, id=1061, page=2, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 2>
+Package pdftex.def Info: appendices/survey.pdf , page2 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 2>
+Package pdftex.def Info: appendices/survey.pdf , page2 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 2>
+Package pdftex.def Info: appendices/survey.pdf , page2 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+\openout4 = `matter.mw.mw.mw'.
+
+ [60 <./appendices/survey.pdf>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+<appendices/survey.pdf, id=1066, page=3, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 3>
+Package pdftex.def Info: appendices/survey.pdf , page3 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 3>
+Package pdftex.def Info: appendices/survey.pdf , page3 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 3>
+Package pdftex.def Info: appendices/survey.pdf , page3 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+\openout4 = `matter.mw.mw.mw'.
+
+ [61 <./appendices/survey.pdf>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+<appendices/survey.pdf, id=1071, page=4, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 4>
+Package pdftex.def Info: appendices/survey.pdf , page4 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 4>
+Package pdftex.def Info: appendices/survey.pdf , page4 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 4>
+Package pdftex.def Info: appendices/survey.pdf , page4 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+\openout4 = `matter.mw.mw.mw'.
+
+
+[62 <./appendices/survey.pdf>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+<appendices/survey.pdf, id=1076, page=5, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 5>
+Package pdftex.def Info: appendices/survey.pdf , page5 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 5>
+Package pdftex.def Info: appendices/survey.pdf , page5 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 5>
+Package pdftex.def Info: appendices/survey.pdf , page5 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+\openout4 = `matter.mw.mw.mw'.
+
+ [63 <./appendices/survey.pdf>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+<appendices/survey.pdf, id=1082, page=6, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 6>
+Package pdftex.def Info: appendices/survey.pdf , page6 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 6>
+Package pdftex.def Info: appendices/survey.pdf , page6 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 6>
+Package pdftex.def Info: appendices/survey.pdf , page6 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+\openout4 = `matter.mw.mw.mw'.
+
+ [64 <./appendices/survey.pdf>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+<appendices/survey.pdf, id=1087, page=7, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 7>
+Package pdftex.def Info: appendices/survey.pdf , page7 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 7>
+Package pdftex.def Info: appendices/survey.pdf , page7 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 7>
+Package pdftex.def Info: appendices/survey.pdf , page7 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+\openout4 = `matter.mw.mw.mw'.
+
+
+[65 <./appendices/survey.pdf>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+<appendices/survey.pdf, id=1092, page=8, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 8>
+Package pdftex.def Info: appendices/survey.pdf , page8 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 8>
+Package pdftex.def Info: appendices/survey.pdf , page8 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 8>
+Package pdftex.def Info: appendices/survey.pdf , page8 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+\openout4 = `matter.mw.mw.mw'.
+
+ [66 <./appendices/survey.pdf>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+<appendices/survey.pdf, id=1097, page=9, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 9>
+Package pdftex.def Info: appendices/survey.pdf , page9 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 9>
+Package pdftex.def Info: appendices/survey.pdf , page9 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 9>
+Package pdftex.def Info: appendices/survey.pdf , page9 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+\openout4 = `matter.mw.mw.mw'.
+
+ [67 <./appendices/survey.pdf>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+)
+\openout2 = `chapters/appendix-b.aux'.
+
+
+(./chapters/appendix-b.tex
+<appendices/flyerpt.png, id=1107, 597.60106pt x 845.26315pt>
+File: appendices/flyerpt.png Graphic file (type png)
+<use appendices/flyerpt.png>
+Package pdftex.def Info: appendices/flyerpt.png  used on input line 9.
+(pdftex.def)             Requested size: 452.9679pt x 640.69128pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<appendices/flyeren.png, id=1108, 597.60106pt x 845.26315pt>
+File: appendices/flyeren.png Graphic file (type png)
+<use appendices/flyeren.png>
+Package pdftex.def Info: appendices/flyeren.png  used on input line 16.
+(pdftex.def)             Requested size: 452.9679pt x 640.69128pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+\openout4 = `matter.mw.mw.mw'.
+
+ [68
+
+
+
+
+] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+ [69 <./appendices/flyerpt.png>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+
+[70 <./appendices/flyeren.png>] (./matter.mw.mw.mw)
+\openout4 = `matter.mw.mw.mw'.
 
 \tf@toc=\write26
 \openout4 = `matter.toc'.
@@ -3258,440 +3522,476 @@ Package microtype Info: Character `029' is missing
 \openout4 = `matter.lot'.
 
  (./matter.aux
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
- (./glossary.aux
-\openout4 = `matter.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+(./chapters/chapter1.aux) (./chapters/chapter2.aux
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-)
-(./chapters/chapter1.aux
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-) (./chapters/chapter2.aux
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
 ) (./chapters/chapter3.aux
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
 )
 (./chapters/chapter4.aux
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
 
 ) (./chapters/chapter5.aux
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
 
 )
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
-)
+ (./chapters/appendix-a.aux
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+) (./chapters/appendix-b.aux
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+\openout4 = `matter.mw.mw.mw'.
+
+))
 
  *File List*
   memoir.cls    2022/11/17 v3.7.19 configurable book, report, article document 
@@ -3896,7 +4196,6 @@ ations-basic-dictionary')
    cover.pdf    Graphic file (type pdf)
    cover.pdf    Graphic file (type pdf)
    cover.pdf    Graphic file (type pdf)
-   cover.pdf    Graphic file (type pdf)
   ot1lmr.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
   omllmm.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
  omslmsy.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -3905,7 +4204,6 @@ ations-basic-dictionary')
   mt-msa.cfg    2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
     umsb.fd    2013/01/14 v3.01 AMS symbols B
   mt-msb.cfg    2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-glossary.tex
 chapters/chapter1.tex
 chapters/chapter2.tex
 figs/ipdj_stats.png
@@ -3915,22 +4213,33 @@ figs/tradicionalBack.png
 figs/firebaseback.png
 chapters/chapter4.tex
 figs/roadmap.png
+figs/jiraSprintsRoadmap.png
 figs/architectureDiagram.png
 chapters/chapter5.tex
 figs/persona-miguel.png
 figs/persona-carlos.png
   t1lmtt.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
+chapters/appendix-a.tex
+appendices/survey.pdf
+appendices/survey.pdf
+appendices/survey.pdf
+appendices/survey.pdf
+appendices/survey.pdf
+appendices/survey.pdf
+appendices/survey.pdf
+appendices/survey.pdf
+appendices/survey.pdf
+appendices/survey.pdf
+appendices/survey.pdf
+appendices/survey.pdf
+chapters/appendix-b.tex
+appendices/flyerpt.png
+appendices/flyeren.png
  ***********
 
+\openout4 = `matter.mw.mw.mw'.
 
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-
-\openout4 = `matter.mw.mw'.
-
-\openout4 = `matter.mw.mw'.
+\openout4 = `matter.mw.mw.mw'.
 
 \openout4 = `matter.bcf'.
 
@@ -3949,11 +4258,11 @@ Package logreq Info: Writing requests to 'matter.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52671 strings out of 476041
- 1056732 string characters out of 5793173
- 2243392 words of memory out of 6000000
- 71161 multiletter control sequences out of 15000+600000
- 611825 words of font info for 270 fonts, out of 8000000 for 9000
+ 52469 strings out of 476041
+ 1057928 string characters out of 5793173
+ 2248994 words of memory out of 6000000
+ 71203 multiletter control sequences out of 15000+600000
+ 612608 words of font info for 280 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  99i,17n,94p,2978b,2927s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/t
@@ -3969,14 +4278,13 @@ e1/public/lm/lmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr
 st/fonts/type1/public/lm/lmri10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/lm/lmri9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmsy10
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/zapfding/uzdr.pfb>
-Output written on matter.pdf (91 pages, 2460557 bytes).
+/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/zapfding/uzdr.pfb>
+Output written on matter.pdf (80 pages, 2783390 bytes).
 PDF statistics:
- 1617 PDF objects out of 1728 (max. 8388607)
- 1441 compressed objects within 15 object streams
- 562 named destinations out of 1000 (max. 500000)
- 50125 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1412 PDF objects out of 1440 (max. 8388607)
+ 1159 compressed objects within 12 object streams
+ 305 named destinations out of 1000 (max. 500000)
+ 50187 words of extra memory for PDF output out of 51595 (max. 10000000)
 

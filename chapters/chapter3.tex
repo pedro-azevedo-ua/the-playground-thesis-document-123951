@@ -1,5 +1,5 @@
 
-\chapter{State of the Art \& Related Work}
+\chapter{State of the Art \& Existing Solutions}
 
 \section{Mobile Application Implementation Technologies}
 This platform has to reach the maximum basketball players for it to work properly, and should work when the players are in the court, or anywhere.
@@ -213,10 +213,9 @@ The methodology addresses how the work is structured, planned and managed throug
 Mobile application development present distinct challenges that differ from traditional software development, due to rapid platform evolution, device fragmentation, high user expectations for performance and usability, frequent update cycles, and the need for continuous adaptation to changing requirements and user feedback.
 Consequently, development methodologies specifically designed for mobile contexts have emerged, alongside adaptations of established software development approaches.
 
-\subsection{Agile}
+\textbf{Agile}
 
-Agile Software Development is an alternative methodology to traditional ones, responding to their limitations.
-This methodology is centred on four core values such as prioritizing individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan\cite{agile-manifesto}.
+Agile Software Development is centred on four core values such as prioritizing individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan\cite{agile-manifesto}.
 
 The Agile Manifesto\cite{originalAgileMani} also provides twelve principals in order to follow the four core values.
 These principles prioritize satisfying customers through early and continuous delivery of valuable software, and embrace changing requirements even late in development.
@@ -243,9 +242,9 @@ Additionally, the role of usability in software development is often unclear wit
 
 As Mobile development requires a better usability and user experience focus, Agile must work with User-Centred Design.
 
-\subsection{User-Centred Design (UCD)}\label{subsec:ucd}
+\textbf{User-Centred Design (UCD)}\label{subsec:ucd}
 
-User-Centred Design (UCD) is a development philosophy that positions usability as a primary goal rather than an afterthought. 
+User-Centred Design is a development philosophy that positions usability as a primary goal rather than an afterthought. 
 Usability, defined as the degree to which a system can be used by a specific type of user in a specific context to achieve specific goals, is particularly critical for mobile applications. 
 The mobile form factor introduces unique design constraints that fundamentally differ from desktop, like the shape and size of screens restrict how information can be displayed, input methods favour certain interactions over others, .and their portability enables use across diverse environments and contexts, including situations where the user's attention may be divided.\cite{10795519}
 
@@ -267,16 +266,16 @@ While the standards focus on HCD, UCD applies these principals with explicit foc
 	\item \textbf{Evaluate the designs against requirements}: Prototypes and design solutions are tested with actual users to validate that the designs meet specified requirements and user needs. Feedback from evaluation informs iterative refinements until user satisfaction and requirement fulfilment are achieved.
 \end{itemize}
 
-\subsection{Agile User-Centred Design Development (AUCD)}
+\textbf{Agile User-Centred Design Development (AUCD)}
 
 The integration of Agile with UCD attempts to leverage the strengths of both methodologies to create development processes that deliver usable software rapidly while maintaining focus on user needs throughout the project lifecycle.
 Integration attempts can range from simply including usability techniques in the Agile process to implementing comprehensive frameworks.
-For that, there is two distinct structures to incorporate UCD into the Agile workflow, where the fist is referenced as \textit{one sprint ahead} and the other \textit{within iteration}.\ref{10795519}
+For that, there is two distinct structures to incorporate UCD into the Agile workflow, where the fist is referenced as \textit{one sprint ahead} and the other \textit{within iteration}.\cite{10795519}
 
 The \textit{one sprint ahead} makes the team responsible for the design to work in a different sprint than the developers.
 While sprint two is being developed, sprint one is being tested and the sprint three is being design.
 This potentially can decrease agility as difficult to accepting changes during the development process rises.
-As for the \textit{within iteration}, as the name implies, the design artefacts are developed in the same iteration they are produced.\ref{10795519}
+As for the \textit{within iteration}, as the name implies, the design artefacts are developed in the same iteration they are produced.\cite{10795519}
 
 Mobile application development using Agile-UCD employs a range of UCD techniques tailored to project needs and constraints.
 User-testing is the most use following this study \cite{10795519}, different types of prototypes (functional, mock-up, paper, wire-frame) are also included in this Agile-UCD integration.
@@ -354,6 +353,13 @@ Since multimedia files are large and users expect access across all devices, loc
 
 The convergence of these requirements establishes that mobile applications are naturally suited to cloud-based infrastructure, where external providers offer real-time capable databases, bidirectional synchronization, object storage with CDN integration, background task orchestration, and horizontally scalable infrastructure.\cite{offlineFirst1, FERNANDO201384} These constraints and capabilities are particularly visible in Mobile Backend as a Service (MBaaS) platforms, which will be analysed in detail in Subsection \ref{subsec:mbaas}.
 
+There are two fundamentally different approaches to databases in mobile application development, the relational and non-relational databases. 
+Relational databases, organize data into structured tables with predefined schemas and utilize Structured Query Language (SQL) for data manipulation, providing strong ACID properties (Atomicity, Consistency, Isolation, Durability) that ensure transactional reliability and data integrity\cite{chiriac2025nosql}.
+Non-relational or NoSQL databases employ flexible, schema-less data models that accommodate diverse data types without rigid table structures, offering horizontal scalability and superior performance for unstructured data and high-volume operations~\cite{chiriac2025nosql}.
+For mobile applications, some examples of databases include, MySQL\footnote{https://www.mysql.com/}, PostgreSQL\footnote{https://www.postgresql.org/} and SQLite\footnote{https://www.sqlite.org/} as Relational databases.
+MongoDB Realm\footnote{https://realm.netlify.app/}, MongoDB\footnote{https://www.mongodb.com/}, Redis\footnote{https://redis.io/}, examples for NoSQL, as well as Firebase Realtime Database\footnote{https://firebase.google.com/docs/database} and Firebase Firestore\footnote{https://firebase.google.com/docs/firestore}, with this two last being a Google Cloud solution.
+For local database, usual option are between Room\footnote{https://developer.android.com/training/data-storage/room}, that is an abstraction layer over SQlite, SQLite, Realm or Core Data, Apple's framework for local persistence or cache on iOS\footnote{https://developer.apple.com/documentation/coredata/}.
+The selection between these database types depends on specific mobile application requirements such as data structure complexity, offline capabilities, synchronization needs, and scalability projections, with modern applications often employing hybrid approaches that leverage both relational and NoSQL databases for different functional domains\cite{Taipalus2024}.
 
 
 \subsection{Data Synchronization}\label{subsec:sync}
@@ -385,15 +391,6 @@ Besides that, these background schedulers allow developers to constrain synchron
 Such architecture balance responsiveness, bandwidth, and storage while allowing application-level conflict-resolution policies to be enforced.
 
 
-\subsection{Databases}
-
-There are two fundamentally different approaches to databases in mobile application development, the relational and non-relational databases. 
-Relational databases, organize data into structured tables with predefined schemas and utilize Structured Query Language (SQL) for data manipulation, providing strong ACID properties (Atomicity, Consistency, Isolation, Durability) that ensure transactional reliability and data integrity\cite{chiriac2025nosql}.
-Non-relational or NoSQL databases employ flexible, schema-less data models that accommodate diverse data types without rigid table structures, offering horizontal scalability and superior performance for unstructured data and high-volume operations~\cite{chiriac2025nosql}.
-For mobile applications, some examples of databases include, MySQL\footnote{https://www.mysql.com/}, PostgreSQL\footnote{https://www.postgresql.org/} and SQLite\footnote{https://www.sqlite.org/} as Relational databases.
-MongoDB Realm\footnote{https://realm.netlify.app/}, MongoDB\footnote{https://www.mongodb.com/}, Redis\footnote{https://redis.io/}, examples for NoSQL, as well as Firebase Realtime Database\footnote{https://firebase.google.com/docs/database} and Firebase Firestore\footnote{https://firebase.google.com/docs/firestore}, with this two last being a Google Cloud solution.
-For local database, usual option are between Room\footnote{https://developer.android.com/training/data-storage/room}, that is an abstraction layer over SQlite, SQLite, Realm or Core Data, Apple's framework for local persistence or cache on iOS\footnote{https://developer.apple.com/documentation/coredata/}.
-The selection between these database types depends on specific mobile application requirements such as data structure complexity, offline capabilities, synchronization needs, and scalability projections, with modern applications often employing hybrid approaches that leverage both relational and NoSQL databases for different functional domains\cite{Taipalus2024}.
 
 \subsection{MBaaS Providers}\label{subsec:mbaas}
 
@@ -563,19 +560,18 @@ For the pricing, each service is billed independently, and has different plans f
 
 \subsubsection{MBaaS Provider Comparison}
 
-Table~\ref{tab:mbaasfeatures} presents a comprehensive comparison of the major MBaaS providers currently available in the market. The feature matrix demonstrates that modern MBaaS platforms have converged on a common set of core functionalities, including authentication mechanisms, real-time data synchronization capabilities, serverless computing through Cloud Functions, and comprehensive security rules. All evaluated providers offer APIs (both REST and GraphQL), file storage services, and offline support, reflecting the maturation and standardization of the MBaaS ecosystem.
+The table~\ref{tab:mbaasfeatures} presents a comprehensive comparison of the major MBaaS providers currently available in the market. The feature matrix demonstrates that modern MBaaS platforms have converged on a common set of core functionalities, including authentication mechanisms, real-time data synchronization capabilities, serverless computing through Cloud Functions, and comprehensive security rules. All evaluated providers offer APIs (both REST and GraphQL), file storage services, and offline support, reflecting the maturation and standardization of the MBaaS ecosystem.
 
 However, significant differences emerge in the areas of database technology choices, open-source availability, and infrastructure control. Notably, Supabase distinguishes itself by offering only relational database technology (PostgreSQL), whereas other providers support both NoSQL and SQL databases, providing developers with flexibility in selecting the most appropriate data model for their application. Additionally, the degree of vendor lock-in varies considerably, with open-source solutions like Supabase and Parse offering greater portability and self-hosting capabilities, while proprietary platforms such as Firebase and AWS Amplify provide tightly integrated ecosystems with limited exit strategies.
 
 \newcommand{\cmark}{\ding{51}}%
 \newcommand{\xmark}{\ding{55}}%
 \begin{table}[htbp]
-
 	\footnotesize
-	\label{tab:mbaasfeatures}
 	\setlength{\tabcolsep}{3pt} 
 	\renewcommand{\arraystretch}{1.3}
 	\caption{Feature Matrix: MBaaS Providers Comparison}
+	\label{tab:mbaasfeatures}
 	\begin{tabular}{|l|c|c|c|c|c|c|}
 		\hline
 		\rowcolor[gray]{0.9}
@@ -622,8 +618,6 @@ However, significant differences emerge in the areas of database technology choi
 		\hline
 		
 		Pricing Model & \makecell{Pay-as-you-go} & \makecell{Tiered} & \makecell{Self-host\\costs vary} & \makecell{Tiered} & \makecell{Pay-as-you-go\\per service} & \makecell{Pay-as-you-go\\per service} \\
-		
-		\hline
 
 		\hline
 		Observability & \makecell{Native} & \makecell{3rd Party)} & \makecell{External\\(self-hosted)} & \makecell{Limited\\(basic metrics)} & \makecell{Native} & \makecell{Native} \\
@@ -653,7 +647,7 @@ However, significant differences emerge in the areas of database technology choi
 
 
 
-\section{Related Work}
+\section{Existing Solutions}
 
 To understand the existing solutions available in the Portuguese casual basketball market, it was conducted a search for applications and platforms addressing the challenges identified.
 This section presents the research methodology and the identified applications.
@@ -687,7 +681,7 @@ In another search, ``\textit{Torneios amadores portugal basketball}''\footnote{A
 
 Going to the Google's Play Store, and searching for ``Pickup'' apps, several appeared, which Perplexity AI already mentioned, as well as, ``Pickup: Play \& Host Sports''\footnote{https://www.pickupgames.app/}\footnote{https://play.google.com/store/apps/details?id=com.testpickup.app}, ``GoodRec''\footnote{https://play.google.com/store/apps/details?id=com.lewisblack.JustPlay} (it is not available in Portugal), ``WOOOBA''\footnote{https://play.google.com/store/apps/details?id=io.woooba} and ``Pick-Roll''\footnote{https://play.google.com/store/apps/details?id=com.iperskill.pickroll}.
 
-\subsection{Existing Projects}
+\subsection{Identified Solutions}
 
 It was found three categories of existing platforms relevant to casual basketball in Portugal: dedicated court discovery platforms, game organization platforms, general community platforms.
 
@@ -789,9 +783,46 @@ In order to acquire users, a progressive, phased approach will be carried out, s
 Besides that, the application development will prioritize the core features reliability and user experience, to encourage players to stay active.
 The competitor platforms have features that can be use in this project to user retention, such as leaderboards, leagues and user achievements.
 For now, the platform will not charge users, however, in the future some features that the analysed applications have to have revenue, may be integrated into the project, adding fees to be part of leagues with prizes, and booking private courts taking a percentage.
+
+In the Table \ref{tab:basketball_platforms_summary} is a summary of the platforms encounter and their limitations in general and in Portugal.
  
 
-
+\begin{table}[h]
+	\centering
+	\small
+	\caption{Summary of existing platforms for casual basketball in Portugal}
+	\label{tab:basketball_platforms_summary}
+	\begin{tabularx}{\textwidth}{|p{2.4cm}|X|X|X|}
+		\hline
+		\textbf{Platform} & \textbf{Primary purpose} & \textbf{Overall limitations} & \textbf{Limitations in Portugal} \\
+		\hline
+		
+		Courts of the World & Global court finder to locate indoor and outdoor basketball courts. & Focuses only on court discovery; depends on user-generated updates, which can become outdated. & Very low visible adoption; many courts lack recent activity and local map loading has been unreliable. \\
+		\hline
+		
+		Jogabasket & Federation platform to list clubs, outdoor courts, and 3x3 tournaments in Portugal. & Informational website without user accounts, social features, or game organisation. & Does not support organising casual games or monitoring court activity in real time. \\
+		\hline
+		
+		Pickup Sports (Adult League) & Multi-sport app for running leagues and organised games. & Strong focus on structured, often monetised leagues; requires active organisers and communities. & Search returns no basketball leagues or games in Portuguese cities, leaving the app effectively empty. \\
+		\hline
+		
+		Fullcourt & Basketball app for finding courts and organising pickup runs. & Needs critical mass of players to keep maps, live traffic, and games meaningful. & Only a handful of users and one mapped court in Lisbon, so players cannot reliably find games. \\
+		\hline
+		
+		Pickup: Play \& Host Sports & Multi-sport platform to host and join casual games and build communities. &  Test games created did not appear in discovery, suggesting technical issues. & No games show up in Portugal  suggesting lack of users. \\
+		\hline
+		
+		WOOOBA & Basketball app to organise pickup games and manage payments and stats. & Oriented to more structured paid games; value collapses without active organisers. & No games found in Lisbon or Porto, indicating negligible local adoption. \\
+		\hline
+		
+		Pick-Roll & Community app for finding courts, organising games, and competing in seasonal rankings. & Ecosystem and community concentrated mainly in Italy; subscription for full ranked play. & No mapped use or localisation for Portugal, so courts and communities are essentially absent. \\
+		\hline
+		
+		Meetup & General-purpose platform for groups and events, including sports. & Not specialised for basketball or court data; relies entirely on group organisers. & Only one major group serves Lisbon, limiting variety of locations and formats. \\
+		\hline
+		
+	\end{tabularx}
+\end{table}
 
 
 

@@ -6,29 +6,7 @@ To achieve this, the project adopts User-Centred Design (UCD), ensuring that use
  This iterative structure is complemented by Scrum, an Agile project management framework that promotes adaptive planning and continuous improvement, and Acceptance Test-Driven Development (ATDD), ensuring that the system's features align with user expectations and perform as intended. 
  This chapter details the methodologies, tools, and frameworks employed during the design and development process (UCD, Agile and the Agile-UCD integration are discussed in the Section \ref{sec:app-dev-meth}), explains how they were applied in practice across the three iterations, as well as the system architecture and the main technology decisions that support it.
 
-\section{Scrum}\label{sec:scrum}
-
-Scrum is an Agile framework that helps developing complex project by organizing work into smaller, iterative cycles called Sprints\cite{scrumAtlassian}.
-The Agile methodology, which Scrum implements, divide development into phases that enables adaptive planning, rapid execution and continuous evaluation\cite{agileAtlassian}.
-This approach emphasizes planing only necessary work and delivering small, frequent increments while gathering feedback in each cycle which will be integrated into the next phase\cite{agileAtlassian}.
-While multiple Agile frameworks exist, Scrum is the most widely adopted due to its flexibility and applicability across projects different scales\cite{scrumAlternatives}.
-
-In this project, requirements gathered during the second phase of UCD (SubSection \ref{subsec:ucd}) are documented as User Stories.
-User Stories employ non-technical language to provide development context written from the user's perspective, clarifying not only what is being built, but also the why and the value it delivers.
-User Stories integrate naturally into Scrum, where each story is assigned to a Sprint and marked as complete when users can successfully execute the outlined task\cite{userStoriesAtlassian}.
-This approached focused on the user aligns with the project's emphasis on User-Centred Design throughout development.
-
-To help implement Scrum effectively, this project uses Jira as a project management tool\footnote{https://www.atlassian.com/software/jira}, enabling systematic planning, task assignment, and progress tracking in the development phase
-
-\section{Acceptance Test-Driven Development (ATDD)}\label{sec:atdd}
-
-While Scrum (Section \ref{sec:scrum}) provides a framework for project management and the User Stories capture requirements, ATDD is a development methodology in which, acceptance test are written for each User Story before implementation\cite{agileAllianceATDD}.
-This ensures that requirements are precisely defined and verifiable with the tests serving as executable specifications of expected behaviour. 
-ATDD follows a test-first approach, acceptance tests are written first to define the expected behaviour, the feature is then implemented to satisfy these tests, and finally, the functionality is validated to ensure all tests pass.
-Acceptance Test can be written in different ways, scenario-oriented that uses a Given/When/Then template and  a rule-oriented that is a check-list\cite{acceptanceCriteria}, which is the one being use in this project.
-
-
-\section{Iteration Development Process}
+\section{Iterative Development and Project Plan}
 
 This project follows an iterative and incremental development model structured into three major phases, each following User-Centered Design principles. 
 While Phase 1 focuses entirely on user research and prototyping, Phases 2 and 3 integrate Scrum sprints to incrementally develop and evaluate working features. 
@@ -37,14 +15,32 @@ The Figure \ref{fig:roadmap} represents the timeline of the different phases.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=1.15\textwidth]{figs/roadmap}
+	\includegraphics[width=1\textwidth]{figs/roadmap}
 	\caption{Project Development Roadmap}
 	\label{fig:roadmap}
 \end{figure}
 
 
+\subsection{User Stories and Sprint Planning}
 
-\subsubsection{Phase 1: Prototype and Feature Validation}
+Requirements gathered during the second phase of UCD (Subsection \ref{subsec:ucd}) are documented as User Stories and integrated into Scrum's Sprint structure. 
+User Stories employ non-technical language written from the user's perspective, clarifying not only what is being built, but also the rationale and value delivered\cite{userStoriesAtlassian}.
+Normally, each User Story belongs to an Epic as milestones, representing a broader thematic organization, enabling progress tracking against major features.
+Each story is assigned to a Sprint and marked as complete when users can successfully execute the outlined task, aligning with the project's emphasis on User-Centred Design throughout development.
+
+Jira\footnote{https://www.atlassian.com/software/jira} serves as the project management tool, enabling systematic planning, task assignment, and progress tracking throughout the development phase.
+
+\subsection{Acceptance Test-Driven Development}
+
+ATDD complements the Scrum framework by ensuring that acceptance tests are written for each User Story before implementation\cite{agileAllianceATDD}.
+This ensures requirements are precisely defined and verifiable, with tests serving as executable specifications of expected behaviour. 
+
+The ATDD workflow follows three steps, starting by writing the acceptance tests to define expected behaviour, the feature is then implemented to satisfy these tests, and finally, functionality is validated to ensure all tests pass.
+This project employs rule-oriented acceptance criteria using a checklist format\cite{acceptanceCriteria}, which integrates naturally with the User Story structure in Jira.
+It could also be written in a scenario-oriented way, using a Given/When/Then template.
+
+
+\subsection{Phase 1: Prototype and Feature Validation}
 
 The first phase includes all four steps of UCD (SubSection \ref{subsec:ucd}) in order to research the problem, design a proposed solution and evaluate with the possible users.
 These are the following steps:
@@ -65,12 +61,30 @@ In this first phase, the tests that users will perform are Task-based usability 
 \subsection{Phase 2: MVP Development and UI/UX Evaluation}
 
 In the second phase, instead of a prototype, a Minimum Viable Product (MVP) is developed, with enough features to be usable in early stages and receive feedback.
-This phase starts applying both Scrum and ATDD methodologies (Sections \ref{sec:scrum} and \ref{sec:atdd})  to implement the most critical user stories identified from the first phase's feedback
+This phase starts applying both Scrum and ATDD methodologies (Section \ref{sec:app-dev-meth} to implement the most critical user stories identified from the first phase's feedback.
 
 Each user story follows the ATDD approach, where acceptance criteria are defined, tests are written to validate these criteria, the feature is developed and then validated ensuring all tests pass.
 User stories are organized into sprints according to the Scrum framework, enabling iterative and continuous progress, tracking in Jira.
 
 With a functional MVP, users evaluate the platform focusing on user experience (UX) and user interface (UI) aspects, through Task-Based Usability Testing to measure task performance, System Usability Scale (SUS) questionnaire combined with think-aloud protocol during task execution, and User Experience questionnaire, providing feedback to guide refinements in the final phase.
+
+In the Figure \ref{fig:jiraRoadmap} is represented the 5 Epics created that contain the User Stories, as well as the propose sprint planning, where from the sprint 1 to 4 is the Phase 2 following a break to test, and sprint 5 and 6 represent the Phase 3 (the attribution of the User Stories to each sprint can be adjusted during its development, depending on the its progress ). 
+The Epic prioritization follows a dependency-driven and value-driven approach.
+For this second phase it is more focuses on delivering the minimum feature set required to validate the core value proposition, enabling players to discover courts and organize games. 
+
+\textit{User Profile and Settings (PLY-9)} is developed first in Sprint 1, as authentication and profile management are foundational requirements for all subsequent features.
+\textit{Court Availability (PLY-6)} is also initiated in Sprint 1, establishing the court discovery infrastructure that is fundamental to game creation.
+Sprints 2 implements \textit{Game Management (PLY-5)}, which represents the application's primary value, by creating, browsing, joining, and managing basketball games. 
+This sequence ensures that users can complete the core user journey from registration through game participation, enabling meaningful usability evaluation.
+In Sprint 3 and 4 is developed features from the different Epics that are not necessary for the main functionality but still adds important value for the application, including adding team and ranking system from the Epic \textit{Ranking and Team System (PLY-8)}. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{figs/jiraSprintsRoadmap}
+	\caption{Epics and Sprint planning in Jira}
+	\label{fig:jiraRoadmap}
+\end{figure}
+
 
 \subsection{Phase 3: Complete Application and Overall Evaluation}
 
@@ -78,24 +92,27 @@ Following feedback from the second phase, in the final one it is developed the c
 Improvements from previous feedback are made and all remaining user stories are implemented, developing as well the tests first, ensuring consistent quality throughout.
 Users conduct a comprehensive evaluation of the complete platform, assessing overall functionality, usability, reliability and satisfaction with the final product, using SUS, task-based testing, and semi-structured interviews.
 
+Continuing the analysis of the Figure \ref{fig:jiraRoadmap}, this phase stars in sprint 5 and it adds value to the \textit{Game Management (PLY-5)} Epic and a chat function from the Epic \textit{Players and Social Features (PLY-7)}
 
 
 \section{Architecture}
 
-In Android Developers "Guide to app architecture"\cite{guideArchitecture}, it is recommended an architecture, that includes at least two layers, the UI Layer and the Data Layer, and optionally the Domain Layer.
+For this project, is followed the Android Developers "Guide to app architecture"\cite{guideArchitecture}, which recommends an architecture, that includes at least two layers, the UI Layer and the Data Layer, and optionally the Domain Layer, that separates the presentation logic, business logic, and data management concerns across the application.
 
-The UI Layer, or presentation layer, as the name implies, is the user interface and will display the application data on the screen, which should be updated whenever the data changes, either through user interaction or external events.
-This layer includes UI elements that render the data on the screen and state holders in order to keep and expose data to the UI, handling logic.
+%In Android Developers "Guide to app architecture"\cite{guideArchitecture}, it is recommended an architecture, that includes at least two layers, the UI Layer and the Data Layer, and optionally the Domain Layer.
 
-The Data layer, contains business logic that determines how the application creates, stores and changes data.
-This layer has repositories, that are classes responsible to expose data to the rest of the application, centralizing changes to the data resolving conflicts between data sources and abstracting the data sources.
-These data sources, also included in the data layer, are responsible of working with only one source of data, this being a file, database, network source.
+%The UI Layer, or presentation layer, as the name implies, is the user interface and will display the application data on the screen, which should be updated whenever the data changes, either through user interaction or external events.
+%This layer includes UI elements that render the data on the screen and state holders in order to keep and expose data to the UI, handling logic.
 
-The optional Domain Layer, sits between the UI and Data layers, encapsulating complex business logic or simpler logic which is reused by multiple view models.
-Classes on this layer are usually called "use cases" or "interactors" being responsible for a single functionality or user story.
+%The Data layer, contains business logic that determines how the application creates, stores and changes data.
+%This layer has repositories, that are classes responsible to expose data to the rest of the application, centralizing changes to the data resolving conflicts between data sources and abstracting the data sources.
+%These data sources, also included in the data layer, are responsible of working with only one source of data, this being a file, database, network source.
 
-For this project it was followed this guide and, besides that, it will use the Model-View-Model (MVVM) pattern, where there is a clear separation between the logic and the UI, enabling a better development, testing and a clean code base.
-The View is responsible for the UI and the presentation to the user, it informs the ViewModel of user actions, and observes the ViewModel states, not contain any application logic, while the ViewModel exposes the data that the View is observing, serving a link between the Model and the View. Finally, the Model abstracts the data sources, working together with ViewModel to get and save data, has the business logic of the application. This can be represented in the layers, with the UI components being the View, and the Domain and Data layer being the Model. 
+%The optional Domain Layer, sits between the UI and Data layers, encapsulating complex business logic or simpler logic which is reused by multiple view models.
+%Classes on this layer are usually called "use cases" or "interactors" being responsible for a single functionality or user story.
+
+Besides that, the project will follow the Model-View-Model (MVVM) pattern, where there is a clear separation between the logic and the UI, enabling a better development, testing and a clean code base.\cite{mvvm}
+%The View is responsible for the UI and the presentation to the user, it informs the ViewModel of user actions, and observes the ViewModel states, not contain any application logic, while the ViewModel exposes the data that the View is observing, serving a link between the Model and the View. Finally, the Model abstracts the data sources, working together with ViewModel to get and save data, has the business logic of the application. This can be represented in the layers, with the UI components being the View, and the Domain and Data layer being the Model. 
 
 \begin{figure}[h]
 	\centering

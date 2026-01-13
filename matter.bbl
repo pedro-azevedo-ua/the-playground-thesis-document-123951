@@ -76,16 +76,45 @@
       \verb https://ipdj.gov.pt/estat%C3%ADsticas
       \endverb
     \endentry
+    \entry{cop}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4d926aba8715a6b9eaeca2665520cfe6}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d926aba8715a6b9eaeca2665520cfe6}
+      \strng{fullhash}{4d926aba8715a6b9eaeca2665520cfe6}
+      \strng{fullhashraw}{4d926aba8715a6b9eaeca2665520cfe6}
+      \strng{bibnamehash}{4d926aba8715a6b9eaeca2665520cfe6}
+      \strng{authorbibnamehash}{4d926aba8715a6b9eaeca2665520cfe6}
+      \strng{authornamehash}{4d926aba8715a6b9eaeca2665520cfe6}
+      \strng{authorfullhash}{4d926aba8715a6b9eaeca2665520cfe6}
+      \strng{authorfullhashraw}{4d926aba8715a6b9eaeca2665520cfe6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{last updated: August 8, 2025; Date accessed: January 10, 2026}
+      \field{title}{Jean Lave, Etienne Wenger and communities of practice - infed.org}
+      \verb{urlraw}
+      \verb https://infed.org/dir/welcome/jean-lave-etienne-wenger-and-communities-of-practice/
+      \endverb
+      \verb{url}
+      \verb https://infed.org/dir/welcome/jean-lave-etienne-wenger-and-communities-of-practice/
+      \endverb
+    \endentry
     \entry{statcount}{misc}{}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{Mobile Operating System Market Share Portugal | Statcounter Global Stats}
       \verb{urlraw}
-      \verb https://gs.statcounter.com/os-market-share/mobile/portugal#mobile_os_combined-PT-#yearly-2009-2025-bar
+      \verb https://gs.statcounter.com/os-market-share/mobile/portugal#mobile_os_combined-PT-\#yearly-2009-2025-bar
       \endverb
       \verb{url}
-      \verb https://gs.statcounter.com/os-market-share/mobile/portugal#mobile_os_combined-PT-#yearly-2009-2025-bar
+      \verb https://gs.statcounter.com/os-market-share/mobile/portugal#mobile_os_combined-PT-%5C#yearly-2009-2025-bar
       \endverb
     \endentry
     \entry{Khachouch2020}{article}{}{}
@@ -298,8 +327,8 @@
       \strng{authornamehash}{94223a1046990f41833c7bf4abffb815}
       \strng{authorfullhash}{94223a1046990f41833c7bf4abffb815}
       \strng{authorfullhashraw}{94223a1046990f41833c7bf4abffb815}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Growing use of the cell phones and tablets over the computer for humans’ daily life has increased the development of mobile apps. Different paradigms have been introduced to develop a mobile app. Up till now, the major paradigms have been introduced are native apps, hybrid apps, web app and the new trend namely progressive web app (PWA). Each methodology has its pros and cons. This paper discusses about native development issues and how web app aimed to solve these problems. The hybrid apps will be discussed as a solution of cross-platform development problem of native apps.  In addition, problems of web apps and the gap between web app and native apps will be introduced. PWA is supposed to bridge the gap between native apps and web apps. The main technologies –service worker- will also be discussed.  }
@@ -506,8 +535,8 @@
       \strng{authornamehash}{3c25804d9a2d980ca417291cc9f58fc8}
       \strng{authorfullhash}{3c25804d9a2d980ca417291cc9f58fc8}
       \strng{authorfullhashraw}{3c25804d9a2d980ca417291cc9f58fc8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Kotlin Multiplatform Mobile (KMP) represents a strategic advancement in cross-platform development, addressing a long-standing challenge in mobile application engineering: achieving code reuse without sacrificing native performance. Unlike frameworks like Flutter or React Native, which abstract UI layers, KMP emphasizes sharing business logic while preserving platform-specific user experiences. This synthesis examines KMP's architectural design, repository structuring strategies, implementation best practices, and its broader ecosystem positioning. It dissects the expect/actual mechanism that elegantly bridges shared logic and platform-specific implementations. Practical considerations such as dependency injection, state management, and testing strategies are analyzed alongside challenges including build system complexity, platform API bridging, and ecosystem maturity. By evaluating these facets, the article positions KMP as a robust solution for mobile teams aiming to streamline cross-platform development without compromising on performance or user experience.}
@@ -642,8 +671,8 @@
       \strng{authornamehash}{d57d5fdb354c1d43081261771cbbf7da}
       \strng{authorfullhash}{22fa0e7eec1528126033fed5c9c32f60}
       \strng{authorfullhashraw}{22fa0e7eec1528126033fed5c9c32f60}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Agile Manifesto}
@@ -655,7 +684,7 @@
       \verb https://www.sciencedirect.com/topics/computer-science/agile-manifesto
       \endverb
     \endentry
-    \entry{originalAgileMani}{online}{}{}
+    \entry{originalAgileMani}{misc}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{3}{}{%
@@ -740,19 +769,20 @@
     \endentry
     \entry{IxDF2025}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=1ad0c43ad55827f1fd4811e3b0ca59a0}{%
-           family={{Interaction Design Foundation - IxDF}},
-           familyi={I\bibinitperiod}}}%
+        {{hash=b4fdafc00ead316923cc95a0a5083043}{%
+           family={IxDF},
+           familyi={I\bibinitperiod},
+           given={Interaction\bibnamedelimb Design\bibnamedelimb Foundation\bibnamedelima -},
+           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinitperiod}}}%
       }
-      \strng{namehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{fullhash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{fullhashraw}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{bibnamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{authorbibnamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{authornamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{authorfullhash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \strng{authorfullhashraw}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \field{extraname}{1}
+      \strng{namehash}{b4fdafc00ead316923cc95a0a5083043}
+      \strng{fullhash}{b4fdafc00ead316923cc95a0a5083043}
+      \strng{fullhashraw}{b4fdafc00ead316923cc95a0a5083043}
+      \strng{bibnamehash}{b4fdafc00ead316923cc95a0a5083043}
+      \strng{authorbibnamehash}{b4fdafc00ead316923cc95a0a5083043}
+      \strng{authornamehash}{b4fdafc00ead316923cc95a0a5083043}
+      \strng{authorfullhash}{b4fdafc00ead316923cc95a0a5083043}
+      \strng{authorfullhashraw}{b4fdafc00ead316923cc95a0a5083043}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -793,7 +823,6 @@
       \strng{authornamehash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
       \strng{authorfullhash}{1ad0c43ad55827f1fd4811e3b0ca59a0}
       \strng{authorfullhashraw}{1ad0c43ad55827f1fd4811e3b0ca59a0}
-      \field{extraname}{2}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
@@ -954,8 +983,8 @@
       \strng{authornamehash}{ad0a495a6e2fc16e73832d06cddd1540}
       \strng{authorfullhash}{026518339c3b78fe03c52a0d04f7919b}
       \strng{authorfullhashraw}{026518339c3b78fe03c52a0d04f7919b}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Artificial Intelligence, Data Science, and Machine Learning}
@@ -1074,6 +1103,77 @@
       \endverb
       \keyw{Mobile cloud computing,Task offload,Pervasive networks}
     \endentry
+    \entry{chiriac2025nosql}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=99b38d2fc1c19d928d5859815bd40bc4}{%
+           family={Chiriac},
+           familyi={C\bibinitperiod},
+           given={Mario-Tudor},
+           giveni={M\bibinithyphendelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{fullhash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{fullhashraw}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{bibnamehash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{authorbibnamehash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{authornamehash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{authorfullhash}{99b38d2fc1c19d928d5859815bd40bc4}
+      \strng{authorfullhashraw}{99b38d2fc1c19d928d5859815bd40bc4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The aim of this article is to show the advantages of No-SQL databases compared to SQL (relational) databases. Traditionally, the concept of database is implicitly associated with relational databases, most often ignoring the huge potential that non-relational databases have in the fields such as BigData, Data Analysis, Artificial Intelligence. Besides, non-relational databases are also remarkable for their structure flexibility, their speed and for the distribution of their data on multiple servers simultaneously, for their fast writing and reading speed, which is crucial when analysing very large volumes of data.}
+      \field{journaltitle}{Database Systems Journal}
+      \field{title}{The Advantage of NoSQL Databases over SQL Databases}
+      \field{volume}{XVI}
+      \field{pages}{2025}
+      \range{pages}{1}
+      \keyw{No-SQL,No-SQL databases,Relational databases,SQL,SQL databases,efficiency,large,non-relational databases,portability,redundancy,scalability}
+    \endentry
+    \entry{Taipalus2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0e25ec6249f5d1a010fa5faa26a828d8}{%
+           family={Taipalus},
+           familyi={T\bibinitperiod},
+           given={Toni},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{fullhash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{fullhashraw}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{bibnamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{authorbibnamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{authornamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{authorfullhash}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \strng{authorfullhashraw}{0e25ec6249f5d1a010fa5faa26a828d8}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Efficiency has been a pivotal aspect of the software industry since its inception, as a system that serves the end-user fast, and the service provider cost-efficiently benefits all parties. A database management system (DBMS) is an integral part of effectively all software systems, and therefore it is logical that different studies have compared the performance of different DBMSs in hopes of finding the most efficient one. This study systematically synthesizes the results and approaches of studies that compare DBMS performance and provides recommendations for industry and research. The results show that performance is usually tested in a way that does not reflect real-world use cases, and that tests are typically reported in insufficient detail for replication or for drawing conclusions from the stated results.}
+      \field{issn}{0164-1212}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{month}{2}
+      \field{title}{Database management system performance comparisons: A systematic literature review}
+      \field{volume}{208}
+      \field{year}{2024}
+      \field{pages}{111872}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/J.JSS.2023.111872
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0164121223002674
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0164121223002674
+      \endverb
+      \keyw{Comparison,Database,Database management system,NewSQL,NoSQL,Performance,Relational database}
+    \endentry
     \entry{mccormick}{article}{}{}
       \name{author}{2}{}{%
         {{hash=a09cad61cc8824bdd995abfb996703df}{%
@@ -1095,8 +1195,8 @@
       \strng{authornamehash}{360f268c8e7dca68a5e83fa0caef7b67}
       \strng{authorfullhash}{360f268c8e7dca68a5e83fa0caef7b67}
       \strng{authorfullhashraw}{360f268c8e7dca68a5e83fa0caef7b67}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{As Internet-enabled devices become more prevalent in the form of smartphones and tablets, the need for mobile application development patterns grows in importance. Different technologies, such as Nokia's Symbian, Apple's iOS, Google's Android, and Microsoft's Windows Mobile, have arisen and will continue evolving to provide platforms for developing mobile device applications. These technologies build on years of experience developing flexible, open-ended frameworks and platforms, and the developers of these technologies have provided many resources for application developers. While best practices have been documented for nearly every component, such as the guidelines for Android Design i and the iOS App Programming Guide ii , a comprehensive pattern collection or pattern language for mobile application development has not yet been produced. This gap exacerbates the difficulty of solving problems or conveying solutions effectively in this domain.}
@@ -1162,77 +1262,6 @@
       \verb https://developer.android.com/develop/background-work/background-tasks/persistent
       \endverb
     \endentry
-    \entry{chiriac2025nosql}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=99b38d2fc1c19d928d5859815bd40bc4}{%
-           family={Chiriac},
-           familyi={C\bibinitperiod},
-           given={Mario-Tudor},
-           giveni={M\bibinithyphendelim T\bibinitperiod}}}%
-      }
-      \strng{namehash}{99b38d2fc1c19d928d5859815bd40bc4}
-      \strng{fullhash}{99b38d2fc1c19d928d5859815bd40bc4}
-      \strng{fullhashraw}{99b38d2fc1c19d928d5859815bd40bc4}
-      \strng{bibnamehash}{99b38d2fc1c19d928d5859815bd40bc4}
-      \strng{authorbibnamehash}{99b38d2fc1c19d928d5859815bd40bc4}
-      \strng{authornamehash}{99b38d2fc1c19d928d5859815bd40bc4}
-      \strng{authorfullhash}{99b38d2fc1c19d928d5859815bd40bc4}
-      \strng{authorfullhashraw}{99b38d2fc1c19d928d5859815bd40bc4}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The aim of this article is to show the advantages of No-SQL databases compared to SQL (relational) databases. Traditionally, the concept of database is implicitly associated with relational databases, most often ignoring the huge potential that non-relational databases have in the fields such as BigData, Data Analysis, Artificial Intelligence. Besides, non-relational databases are also remarkable for their structure flexibility, their speed and for the distribution of their data on multiple servers simultaneously, for their fast writing and reading speed, which is crucial when analysing very large volumes of data.}
-      \field{journaltitle}{Database Systems Journal}
-      \field{title}{The Advantage of NoSQL Databases over SQL Databases}
-      \field{volume}{XVI}
-      \field{pages}{2025}
-      \range{pages}{1}
-      \keyw{No-SQL,No-SQL databases,Relational databases,SQL,SQL databases,efficiency,large,non-relational databases,portability,redundancy,scalability}
-    \endentry
-    \entry{Taipalus2024}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=0e25ec6249f5d1a010fa5faa26a828d8}{%
-           family={Taipalus},
-           familyi={T\bibinitperiod},
-           given={Toni},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \strng{fullhash}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \strng{fullhashraw}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \strng{bibnamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \strng{authorbibnamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \strng{authornamehash}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \strng{authorfullhash}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \strng{authorfullhashraw}{0e25ec6249f5d1a010fa5faa26a828d8}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Efficiency has been a pivotal aspect of the software industry since its inception, as a system that serves the end-user fast, and the service provider cost-efficiently benefits all parties. A database management system (DBMS) is an integral part of effectively all software systems, and therefore it is logical that different studies have compared the performance of different DBMSs in hopes of finding the most efficient one. This study systematically synthesizes the results and approaches of studies that compare DBMS performance and provides recommendations for industry and research. The results show that performance is usually tested in a way that does not reflect real-world use cases, and that tests are typically reported in insufficient detail for replication or for drawing conclusions from the stated results.}
-      \field{issn}{0164-1212}
-      \field{journaltitle}{Journal of Systems and Software}
-      \field{month}{2}
-      \field{title}{Database management system performance comparisons: A systematic literature review}
-      \field{volume}{208}
-      \field{year}{2024}
-      \field{pages}{111872}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/J.JSS.2023.111872
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0164121223002674
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0164121223002674
-      \endverb
-      \keyw{Comparison,Database,Database management system,NewSQL,NoSQL,Performance,Relational database}
-    \endentry
     \entry{ZewdieAyezabu2022}{article}{}{}
       \name{author}{1}{}{%
         {{hash=00d488db4070ac234b2610e4fb93acb5}{%
@@ -1249,8 +1278,8 @@
       \strng{authornamehash}{00d488db4070ac234b2610e4fb93acb5}
       \strng{authorfullhash}{00d488db4070ac234b2610e4fb93acb5}
       \strng{authorfullhashraw}{00d488db4070ac234b2610e4fb93acb5}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ayezabu Amanuel Supabase vs Firebase: Evaluation of performance and development of Progressive Web Apps}
@@ -1258,8 +1287,8 @@
       \keyw{firebase,pwa,supabase,web development}
     \endentry
     \entry{Back4AppAlternatives}{misc}{}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: Dec.28, 2025}
       \field{title}{2025’s Best Firebase Alternatives: Open-Source \& Scalable Solutions}
@@ -1306,45 +1335,6 @@
       \endverb
       \verb{url}
       \verb https://azure.microsoft.com/en-us/products/functions
-      \endverb
-    \endentry
-    \entry{scrumAtlassian}{misc}{}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed: Nov.19, 2025}
-      \field{title}{Scrum | Atlassian}
-      \verb{urlraw}
-      \verb https://www.atlassian.com/agile/scrum
-      \endverb
-      \verb{url}
-      \verb https://www.atlassian.com/agile/scrum
-      \endverb
-    \endentry
-    \entry{agileAtlassian}{misc}{}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed: Nov.19, 2025}
-      \field{title}{What is Agile?}
-      \verb{urlraw}
-      \verb https://www.atlassian.com/agile
-      \endverb
-      \verb{url}
-      \verb https://www.atlassian.com/agile
-      \endverb
-    \endentry
-    \entry{scrumAlternatives}{misc}{}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed: Nov.19, 2025}
-      \field{title}{5 Alternative Agile Methodologies Other Than Scrum | Do Async | April 4, 2024}
-      \verb{urlraw}
-      \verb https://doasync.com/blog/5-alternative-agile-methodologies-other-than-scrum/
-      \endverb
-      \verb{url}
-      \verb https://doasync.com/blog/5-alternative-agile-methodologies-other-than-scrum/
       \endverb
     \endentry
     \entry{userStoriesAtlassian}{misc}{}{}
@@ -1419,8 +1409,8 @@
       \strng{authornamehash}{d242a862c3becd11c3eab68c129ae4a8}
       \strng{authorfullhash}{d242a862c3becd11c3eab68c129ae4a8}
       \strng{authorfullhashraw}{d242a862c3becd11c3eab68c129ae4a8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: Dec.28, 2025}
@@ -1431,6 +1421,49 @@
       \verb{url}
       \verb https://developer.android.com/topic/architecture
       \endverb
+    \endentry
+    \entry{mvvm}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8caa03bda108d958f54e77258337be7c}{%
+           family={Fuksa},
+           familyi={F\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f13d376d84828a5641ecf5329ff26323}{%
+           family={Speth},
+           familyi={S\bibinitperiod},
+           given={Sandro},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8deefb02d038861e0dd2e38fd1500e03}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0fa3748402a8777c8495c05bad63fa3}
+      \strng{fullhash}{c68b88bcda0569af81ebe00d377e675f}
+      \strng{fullhashraw}{c68b88bcda0569af81ebe00d377e675f}
+      \strng{bibnamehash}{c68b88bcda0569af81ebe00d377e675f}
+      \strng{authorbibnamehash}{c68b88bcda0569af81ebe00d377e675f}
+      \strng{authornamehash}{a0fa3748402a8777c8495c05bad63fa3}
+      \strng{authorfullhash}{c68b88bcda0569af81ebe00d377e675f}
+      \strng{authorfullhashraw}{c68b88bcda0569af81ebe00d377e675f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many enterprise software systems provide complex Graph-ical User Interfaces (GUIs) that need robust architectural patterns for well-structured software design. However, popular GUI architectural patterns like Model-View-ViewModel (MVVM) often lack detailed implementation guidance, leading GUI developers to inappropriately use the pattern without a comprehensive overview of design variants and often-mentioned trade-offs. Therefore, this paper presents an extensive review of MVVM design aspects and trade-offs, extending beyond the standard MVVM definition. We conducted a multivocal literature review (MLR), including white and gray literature, to cover essential knowledge from blogs, published papers, and other unpublished formats like books. Using the standard MVVM definition as a baseline, our study identifies (1) 76 additional design constructs grouped into 29 design aspects and (2) 16 additional benefits and 15 additional drawbacks. These insights can guide enterprise application developers in implementing practical MVVM solutions and enable informed design decisions.}
+      \field{title}{MVVM Revisited: Exploring Design Variants of the Model-View-ViewModel Pattern}
+      \verb{doi}
+      \verb 10.5281/zenodo.13350488
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5281/zenodo.13350488
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5281/zenodo.13350488
+      \endverb
+      \keyw{Architectural,Graphical,Inter-face (GUI) · GUI,Model · MVVM ·,Model-,Pattern,User,View,View-}
     \endentry
     \entry{room}{misc}{}{}
       \name{author}{1}{}{%

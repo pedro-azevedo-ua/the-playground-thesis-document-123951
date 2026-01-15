@@ -1,21 +1,21 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'matter.blg'
-[104] biber:342> INFO - === Tue Jan 13, 2026, 16:07:15
-[123] Biber.pm:421> INFO - Reading 'matter.bcf'
-[233] Biber.pm:1002> INFO - Found 48 citekeys in bib section 0
-[250] Biber.pm:4487> INFO - Processing section 0
-[262] Biber.pm:4678> INFO - Looking for bibtex file 'bib/references.bib' for section 0
-[265] bibtex.pm:1713> INFO - LaTeX decoding ...
-[356] bibtex.pm:1519> INFO - Found BibTeX data source 'bib/references.bib'
-[756] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[757] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[757] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'pt-PT'
-[757] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-PT'
-[792] bbl.pm:676> INFO - Writing 'matter.bbl' with encoding 'UTF-8'
-[814] bbl.pm:779> INFO - Output to matter.bbl
-[815] Biber.pm:132> WARN - legacy month field 'July' in entry 'kotlinInDepth' is not an integer - this will probably not sort properly.
-[815] Biber.pm:132> WARN - legacy month field 'Apr.' in entry 'ShahJagtapJain2025' is not an integer - this will probably not sort properly.
-[815] Biber.pm:132> WARN - legacy month field 'August' in entry 'mediuDataSync' is not an integer - this will probably not sort properly.
-[815] Biber.pm:132> WARN - legacy month field 'October' in entry 'workmanager' is not an integer - this will probably not sort properly.
-[815] Biber.pm:132> WARN - legacy month field 'October' in entry 'room' is not an integer - this will probably not sort properly.
-[816] Biber.pm:134> INFO - WARNINGS: 5
+[150] biber:342> INFO - === Thu Jan 15, 2026, 18:01:24
+[170] Biber.pm:421> INFO - Reading 'matter.bcf'
+[226] Biber.pm:1002> INFO - Found 48 citekeys in bib section 0
+[234] Biber.pm:4487> INFO - Processing section 0
+[255] Biber.pm:4678> INFO - Looking for bibtex file 'bib/references.bib' for section 0
+[258] bibtex.pm:1713> INFO - LaTeX decoding ...
+[320] bibtex.pm:1519> INFO - Found BibTeX data source 'bib/references.bib'
+[519] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[519] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[519] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'pt-PT'
+[519] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-PT'
+[571] bbl.pm:676> INFO - Writing 'matter.bbl' with encoding 'UTF-8'
+[588] bbl.pm:779> INFO - Output to matter.bbl
+[588] Biber.pm:132> WARN - legacy month field 'July' in entry 'kotlinInDepth' is not an integer - this will probably not sort properly.
+[588] Biber.pm:132> WARN - legacy month field 'Apr.' in entry 'ShahJagtapJain2025' is not an integer - this will probably not sort properly.
+[588] Biber.pm:132> WARN - legacy month field 'August' in entry 'mediuDataSync' is not an integer - this will probably not sort properly.
+[588] Biber.pm:132> WARN - legacy month field 'October' in entry 'workmanager' is not an integer - this will probably not sort properly.
+[588] Biber.pm:132> WARN - legacy month field 'October' in entry 'room' is not an integer - this will probably not sort properly.
+[588] Biber.pm:134> INFO - WARNINGS: 5

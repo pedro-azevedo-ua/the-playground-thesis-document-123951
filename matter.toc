@@ -13,15 +13,15 @@
 \contentsline {subsection}{\numberline {2.1.1}Native Apps}{6}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Web Applications}{7}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Hybrid Applications}{8}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Cross-Platform Apps}{8}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.4}Cross-Platform Applications}{8}{subsection.2.1.4}%
 \contentsline {subsubsection}{Interpreted Approach - React Native}{8}{section*.5}%
 \contentsline {subsubsection}{Cross-Compiled Approach - Flutter}{8}{section*.6}%
 \contentsline {subsubsection}{Cloud-based Approach and Modelling Approach}{9}{section*.7}%
 \contentsline {subsection}{\numberline {2.1.5}Kotlin Multiplatform}{9}{subsection.2.1.5}%
 \contentsline {subsection}{\numberline {2.1.6}Comparative Analysis}{10}{subsection.2.1.6}%
 \contentsline {section}{\numberline {2.2}Mobile Application Development Methodologies}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Mobile Backend Development Strategies}{15}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Backend Fundamentals}{15}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.3}Mobile Back end Development Strategies}{15}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Back end Fundamentals}{15}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Data management strategies}{17}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Data Synchronization}{19}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}MBaaS Providers}{20}{subsection.2.3.4}%
@@ -33,39 +33,38 @@
 \contentsline {subsubsection}{\textbf {Microsoft Azure}}{27}{section*.16}%
 \contentsline {subsubsection}{MBaaS Provider Comparison}{28}{section*.17}%
 \contentsline {section}{\numberline {2.4}Existing Solutions}{29}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Methodology}{29}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Identified Solutions}{31}{subsection.2.4.2}%
-\contentsline {subsubsection}{Court Discovery Platforms}{31}{section*.19}%
-\contentsline {paragraph}{\textbf {Courts of the World}}{31}{section*.20}%
+\contentsline {subsection}{\numberline {2.4.1}Search Methodology}{29}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Identified Solutions}{30}{subsection.2.4.2}%
+\contentsline {subsubsection}{Court Discovery Platforms}{30}{section*.19}%
+\contentsline {paragraph}{\textbf {Courts of the World}}{30}{section*.20}%
 \contentsline {paragraph}{\textbf {Jogabasket}}{31}{section*.21}%
 \contentsline {subsubsection}{Game Organization Platforms}{31}{section*.22}%
 \contentsline {paragraph}{\textbf {Pickup Sports (Adult League)}}{31}{section*.23}%
 \contentsline {paragraph}{\textbf {Fullcourt: Pickup Basketball}}{31}{section*.24}%
-\contentsline {paragraph}{\textbf {Pickup: Play \& Host Sports}}{32}{section*.25}%
+\contentsline {paragraph}{\textbf {Pickup: Play \& Host Sports}}{31}{section*.25}%
 \contentsline {paragraph}{\textbf {WOOOBA}}{32}{section*.26}%
 \contentsline {paragraph}{\textbf {Pick-Roll}}{32}{section*.27}%
-\contentsline {subsubsection}{General Community Platforms}{33}{section*.28}%
-\contentsline {paragraph}{\textbf {Meetup}}{33}{section*.29}%
-\contentsline {subsection}{\numberline {2.4.3}Analysis of Existing Solutions}{33}{subsection.2.4.3}%
+\contentsline {subsubsection}{General Community Platforms}{32}{section*.28}%
+\contentsline {paragraph}{\textbf {Meetup}}{32}{section*.29}%
+\contentsline {subsection}{\numberline {2.4.3}Analysis of Existing Solutions}{32}{subsection.2.4.3}%
 \contentsline {chapter}{\chapternumberline {3}Methodology}{35}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Iterative Development and Project Plan}{35}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}User Stories and Sprint Planning}{36}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Acceptance Test-Driven Development}{36}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Phase 1: Prototype and Feature Validation}{36}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Phase 2: MVP Development and UI/UX Evaluation}{37}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Phase 3: Complete Application and Overall Evaluation}{38}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.1}Phase 1: Prototype and Feature Validation}{36}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Phase 2: MVP Development and UI/UX Evaluation}{36}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Phase 3: Complete Application and Overall Evaluation}{37}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}User Stories, Sprints and ATDD}{37}{subsection.3.1.4}%
 \contentsline {section}{\numberline {3.2}Architecture}{38}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Maps Engine}{40}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Maps Engine}{39}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Notifications Engine}{40}{subsection.3.2.2}%
-\contentsline {chapter}{\chapternumberline {4}Phase 1 - Prototype and Feature Validation}{42}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Understand and specify the context of use }{42}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}User research}{42}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Persona}{43}{subsection.4.1.2}%
-\contentsline {subsubsection}{Persona 1: Miguel — The Competitive Player}{43}{section*.34}%
+\contentsline {chapter}{\chapternumberline {4}Phase 1 - Prototype and Feature Validation}{41}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Understand and specify the context of use }{41}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}User research}{41}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Persona}{42}{subsection.4.1.2}%
+\contentsline {subsubsection}{Persona 1: Miguel — The Competitive Player}{42}{section*.34}%
 \contentsline {subsubsection}{Persona 2: Carlos — The Flexible Shooter}{44}{section*.36}%
 \contentsline {section}{\numberline {4.2}Specifying the user requirements}{45}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Epics and User Stories}{45}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Non-Functional Requirements}{50}{subsection.4.2.2}%
-\contentsline {chapter}{References}{56}{chapter*.51}%
-\contentsline {appendix}{\chapternumberline {A}User Research Survey}{58}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}Flyer }{68}{appendix.B}%
+\contentsline {subsection}{\numberline {4.2.2}Non-Functional Requirements}{49}{subsection.4.2.2}%
+\contentsline {chapter}{References}{55}{chapter*.51}%
+\contentsline {appendix}{\chapternumberline {A}User Research Survey}{57}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Flyer }{67}{appendix.B}%

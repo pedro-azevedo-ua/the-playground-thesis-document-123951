@@ -1,6 +1,7 @@
-\chapter{Exploratory work: Usage scenarios and concept validation}
+\chapter{Phase 1: Prototype and Feature Validation}
 
-	In the first phase of the project, the main goal it to design the application ending up with a prototype and the users evaluation, to validate the features and their importance.
+	In the first phase of the project, the start of the UCD cycle, the main goal it to understand the users, draft the requirements and design the platform, ending up with a prototype and the users evaluation, to validate the features and their importance. 
+	This chapter begins with understanding and specify the context of use, through a user research and Personas, from that research initial requirements are specified. After that, the prototypes can be designed, ending with a user test in the dynamic prototypes. 
 	
 	\section{Understand and specify the context of use }
 	
@@ -420,5 +421,65 @@
 		\end{tabular}
 	\end{table}
 	
+	\section{Produce design solutions to meet user requirements}
 	
+	With user requirements, the prototypes can be build.
+	For this it was used Figma \footcite{https://www.figma.com/}, a design tool to build interactive high fidelity prototypes..
+	The following are some requirements that were design.
 	
+\subsection{Courts Module}
+
+Following the requirements gathering and persona development phase, the design of the Courts module was focused on two primary user goals: finding a suitable court and assessing its real-time conditions. The design is structured into two main stages: discovery and interaction.
+
+\subsubsection{Court Discovery and Selection}
+To allow users to find courts efficiently, the "Courts List" screen was designed with a dual-view approach. Users can toggle between a standard list for quick scanning and an interactive map to visualize court locations spatially. Key features include:
+\begin{itemize}
+	\item \textbf{Filtering and Sorting:} Options to organize courts by proximity, rating, or popularity.
+	\item \textbf{Favorites:} A quick-access button to save frequently visited courts.
+	\item \textbf{Community Contribution:} A "plus" button near the search bar allows users to submit new courts, ensuring the database remains up-to-date through crowdsourcing.
+\end{itemize}
+
+\subsubsection{Court Details and Functional Hub}
+Once a user selects a court, they are taken to the "Court Details" screen. Because of the high volume of features required (checking games, reviews, and rankings), a tabbed navigation system was chosen for this screen. This design allows the user to access complex data without leaving the context of the specific court. As shown in Figure \ref{fig:nav-diag-courts}, the details are organized into five functional tabs:
+
+\begin{itemize}
+	\item \textbf{Game Tab:} Displays upcoming and past games, and provides the entry point to the "Create Game" flow.
+	\item \textbf{Calendar Tab:} Shows the number of games per day and "player intentions." Users can log their own intent to play, helping others judge how busy the court will be.
+	\item \textbf{Players Tab:} Lists users currently checked-in at the court, leading to individual "Player Profiles."
+	\item \textbf{Rank Tab:} Displays the local leaderboard for that specific court.
+	\item \textbf{Reviews Tab:} Allows users to read feedback on court conditions and contribute their own ratings.
+\end{itemize}
+
+\subsubsection{Navigation Structure}
+The navigation flow, represented in Figure \ref{fig:nav-diag-courts}, follows a clear three-tier hierarchy to keep the interface simple. 
+Users move from the global navigation bar to the Courts List, and finally into the Court Details . 
+
+By using internal tabs within the Details screen, the design maintains a "shallow" navigation stack. This ensures that users can switch between checking the calendar and viewing the players list with a single tap, reducing the number of "back" actions required to navigate the module.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{figs/navigation-diagram/courts.png}
+	\caption{Navigation Diagram - Courts flow}
+	\label{fig:nav-diag-courts}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

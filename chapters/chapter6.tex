@@ -1,0 +1,83 @@
+
+
+% %%%%%%%%%%%%%%%
+\chapter{Implementation and Evaluation}
+\label{ch:implementation}
+
+\section{Phase 2 - MVP Development}
+\label{sec:impl-phase2}
+
+\subsection{Sprint Planning and Story Prioritisation}
+\label{subsec:impl-p2-sprints}
+
+\subsection{Navigation Architecture}
+\label{subsec:nav-architecture}
+
+The application's navigation was designed to balance rapid accessibility with systemic simplicity. Following a comparative analysis of different options, a bottom navigation bar was implemented as the primary global mechanism. To ensure alignment with \textbf{Material Design 3 (MD3)} guidelines \footnote{https://m3.material.io/components/navigation-bar/guidelines}, which recommend between three and five primary destinations, the architecture utilizes four core paths: Home, Courts List, Games List, and Players List.
+
+The following sections detail the navigation flows specific to each functional module.
+
+\subsubsection{Courts Module}
+The Courts module (Figure \ref{fig:nav-diag-courts}) follows a hierarchical drill-down pattern. Starting from the navigation bar or other high-level "root" screens, users transition to the Courts List and subsequently to the Court Details. A key design objective was maintaining a "shallow" navigation stack; by utilizing internal tabs within the Details view, users can pivot between various facility features without performing multiple "Back" actions. This ensures that the court context remains persistent while the user explores games, players, or rankings.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figs/navigation-diagram/courts.png}
+	\caption{Navigation Diagram - Courts Module Flow}
+	\label{fig:nav-diag-courts}
+\end{figure}
+
+\subsubsection{Games Module}
+Consistent with the established navigation logic, the Games module allows users to access the Games List via the global navigation bar. As illustrated in Figure \ref{fig:nav-diag-games}, selecting a specific match navigates the user to the Game Details view. This flow is designed for rapid discovery, allowing users to move from the global overview to specific match management in a two-step sequence.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figs/navigation-diagram/games.png}
+	\caption{Navigation Diagram - Games Module Flow}
+	\label{fig:nav-diag-games}
+\end{figure}
+
+\subsubsection{Players Module}
+The Players module provides dual entry points to support both social discovery and personal identity management. Users can access their personal profile directly from the Home dashboard, while the global navigation bar provides access to the broader Players List. As shown in Figure \ref{fig:nav-diag-players}, selecting a user from the list navigates to their specific Player Profile. 
+
+The profile view utilizes the same internal tab logic as the Court Details to maintain a consistent mental model across the application. Furthermore, the Home dashboard integrates a "Notifications Hub" allow users to bypass standard list views and navigate directly to relevant Game Details or Player Profiles in response to invites, requests, match updates, and other notifications.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{figs/navigation-diagram/players.png}
+	\caption{Navigation Diagram - Players Module Flow}
+	\label{fig:nav-diag-players}
+\end{figure}
+\subsection{title}
+
+\subsection{Evaluation II - MVP Usability}
+\label{subsec:impl-p2-eval}
+
+\subsubsection{Method}
+\label{subsubsec:impl-p2-eval-method}
+
+\subsubsection{Results}
+\label{subsubsec:impl-p2-eval-results}
+
+\subsubsection{Backlog Changes from Evaluation II}
+\label{subsubsec:impl-p2-eval-impact}
+
+\section{Phase 3 - Complete Application}
+\label{sec:impl-phase3}
+
+\subsection{Changes Driven by Evaluation II}
+\label{subsec:impl-p3-changes}
+
+\subsection{title}
+
+\subsection{Evaluation III - Complete Platform}
+\label{subsec:impl-p3-eval}
+
+\subsubsection{Method}
+\label{subsubsec:impl-p3-eval-method}
+
+\subsubsection{Results}
+\label{subsubsec:impl-p3-eval-results}
+
+\subsubsection{Analysis}
+\label{subsubsec:impl-p3-crossphase}

@@ -2,24 +2,30 @@
 \babel@toc {english}{}\relax
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of existing platforms for casual basketball in Portugal\relax }}{10}{table.caption.16}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Comparison of mobile application development implementation technologies \blx@tocontentsinit {0}\cite {Khachouch2020, 10667693, Janakaraj2025}\relax }}{16}{table.caption.20}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces Feature Matrix: MBaaS Providers Comparison\relax }}{34}{table.caption.30}%
+\addvspace {10pt}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Summary of existing platforms for casual basketball in Portugal}}{11}{table.caption.16}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Comparison of mobile application development implementation technologies \blx@tocontentsinit {0}\cite {Khachouch2020, 10667693, Janakaraj2025}}}{17}{table.caption.20}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Feature Matrix: MBaaS Providers Comparison}}{35}{table.caption.30}%
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {4.1}{\ignorespaces Epic: Game Management - User Stories\relax }}{46}{table.caption.38}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Epic: Court Availability - User Stories\relax }}{47}{table.caption.39}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Epic: Players and Social Features - User Stories\relax }}{47}{table.caption.40}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Epic: Ranking and Team System - User Stories\relax }}{48}{table.caption.41}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Epic: User Profile and Settings - User Stories\relax }}{48}{table.caption.42}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Non-Functional Requirements: Reliability\relax }}{50}{table.caption.43}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Non-Functional Requirements: Security\relax }}{51}{table.caption.44}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces Non-Functional Requirements: Interaction Capability\relax }}{52}{table.caption.45}%
-\contentsline {table}{\numberline {4.9}{\ignorespaces Non-Functional Requirements: Compatibility\relax }}{52}{table.caption.46}%
-\contentsline {table}{\numberline {4.10}{\ignorespaces Non-Functional Requirements: Flexibility\relax }}{53}{table.caption.47}%
-\contentsline {table}{\numberline {4.11}{\ignorespaces Non-Functional Requirements: Maintainability\relax }}{53}{table.caption.48}%
-\contentsline {table}{\numberline {4.12}{\ignorespaces Non-Functional Requirements: Safety\relax }}{53}{table.caption.49}%
-\contentsline {table}{\numberline {4.13}{\ignorespaces Non-Functional Requirements: Performance Efficiency\relax }}{54}{table.caption.50}%
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Epic: Game Management - User Stories}}{51}{table.caption.36}%
+\contentsline {table}{\numberline {8.2}{\ignorespaces Epic: Court Availability - User Stories}}{52}{table.caption.37}%
+\contentsline {table}{\numberline {8.3}{\ignorespaces Epic: Players and Social Features - User Stories}}{52}{table.caption.38}%
+\contentsline {table}{\numberline {8.4}{\ignorespaces Epic: Ranking and Team System - User Stories}}{53}{table.caption.39}%
+\contentsline {table}{\numberline {8.5}{\ignorespaces Epic: User Profile and Settings - User Stories}}{53}{table.caption.40}%
+\contentsline {table}{\numberline {8.6}{\ignorespaces Non-Functional Requirements: Reliability}}{55}{table.caption.41}%
+\contentsline {table}{\numberline {8.7}{\ignorespaces Non-Functional Requirements: Security}}{56}{table.caption.42}%
+\contentsline {table}{\numberline {8.8}{\ignorespaces Non-Functional Requirements: Interaction Capability}}{57}{table.caption.43}%
+\contentsline {table}{\numberline {8.9}{\ignorespaces Non-Functional Requirements: Compatibility}}{57}{table.caption.44}%
+\contentsline {table}{\numberline {8.10}{\ignorespaces Non-Functional Requirements: Flexibility}}{58}{table.caption.45}%
+\contentsline {table}{\numberline {8.11}{\ignorespaces Non-Functional Requirements: Maintainability}}{58}{table.caption.46}%
+\contentsline {table}{\numberline {8.12}{\ignorespaces Non-Functional Requirements: Safety}}{58}{table.caption.47}%
+\contentsline {table}{\numberline {8.13}{\ignorespaces Non-Functional Requirements: Performance Efficiency}}{59}{table.caption.48}%
+\contentsline {table}{\numberline {8.14}{\ignorespaces User Stories Ranked by priority}}{73}{table.caption.70}%
+\addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

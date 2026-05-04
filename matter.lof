@@ -1,20 +1,38 @@
 \babel@toc {portuguese}{}\relax
 \babel@toc {english}{}\relax
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Evolution of federated athletes in Portugal's top sports (excluding football) from 2013 to 2024. Data source: IPDJ\blx@tocontentsinit {0}\cite {ipdj2025stats}\relax }}{3}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Evolution of federated athletes in Portugal's top sports (excluding football) from 2013 to 2024. Data source: IPDJ\blx@tocontentsinit {0}\cite {ipdj2025stats}}}{3}{figure.caption.4}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces An iOS app built with a backend host on a cloud service\blx@tocontentsinit {0}\cite {DeCarli2023}\relax }}{20}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces An iOS app built with Firebase’s backend\blx@tocontentsinit {0}\cite {DeCarli2023}\relax }}{21}{figure.caption.22}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Project Development Roadmap\relax }}{35}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Epics and Sprint planning in Jira\relax }}{37}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Architecture Diagram of the Multiplatform Application\relax }}{38}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces An iOS app built with a backend host on a cloud service\blx@tocontentsinit {0}\cite {DeCarli2023}}}{21}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces An iOS app built with Firebase’s backend\blx@tocontentsinit {0}\cite {DeCarli2023}}}{22}{figure.caption.22}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Persona 1 Miguel\relax }}{43}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Persona 1 Carlos\relax }}{44}{figure.caption.37}%
 \addvspace {10pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Project Development Roadmap}}{38}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Epics and Sprint planning in Jira}}{40}{figure.caption.32}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Architecture Diagram of the Multiplatform Application}}{41}{figure.caption.33}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Portuguese flyer\relax }}{69}{figure.caption.52}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces English flyer\relax }}{70}{figure.caption.53}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Persona 1 Miguel}}{48}{figure.caption.34}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Persona 1 Carlos}}{49}{figure.caption.35}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Courts Browsing Interface Mockups}}{61}{figure.caption.50}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Court Details Interface (Primary Tabs)}}{62}{figure.caption.52}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Court Details Calendar Interactions}}{63}{figure.caption.53}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Games Discovery Interface Mockup}}{64}{figure.caption.55}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Game Creation Workflow Mockups}}{65}{figure.caption.57}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Game Management and Details Mockups}}{66}{figure.caption.59}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Player Profile Interface (Statistics and Activity)}}{67}{figure.caption.61}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Player Profile Interface (Social and Facility Data)}}{68}{figure.caption.62}%
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Player Discovery and Search Interface Mockup}}{69}{figure.caption.64}%
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Home Dashboard Mockup: Integrated Functional Hub}}{70}{figure.caption.65}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Navigation Diagram - Courts Module Flow}}{78}{figure.caption.78}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Navigation Diagram - Games Module Flow}}{79}{figure.caption.80}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Navigation Diagram - Players Module Flow}}{80}{figure.caption.82}%
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Portuguese flyer}}{95}{figure.caption.91}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces English flyer}}{96}{figure.caption.92}%

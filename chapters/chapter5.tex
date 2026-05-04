@@ -1,5 +1,918 @@
-\chapter{Conclusion}
 
-The scenario of the Portuguese basketball community reveals a genuine coordination gap in the amateur sport, where players remain disconnected despite sharing the same passion. Digital transformation in team sports is yet to be accomplish, and this dissertation proposes a bridge that gap, through the design and development of a Kotlin Multiplatform mobile application, supported with Supabase in the backend, that enables amateur basketball players to organise casual games, check court availability and build a sustainable community of practice around public courts in Portugal.
+\chapter{Requirements and Prototype}
+\label{ch:requirements-prototype}
 
-By combining User-Centred Design principles, to shape the platform for the Portuguese user, with a carefully selected technology stack and Agile development methodology, this project is positioned to deliver both functional and production-ready application. With user analysis, requirements established, architectural design, and implementation planning now in place, the implementation and evaluation phases will demonstrate whether a thoughtfully designed digital platform can truly transform how casual athletes coordinate and sustain engagement with their sport, connecting Lisbon's fragmented basketball communities while establishing a foundation for broader adoption across Portugal.
+In the first phase of the project, the start of the UCD cycle, the main goal it to understand the users, draft the requirements and design the platform, ending up with a prototype and the users evaluation, to validate the features and their importance. 
+This chapter begins with understanding and specify the context of use, through a user research and Personas, from that research initial requirements are specified. After that, the prototypes can be designed, ending with a user test in the dynamic prototypes. 
+
+
+\section{Understand and specify the context of use }
+\label{sec:rp-user-research}
+
+
+The first part that is important to design the platform is to understand who is the target user and how will the application be used. For this, a user research was conducted through a survey targeting basketball players in Portugal, then two persona where made based on the survey and then user scenarios.
+
+\subsection{User research}
+\label{subsec:rp-survey-design}
+
+A user research was conducted through a survey in order to understand who goes to public basketball courts, how often they go, why they are not going more often, what gets them annoyed and what would they wish to improve in their experience playing in basketball courts. To collect data, it was used Mircrosoft Forms (see questions in Appendix \ref{appendix:survey}) and  was shared through \textit{Whatsapp}, between different people and groups and a flyer was made and distributed in a public basketball court in Lisbon (see flyer in Appendix \ref{appendix:flyer}). A total of 50 responses were gather and here are some takeaways:
+
+\begin{itemize}
+	\item 80\% of the responses were from men;
+	\item  27 responses (54\%)  are from people between 18-25 years old, and 16 (32\%) from 26-35 years old;
+	\item The majority live in Lisbon, with 10 (20\%) responses from Setúbal, 2 (4\%) from Aveiro and 1 (2\%) from Porto;
+	\item 27 (46\%)people that responded work full time and 21 (36\%) are studying in university;
+	\item When asked if they play basketball, 34 (40\%) said that they play in public courts causal games, 21 (25\%) go to private courts, 15 (18\%) just shoot some balls and 6 (7\%) play in a competitive team;
+	\item 39 (78\%) started playing before they were 16 years old;
+	\item 15 participants go to play in Alcântara (24\%) public court and 14 (22\%) in Moinho do Penedo in Monsato public court, both in Lisbon;
+	\item When asked the Frequency that they go to public courts, 18 (35\%) said that go once a week and 14 (27\%) responded with seasonal, with 88\% wanting to go more often;
+	\item 24 (24\%) do not go more often because of time constraints and 22 (22\%) said that they do not known enough people to play with, besides that, 10 (10\%) said that nobody is in the court when they go;
+	\item Usually, 30 (27\%) participants go with friends to play against each other, 33 (29\%) go with friends to play against others, 19 (17\%) go alone to shoot some balls, but are open to play some games if it comes up, and 14 (13\%) just want to go shoot some balls;
+	\item 58\% want more competition, while the other 42\% are satisfied;
+	\item When asked to the participants what they find more annoying in the public courts, most complain about the conditions of the court, and other about the players, that some are unpleasant to play with, the level of competitiveness is not match, and lack of organization;
+\end{itemize}
+
+\section{Personas and User Scenarios}
+\label{sec:rp-personas}
+
+
+
+
+A Persona is a fictional character created based on the user research that represents the different user types. Personas help to understand the user needs, guiding the next phases of the development process. For this project, 2 types of users were found, creating 2 different Personas.
+
+\subsection{Persona 1: Miguel - The Competitive Player}
+\label{subsec:rp-miguel}
+
+\textbf{Persona} - There are basketball players that want to play against other players, have more competition, as seen in the survey with 58\%, and as 21 participants do not play more often because they do not know enough people, and 10 complain that nobody is there when they go, it can be assume that they want to find other players to play with. Out of this analysis, the first persona emerges, Miguel the competitive  player, that wants to play competitive games more often, the Fig\ref{fig:persona-miguel} represents that persona.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{figs/persona-miguel}
+	\caption{Persona 1 Miguel}
+	\label{fig:persona-miguel}
+\end{figure}
+
+Miguel usually goes with friends to play against other players that they find on the court, however they never know if a good amount competitors will be there, at the same time as them, maybe there is someone, but can be there for a long time already and will leave soon, or does not want to play with others, and there is also the possibility the players encounter are not as good as Miguel and is not that fun to play with. Because of this, Miguel does not go more often, as it can be a waste of time. So, he needs a platform to meet other players that want to play a competitive game, or to just see how many players are in the court to play a spontaneous game. Miguel also wants to know if the players are the right match for him, if they play in the same level and if they will dedicate the same as him. 
+
+Below are two different scenarios that can happen to players like Miguel.
+
+
+\textbf{Scenario 1: Miguel plays on Sunday} Miguel usually goes on Sunday mornings to a court in Alcântara with two friends to play pickup games against other players who might be there. To play a 3v3 game, they need at least three more players. For a 4v4, they need five more, joining someone to complete their team. Typically, Sunday mornings bring older players to the court, and Miguel and his friends often end up joining their games. However, this is not the type of competition they want, so sometimes they try to go at a different time to find players with similar skill levels and physical condition. Occasionally, they encounter another group of friends around their age and level and challenge them to a game. Sometimes they find competitive teams, but other times they end up with players who are just fooling around or with team-mates who do not pass the ball, leaving Miguel and his friends frustrated.
+
+\textbf{Scenario 2: Miguel plays after work on Summer} - During Summer, Miguel likes to play after work. But when he and his friends arrive at the court, no one is there, so they just shoot some hoops and don’t have as much fun or get as much running as they hoped. When they are about to leave, a pair of friends sometimes arrives, also hoping to find other players to challenge. However, by then Miguel and his friends are almost ready to go. If they had organized in advance or somehow known that others were coming, they might have adjusted their schedule and been able to play together.
+
+\textbf{How the platform would help} - With a platform, Miguel would proceed as follows: He opens the application and creates a game, a 4v4, set for Saturday at 3 p.m., and invites his two friends, who accept. Miguel now needs five more players, but if he can’t find a fifth, he can reduce the game to a 3v3. He makes the game public, so anyone interested in playing a 3v3 or 4v4 receives a notification, or they see it in the list of upcoming games in the application. The first rival joins after seeing Miguel team’s ranking. Soon, a team of four expresses intent to join, and so, Miguel invites the first adversary to his team and accepts the other team as opponents.
+On Saturday afternoon, the group arrives at the available court and checks in via the application. Other people now know there are eight players present, and the game appears in the application as happening live at that location. Miguel’s team wins, and a member from each team records the result in the application. Because the game is ranked, every member of the winning team earns points toward their individual rankings. Miguel enjoyed playing with their fourth team-mate, so they decide to register the team and enter the league table for teams of four. The next time Miguel wants to play, he can create a game with his new team.
+
+\subsection{Persona 2: Carlos - The Flexible Shooter}
+\label{subsec:rp-carlos}
+
+
+\textbf{Persona} -The other type of user, is the player that just goes to the court to practice and shoot some balls, as 29 players out of 50 usually go alone for that, some do not mind playing a game, this type of user wants to find a court or time slot to relax, without competition and space practice. In the Fig \ref{fig:persona-carlos} is the second persona, Carlos the flexible shooter, he goes once a week to a public court to shoot around, and if someone asks him to play, he accepts the invitation. Some times the court is full and Carlos does not have space to shoot and everyone is playing too aggressive. He needs a platform to see which courts have space to just shoot practice. 
+
+
+\begin{figure}[h]
+	
+	\centering
+	\includegraphics[width=0.9\textwidth]{figs/persona-carlos}
+	\caption{Persona 1 Carlos}
+	\label{fig:persona-carlos}
+	
+\end{figure}
+
+\textbf{Scenario: Carlos go practice Saturday morning} - These days, Carlos enjoys going to the court to practice his shot. He goes at least once a week, and when other players invite him to join a pickup game, he’s always ready for the challenge. Carlos prefers to play on Saturday mornings at Monte do Penedo in Monsanto. However, especially when the weather is good, the court can become crowded, with several games going on at once and multiple people shooting at the same basket. During these times, Carlos often wishes he had gone to a different court.
+
+\textbf{How the platform would help} - With a platform, Carlos could check court availability before leaving home, allowing him to choose a less crowded court. He could also discover courts he did not know about and read reviews from other players about court conditions. Before heading out, Carlos could use the application to indicate his intention to go to a specific court at a certain time, specifying that he plans to shoot around but is open to joining non-competitive games. Alternatively, he could check in when he arrives, letting others know he’s available for practice or casual play.
+
+\section{Functional Requirements}
+\label{sec:rp-functional}
+
+\subsection{Epics and User Stories}
+\label{subsec:rp-stories}
+
+From the personas and the user scenarios requirements where gather.
+The User Stories were organised into five groups or, as called in Scrum, Epics:
+\begin{itemize}
+	\item \textbf{PLY-05 Game Management} (Table \ref{tab:epic-game-management}) encompasses all features related to creating, discovering, joining, and managing basketball games.
+	\item \textbf{PLY-06 Court Availability} (Table \ref{tab:epic-court-availability}) handles court discovery, management, occupancy tracking, and user check-ins.
+	\item \textbf{PLY-07 Players and Social Features} (Table \ref{tab:epic-players-social}) encompasses player discovery, friendship management, communication, and player interactions.
+	\item \textbf{PLY-08 Ranking and Team System} (Table \ref{tab:epic-ranking-team}) manages competitive ranking, team creation, and team-based competitions.
+	\item \textbf{PLY-09 User Profile and Settings} (Table \ref{tab:epic-profile-settings}) handles authentication, profile management, notification preferences, and user data.
+\end{itemize}
+
+\begin{table}[h]
+	\centering
+	\caption{Epic: Game Management - User Stories}
+	\label{tab:epic-game-management}
+	\begin{tabular}{p{2cm}p{4cm}p{8cm}}
+		\toprule
+		\multicolumn{3}{c}{\textbf{PLY-05 Game Management}} \\
+		\midrule
+		\textbf{ID} & \textbf{Title} & \textbf{User Story} \\
+		\midrule
+		PLY-10 & Create a Game & ``As Miguel, I want to create a game with custom parameters, so that I can organize matches with specific settings and invite players.'' \\
+		\midrule
+		PLY-41 & View Game Details & ``As Miguel, I want to view complete details of a game I'm in or interested in, so that I know when to show up, who's playing, and what to expect.'' \\
+		\midrule
+		PLY-11 & Receive Game Notifications & ``As Miguel, I want to receive notifications when games are created in my favourite courts, so that I can quickly join games that interest me.'' \\
+		\midrule
+		PLY-12 & Respond to Game Invitation & ``As a basketball player, I want to accept or decline game invitations, so that I can control which games I participate in.'' \\
+		\midrule
+		PLY-13 & Browse and Search Games & ``As Miguel, I want to browse and filter available games, so that I can find games that match my preferences.'' \\
+		\midrule
+		PLY-14 & Request to Join Game & ``As Miguel, I want to request to join public games, so that I can participate in games organized by others.'' \\
+		\midrule
+		PLY-15 & Manage Join Requests and Players & ``As Miguel and game host, I want to accept or reject players requesting to join my game and manage players in game list, so that I can control who participates.'' \\
+		\midrule
+		PLY-17 & Start Game & ``As Miguel and game host, I want to start the game when all players arrive, so that we can begin playing and tracking the match.'' \\
+		\midrule
+		PLY-18 & End Game & ``As Miguel, I want to end the match and record the final score and winning team, so that results are tracked for rankings and history.'' \\
+		\midrule
+		PLY-16 & Challenge Teams & ``As Miguel and a team member, I want to challenge other teams to a game, so that we can compete against organized opponents.'' \\
+		\midrule
+		PLY-19 & Spectator Mode & ``As Carlos, I want to mark myself as watching a game and record the result, so that I can contribute to game accuracy even if I'm not playing.'' \\
+		\midrule
+		PLY-25 & Spontaneous Game Creation & ``As Carlos, while I am in the court, I want to quickly create an instant game, so that me and other player in the court can play without detailed planning, but still counting in the app.'' \\
+		\midrule
+		PLY-24 & Tournament Creation & ``As Miguel, I want to create tournaments with multiple teams and rounds, so that I can run structured competitive events and include different players and teams.'' \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{table}[h]
+	\centering
+	\caption{Epic: Court Availability - User Stories}
+	\label{tab:epic-court-availability}
+	\begin{tabular}{p{2cm}p{4cm}p{8cm}}
+		\toprule
+		\multicolumn{3}{c}{\textbf{PLY-06 The Court Availability}}\\
+		\midrule
+		\textbf{ID} & \textbf{Title} & \textbf{User Story} \\
+		\midrule
+		PLY-40 & View Court Details and Add to Favourites & ``As Miguel, I want to view court details and add courts to my favorites, so that I can easily find courts I like and receive notifications about games there.'' \\
+		\midrule
+		PLY-42 & Search Courts & ``As Carlos, I want to search for courts interactively and easily, so that I can find new courts to try out.'' \\
+		\midrule
+		PLY-26 & Court Check-In & ``As Carlos, I want to check in when I arrive at a court, so that others know I'm there.'' \\
+		\midrule
+		PLY-27 & Court Occupancy Display & ``As Carlos, I want to see how many players are at each court, so that I can decide where to play.'' \\
+		\midrule
+		PLY-28 & Add New Courts & ``As Carlos, I want to add courts that aren't in the system, so that the app includes all court locations.'' \\
+		\midrule
+		PLY-29 & Rate and Review Courts & ``As Carlos, I want to rate and review courts, so that others have accurate and updated information about court quality.'' \\
+		\midrule
+		PLY-30 & Announce Playing Intentions & ``As Miguel, I want to announce when I plan to play at a court, so that others can join me.'' \\
+		\midrule
+		PLY-31 & View Expected Court Availability & ``As Carlos, I want to see how many players plan to be at a court at specific times, so that I can plan my sessions better.'' \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{table}[h]
+	\centering
+	\caption{Epic: Players and Social Features - User Stories}
+	\label{tab:epic-players-social}
+	\begin{tabular}{p{2cm}p{4cm}p{8cm}}
+		\toprule
+		\multicolumn{3}{c}{\textbf{PLY-07 The Players and Social Features}}\\
+		\midrule
+		\textbf{ID} & \textbf{Title} & \textbf{User Story} \\
+		\midrule
+		PLY-21 & View Player Profiles & ``As Miguel, I want to view other players' profiles, so that I can find potential teammates or opponents.'' \\
+		\midrule
+		PLY-32 & Send friend Requests & ``As Miguel, I want to add other players as friends, so that I can easily organize games with them and know when they are at the court.'' \\
+		\midrule
+		PLY-33 & Respond to friend Requests & ``As Miguel, I want to accept or decline friend requests, so that I can manage my friends list.'' \\
+		\midrule
+		PLY-36 & Search Players and Teams & ``As Miguel, I want to search for other players and teams, so that I can connect with them or issue challenges.'' \\
+		\midrule
+		PLY-34 & Game Chat & ``As Miguel, I want to chat with other players in my game, so that we can coordinate details and communicate.'' \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{table}[h]
+	\centering
+	\caption{Epic: Ranking and Team System - User Stories}
+	\label{tab:epic-ranking-team}
+	\begin{tabular}{p{2cm}p{4cm}p{8cm}}
+		\toprule
+		\multicolumn{3}{c}{\textbf{PLY-08 The Ranking and Team System}}\\
+		\midrule
+		\textbf{ID} & \textbf{Title} & \textbf{User Story} \\
+		\midrule
+		PLY-20 & Player Ranking System & ``As Miguel, a competitive player, I want to earn points for victories and see my ranking, so that I can track my progress and compete with others.'' \\
+		\midrule
+		PLY-22 & Team Management & ``As Miguel, I want to create and manage teams, so that I can play regularly with the same group and compete in team rankings.'' \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{table}[h]
+	\centering
+	\caption{Epic: User Profile and Settings - User Stories}
+	\label{tab:epic-profile-settings}
+	\begin{tabular}{p{2cm}p{4cm}p{8cm}}
+		\toprule
+		\multicolumn{3}{c}{\textbf{PLY-09 The User Profile and Settings}}\\
+		\midrule
+		\textbf{ID} & \textbf{Title} & \textbf{User Story} \\
+		\midrule
+		PLY-37 & User Authentication & ``As Carlos, I want to register, log in, and recover my password, so that I can securely access my account.'' \\
+		\midrule
+		PLY-38 & Profile Management & ``As Carlos, I want to edit my profile information, so that my details stay updated.'' \\
+		\midrule
+		PLY-35 & View Game History & ``As Miguel, I want to view my past games, so that I can track my playing activity and review results.'' \\
+		\midrule
+		PLY-39 & Notification Preferences & ``As Carlos, I want to customize which notifications I receive, so that I only get alerts that matter to me.'' \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\section{Non-Functional Requirements}
+\label{sec:rp-nfr}
+
+For the non-functional requirements, they were aligned with ISO/IEC 25010\cite{ISO25010} quality model. 
+Each requirement specifies quality attributes and constraints that apply across multiple functional features.
+In the ISO there are nine quality characteristics\cite{ISO25010}:
+\begin{itemize}
+	\item Functional Suitability
+	\item Performance Efficiency
+	\item Compatibility
+	\item Interaction Capability
+	\item Reliability
+	\item Security
+	\item Maintainability
+	\item Flexibility
+	\item Safety
+\end{itemize}
+
+Below is a list of the non-functional requirements created to set guidelines to follow the International Standard guaranteeing software quality.  
+
+
+% Reliability NFRs
+\begin{table}[h]
+	\centering
+	\caption{Non-Functional Requirements: Reliability}
+	\label{tab:nfr-reliability}
+	\begin{tabular}{p{2cm}p{4cm}p{7cm}p{2cm}}
+		\toprule
+		\multicolumn{4}{c}{\textbf{Reliability}}\\
+		\midrule
+		\textbf{ID} & \textbf{Title} & \textbf{Description} & \textbf{Priority} \\
+		\midrule
+		NFR-01 & Offline Availability & The application shall support offline access to previously loaded data, informing when the user is offline and the last updated timestamp. & Must Have \\
+		\midrule
+		NFR-02 & Data Consistency & The application shall not lose data after a write operation. Any data acknowledged to the user as saved shall persist across application crashes, OS termination, or device restart & Must Have \\
+		\midrule
+		NFR-03 & Graceful Degradation & In case of a failed backend request, the application shall: (1) Display cached data when available, (2) Show a clear, user-friendly error message, (3) Never crash or display technical error details, (4) Allow retry when appropriate. & Should Have \\
+		\midrule
+		NFR-23 & Session State Persistence & The application shall preserve the user session state across application restarts using secure authentication tokens. Sessions shall persist until the user explicitly logs out or until tokens expire after a prolonged period of inactivity. & Must Have \\
+		\midrule
+		NFR-24 & Data Sync on App Resume & The application shall automatically synchronize data with the backend when resumed after being backgrounded. Data is considered fresh for 5 minutes, if more than 5 minutes have passed, a sync is triggered. & Should Have \\
+		\midrule
+		NFR-26 & Background Sync & The application may implement periodic background synchronization to keep user data up-to-date even when the app is not actively in use. & Could Have \\
+		\midrule
+		NFR-27 & Form State Recovery & The application shall recover form state when the app is backgrounded during form entry. & Should Have \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\vspace{1cm}
+
+% Security NFRs
+\begin{table}[h]
+	\centering
+	\caption{Non-Functional Requirements: Security}
+	\label{tab:nfr-security}
+	\begin{tabular}{p{2cm}p{4cm}p{7cm}p{2cm}}
+		\toprule
+		\multicolumn{4}{c}{\textbf{Security}}\\
+		\midrule
+		\textbf{ID} & \textbf{Title} & \textbf{Description} & \textbf{Priority} \\
+		\midrule
+		NFR-04 & User Authentication & The application shall authenticate users using either social login or email/password. Authentication credentials and session tokens shall be securely stored using platform-provided secure storage mechanisms. & Must Have \\
+		\midrule
+		NFR-05 & Data Privacy (GDPR Compliance) & The application shall comply with GDPR requirements: explicit user consent before data collection, data minimization, user right to access/delete data, transparent privacy policy. Location data used only for real-time search, not stored long term. & Must Have \\
+		\midrule
+		NFR-06 & Secure Data Transmission & All data exchanged between the client and backend shall be transmitted over encrypted channels using HTTPS with TLS 1.3. Invalid or self-signed certificates shall be rejected. & Must Have \\
+		\midrule
+		NFR-07 & Location Privacy & The application shall never expose to other users the user location coordinates; only the location of the court should be shared publicly. & Must Have \\
+		\midrule
+		NFR-21 & Message Encryption & The application shall implement end-to-end encryption for user messages. Message content shall be encrypted on the sender's device and decrypted only on the recipient's device using industry-standard cryptographic algorithms (e.g., AES-256). & Must Have \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\vspace{1cm}
+
+% Interaction Capability NFRs
+\begin{table}[h]
+	\centering
+	\caption{Non-Functional Requirements: Interaction Capability}
+	\label{tab:nfr-interaction}
+	\begin{tabular}{p{2cm}p{4cm}p{7cm}p{2cm}}
+		\toprule
+		\multicolumn{4}{c}{\textbf{Interaction Capability}}\\
+		\midrule
+		\textbf{ID} & \textbf{Title} & \textbf{Description} & \textbf{Priority} \\
+		\midrule
+		NFR-08 & Learnability & First-time users shall be able to complete core tasks (finding a court, joining a game, sending a message) without prior training or documentation, supported by intuitive UI design and optional onboarding hints. & Must Have \\
+		\midrule
+		NFR-09 & Error Feedback & The application shall provide a clear, descriptive error message when a user action fails, explaining why. & Should Have \\
+		\midrule
+		NFR-10 & Outdoor Readability & The application shall remain readable in outdoor sunlight conditions through high contrast UI and support for system dark/light modes. & Could Have \\
+		\midrule
+		NFR-25 & UI State Preservation & The application shall preserve user interface state (filters, search terms, scroll positions, form inputs) when the app is backgrounded and the process is not terminated. This state shall be restored when the app is reopened during the same session. & Should Have \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\vspace{1cm}
+
+% Compatibility NFRs
+\begin{table}[h]
+	\centering
+	\caption{Non-Functional Requirements: Compatibility}
+	\label{tab:nfr-compatibility}
+	\begin{tabular}{p{2cm}p{4cm}p{7cm}p{2cm}}
+		\toprule
+		\multicolumn{4}{c}{\textbf{Compatibility}}\\
+		\midrule
+		\textbf{ID} & \textbf{Title} & \textbf{Description} & \textbf{Priority} \\
+		\midrule
+		NFR-13 & GPS Integration & The application shall integrate with device's native GPS/GNSS hardware for location services. & Must Have \\
+		\midrule
+		NFR-14 & Maps Service Integration & Application shall integrate with device maps services to open maps court location. & Could Have \\
+		\midrule
+		NFR-20 & Camera/Storage Integration & The system shall access native camera to take photographs and allow image upload directly from the device camera and storage. & Must Have \\
+		\midrule
+		NFR-22 & Calendar Service Integration & Application shall integrate with device calendar services to export game events. & Could Have \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\vspace{1cm}
+
+% Flexibility NFRs
+\begin{table}[h]
+	\centering
+	\caption{Non-Functional Requirements: Flexibility}
+	\label{tab:nfr-flexibility}
+	\begin{tabular}{p{2cm}p{4cm}p{7cm}p{2cm}}
+		\toprule
+		\multicolumn{4}{c}{\textbf{Flexibility}}\\
+		\midrule
+		\textbf{ID} & \textbf{Title} & \textbf{Description} & \textbf{Priority} \\
+		\midrule
+		NFR-11 & Cross-Platform Support & The application shall run on both Android and iOS platforms, supporting Android 8.0 (API 26) and later, and iOS 13 and later. & Must Have \\
+		\midrule
+		NFR-12 & Screen Compatibility & The application shall function correctly on devices with varying screen sizes and capabilities, for phones only. & Should Have \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\vspace{1cm}
+
+% Maintainability NFRs
+\begin{table}[h]
+	\centering
+	\caption{Non-Functional Requirements: Maintainability}
+	\label{tab:nfr-maintainability}
+	\begin{tabular}{p{2cm}p{4cm}p{7cm}p{2cm}}
+		\toprule
+		\multicolumn{4}{c}{\textbf{Maintainability}}\\
+		\midrule
+		\textbf{ID} & \textbf{Title} & \textbf{Description} & \textbf{Priority} \\
+		\midrule
+		NFR-15 & Code Modularity & The application shall follow clean architecture principles with separation between presentation, domain, and data layers. Changes to one module shall have minimal impact on others. & Should Have \\
+		\midrule
+		NFR-16 & Testability & The application shall have unit tests for core business logic. Acceptance tests shall be written for user stories following ATDD methodology. & Should Have \\
+		\midrule
+		NFR-17 & Documentation & The application shall be complemented with documentation for APIs and business logic. & Should Have \\
+		\midrule
+		NFR-18 & Logging & The application shall generate centralized logs for failures and errors, structured for analysis. & Should Have \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\vspace{1cm}
+
+% Safety NFRs
+\begin{table}[h]
+	\centering
+	\caption{Non-Functional Requirements: Safety}
+	\label{tab:nfr-safety}
+	\begin{tabular}{p{2cm}p{4cm}p{7cm}p{2cm}}
+		\toprule
+		\multicolumn{4}{c}{\textbf{Safety}}\\
+		\midrule
+		\textbf{ID} & \textbf{Title} & \textbf{Description} & \textbf{Priority} \\
+		\midrule
+		NFR-19 & User Moderation & The application shall include report features to report players and events to mitigate harassment or unsafe gatherings. & Could Have \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\vspace{1cm}
+
+% Performance Efficiency NFRs
+\begin{table}[h]
+	\centering
+	\caption{Non-Functional Requirements: Performance Efficiency}
+	\label{tab:nfr-performance}
+	\begin{tabular}{p{2cm}p{4cm}p{7cm}p{2cm}}
+		\toprule
+		\multicolumn{4}{c}{\textbf{Performance Efficiency}}\\
+		\midrule
+		\textbf{ID} & \textbf{Title} & \textbf{Description} & \textbf{Priority} \\
+		\midrule
+		NFR-28 & UI Responsiveness & The application shall respond to user interactions (navigation, button taps, scrolling) within 500 ms under normal operating conditions. & Must Have \\
+		\midrule
+		NFR-29 & Data Load Time & Application data shall load within 2 seconds when network connectivity is available and within 1 second when using cached data. & Should Have \\
+		\midrule
+		NFR-30 & Battery Efficiency & The application shall minimize battery consumption by limiting background processing, using location services only when necessary, and adapting update frequency based on application state. & Must Have \\
+		\midrule
+		NFR-31 & Scalability & The system shall support at least 1,000 registered users and 100 concurrent active users within the Lisbon area without degradation of core functionalities. & Should Have \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\section{Prototype}
+\label{sec:rp-prototype}
+
+
+
+
+
+With user requirements, the prototypes can be build.
+In this section it will be presented the initial design of the features that matter the most for the users, the navigation flow and the mockups.
+For this it was used Figma \footnote{https://www.figma.com/}, a design tool to build interactive high fidelity prototypes.
+The following are some requirements that were design.
+
+
+\subsection{Courts Module}
+\label{subsec:rp-courts}
+Following the requirements gathering and persona development phase, the design of the Courts module was focused on two primary user goals: finding a suitable court and assessing its real-time conditions. The design is structured into two main stages: discovery and interaction.
+
+\subsubsection{Court Discovery and Selection}
+
+The discovery phase offers two primary interfaces for court selection. The first is a list-based browser (Figure \ref{fig:courtsListMU}), where users can scroll through courts sorted by customizable criteria. Each "court card" provides essential metadata, such as the number of courts and hoops, current player count, and average rating, to support rapid decision-making.
+Key features include:
+
+\begin{itemize}
+	
+	\item \textbf{Filtering and Sorting:} Options to organize courts by proximity, rating, occupation or conditions.
+	\item \textbf{Favourites:} A quick-access button to save frequently visited courts, a heart icon was chosen over a star for favourites to align with younger users' social media mental models, a choice validated during user testing.
+	\item \textbf{Community Contribution:} A "plus" button near the search bar allows users to submit new courts, ensuring the database remains up-to-date through crowd sourcing.
+	
+\end{itemize}
+
+
+Users can toggle between a standard list for quick scanning and an interactive map to visualize court locations spatially (Figure \ref{fig:courtsMapMU}). This map view provides spatial visualization of courts while maintaining the same informative list cards for consistency in data presentation. 
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/courtsList/courts-list.png}}
+		\caption{Courts List Mockup}
+		\label{fig:courtsListMU}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/courtsList/courts-map.png}}
+		\caption{Courts Map Mockup}
+		\label{fig:courtsMapMU}
+	\end{subfigure}
+	\caption{Courts Browsing Interface Mockups}
+\end{figure}
+
+
+\subsubsection{Court Details and Functional Hub}
+
+Upon selecting a specific court, the user is directed to the "Court Details" screen (Figure \ref{fig:cdGPCMU}). This is divided into two sections to optimize information hierarchy. 
+The upper section contains persistent high-level data, such as court imagery, information about the court, and the "Check-in" action. 
+
+The lower section houses the tabbed interface. Given the high density of features, including game schedules, reviews, and rankings, a tabbed navigation system was implemented within this view in order to prevent mental overload associated with excessive forward-and-backward screen transitions.
+This architecture allows users to access complex data subsets without losing the primary context of the selected court. 
+The hub is organized into five functional tabs:	
+
+\begin{itemize}
+	
+	\item \textbf{Game Tab:} Displays upcoming and past games, and provides the entry point to the "Create Game" flow.
+	\item \textbf{Calendar Tab:} Shows the number of games per day and "player intentions." Users can log their own intent to play, helping others judge how busy the court will be.
+	\item \textbf{Players Tab:} Lists users currently checked-in at the court, leading to individual "Player Profiles."
+	\item \textbf{Rank Tab:} Displays the local leader board for that specific court.
+	\item \textbf{Reviews Tab:} Allows users to read feedback on court conditions and contribute their own ratings.
+	
+\end{itemize}
+
+
+The initial tabs include the Games, Players, and Classification views seen in Figure \ref{fig:cdGPCMU}. To maintain design consistency across the application, the game and player cards utilized here are identical to those found in the dedicated Games and Players modules (detailed in Sections \ref{subsec:GamesModule} and \ref{subsec:PlayersModule}), while the classification tab, shows the different leader boards across the diverse game formats.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/courtDetails/court-jogos.png}}
+		\caption{Games Tab}
+		\label{fig:cdGamesMU}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/courtDetails/court-jogadores.png}}
+		\caption{Players Tab}
+		\label{fig:cdPlayersMU}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/courtDetails/court-classificacao.png}}
+		\caption{Classification Tab}
+		\label{fig:cdClassificationMU}
+	\end{subfigure}
+	\caption{Court Details Interface (Primary Tabs)}
+	\label{fig:cdGPCMU}
+\end{figure}
+
+Finally, the Calendar tab (Figure \ref{fig:cdCalendarTabMU}) provides a predictive view of court activity. Users can observe scheduled games and attendance intentions for future dates. Upon selecting a specific date, the view expands to show hourly increments, allowing users to log their intended time of arrival and contribute to the community's real-time occupancy data.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/courtDetails/court-calendar.png}}
+		\caption{Calendar Overview}
+		\label{fig:cdCalendarMU}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/courtDetails/court-calendar-1.png}}
+		\caption{Expanded Day View}
+		\label{fig:cdCalendarDayMU}
+	\end{subfigure}
+	\caption{Court Details Calendar Interactions}
+	\label{fig:cdCalendarTabMU}
+\end{figure}
+
+\subsection{Games Module}
+\label{subsec:rp-games}
+
+The ability for users to organize and coordinate games is a core requirement of the application. 
+Consequently, the Games module focuses on three primary functional pillars: discovery, creation, and comprehensive game management.
+
+\subsubsection{Game Discovery and Selection}
+
+Building upon the games list found within the Courts module, a dedicated "Games" screen was designed to provide a centralized marketplace for user-generated games. As illustrated in Figure \ref{fig:gamesListMU}, this interface allows users to browse scheduled matches across all courts. Key features integrated into this view include:
+
+\begin{itemize}
+	\item \textbf{Filtering and Sorting:} Mechanisms to organize results by geographic proximity, date, or game format (e.g., 3x3, 5x5).
+	\item \textbf{Quick Entry:} A direct "Join" button allows users to register for a game without navigating away from the list, streamlining the interaction for frequent users.
+	\item \textbf{Search by Invitation:} A specialized search field where users can input a unique code to join private or specific games directly.
+	\item \textbf{Global Creation:} A prominent "Create Game" button serves as the primary entry point for the customization workflow.
+\end{itemize}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\textwidth]{figs/mockups/games/games-list.png}
+	\caption{Games Discovery Interface Mockup}
+	\label{fig:gamesListMU}
+\end{figure}
+
+\subsubsection{Creation Workflow and Customization}
+
+To accommodate the diverse ways in which basketball is played, the game creation process was designed to be highly modular. As shown in the two-step mockup (Figure \ref{fig:cgMU}), users can define parameters including game format, target score, and specific scheduling details. 
+
+A critical focus of this interface was visual consistency. By utilizing identical iconography and court-selection components found in other modules, the design reduces the user's cognitive load and leverages familiar interaction patterns. The court selection field prioritizes the user's "Favourite" and "Frequent" courts to accelerate the scheduling process.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/games/create-game/create-game.png}}
+		\caption{Step 1: Format and Court}
+		\label{fig:create-gameMU}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/games/create-game/create-game1.png}}
+		\caption{Step 2: Rules and Invites}
+		\label{fig:create-game1MU}
+	\end{subfigure}
+	\caption{Game Creation Workflow Mockups}
+	\label{fig:cgMU}
+\end{figure}
+
+\subsubsection{Game Details and Management}
+
+Once a game is created or selected, the user enters the "Game Details" view (Figure \ref{fig:gdMU}). This screen serves as the operational hub for the event, displaying a summary of the facility, the current roster of participants, and sharing options. 
+
+The interface adapts dynamically based on the game's lifecycle and the user's role. For instance, the "Host" is provided with administrative controls to initialize the match and, upon completion, input the final score (Figure \ref{fig:gameDetailsCMU}). This transition from a "Scheduled" to a "Completed" state ensures that data flows correctly into the court leader boards and player statistics.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/games/game-details/game-details.png}}
+		\caption{Active Game Details}
+		\label{fig:gameDetailsMU}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/games/game-details/game-details-f.png}}
+		\caption{Completed Game Summary}
+		\label{fig:gameDetailsCMU}
+	\end{subfigure}
+	\caption{Game Management and Details Mockups}
+	\label{fig:gdMU}
+\end{figure}
+
+\subsection{Players Module}
+\label{subsec:rp-players}
+
+The Players module facilitates social connectivity and identity management within the application. 
+It is designed to serve a dual purpose: allowing users to manage their personal identity and enabling the discovery of potential team-mates or opponents.
+
+\subsubsection{Player Profile and Personal Dashboard}
+
+A central requirement for the application is a comprehensive profile system that supports both social networking and individual performance tracking.
+The Profile screen, illustrated in Figure \ref{fig:profile1MU}, acts as a centralized repository for a user's statistics, social connections, and facility preferences.
+
+Following the visual language established in the Courts module, the interface utilizes a 2 main components layout. The "Hero" section provides a visual anchor, displaying the user's profile image alongside critical biometric and stylistic metadata, such as age, height, and play style classification (e.g., relaxed, mixed, or intense).
+
+The lower section of the profile employs the established tabbed navigation system to organize diverse data subsets without cluttering the interface:
+\begin{itemize}
+	\item \textbf{Statistics:} Provides quantitative data regarding games played and performance metrics (Figure \ref{fig:profileStatsMU}).
+	\item \textbf{Games:} A chronological history of past and upcoming participation, utilizing the same standardized game-card component found in the Games module for design consistency (Figure \ref{fig:profileGamesMU}).
+	\item \textbf{Friends:} A social directory of the user's established connections within the platform (Figure \ref{fig:profileFriendsMU}).
+	\item \textbf{Teams:} Displays the various teams created through the platform to which the player belongs.
+	\item \textbf{Courts:} A list of the user’s bookmarked or favourite courts (Figure \ref{fig:profileCourtsMU}).
+	\item \textbf{Bio:} A qualitative space for a detailed biography, including history with official competitive organizations.
+\end{itemize}
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/players/profile/profile-stats.png}}
+		\caption{Performance Statistics}
+		\label{fig:profileStatsMU}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/players/profile/profile-games.png}}
+		\caption{Activity History}
+		\label{fig:profileGamesMU}
+	\end{subfigure}
+	\caption{Player Profile Interface (Statistics and Activity)}
+	\label{fig:profile1MU}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/players/profile/profile-friends.png}}
+		\caption{Social Connections}
+		\label{fig:profileFriendsMU}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/mockups/players/profile/profile-courts.png}}
+		\caption{Preferred Facilities}
+		\label{fig:profileCourtsMU}
+	\end{subfigure}
+	\caption{Player Profile Interface (Social and Facility Data)}
+	\label{fig:profile2MU}
+\end{figure}
+
+\subsubsection{Player Discovery and Social Interaction}
+
+To foster community growth, a dedicated "Players List" (Figure \ref{fig:playersListMU}) was designed as the primary discovery mechanism. This interface features a global search bar and a list of player components. Each entry displays sufficient metadata—including ranking, height, and play style—to allow for informed social networking. 
+
+To encourage immediate interaction, two primary buttons are integrated into each list item: one to issue a direct game challenge and another to perform a friend request. This reduces the friction of establishing new connections, allowing users to engage with the community directly from the discovery view.
+
+\begin{figure}[h]
+	\centering
+	\fbox{\includegraphics[width=0.4\textwidth]{figs/mockups/players/players-list.png}}
+	\caption{Player Discovery and Search Interface Mockup}
+	\label{fig:playersListMU}
+\end{figure}
+
+\subsection{Home Dashboard}
+\label{subsec:rp-home}
+
+The Home Dashboard serves as the application's primary landing surface and root destination. Its design centers on functional aggregation, surfacing prioritized data from the Courts, Games modules to provide users with immediate access to high-value features and personal schedules.
+
+As illustrated in Figure \ref{fig:homeMU}, the dashboard acts as a centralized hub, integrating several key components:
+\begin{itemize}
+	\item \textbf{Personalized Weekly Calendar:} A condensed view showing the user's upcoming games and attendance intentions, allowing for rapid schedule verification upon app launch.
+	\item \textbf{Game Discovery:} A list of active games available to join, reducing the navigation steps required to find a match.
+	\item \textbf{Court Recommendations:} Summaries of local or favourite courts, providing a shortcut to the Courts module.
+	\item \textbf{Create Game Button} A button to facilitating the app's core objective of match organization.
+\end{itemize}
+
+During the design phase, several architectural iterations were explored to balance information density with visual clarity. The layout presented in Figure \ref{fig:homeMU} was selected for initial user testing to evaluate whether this consolidated "overview" approach effectively minimized the cognitive load associated with navigating through separate modules for daily tasks.
+
+\begin{figure}[h]
+	\centering
+	\fbox{\includegraphics[width=0.4\textwidth]{figs/mockups/Home.png}}
+	\caption{Home Dashboard Mockup: Integrated Functional Hub}
+	\label{fig:homeMU}
+\end{figure}
+
+
+\section{Evaluation I - Prototype Testing}
+\label{sec:rp-eval1}
+
+After completing the design phase and closing one cycle of the UCD process, the first evaluation was conducted. 
+This user testing phase aimed to verify, through an initial prototype, whether the requirements gathered during user research were adequately reflected in the design. 
+Three sessions were carried out: two individual sessions, one with a male participant over 40 years old and another with a participant between 25 and 30 years old, and one group session with three male participants between 20 and 25 years old.
+
+This section presents the evaluation methods used, the results obtained, and the impact of these findings on the prioritisation of the Scrum User Stories.
+
+
+\subsection{Method}
+\label{subsec:rp-eval1-method}
+
+Two complementary methods were used in this evaluation phase: task-based think-aloud testing and feature prioritisation.
+
+
+
+\subsubsection{Tasked Based}
+\label{subsubsec:method-task}
+
+During this part of the evaluation, participants were given a mobile phone and asked to interact with the Figma interactive prototype. 
+The prototype allowed navigation across the mockups through clickable buttons, enabling users to move between screens and explore the proposed flows.
+
+As this was an early prototype, no information could be edited by the participants. 
+All input fields were empty or prefilled, and any court or game selected redirected the user to the same corresponding mock screen. 
+Participants were given nine tasks and were encouraged to verbalise their thoughts throughout the interaction, including what they were doing, what they expected to happen, what they liked or disliked, and any difficulties they encountered. 
+At the end of each task, they were asked to report how easy the task had been, how frustrated they had felt, and what had caused that reaction.
+They were also encouraged to provide additional comments on the user interface, user experience, and the proposed features, including aspects they considered useful, unnecessary, or missing.
+
+The tasks were the following:
+
+\begin{enumerate}
+	\item Create an account;
+	\item Verify existing games in a nearby court;
+	\item Create a new team;
+	\item See how many players are going to be in the court on a specific date and time;
+	\item See the players that participated in the last game the user won;
+	\item Create a new game;
+	\item Search courts on the map;
+	\item See the user's next game;
+	\item See the classification table of a court.
+\end{enumerate}
+
+From the interviewer’s perspective, notes were taken whenever a participant provided significant feedback or comments while performing a task. At the end of each task, the interviewer also checked whether the participant had completed it successfully, whether help was required, and how difficult the task had been.
+
+\subsubsection{Feature Prioritization}
+\label{subsec:method-featPri}
+
+The second method, which was particularly valuable in this phase, consisted of an online whiteboard containing the User Stories represented as sticky notes, together with an empty table divided into five categories: \textit{Essential}, \textit{Important}, \textit{Nice to Have}, \textit{Not Needed}, and \textit{Missing}.
+
+Participants were asked to classify each User Story into one of these categories and to add complementary features in the \textit{Missing} column when relevant. They were also encouraged to annotate each User Story with comments that could help refine the requirements according to user needs and preferences.
+
+This method made it possible to identify which features should be prioritised for implementation, which could be deferred if time allowed, and which were considered unnecessary. 
+It also allowed the identification of features that had not been considered during the initial requirements gathering. 
+To rank the User Stories, numerical values were assigned to each category, from 3 for \textit{Essential} to 0 for \textit{Not Needed}. These values were then multiplied by the number of users who selected each category for a given User Story, and the results were summed to obtain a final score. 
+Given that five participants took part, the maximum possible score was 15 points.
+
+\subsection{Results}
+\label{subsec:rp-eval1-results}
+
+\subsubsection{Tasked Based}
+
+
+In the task-based tests, participants successfully completed all the assigned tasks.
+The only task that consistently caused difficulty was creating a new team, mainly because the button to create it was located too deeply in the navigation structure.
+
+The remaining tasks were completed without assistance or hesitation by most participants.
+Throughout the session, additional comments were gathered, although several of the most relevant observations were repeated later during the feature prioritisation exercise.
+
+\subsubsection{Feature Prioritization}
+
+This method proved more informative than the previous one for this phase, as it made it possible to define a roadmap for the implementation of the platform’s features.
+Appendix~\ref{appendix:evalI} contains the five boards completed by the participants. 
+Based on those boards, Table~\ref{tab:US-ranked-tab} was created to calculate and rank the User Stories.
+
+Five participants classified each User Story. 
+The most highly valued features were game creation, authentication, and profile management, which were considered essential for any application involving social interaction and coordination.
+Game invitations and court search functionality were also rated as high-priority features. 
+On the other hand, participants assigned low value to spectator mode, court check-in, and game start functionality.
+
+\begin{table}[htbp]
+	\centering
+	\small
+	\setlength{\tabcolsep}{3pt}
+	\renewcommand{\arraystretch}{1.1}
+	\caption{User Stories Ranked by priority}
+	\label{tab:US-ranked-tab}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|l|p{4.3cm}|c|c|c|c|c|}
+			\hline
+			ID & User Story & Essential (3) & Important (2) & Nice to Have (1) & Not Needed (0) & Total \\
+			\hline
+			PLY-10 & Create a Game & 5 & 0 & 0 & 0 & 15 \\
+			PLY-38 & Profile Management & 5 & 0 & 0 & 0 & 15 \\
+			PLY-37 & User Authentication & 5 & 0 & 0 & 0 & 15 \\
+			PLY-12 & Respond to game invitation & 3 & 2 & 1 & 0 & 14 \\
+			PLY-13 & Browse and search games & 4 & 1 & 0 & 0 & 14 \\
+			PLY-42 & Search Courts with a List & 3 & 2 & 0 & 0 & 13 \\
+			PLY-22 & Team Management & 3 & 2 & 0 & 0 & 13 \\
+			PLY-11 & Receive Game Notifications & 3 & 2 & 0 & 0 & 13 \\
+			PLY-30 & Announce Playing Intentions & 3 & 2 & 0 & 0 & 13 \\
+			PLY-41 & View Game Details & 3 & 1 & 1 & 0 & 12 \\
+			PLY-39 & Notification Preferences & 2 & 3 & 0 & 0 & 12 \\
+			PLY-47 & Calendar & 2 & 2 & 1 & 0 & 11 \\
+			PLY-46 & Search Courts with a Map & 1 & 4 & 0 & 0 & 11 \\
+			PLY-40 & View Court Details & 2 & 2 & 1 & 0 & 11 \\
+			PLY-21 & View Player Profiles & 2 & 2 & 1 & 0 & 11 \\
+			PLY-14 & Request to Join Game & 3 & 1 & 0 & 1 & 11 \\
+			PLY-36 & Search Players and Teams & 2 & 1 & 2 & 0 & 10 \\
+			PLY-34 & Game Chat & 1 & 3 & 1 & 0 & 10 \\
+			PLY-28 & Add New Courts & 1 & 3 & 1 & 0 & 10 \\
+			PLY-27 & Court Occupancy Display & 2 & 1 & 2 & 0 & 10 \\
+			PLY-16 & Challenge Teams & 2 & 1 & 2 & 0 & 10 \\
+			PLY-35 & View Game History & 1 & 2 & 2 & 0 & 9 \\
+			PLY-32 & Send Friend Requests & 1 & 2 & 2 & 0 & 9 \\
+			PLY-29 & Rate and Review Courts & 1 & 2 & 2 & 0 & 9 \\
+			PLY-25 & Spontaneous Game Creation & 1 & 3 & 0 & 1 & 9 \\
+			PLY-24 & Tournament Creation & 1 & 3 & 0 & 1 & 9 \\
+			PLY-15 & Manage Join Requests and Players & 3 & 0 & 0 & 2 & 9 \\
+			PLY-45 & Add court to Favourite List & 1 & 1 & 3 & 0 & 8 \\
+			PLY-31 & View Expected Court Availability & 1 & 1 & 3 & 0 & 8 \\
+			PLY-33 & Respond to Friend Requests & 1 & 1 & 2 & 1 & 7 \\
+			PLY-18 & End Game & 1 & 2 & 0 & 2 & 7 \\
+			PLY-20 & Player Ranking System & 0 & 3 & 0 & 1 & 6 \\
+			PLY-17 & Start Game & 0 & 1 & 3 & 1 & 5 \\
+			PLY-26 & Court Check-In & 1 & 0 & 0 & 4 & 3 \\
+			PLY-19 & Spectator Mode & 0 & 0 & 1 & 4 & 1 \\
+			\hline
+		\end{tabular}%
+	}
+\end{table}
+
+Beyond the classification of the User Stories, participants also provided qualitative feedback on feature relevance and design concerns. 
+The main themes emerging from these comments are summarised below.
+
+\paragraph{Game Flow and Automation}
+Several participants suggested that manual game lifecycle actions should be automated where possible.In particular, starting and ending a game were considered unnecessary sources of friction if they could be triggered automatically when attendance was complete or when players checked in (\texttt{PLY-17}, \texttt{PLY-18}).
+
+\paragraph{Open vs.\ Private Game Logic}
+Participants questioned the usefulness of join requests in public games, arguing that open games should allow direct registration to encourage participation, while private invitation-only games could serve as the controlled alternative (\texttt{PLY-14}, \texttt{PLY-15}).
+
+\paragraph{Court Data Reliability}
+Concerns were raised about the reliability of user-submitted court occupancy data and the risk of false or unsafe court submissions. Participants suggested introducing a validation or moderation layer for new court additions, including image-based verification and administrative approval workflows (\texttt{PLY-27}, \texttt{PLY-28}).
+
+
+\paragraph{Ranking and Classification System}
+Participants identified the ranking system as an important feature but also pointed out several design challenges. These included uncertainty about whether rankings should be maintained per court or globally, the absence of a clearly defined algorithm that could be explained to users, and concerns about data integrity. One participant suggested that rankings should be verified or computed by the application rather than derived from potentially unreliable self-reported game results (\texttt{PLY-20}).
+
+\paragraph{UI and Navigation Density}
+Unsolicited design feedback indicated that the prototype felt information-dense, with too many actionable elements displayed on each screen. Participants recommended reducing the number of clicks required to complete common actions and keeping users on the same page whenever possible through internal tabs and collapsible sections. 
+
+
+\paragraph{Missing Features Identified}
+Participants also identified two missing capabilities that were not part of the original backlog: a gamification system, including badges, achievements, and court-based leaderboards, and a court activity indicator based on historical game frequency rather than live headcount.
+
+\subsection{Impact on Backlog}
+\label{subsec:rp-eval1-impact}
+
+The feature prioritisation scores served as the main input for sprint allocation and for defining the scope and organisation of Phase 2 development. 
+However, the final backlog organisation was also influenced by two additional factors: technical dependencies between features and implementation effort relative to expected value.\\
+
+Technical dependencies established the implementation foundation regardless of priority score. Authentication and basic profile management had to be implemented before any other feature, as they form the basis of a social platform and are necessary for enforcing role-based database rules.
+Courts also had to exist before games could be created, since games need to be associated with a court. Likewise, games had to exist before game details, invitations, or notifications could become meaningful. 
+These constraints defined the implementation order across the sprints.
+
+Court Check-In (\texttt{PLY-26}), despite obtaining a low score in the prioritisation exercise (3 points), was included in the MVP scope because it provides the data source for Court Occupancy Display (\texttt{PLY-27}).
+Without check-in data, live occupancy indicators would not have meaningful input, and the feature would not be functional.
+Although this dependency made Court Check-In technically necessary, participant feedback also suggested that check-in data alone would not be sufficiently reliable, indicating that the feature would require further iterations.
+
+Similarly, Add Court to Favourite List (\texttt{PLY-45}, 8 points) was implemented earlier than its score alone would suggest because it reused data structures already introduced in the Courts module, which made it relatively inexpensive to develop while contributing to a more complete user experience.
+
+The MVP scope was therefore defined as the minimum set of features required to validate the core value proposition of the platform: helping players find courts and organise games. Based on the prioritisation results and the identified dependencies, the following features were included in Phase 2:
+
+\begin{itemize}
+	\item User authentication and profile management (\texttt{PLY-37}, \texttt{PLY-38}), rated essential by all five participants.
+	\item Game creation, browsing, and invitation management (\texttt{PLY-10}, \texttt{PLY-12}, \texttt{PLY-13}, \texttt{PLY-41}), core coordination features.
+	\item Court search, details, and submit new courts (\texttt{PLY-42}, \texttt{PLY-46}, \texttt{PLY-40}, PLY-28), required to provide the context needed for game creation.
+	\item Announce playing intentions (\texttt{PLY-30}), rated highly and directly addresses the coordination problem.
+	\item Favourite courts (\texttt{PLY-45}), low-priority from a user perspective, but technically lightweight and therefore implemented alongside court details.
+	\item Basic court occupancy (\texttt{PLY-27}) and court check-in (\texttt{PLY-26}), the latter scored low, but it is required for occupancy data to exist.
+	\item Home Page and Navigation Bar, this User Stories were not in the task, but essential.
+\end{itemize}
+
+The following features were explicitly assigned to Phase 3 or removed from scope due to their complexity and lower immediate relevance, even if some of them received moderate scores in the prioritisation exercise. They were not essential for validating the platform’s core value proposition in the initial release:
+
+\begin{itemize}
+	\item Search Courts with a Map (\texttt{PLY-46}),  list-based search already provides a simpler first implementation.
+	\item Team management (\texttt{PLY-22}) and player ranking (\texttt{PLY-20}).
+	\item Friends system (\texttt{PLY-32}, \texttt{PLY-33}) and player search (\texttt{PLY-36}).
+	\item Game chat (\texttt{PLY-34}).
+	\item Push notifications (\texttt{PLY-11}, in Phase 2 \textit{in-app} notifications were implemented.
+	\item Spontaneous game creation (\texttt{PLY-25}), merged into the standard game creation flow, based on participant feedback suggesting that the distinction was unnecessary.
+	\item Tournament creation (\texttt{PLY-24}) and spectator mode (\texttt{PLY-19}), among the lowest-priority features and therefore deferred to future work.
+\end{itemize}
+
+The qualitative feedback also indicated that the classification system should be revised before implementation and that an administrator role should be introduced to validate and approve new courts more easily. This suggestion is particularly relevant for ensuring that the platform can grow with a wider and more reliable court database, which is essential for reaching more players and increasing the platform’s usefulness.
+
+
+
+
+

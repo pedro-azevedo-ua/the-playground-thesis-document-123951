@@ -101,3 +101,38 @@ MapLibre Compose is used as a Presentation Layer component, acting as the UI ren
 To keep user's engagement, it is essential to have notifications, when they are in the application and when they have the application closed, so they get notified when someone has created a game in their favourite court. Supabase have a real-time feature that enables to create in-app notifications, however, when the application is closed there it is no communication between the Supabase backend and the client side. For push notifications, when the application is closed, there are different options. Google's Firebase has the Firebase Cloud Messaging (FCM)\footnote{https://firebase.google.com/docs/cloud-messaging} that can notify the application about available synchronizations, and send notification messages to single devices, to groups of devices, or to devices subscribed to topics, all this with no costs. Another option is OneSignal\footnote{https://onesignal.com/} that has multiple functionalities including sending notifications when the application is closed. OneSignal has some pricing options, but in the free tier, the push notifications are unlimited. For this project, OneSignal will be used, as the set-up is easier, as it handles user's tokens while in Firebase, it needs more code to handle that part.
 
 OneSignal integrates with the Data Layer, which handles push notification functionality. When a user creates a game, for example, the application makes an API call to OneSignal to send a push notification to users. By isolating notification logic in the Data Layer, the architecture remains agnostic to the specific notification provider, allowing future migration to alternative services without impacting business logic.
+
+
+% %%%%%%%%%%%%%%%
+\chapter{Methodology}
+\label{ch:methodology}
+
+\section{User-Centred Design Framework}
+\label{sec:method-ucd}
+
+\section{Agile and Scrum Integration}
+\label{sec:method-scrum}
+
+\section{Acceptance Test-Driven Development}
+\label{sec:method-atdd}
+
+\subsection{Worked Example}
+\label{subsec:method-atdd-example}
+
+\section{Evaluation Strategy}
+\label{sec:method-evaluation}
+
+\subsection{System Usability Scale}
+\label{subsec:method-sus}
+
+\subsection{Task-Based Usability Testing}
+\label{subsec:method-tasks}
+
+\subsection{Maps Engine}
+\label{subsec:maps-engine}
+
+\subsection{Notifications Engine}
+\label{subsec:notifications-engine}
+
+\section{Project Roadmap}
+\label{sec:method-roadmap}

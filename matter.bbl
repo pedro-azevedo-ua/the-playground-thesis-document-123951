@@ -1393,33 +1393,43 @@
       \verb https://www.altexsoft.com/blog/acceptance-criteria-purposes-formats-and-best-practices/
       \endverb
     \endentry
-    \entry{guideArchitecture}{misc}{}{}
+    \entry{ISO25010}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=d242a862c3becd11c3eab68c129ae4a8}{%
-           family={Developers},
-           familyi={D\bibinitperiod},
-           given={Android},
-           giveni={A\bibinitperiod}}}%
+        {{hash=0828a8408614177181026ea908d5594a}{%
+           family={ISO/IEC},
+           familyi={I\bibinitperiod}}}%
       }
-      \strng{namehash}{d242a862c3becd11c3eab68c129ae4a8}
-      \strng{fullhash}{d242a862c3becd11c3eab68c129ae4a8}
-      \strng{fullhashraw}{d242a862c3becd11c3eab68c129ae4a8}
-      \strng{bibnamehash}{d242a862c3becd11c3eab68c129ae4a8}
-      \strng{authorbibnamehash}{d242a862c3becd11c3eab68c129ae4a8}
-      \strng{authornamehash}{d242a862c3becd11c3eab68c129ae4a8}
-      \strng{authorfullhash}{d242a862c3becd11c3eab68c129ae4a8}
-      \strng{authorfullhashraw}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{namehash}{0828a8408614177181026ea908d5594a}
+      \strng{fullhash}{0828a8408614177181026ea908d5594a}
+      \strng{fullhashraw}{0828a8408614177181026ea908d5594a}
+      \strng{bibnamehash}{0828a8408614177181026ea908d5594a}
+      \strng{authorbibnamehash}{0828a8408614177181026ea908d5594a}
+      \strng{authornamehash}{0828a8408614177181026ea908d5594a}
+      \strng{authorfullhash}{0828a8408614177181026ea908d5594a}
+      \strng{authorfullhashraw}{0828a8408614177181026ea908d5594a}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Accessed: Dec.28, 2025}
-      \field{title}{Guide to app architecture  |  App architecture  |  Android Developers}
+      \field{note}{last access: 28 December 2025}
+      \field{title}{ISO/IEC 25000 - Software and data Quality - ISO/IEC 25010}
       \verb{urlraw}
-      \verb https://developer.android.com/topic/architecture
+      \verb https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
       \endverb
       \verb{url}
-      \verb https://developer.android.com/topic/architecture
+      \verb https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
+      \endverb
+    \endentry
+    \entry{udf}{misc}{}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{title}{UI layer  |  App architecture  |  Android Developers}
+      \verb{urlraw}
+      \verb https://developer.android.com/topic/architecture/ui-layer#udf
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/topic/architecture/ui-layer#udf
       \endverb
     \endentry
     \entry{mvvm}{article}{}{}
@@ -1448,22 +1458,53 @@
       \strng{authornamehash}{a0fa3748402a8777c8495c05bad63fa3}
       \strng{authorfullhash}{c68b88bcda0569af81ebe00d377e675f}
       \strng{authorfullhashraw}{c68b88bcda0569af81ebe00d377e675f}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Many enterprise software systems provide complex Graph-ical User Interfaces (GUIs) that need robust architectural patterns for well-structured software design. However, popular GUI architectural patterns like Model-View-ViewModel (MVVM) often lack detailed implementation guidance, leading GUI developers to inappropriately use the pattern without a comprehensive overview of design variants and often-mentioned trade-offs. Therefore, this paper presents an extensive review of MVVM design aspects and trade-offs, extending beyond the standard MVVM definition. We conducted a multivocal literature review (MLR), including white and gray literature, to cover essential knowledge from blogs, published papers, and other unpublished formats like books. Using the standard MVVM definition as a baseline, our study identifies (1) 76 additional design constructs grouped into 29 design aspects and (2) 16 additional benefits and 15 additional drawbacks. These insights can guide enterprise application developers in implementing practical MVVM solutions and enable informed design decisions.}
+      \field{abstract}{Many enterprise software systems provide complex Graphical User Interfaces (GUIs) that need robust architectural patterns for well-structured software design. However, popular GUI architectural patterns like Model-View-ViewModel (MVVM) often lack detailed implementation guidance, leading GUI developers to inappropriately use the pattern without a comprehensive overview of design variants and often-mentioned trade-offs. Therefore, this paper presents an extensive review of MVVM design aspects and trade-offs, extending beyond the standard MVVM definition. We conducted a multivocal literature review (MLR), including white and gray literature, to cover essential knowledge from blogs, published papers, and other unpublished formats like books. Using the standard MVVM definition as a baseline, our study identifies (1) 76 additional design constructs grouped into 29 design aspects and (2) 16 additional benefits and 15 additional drawbacks. These insights can guide enterprise application developers in implementing practical MVVM solutions and enable informed design decisions.}
+      \field{month}{4}
       \field{title}{MVVM Revisited: Exploring Design Variants of the Model-View-ViewModel Pattern}
+      \field{year}{2025}
       \verb{doi}
-      \verb 10.5281/zenodo.13350488
+      \verb 10.1007/978-3-031-78338-8_9
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.5281/zenodo.13350488
+      \verb https://arxiv.org/pdf/2504.18191v1 http://dx.doi.org/10.1007/978-3-031-78338-8_9
       \endverb
       \verb{url}
-      \verb https://doi.org/10.5281/zenodo.13350488
+      \verb https://arxiv.org/pdf/2504.18191v1%20http://dx.doi.org/10.1007/978-3-031-78338-8_9
       \endverb
       \keyw{Architectural,Graphical,Inter-face (GUI) · GUI,Model · MVVM ·,Model-,Pattern,User,View,View-}
+    \endentry
+    \entry{guideArchitecture}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d242a862c3becd11c3eab68c129ae4a8}{%
+           family={Developers},
+           familyi={D\bibinitperiod},
+           given={Android},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{fullhash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{fullhashraw}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{bibnamehash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{authorbibnamehash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{authornamehash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{authorfullhash}{d242a862c3becd11c3eab68c129ae4a8}
+      \strng{authorfullhashraw}{d242a862c3becd11c3eab68c129ae4a8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: Dec.28, 2025}
+      \field{title}{Guide to app architecture  |  App architecture  |  Android Developers}
+      \verb{urlraw}
+      \verb https://developer.android.com/topic/architecture
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/topic/architecture
+      \endverb
     \endentry
     \entry{room}{misc}{}{}
       \name{author}{1}{}{%
@@ -1492,33 +1533,6 @@
       \endverb
       \verb{url}
       \verb https://developer.android.com/training/data-storage/room
-      \endverb
-    \endentry
-    \entry{ISO25010}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=0828a8408614177181026ea908d5594a}{%
-           family={ISO/IEC},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{0828a8408614177181026ea908d5594a}
-      \strng{fullhash}{0828a8408614177181026ea908d5594a}
-      \strng{fullhashraw}{0828a8408614177181026ea908d5594a}
-      \strng{bibnamehash}{0828a8408614177181026ea908d5594a}
-      \strng{authorbibnamehash}{0828a8408614177181026ea908d5594a}
-      \strng{authornamehash}{0828a8408614177181026ea908d5594a}
-      \strng{authorfullhash}{0828a8408614177181026ea908d5594a}
-      \strng{authorfullhashraw}{0828a8408614177181026ea908d5594a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{last access: 28 December 2025}
-      \field{title}{ISO/IEC 25000 - Software and data Quality - ISO/IEC 25010}
-      \verb{urlraw}
-      \verb https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
-      \endverb
-      \verb{url}
-      \verb https://iso25000.com/index.php/en/iso-25000-standards/iso-25010
       \endverb
     \endentry
   \enddatalist

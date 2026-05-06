@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.29)  3 MAY 2026 13:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.29)  6 MAY 2026 13:46
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -631,6 +631,40 @@ Package caption Info: New subtype `subfigure' on input line 238.
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count353
 )
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count354
+\lst@gtempboxa=\box62
+\lst@token=\toks32
+\lst@length=\count355
+\lst@currlwidth=\dimen270
+\lst@column=\count356
+\lst@pos=\count357
+\lst@lostspace=\dimen271
+\lst@width=\dimen272
+\lst@newlines=\count358
+\lst@lineno=\count359
+\lst@maxwidth=\dimen273
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count360
+\lst@skipnumbers=\count361
+\lst@framebox=\box63
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
 
@@ -654,9 +688,9 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen270
-\Hy@linkcounter=\count354
-\Hy@pagecounter=\count355
+\@linkdim=\dimen274
+\Hy@linkcounter=\count362
+\Hy@pagecounter=\count363
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
@@ -666,7 +700,7 @@ Now handling font encoding PD1 ...
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count356
+\Hy@SavedSpaceFactor=\count364
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
@@ -680,14 +714,14 @@ Package hyperref Info: Plain pages OFF on input line 4216.
 Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
-\c@Hy@tempcnt=\count357
+\c@Hy@tempcnt=\count365
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4807.
-\XeTeXLinkMargin=\dimen271
+\XeTeXLinkMargin=\dimen275
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -696,9 +730,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count358
-\Field@Width=\dimen272
-\Fld@charsize=\dimen273
+\Fld@menulength=\count366
+\Field@Width=\dimen276
+\Fld@charsize=\dimen277
 Package hyperref Info: Hyper figures OFF on input line 6084.
 Package hyperref Info: Link nesting OFF on input line 6089.
 Package hyperref Info: Hyper index ON on input line 6092.
@@ -706,16 +740,16 @@ Package hyperref Info: backreferencing OFF on input line 6099.
 Package hyperref Info: Link coloring OFF on input line 6104.
 Package hyperref Info: Link coloring with OCG OFF on input line 6109.
 Package hyperref Info: PDF/A mode OFF on input line 6114.
-\Hy@abspage=\count359
-\c@Item=\count360
-\c@Hfootnote=\count361
+\Hy@abspage=\count367
+\c@Item=\count368
+\c@Hfootnote=\count369
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
-\Fld@listcount=\count362
-\c@bookmark@seq@number=\count363
+\Fld@listcount=\count370
+\c@bookmark@seq@number=\count371
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
@@ -730,8 +764,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2025/09/16 v1.24 hyperref package fixes for memoir class
-\c@memhycontfloat=\count364
-\c@mem@Hpagenote=\count365
+\c@memhycontfloat=\count372
+\c@mem@Hpagenote=\count373
 )
 (/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
 Package: minted 2026/03/03 v3.8.0 Yet another Pygments shim for LaTeX
@@ -748,11 +782,11 @@ rb
 
 (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2025/07/28 4.6 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count366
+\FV@CodeLineNo=\count374
 \FV@InFile=\read5
-\FV@TabBox=\box62
-\c@FancyVerbLine=\count367
-\FV@StepNumber=\count368
+\FV@TabBox=\box64
+\c@FancyVerbLine=\count375
+\FV@StepNumber=\count376
 \FV@OutFile=\write129
 )
 (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
@@ -764,47 +798,47 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2025/05/13 line numbers on paragraphs v5.5
-\linenopenalty=\count369
-\output=\toks32
-\linenoprevgraf=\count370
-\linenumbersep=\dimen274
-\linenumberwidth=\dimen275
-\c@linenumber=\count371
-\c@pagewiselinenumber=\count372
-\c@LN@truepage=\count373
-\c@internallinenumber=\count374
-\c@internallinenumbers=\count375
-\quotelinenumbersep=\dimen276
-\bframerule=\dimen277
-\bframesep=\dimen278
-\bframebox=\box63
+\linenopenalty=\count377
+\output=\toks33
+\linenoprevgraf=\count378
+\linenumbersep=\dimen278
+\linenumberwidth=\dimen279
+\c@linenumber=\count379
+\c@pagewiselinenumber=\count380
+\c@LN@truepage=\count381
+\c@internallinenumber=\count382
+\c@internallinenumbers=\count383
+\quotelinenumbersep=\dimen280
+\bframerule=\dimen281
+\bframesep=\dimen282
+\bframebox=\box65
 )
-\c@FancyVerbWriteLine=\count376
-\c@FancyVerbBufferLine=\count377
-\c@FV@TrueTabGroupLevel=\count378
-\c@FV@TrueTabCounter=\count379
-\FV@TabBox@Group=\box64
-\FV@bgcolorstructbox=\box65
+\c@FancyVerbWriteLine=\count384
+\c@FancyVerbBufferLine=\count385
+\c@FV@TrueTabGroupLevel=\count386
+\c@FV@TrueTabCounter=\count387
+\FV@TabBox@Group=\box66
+\FV@bgcolorstructbox=\box67
 \FV@TmpLength=\skip196
-\c@FV@HighlightLinesStart=\count380
-\c@FV@HighlightLinesStop=\count381
-\FV@LoopCount=\count382
-\FV@NCharsBox=\box66
-\FV@BreakIndent=\dimen279
-\FV@BreakIndentNChars=\count383
-\FV@BreakSymbolSepLeft=\dimen280
-\FV@BreakSymbolSepLeftNChars=\count384
-\FV@BreakSymbolSepRight=\dimen281
-\FV@BreakSymbolSepRightNChars=\count385
-\FV@BreakSymbolIndentLeft=\dimen282
-\FV@BreakSymbolIndentLeftNChars=\count386
-\FV@BreakSymbolIndentRight=\dimen283
-\FV@BreakSymbolIndentRightNChars=\count387
-\c@FancyVerbLineBreakLast=\count388
-\FV@LineBox=\box67
-\FV@LineIndentBox=\box68
-\c@FV@BreakBufferDepth=\count389
-\FV@LineWidth=\dimen284
+\c@FV@HighlightLinesStart=\count388
+\c@FV@HighlightLinesStop=\count389
+\FV@LoopCount=\count390
+\FV@NCharsBox=\box68
+\FV@BreakIndent=\dimen283
+\FV@BreakIndentNChars=\count391
+\FV@BreakSymbolSepLeft=\dimen284
+\FV@BreakSymbolSepLeftNChars=\count392
+\FV@BreakSymbolSepRight=\dimen285
+\FV@BreakSymbolSepRightNChars=\count393
+\FV@BreakSymbolIndentLeft=\dimen286
+\FV@BreakSymbolIndentLeftNChars=\count394
+\FV@BreakSymbolIndentRight=\dimen287
+\FV@BreakSymbolIndentRightNChars=\count395
+\c@FancyVerbLineBreakLast=\count396
+\FV@LineBox=\box69
+\FV@LineIndentBox=\box70
+\c@FV@BreakBufferDepth=\count397
+\FV@LineWidth=\dimen288
 )
 (/usr/share/texlive/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
 Package: latex2pydata 2026/02/25 v0.7.0 latex2pydata - write data to file in Py
@@ -812,16 +846,16 @@ thon literal format
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks33
-\pgfkeys@temptoks=\toks34
+\pgfkeys@pathtoks=\toks34
+\pgfkeys@temptoks=\toks35
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
 .code.tex
-\pgfkeys@tmptoks=\toks35
+\pgfkeys@tmptoks=\toks36
 ))) (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks36
-\pgfopts@list@add@b@toks=\toks37
+\pgfopts@list@add@a@toks=\toks37
+\pgfopts@list@add@b@toks=\toks38
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
@@ -829,25 +863,25 @@ Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count390
-\float@exts=\toks38
-\float@box=\box69
-\@float@everytoks=\toks39
-\@floatcapt=\box70
+\c@float@type=\count398
+\float@exts=\toks39
+\float@box=\box71
+\@float@everytoks=\toks40
+\@floatcapt=\box72
 )
-\c@minted@FancyVerbLineTemp=\count391
-\@float@every@listing=\toks40
-\c@listing=\count392
+\c@minted@FancyVerbLineTemp=\count399
+\@float@every@listing=\toks41
+\c@listing=\count400
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count393
-\csq@gtype=\count394
-\csq@glevel=\count395
-\csq@qlevel=\count396
-\csq@maxlvl=\count397
-\csq@tshold=\count398
-\csq@ltx@everypar=\toks41
+\csq@reset=\count401
+\csq@gtype=\count402
+\csq@glevel=\count403
+\csq@qlevel=\count404
+\csq@maxlvl=\count405
+\csq@tshold=\count406
+\csq@ltx@everypar=\toks42
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
@@ -871,19 +905,19 @@ Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks42
-\XKV@tempa@toks=\toks43
-\XKV@tempb@toks=\toks44
+\XKV@toks=\toks43
+\XKV@tempa@toks=\toks44
+\XKV@tempb@toks=\toks45
 )
-\XKV@depth=\count399
+\XKV@depth=\count407
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\c@pc@count@i=\count400
-\c@pc@count@ii=\count401
-\c@pc@count@iii=\count402
-\c@pc@count@iv=\count403
-\pc@mathannot@box=\box71
-\pc@nullbox=\box72
+\c@pc@count@i=\count408
+\c@pc@count@ii=\count409
+\c@pc@count@iii=\count410
+\c@pc@count@iv=\count411
+\pc@mathannot@box=\box73
+\pc@nullbox=\box74
 \pc@dima=\skip197
 \pc@dimb=\skip198
 \pc@Sposx=\skip199
@@ -948,22 +982,22 @@ Package zref Info: New property list: savepos on input line 56.
 Package zref Info: New property: posx on input line 58.
 Package zref Info: New property: posy on input line 59.
 )
-\c@zref@unique=\count404
+\c@zref@unique=\count412
 
 (/usr/share/texlive/texmf-dist/tex/latex/marginnote/marginnote.sty
 Package: marginnote 2026/01/02 1.4d non floating margin notes for LaTeX 
-\c@mn@abspage=\count405
+\c@mn@abspage=\count413
 )
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/soulpos/soulpos.sty
 Package: soulpos 2021/10/15 v1.2 Fancy underlining
-\ulp@subcnt=\count406
-\ulp@cnt=\count407
+\ulp@subcnt=\count414
+\ulp@cnt=\count415
 \ulp@out=\write131
 \ulp@in=\read6
-\ulwidth=\dimen285
+\ulwidth=\dimen289
 )
 
 Package hyperref Warning: Option `pdftex' has already been used,
@@ -977,34 +1011,32 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
-\BKM@id=\count408
+\BKM@id=\count416
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count409
-\mult@box=\box73
-\multicol@leftmargin=\dimen286
-\c@unbalance=\count410
-\c@collectmore=\count411
-\doublecol@number=\count412
-\multicoltolerance=\count413
-\multicolpretolerance=\count414
-\full@width=\dimen287
-\page@free=\dimen288
-\premulticols=\dimen289
-\postmulticols=\dimen290
+\c@tracingmulticols=\count417
+\mult@box=\box75
+\multicol@leftmargin=\dimen290
+\c@unbalance=\count418
+\c@collectmore=\count419
+\doublecol@number=\count420
+\multicoltolerance=\count421
+\multicolpretolerance=\count422
+\full@width=\dimen291
+\page@free=\dimen292
+\premulticols=\dimen293
+\postmulticols=\dimen294
 \multicolsep=\skip263
 \multicolbaselineskip=\skip264
-\partial@page=\box74
-\last@line=\box75
-\mc@boxedresult=\box76
-\maxbalancingoverflow=\dimen291
-\mult@rightbox=\box77
-\mult@grightbox=\box78
-\mult@firstbox=\box79
-\mult@gfirstbox=\box80
-\@tempa=\box81
-\@tempa=\box82
+\partial@page=\box76
+\last@line=\box77
+\mc@boxedresult=\box78
+\maxbalancingoverflow=\dimen295
+\mult@rightbox=\box79
+\mult@grightbox=\box80
+\mult@firstbox=\box81
+\mult@gfirstbox=\box82
 \@tempa=\box83
 \@tempa=\box84
 \@tempa=\box85
@@ -1039,16 +1071,18 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box114
 \@tempa=\box115
 \@tempa=\box116
-\c@minrows=\count415
-\c@columnbadness=\count416
-\c@finalcolumnbadness=\count417
-\last@try=\dimen292
-\multicolovershoot=\dimen293
-\multicolundershoot=\dimen294
-\mult@nat@firstbox=\box117
-\colbreak@box=\box118
-\mc@col@check@num=\count418
-\g__mc_curr_col_int=\count419
+\@tempa=\box117
+\@tempa=\box118
+\c@minrows=\count423
+\c@columnbadness=\count424
+\c@finalcolumnbadness=\count425
+\last@try=\dimen296
+\multicolovershoot=\dimen297
+\multicolundershoot=\dimen298
+\mult@nat@firstbox=\box119
+\colbreak@box=\box120
+\mc@col@check@num=\count426
+\g__mc_curr_col_int=\count427
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
@@ -1060,65 +1094,65 @@ Package: amstext 2024/11/17 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks45
-\ex@=\dimen295
+\@emptytoks=\toks46
+\ex@=\dimen299
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen296
+\pmbraise@=\dimen300
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count420
+\inf@bad=\count428
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count421
-\leftroot@=\count422
+\uproot@=\count429
+\leftroot@=\count430
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count423
-\DOTSCASE@=\count424
+\classnum@=\count431
+\DOTSCASE@=\count432
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box119
-\strutbox@=\box120
+\Mathstrutbox@=\box121
+\strutbox@=\box122
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen297
+\big@size=\dimen301
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count425
+\macc@depth=\count433
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count426
+\c@MaxMatrixCols=\count434
 \dotsspace@=\muskip18
-\c@parentequation=\count427
-\dspbrk@lvl=\count428
-\tag@help=\toks46
-\row@=\count429
-\column@=\count430
-\maxfields@=\count431
-\andhelp@=\toks47
-\eqnshift@=\dimen298
-\alignsep@=\dimen299
-\tagshift@=\dimen300
-\tagwidth@=\dimen301
-\totwidth@=\dimen302
-\lineht@=\dimen303
-\@envbody=\toks48
+\c@parentequation=\count435
+\dspbrk@lvl=\count436
+\tag@help=\toks47
+\row@=\count437
+\column@=\count438
+\maxfields@=\count439
+\andhelp@=\toks48
+\eqnshift@=\dimen302
+\alignsep@=\dimen303
+\tagshift@=\dimen304
+\tagwidth@=\dimen305
+\totwidth@=\dimen306
+\lineht@=\dimen307
+\@envbody=\toks49
 \multlinegap=\skip266
 \multlinetaggap=\skip267
-\mathdisplay@stack=\toks49
+\mathdisplay@stack=\toks50
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 )
-\@LN@amsmath@ams@eqpen=\count432
+\@LN@amsmath@ams@eqpen=\count440
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -1133,7 +1167,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box121
+\@eurobox=\box123
 )
 (/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
@@ -1143,12 +1177,12 @@ Package: todonotes 2024/01/05
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks50
-\pgfutil@tempdima=\dimen304
-\pgfutil@tempdimb=\dimen305
+\pgfutil@everybye=\toks51
+\pgfutil@tempdima=\dimen308
+\pgfutil@tempdimb=\dimen309
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box122
+\pgfutil@abb=\box124
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -1160,26 +1194,26 @@ Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@x=\dimen306
-\pgf@y=\dimen307
-\pgf@xa=\dimen308
-\pgf@ya=\dimen309
-\pgf@xb=\dimen310
-\pgf@yb=\dimen311
-\pgf@xc=\dimen312
-\pgf@yc=\dimen313
-\pgf@xd=\dimen314
-\pgf@yd=\dimen315
+\pgf@x=\dimen310
+\pgf@y=\dimen311
+\pgf@xa=\dimen312
+\pgf@ya=\dimen313
+\pgf@xb=\dimen314
+\pgf@yb=\dimen315
+\pgf@xc=\dimen316
+\pgf@yc=\dimen317
+\pgf@xd=\dimen318
+\pgf@yd=\dimen319
 \w@pgf@writea=\write132
 \r@pgf@reada=\read7
-\c@pgf@counta=\count433
-\c@pgf@countb=\count434
-\c@pgf@countc=\count435
-\c@pgf@countd=\count436
-\t@pgf@toka=\toks51
-\t@pgf@tokb=\toks52
-\t@pgf@tokc=\toks53
-\pgf@sys@id@count=\count437
+\c@pgf@counta=\count441
+\c@pgf@countb=\count442
+\c@pgf@countc=\count443
+\c@pgf@countd=\count444
+\t@pgf@toka=\toks52
+\t@pgf@tokb=\toks53
+\t@pgf@tokc=\toks54
+\pgf@sys@id@count=\count445
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
@@ -1196,8 +1230,8 @@ File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count438
-\pgfsyssoftpath@bigbuffer@items=\count439
+\pgfsyssoftpath@smallbuffer@items=\count446
+\pgfsyssoftpath@bigbuffer@items=\count447
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -1209,12 +1243,12 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen316
-\pgfmath@count=\count440
-\pgfmath@box=\box123
-\pgfmath@toks=\toks54
-\pgfmath@stack@operand=\toks55
-\pgfmath@stack@operation=\toks56
+\pgfmath@dimen=\dimen320
+\pgfmath@count=\count448
+\pgfmath@box=\box125
+\pgfmath@toks=\toks55
+\pgfmath@stack@operand=\toks56
+\pgfmath@stack@operation=\toks57
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -1235,58 +1269,58 @@ tex)
 thmetics.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count441
+\c@pgfmathroundto@lastzeros=\count449
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen317
-\pgf@picmaxx=\dimen318
-\pgf@picminy=\dimen319
-\pgf@picmaxy=\dimen320
-\pgf@pathminx=\dimen321
-\pgf@pathmaxx=\dimen322
-\pgf@pathminy=\dimen323
-\pgf@pathmaxy=\dimen324
-\pgf@xx=\dimen325
-\pgf@xy=\dimen326
-\pgf@yx=\dimen327
-\pgf@yy=\dimen328
-\pgf@zx=\dimen329
-\pgf@zy=\dimen330
+\pgf@picminx=\dimen321
+\pgf@picmaxx=\dimen322
+\pgf@picminy=\dimen323
+\pgf@picmaxy=\dimen324
+\pgf@pathminx=\dimen325
+\pgf@pathmaxx=\dimen326
+\pgf@pathminy=\dimen327
+\pgf@pathmaxy=\dimen328
+\pgf@xx=\dimen329
+\pgf@xy=\dimen330
+\pgf@yx=\dimen331
+\pgf@yy=\dimen332
+\pgf@zx=\dimen333
+\pgf@zy=\dimen334
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen331
-\pgf@path@lasty=\dimen332
+\pgf@path@lastx=\dimen335
+\pgf@path@lasty=\dimen336
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen333
-\pgf@shorten@start@additional=\dimen334
+\pgf@shorten@end@additional=\dimen337
+\pgf@shorten@start@additional=\dimen338
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box124
-\pgf@hbox=\box125
-\pgf@layerbox@main=\box126
-\pgf@picture@serial@count=\count442
+\pgfpic=\box126
+\pgf@hbox=\box127
+\pgf@layerbox@main=\box128
+\pgf@picture@serial@count=\count450
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen335
+\pgflinewidth=\dimen339
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen336
-\pgf@pt@y=\dimen337
-\pgf@pt@temp=\dimen338
+\pgf@pt@x=\dimen340
+\pgf@pt@y=\dimen341
+\pgf@pt@temp=\dimen342
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -1302,13 +1336,13 @@ File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen339
+\pgfarrowsep=\dimen343
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen340
-\pgf@sys@shading@range@num=\count443
-\pgf@shadingcount=\count444
+\pgf@max=\dimen344
+\pgf@sys@shading@range@num=\count451
+\pgf@shadingcount=\count452
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -1316,7 +1350,7 @@ File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box127
+\pgfexternal@startupbox=\box129
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -1335,15 +1369,15 @@ File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box128
+\pgfnodeparttextbox=\box130
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen341
-\pgf@nodesepend=\dimen342
+\pgf@nodesepstart=\dimen345
+\pgf@nodesepend=\dimen346
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -1353,10 +1387,10 @@ Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen343
-\pgffor@skip=\dimen344
-\pgffor@stack=\toks57
-\pgffor@toks=\toks58
+\pgffor@iter=\dimen347
+\pgffor@skip=\dimen348
+\pgffor@stack=\toks58
+\pgffor@toks=\toks59
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
@@ -1364,33 +1398,33 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count445
-\pgfplotmarksize=\dimen345
+\pgf@plot@mark@count=\count453
+\pgfplotmarksize=\dimen349
 )
-\tikz@lastx=\dimen346
-\tikz@lasty=\dimen347
-\tikz@lastxsaved=\dimen348
-\tikz@lastysaved=\dimen349
-\tikz@lastmovetox=\dimen350
-\tikz@lastmovetoy=\dimen351
-\tikzleveldistance=\dimen352
-\tikzsiblingdistance=\dimen353
-\tikz@figbox=\box129
-\tikz@figbox@bg=\box130
-\tikz@tempbox=\box131
-\tikz@tempbox@bg=\box132
-\tikztreelevel=\count446
-\tikznumberofchildren=\count447
-\tikznumberofcurrentchild=\count448
-\tikz@fig@count=\count449
+\tikz@lastx=\dimen350
+\tikz@lasty=\dimen351
+\tikz@lastxsaved=\dimen352
+\tikz@lastysaved=\dimen353
+\tikz@lastmovetox=\dimen354
+\tikz@lastmovetoy=\dimen355
+\tikzleveldistance=\dimen356
+\tikzsiblingdistance=\dimen357
+\tikz@figbox=\box131
+\tikz@figbox@bg=\box132
+\tikz@tempbox=\box133
+\tikz@tempbox@bg=\box134
+\tikztreelevel=\count454
+\tikznumberofchildren=\count455
+\tikznumberofcurrentchild=\count456
+\tikz@fig@count=\count457
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count450
-\pgfmatrixcurrentcolumn=\count451
-\pgf@matrix@numberofcolumns=\count452
+\pgfmatrixcurrentrow=\count458
+\pgfmatrixcurrentcolumn=\count459
+\pgf@matrix@numberofcolumns=\count460
 )
-\tikz@expandcount=\count453
+\tikz@expandcount=\count461
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1400,61 +1434,61 @@ File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 zlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-\c@@todonotes@numberoftodonotes=\count454
+\c@@todonotes@numberoftodonotes=\count462
 )
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count455
+\lrq@indent=\count463
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count456
-\c@listtotal=\count457
-\c@listcount=\count458
-\c@liststart=\count459
-\c@liststop=\count460
-\c@citecount=\count461
-\c@citetotal=\count462
-\c@multicitecount=\count463
-\c@multicitetotal=\count464
-\c@instcount=\count465
-\c@maxnames=\count466
-\c@minnames=\count467
-\c@maxitems=\count468
-\c@minitems=\count469
-\c@citecounter=\count470
-\c@maxcitecounter=\count471
-\c@savedcitecounter=\count472
-\c@uniquelist=\count473
-\c@uniquename=\count474
-\c@refsection=\count475
-\c@refsegment=\count476
-\c@maxextratitle=\count477
-\c@maxextratitleyear=\count478
-\c@maxextraname=\count479
-\c@maxextradate=\count480
-\c@maxextraalpha=\count481
-\c@abbrvpenalty=\count482
-\c@highnamepenalty=\count483
-\c@lownamepenalty=\count484
-\c@maxparens=\count485
-\c@parenlevel=\count486
-\blx@tempcnta=\count487
-\blx@tempcntb=\count488
-\blx@tempcntc=\count489
-\c@blx@maxsection=\count490
-\blx@maxsegment@0=\count491
-\blx@notetype=\count492
-\blx@parenlevel@text=\count493
-\blx@parenlevel@foot=\count494
-\blx@sectionciteorder@0=\count495
-\blx@sectionciteorderinternal@0=\count496
-\blx@entrysetcounter=\count497
-\blx@biblioinstance=\count498
+\c@tabx@nest=\count464
+\c@listtotal=\count465
+\c@listcount=\count466
+\c@liststart=\count467
+\c@liststop=\count468
+\c@citecount=\count469
+\c@citetotal=\count470
+\c@multicitecount=\count471
+\c@multicitetotal=\count472
+\c@instcount=\count473
+\c@maxnames=\count474
+\c@minnames=\count475
+\c@maxitems=\count476
+\c@minitems=\count477
+\c@citecounter=\count478
+\c@maxcitecounter=\count479
+\c@savedcitecounter=\count480
+\c@uniquelist=\count481
+\c@uniquename=\count482
+\c@refsection=\count483
+\c@refsegment=\count484
+\c@maxextratitle=\count485
+\c@maxextratitleyear=\count486
+\c@maxextraname=\count487
+\c@maxextradate=\count488
+\c@maxextraalpha=\count489
+\c@abbrvpenalty=\count490
+\c@highnamepenalty=\count491
+\c@lownamepenalty=\count492
+\c@maxparens=\count493
+\c@parenlevel=\count494
+\blx@tempcnta=\count495
+\blx@tempcntb=\count496
+\blx@tempcntc=\count497
+\c@blx@maxsection=\count498
+\blx@maxsegment@0=\count499
+\blx@notetype=\count500
+\blx@parenlevel@text=\count501
+\blx@parenlevel@foot=\count502
+\blx@sectionciteorder@0=\count503
+\blx@sectionciteorderinternal@0=\count504
+\blx@entrysetcounter=\count505
+\blx@biblioinstance=\count506
 \labelnumberwidth=\skip268
 \labelalphawidth=\skip269
 \biblabelsep=\skip270
@@ -1465,9 +1499,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read8
 \blx@bcfout=\write133
 \blx@langwohyphens=\language89
-\c@mincomprange=\count499
-\c@maxcomprange=\count500
-\c@mincompwidth=\count501
+\c@mincomprange=\count507
+\c@maxcomprange=\count508
+\c@mincompwidth=\count509
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1478,74 +1512,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count502
-\c@savedafterword=\count503
-\c@annotator=\count504
-\c@savedannotator=\count505
-\c@author=\count506
-\c@savedauthor=\count507
-\c@bookauthor=\count508
-\c@savedbookauthor=\count509
-\c@commentator=\count510
-\c@savedcommentator=\count511
-\c@editor=\count512
-\c@savededitor=\count513
-\c@editora=\count514
-\c@savededitora=\count515
-\c@editorb=\count516
-\c@savededitorb=\count517
-\c@editorc=\count518
-\c@savededitorc=\count519
-\c@foreword=\count520
-\c@savedforeword=\count521
-\c@holder=\count522
-\c@savedholder=\count523
-\c@introduction=\count524
-\c@savedintroduction=\count525
-\c@namea=\count526
-\c@savednamea=\count527
-\c@nameb=\count528
-\c@savednameb=\count529
-\c@namec=\count530
-\c@savednamec=\count531
-\c@translator=\count532
-\c@savedtranslator=\count533
-\c@shortauthor=\count534
-\c@savedshortauthor=\count535
-\c@shorteditor=\count536
-\c@savedshorteditor=\count537
-\c@labelname=\count538
-\c@savedlabelname=\count539
-\c@institution=\count540
-\c@savedinstitution=\count541
-\c@lista=\count542
-\c@savedlista=\count543
-\c@listb=\count544
-\c@savedlistb=\count545
-\c@listc=\count546
-\c@savedlistc=\count547
-\c@listd=\count548
-\c@savedlistd=\count549
-\c@liste=\count550
-\c@savedliste=\count551
-\c@listf=\count552
-\c@savedlistf=\count553
-\c@location=\count554
-\c@savedlocation=\count555
-\c@organization=\count556
-\c@savedorganization=\count557
-\c@origlocation=\count558
-\c@savedoriglocation=\count559
-\c@origpublisher=\count560
-\c@savedorigpublisher=\count561
-\c@publisher=\count562
-\c@savedpublisher=\count563
-\c@language=\count564
-\c@savedlanguage=\count565
-\c@origlanguage=\count566
-\c@savedoriglanguage=\count567
-\c@pageref=\count568
-\c@savedpageref=\count569
+\c@afterword=\count510
+\c@savedafterword=\count511
+\c@annotator=\count512
+\c@savedannotator=\count513
+\c@author=\count514
+\c@savedauthor=\count515
+\c@bookauthor=\count516
+\c@savedbookauthor=\count517
+\c@commentator=\count518
+\c@savedcommentator=\count519
+\c@editor=\count520
+\c@savededitor=\count521
+\c@editora=\count522
+\c@savededitora=\count523
+\c@editorb=\count524
+\c@savededitorb=\count525
+\c@editorc=\count526
+\c@savededitorc=\count527
+\c@foreword=\count528
+\c@savedforeword=\count529
+\c@holder=\count530
+\c@savedholder=\count531
+\c@introduction=\count532
+\c@savedintroduction=\count533
+\c@namea=\count534
+\c@savednamea=\count535
+\c@nameb=\count536
+\c@savednameb=\count537
+\c@namec=\count538
+\c@savednamec=\count539
+\c@translator=\count540
+\c@savedtranslator=\count541
+\c@shortauthor=\count542
+\c@savedshortauthor=\count543
+\c@shorteditor=\count544
+\c@savedshorteditor=\count545
+\c@labelname=\count546
+\c@savedlabelname=\count547
+\c@institution=\count548
+\c@savedinstitution=\count549
+\c@lista=\count550
+\c@savedlista=\count551
+\c@listb=\count552
+\c@savedlistb=\count553
+\c@listc=\count554
+\c@savedlistc=\count555
+\c@listd=\count556
+\c@savedlistd=\count557
+\c@liste=\count558
+\c@savedliste=\count559
+\c@listf=\count560
+\c@savedlistf=\count561
+\c@location=\count562
+\c@savedlocation=\count563
+\c@organization=\count564
+\c@savedorganization=\count565
+\c@origlocation=\count566
+\c@savedoriglocation=\count567
+\c@origpublisher=\count568
+\c@savedorigpublisher=\count569
+\c@publisher=\count570
+\c@savedpublisher=\count571
+\c@language=\count572
+\c@savedlanguage=\count573
+\c@origlanguage=\count574
+\c@savedoriglanguage=\count575
+\c@pageref=\count576
+\c@savedpageref=\count577
 \shorthandwidth=\skip275
 \shortjournalwidth=\skip276
 \shortserieswidth=\skip277
@@ -1571,19 +1605,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count570
-\c@textcitetotal=\count571
-\c@textcitemaxnames=\count572
-\c@biburlbigbreakpenalty=\count573
-\c@biburlbreakpenalty=\count574
-\c@biburlnumpenalty=\count575
-\c@biburlucpenalty=\count576
-\c@biburllcpenalty=\count577
+\c@textcitecount=\count578
+\c@textcitetotal=\count579
+\c@textcitemaxnames=\count580
+\c@biburlbigbreakpenalty=\count581
+\c@biburlbreakpenalty=\count582
+\c@biburlnumpenalty=\count583
+\c@biburlucpenalty=\count584
+\c@biburllcpenalty=\count585
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count578
+\c@smartand=\count586
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -1613,8 +1647,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count579
-\c@bbx:relatedtotal=\count580
+\c@bbx:relatedcount=\count587
+\c@bbx:relatedtotal=\count588
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -1661,50 +1695,50 @@ Package: suffix 2006/07/15 1.5a Variant command support
 )
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count581
-\xs_countb=\count582
+\xs_counta=\count589
+\xs_countb=\count590
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
-\AC@clearlist=\toks59
+\AC@clearlist=\toks60
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count583
-\l__siunitx_number_exponent_fixed_int=\count584
-\l__siunitx_number_min_decimal_int=\count585
-\l__siunitx_number_min_integer_int=\count586
-\l__siunitx_number_round_precision_int=\count587
-\l__siunitx_number_lower_threshold_int=\count588
-\l__siunitx_number_upper_threshold_int=\count589
-\l__siunitx_number_group_first_int=\count590
-\l__siunitx_number_group_size_int=\count591
-\l__siunitx_number_group_minimum_int=\count592
-\l__siunitx_angle_tmp_dim=\dimen354
-\l__siunitx_angle_marker_box=\box133
-\l__siunitx_angle_unit_box=\box134
-\l__siunitx_compound_count_int=\count593
+\l__siunitx_number_uncert_offset_int=\count591
+\l__siunitx_number_exponent_fixed_int=\count592
+\l__siunitx_number_min_decimal_int=\count593
+\l__siunitx_number_min_integer_int=\count594
+\l__siunitx_number_round_precision_int=\count595
+\l__siunitx_number_lower_threshold_int=\count596
+\l__siunitx_number_upper_threshold_int=\count597
+\l__siunitx_number_group_first_int=\count598
+\l__siunitx_number_group_size_int=\count599
+\l__siunitx_number_group_minimum_int=\count600
+\l__siunitx_angle_tmp_dim=\dimen358
+\l__siunitx_angle_marker_box=\box135
+\l__siunitx_angle_unit_box=\box136
+\l__siunitx_compound_count_int=\count601
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_table_tmp_box=\box135
-\l__siunitx_table_tmp_dim=\dimen355
-\l__siunitx_table_column_width_dim=\dimen356
-\l__siunitx_table_integer_box=\box136
-\l__siunitx_table_decimal_box=\box137
-\l__siunitx_table_uncert_box=\box138
-\l__siunitx_table_before_box=\box139
-\l__siunitx_table_after_box=\box140
-\l__siunitx_table_before_dim=\dimen357
-\l__siunitx_table_carry_dim=\dimen358
-\l__siunitx_unit_tmp_int=\count594
-\l__siunitx_unit_position_int=\count595
-\l__siunitx_unit_total_int=\count596
+\l__siunitx_table_tmp_box=\box137
+\l__siunitx_table_tmp_dim=\dimen359
+\l__siunitx_table_column_width_dim=\dimen360
+\l__siunitx_table_integer_box=\box138
+\l__siunitx_table_decimal_box=\box139
+\l__siunitx_table_uncert_box=\box140
+\l__siunitx_table_before_box=\box141
+\l__siunitx_table_after_box=\box142
+\l__siunitx_table_before_dim=\dimen361
+\l__siunitx_table_carry_dim=\dimen362
+\l__siunitx_unit_tmp_int=\count602
+\l__siunitx_unit_position_int=\count603
+\l__siunitx_unit_total_int=\count604
 
 Package siunitx Info: Option "detect-weight" has been deprecated in this
 (siunitx)             release.
@@ -1718,9 +1752,9 @@ Package siunitx Info: Option "detect-weight" has been deprecated in this
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count597
-\l__lipsum_a_int=\count598
-\l__lipsum_b_int=\count599
+\g__lipsum_par_int=\count605
+\l__lipsum_a_int=\count606
+\l__lipsum_b_int=\count607
 
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
@@ -1757,24 +1791,24 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count600
-\Gm@cntv=\count601
-\c@Gm@tempcnt=\count602
-\Gm@bindingoffset=\dimen359
-\Gm@wd@mp=\dimen360
-\Gm@odd@mp=\dimen361
-\Gm@even@mp=\dimen362
-\Gm@layoutwidth=\dimen363
-\Gm@layoutheight=\dimen364
-\Gm@layouthoffset=\dimen365
-\Gm@layoutvoffset=\dimen366
-\Gm@dimlist=\toks60
+\Gm@cnth=\count608
+\Gm@cntv=\count609
+\c@Gm@tempcnt=\count610
+\Gm@bindingoffset=\dimen363
+\Gm@wd@mp=\dimen364
+\Gm@odd@mp=\dimen365
+\Gm@even@mp=\dimen366
+\Gm@layoutwidth=\dimen367
+\Gm@layoutheight=\dimen368
+\Gm@layouthoffset=\dimen369
+\Gm@layoutvoffset=\dimen370
+\Gm@dimlist=\toks61
 )
 (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
-\everycr=\toks61
+\everycr=\toks62
 \minrowclearance=\skip289
-\rownum=\count603
+\rownum=\count611
 )
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
@@ -1792,11 +1826,11 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
-\c@r@tfl@t=\count604
+\c@r@tfl@t=\count612
 \rotFPtop=\skip290
 \rotFPbot=\skip291
-\rot@float@box=\box141
-\rot@mess@toks=\toks62
+\rot@float@box=\box143
+\rot@mess@toks=\toks63
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2025-06-23 v0.14 Display of landscape pages in PDF
@@ -1812,9 +1846,31 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen367
-\c@nlinenum=\count605
-\TeXr@lab=\toks63
+\rotheadsize=\dimen371
+\c@nlinenum=\count613
+\TeXr@lab=\toks64
+)
+(/usr/share/texlive/texmf-dist/tex/generic/dirtree/dirtree.sty
+Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
+
+(/usr/share/texlive/texmf-dist/tex/generic/dirtree/dirtree.tex
+`dirtree' v0.32, 2012/12/11 (jcc)
+\DT@offset=\dimen372
+\DT@width=\dimen373
+\DT@sep=\dimen374
+\DT@all=\dimen375
+\DT@rulewidth=\dimen376
+\DT@dotwidth=\dimen377
+\DTbaselineskip=\dimen378
+\DT@counti=\count614
+\DT@countii=\count615
+\DT@countiii=\count616
+\DT@countiv=\count617
+\DT@indent=\dimen379
+\DT@parskip=\dimen380
+\DT@baselineskip=\dimen381
+)
+File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1823,45 +1879,44 @@ Package csquotes Info: Redefining alias 'default' -> 'portuguese'.
  (./matter.aux
 Package babel Info: 'portuguese' activates 'portuges' shorthands.
 (babel)             Reported on input line 14.
-
-(./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux)
-(./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux)
-(./chapters/chapter7.aux) (./chapters/appendix-a.aux)
-(./chapters/appendix-b.aux))
+ (./chapters/chapter1.aux)
+(./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
+(./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/chapter7.aux)
+(./chapters/appendix-a.aux) (./chapters/appendix-b.aux))
 \openout1 = `matter.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 251.
-LaTeX Font Info:    ... okay on input line 251.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 251.
-LaTeX Font Info:    ... okay on input line 251.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 251.
-LaTeX Font Info:    ... okay on input line 251.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 251.
-LaTeX Font Info:    ... okay on input line 251.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 251.
-LaTeX Font Info:    ... okay on input line 251.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 251.
-LaTeX Font Info:    ... okay on input line 251.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 251.
-LaTeX Font Info:    ... okay on input line 251.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 251.
-LaTeX Font Info:    ... okay on input line 251.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 251.
-LaTeX Font Info:    ... okay on input line 251.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 254.
+LaTeX Font Info:    ... okay on input line 254.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 254.
+LaTeX Font Info:    ... okay on input line 254.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 254.
+LaTeX Font Info:    ... okay on input line 254.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 254.
+LaTeX Font Info:    ... okay on input line 254.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 254.
+LaTeX Font Info:    ... okay on input line 254.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 254.
+LaTeX Font Info:    ... okay on input line 254.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 254.
+LaTeX Font Info:    ... okay on input line 254.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 254.
+LaTeX Font Info:    ... okay on input line 254.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 254.
+LaTeX Font Info:    ... okay on input line 254.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count606
-\scratchdimen=\dimen368
-\scratchbox=\box142
-\nofMPsegments=\count607
-\nofMParguments=\count608
-\everyMPshowfont=\toks64
-\MPscratchCnt=\count609
-\MPscratchDim=\dimen369
-\MPnumerator=\count610
-\makeMPintoPDFobject=\count611
-\everyMPtoPDFconversion=\toks65
+\scratchcounter=\count618
+\scratchdimen=\dimen382
+\scratchbox=\box144
+\nofMPsegments=\count619
+\nofMParguments=\count620
+\everyMPshowfont=\toks65
+\MPscratchCnt=\count621
+\MPscratchDim=\dimen383
+\MPnumerator=\count622
+\makeMPintoPDFobject=\count623
+\everyMPtoPDFconversion=\toks66
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1871,16 +1926,16 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 251.
-Package microtype Info: Applying patch `item' on input line 251.
-Package microtype Info: Applying patch `toc' on input line 251.
-Package microtype Info: Applying patch `eqnum' on input line 251.
+LaTeX Info: Redefining \microtypecontext on input line 254.
+Package microtype Info: Applying patch `item' on input line 254.
+Package microtype Info: Applying patch `toc' on input line 254.
+Package microtype Info: Applying patch `eqnum' on input line 254.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 251.
+Package microtype Warning: Unable to apply patch `footnote' on input line 254.
 
-Package microtype Info: Applying patch `verbatim' on input line 251.
-LaTeX Info: Redefining \microtypesetup on input line 251.
+Package microtype Info: Applying patch `verbatim' on input line 254.
+LaTeX Info: Redefining \microtypesetup on input line 254.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1898,10 +1953,12 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 251.
-Package soulpos Info: Loading soulutf8 on input line 251.
+\c@lstlisting=\count624
+Package hyperref Info: Link coloring OFF on input line 254.
+Package soulpos Info: Loading soulutf8 on input line 254.
 
 (/usr/share/texlive/texmf-dist/tex/generic/soul/soulutf8.sty
 Package: soulutf8 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
@@ -1916,26 +1973,26 @@ Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/soul/soul-ori.sty
 Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
-\SOUL@word=\toks66
-\SOUL@lasttoken=\toks67
-\SOUL@syllable=\toks68
-\SOUL@cmds=\toks69
-\SOUL@buffer=\toks70
-\SOUL@token=\toks71
-\SOUL@syllgoal=\dimen370
-\SOUL@syllwidth=\dimen371
-\SOUL@charkern=\dimen372
-\SOUL@hyphkern=\dimen373
-\SOUL@dimen=\dimen374
-\SOUL@dimeni=\dimen375
-\SOUL@minus=\count612
-\SOUL@comma=\count613
-\SOUL@apo=\count614
-\SOUL@grave=\count615
+\SOUL@word=\toks67
+\SOUL@lasttoken=\toks68
+\SOUL@syllable=\toks69
+\SOUL@cmds=\toks70
+\SOUL@buffer=\toks71
+\SOUL@token=\toks72
+\SOUL@syllgoal=\dimen384
+\SOUL@syllwidth=\dimen385
+\SOUL@charkern=\dimen386
+\SOUL@hyphkern=\dimen387
+\SOUL@dimen=\dimen388
+\SOUL@dimeni=\dimen389
+\SOUL@minus=\count625
+\SOUL@comma=\count626
+\SOUL@apo=\count627
+\SOUL@grave=\count628
 \SOUL@spaceskip=\skip292
-\SOUL@ttwidth=\dimen376
-\SOUL@uldp=\dimen377
-\SOUL@ulht=\dimen378
+\SOUL@ttwidth=\dimen390
+\SOUL@uldp=\dimen391
+\SOUL@ulht=\dimen392
 ))
 Package biblatex Info: Trying to load language 'portuguese'...
 Package biblatex Info: ... file 'portuguese.lbx' found.
@@ -1966,10 +2023,10 @@ Package morewrites Warning: File 'matter.mw' exists, using 'matter1.mw'
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'matter.bbl' found.
 (./matter.bbl)
-Package biblatex Info: Reference section=0 on input line 251.
-Package biblatex Info: Reference segment=0 on input line 251.
+Package biblatex Info: Reference section=0 on input line 254.
+Package biblatex Info: Reference segment=0 on input line 254.
 Package translations Info: no dictionary file `translations-basic-dictionary-po
-rtuges.trsl' found. on input line 251.
+rtuges.trsl' found. on input line 254.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1977,7 +2034,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 251.
+or `english'. on input line 254.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2016,28 +2073,28 @@ or `english'. on input line 251.
 <cover.pdf, id=7, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf>
-Package pdftex.def Info: cover.pdf  used on input line 257.
+Package pdftex.def Info: cover.pdf  used on input line 260.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 <cover.pdf, id=9, page=1, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 257.
+Package pdftex.def Info: cover.pdf , page1 used on input line 260.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 257.
+Package pdftex.def Info: cover.pdf , page1 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 257.
+Package pdftex.def Info: cover.pdf , page1 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 257.
+Package pdftex.def Info: cover.pdf , page1 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 1>
-Package pdftex.def Info: cover.pdf , page1 used on input line 257.
+Package pdftex.def Info: cover.pdf , page1 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter1.mw'.
 
@@ -2051,19 +2108,19 @@ Package pdftex.def Info: cover.pdf , page1 used on input line 257.
 \openout4 = `matter.upa'.
 
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 257.
+e 260.
 <cover.pdf, id=25, page=2, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 2>
-Package pdftex.def Info: cover.pdf , page2 used on input line 257.
+Package pdftex.def Info: cover.pdf , page2 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 2>
-Package pdftex.def Info: cover.pdf , page2 used on input line 257.
+Package pdftex.def Info: cover.pdf , page2 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 2>
-Package pdftex.def Info: cover.pdf , page2 used on input line 257.
+Package pdftex.def Info: cover.pdf , page2 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter1.mw'.
 
@@ -2075,15 +2132,15 @@ Package pdftex.def Info: cover.pdf , page2 used on input line 257.
 <cover.pdf, id=36, page=3, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 3>
-Package pdftex.def Info: cover.pdf , page3 used on input line 257.
+Package pdftex.def Info: cover.pdf , page3 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 3>
-Package pdftex.def Info: cover.pdf , page3 used on input line 257.
+Package pdftex.def Info: cover.pdf , page3 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 3>
-Package pdftex.def Info: cover.pdf , page3 used on input line 257.
+Package pdftex.def Info: cover.pdf , page3 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter1.mw'.
 
@@ -2095,15 +2152,15 @@ Package pdftex.def Info: cover.pdf , page3 used on input line 257.
 <cover.pdf, id=41, page=4, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 4>
-Package pdftex.def Info: cover.pdf , page4 used on input line 257.
+Package pdftex.def Info: cover.pdf , page4 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 4>
-Package pdftex.def Info: cover.pdf , page4 used on input line 257.
+Package pdftex.def Info: cover.pdf , page4 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 4>
-Package pdftex.def Info: cover.pdf , page4 used on input line 257.
+Package pdftex.def Info: cover.pdf , page4 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter1.mw'.
 
@@ -2115,15 +2172,15 @@ Package pdftex.def Info: cover.pdf , page4 used on input line 257.
 <cover.pdf, id=46, page=5, 597.50829pt x 845.0471pt>
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 5>
-Package pdftex.def Info: cover.pdf , page5 used on input line 257.
+Package pdftex.def Info: cover.pdf , page5 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 5>
-Package pdftex.def Info: cover.pdf , page5 used on input line 257.
+Package pdftex.def Info: cover.pdf , page5 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: cover.pdf Graphic file (type pdf)
 <use cover.pdf, page 5>
-Package pdftex.def Info: cover.pdf , page5 used on input line 257.
+Package pdftex.def Info: cover.pdf , page5 used on input line 260.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 \openout4 = `matter1.mw'.
 
@@ -2220,6 +2277,16 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
+ (./matter.lol)
+\openout4 = `matter1.mw'.
+
+ [7
+
+
+]
+(./matter1.mw)
+\openout4 = `matter1.mw'.
+
 \openout2 = `chapters/chapter1.aux'.
 
  (./chapters/chapter1.tex
@@ -2239,7 +2306,7 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 16.
+(Font)              <9> on input line 17.
 \openout4 = `matter1.mw'.
 
 [1
@@ -2249,6 +2316,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
+Package marginnote Info: Using workaround for absolute page number on input lin
+e 20.
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2261,10 +2330,10 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 \openout4 = `matter1.mw'.
 
-<figs/ipdj_stats.png, id=423, 925.056pt x 450.483pt>
+<figs/ipdj_stats.png, id=427, 925.056pt x 450.483pt>
 File: figs/ipdj_stats.png Graphic file (type png)
 <use figs/ipdj_stats.png>
-Package pdftex.def Info: figs/ipdj_stats.png  used on input line 37.
+Package pdftex.def Info: figs/ipdj_stats.png  used on input line 38.
 (pdftex.def)             Requested size: 452.9679pt x 220.58737pt.
 \openout4 = `matter1.mw'.
 
@@ -2286,7 +2355,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: Reference `subsubsec:user-research' on page 3 undefined on input
- line 48.
+ line 53.
 
 \openout4 = `matter1.mw'.
 
@@ -2302,40 +2371,36 @@ LaTeX Warning: Reference `subsubsec:user-research' on page 3 undefined on input
  [4] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
-7.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+))
 \openout4 = `matter1.mw'.
 
  [5{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (./matter1.mw
 )
 \openout4 = `matter1.mw'.
 
-
-Chapter 2.
-)
-\openout4 = `matter1.mw'.
-
- [6
-
-] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
 \openout2 = `chapters/chapter2.aux'.
 
- (./chapters/chapter2.tex
-Chapter 3.
+
+(./chapters/chapter2.tex
+Chapter 2.
 \openout4 = `matter1.mw'.
 
-[7
+[6
 
 
 
 
 ] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+ [7] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2346,11 +2411,6 @@ Chapter 3.
 \openout4 = `matter1.mw'.
 
  [9] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
- [10] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 
@@ -2374,7 +2434,7 @@ Underfull \hbox (badness 7397) in paragraph at lines 117--117
 
 \openout4 = `matter1.mw'.
 
-[11] (./matter1.mw)
+[10] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2403,7 +2463,7 @@ Underfull \hbox (badness 7397) in paragraph at lines 117--117
 
 \openout4 = `matter1.mw'.
 
- [12{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
+ [11{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
 /texlive/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texlive/texmf-dist
 /fonts/enc/dvips/lm/lm-mathsy.enc}] (./matter1.mw)
 \openout4 = `matter1.mw'.
@@ -2434,7 +2494,7 @@ Underfull \hbox (badness 7397) in paragraph at lines 117--117
 
 \openout4 = `matter1.mw'.
 
- [13]
+ [12]
 (./matter1.mw)
 \openout4 = `matter1.mw'.
 
@@ -2460,6 +2520,39 @@ Underfull \hbox (badness 7397) in paragraph at lines 117--117
 
 \openout4 = `matter1.mw'.
 
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+ [13] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2525,39 +2618,6 @@ Underfull \hbox (badness 7397) in paragraph at lines 117--117
 
 \openout4 = `matter1.mw'.
 
- [15] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2576,18 +2636,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--255
 
 \openout4 = `matter1.mw'.
 
-[16] (./matter1.mw)
+[15] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
- [17] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
+ [16] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2606,7 +2660,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--255
 
 \openout4 = `matter1.mw'.
 
- [18
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+ [17
 
 ] (./matter1.mw)
 \openout4 = `matter1.mw'.
@@ -2633,7 +2693,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--255
 
 \openout4 = `matter1.mw'.
 
- [19] (./matter1.mw)
+ [18] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2650,7 +2710,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--255
 
 \openout4 = `matter1.mw'.
 
-[20] (./matter1.mw)
+[19] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2661,7 +2721,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--255
 
 \openout4 = `matter1.mw'.
 
-<figs/tradicionalBack.png, id=656, 257.5221pt x 144.0582pt>
+<figs/tradicionalBack.png, id=655, 257.5221pt x 144.0582pt>
 File: figs/tradicionalBack.png Graphic file (type png)
 <use figs/tradicionalBack.png>
 Package pdftex.def Info: figs/tradicionalBack.png  used on input line 317.
@@ -2690,7 +2750,7 @@ Package pdftex.def Info: figs/tradicionalBack.png  used on input line 317.
 
 \openout4 = `matter1.mw'.
 
-<figs/firebaseback.png, id=665, 200.6697pt x 129.8451pt>
+<figs/firebaseback.png, id=664, 200.6697pt x 129.8451pt>
 File: figs/firebaseback.png Graphic file (type png)
 <use figs/firebaseback.png>
 Package pdftex.def Info: figs/firebaseback.png  used on input line 328.
@@ -2713,12 +2773,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
-[21 <./figs/tradicionalBack.png (PNG copy)>] (./matter1.mw)
+[20 <./figs/tradicionalBack.png (PNG copy)>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
- [22 <./figs/firebaseback.png (PNG copy)>] (./matter1.mw)
+ [21 <./figs/firebaseback.png (PNG copy)>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2727,6 +2787,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+ [22] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2768,27 +2849,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
- [24] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2802,7 +2862,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 \openout4 = `matter1.mw'.
 
 
-[25] (./matter1.mw)
+[24] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+ [25] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2812,11 +2877,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
  [27] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
+[28] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2825,12 +2899,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
- [28] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-[29] (./matter1.mw)
+ [29] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2844,16 +2913,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
  [31] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
- [32] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -2862,55 +2926,51 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
+[32] (./matter1.mw)
 \openout4 = `matter1.mw'.
+
+
+Overfull \hbox (16.75845pt too wide) in paragraph at lines 538--609
+[][] 
+ []
 
 \openout4 = `matter1.mw'.
 
 [33] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-
-Overfull \hbox (16.75845pt too wide) in paragraph at lines 536--607
-[][] 
- []
-
 \openout4 = `matter1.mw'.
 
-[34] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
- [35] (./matter1.mw)
+ [34] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 
-Chapter 4.
+Chapter 3.
 )
 \openout4 = `matter1.mw'.
 
- [36
+ [35
 
 ] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
- [37] (./matter1.mw)
+ [36] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout2 = `chapters/chapter3.aux'.
 
  (./chapters/chapter3.tex
-Chapter 5.
-<figs/roadmap.png, id=897, 8221.71625pt x 2222.3025pt>
+Chapter 4.
+<figs/roadmap.png, id=896, 8221.71625pt x 2222.3025pt>
 File: figs/roadmap.png Graphic file (type png)
 <use figs/roadmap.png>
-Package pdftex.def Info: figs/roadmap.png  used on input line 13.
+Package pdftex.def Info: figs/roadmap.png  used on input line 15.
 (pdftex.def)             Requested size: 452.9679pt x 122.41351pt.
 \openout4 = `matter1.mw'.
 
-[38
+[37
 
 
 
@@ -2920,13 +2980,13 @@ Package pdftex.def Info: figs/roadmap.png  used on input line 13.
 
 \openout4 = `matter1.mw'.
 
- [39] (./matter1.mw)
+ [38] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-<figs/jiraSprintsRoadmap.png, id=912, 1297.84875pt x 277.035pt>
+<figs/jiraSprintsRoadmap.png, id=911, 1297.84875pt x 277.035pt>
 File: figs/jiraSprintsRoadmap.png Graphic file (type png)
 <use figs/jiraSprintsRoadmap.png>
-Package pdftex.def Info: figs/jiraSprintsRoadmap.png  used on input line 36.
+Package pdftex.def Info: figs/jiraSprintsRoadmap.png  used on input line 38.
 (pdftex.def)             Requested size: 452.9679pt x 96.68892pt.
 \openout4 = `matter1.mw'.
 
@@ -2942,52 +3002,20 @@ Package pdftex.def Info: figs/jiraSprintsRoadmap.png  used on input line 36.
 
 \openout4 = `matter1.mw'.
 
- [40 <./figs/jiraSprintsRoadmap.png>] (./matter1.mw)
+ [39 <./figs/jiraSprintsRoadmap.png>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-<figs/architectureDiagram.png, id=929, 1369.115pt x 538.01pt>
-File: figs/architectureDiagram.png Graphic file (type png)
-<use figs/architectureDiagram.png>
-Package pdftex.def Info: figs/architectureDiagram.png  used on input line 79.
-(pdftex.def)             Requested size: 452.9679pt x 177.99536pt.
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
- [41 <./figs/architectureDiagram.png>]
-(./matter1.mw)
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
- [42] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
- [43] (./matter1.mw)
+ [40] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 
-Chapter 6.
+Chapter 5.
 )
 \openout4 = `matter1.mw'.
 
- [44
+ [41
 
 ] (./matter1.mw)
 \openout4 = `matter1.mw'.
@@ -2995,11 +3023,10 @@ Chapter 6.
 \openout2 = `chapters/chapter4.aux'.
 
  (./chapters/chapter4.tex
-Chapter 7.
-)
+Chapter 6.
 \openout4 = `matter1.mw'.
 
- [45
+[42
 
 
 
@@ -3007,24 +3034,10 @@ Chapter 7.
 ] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-\openout2 = `chapters/chapter5.aux'.
-
- (./chapters/chapter5.tex
-Chapter 8.
-\openout4 = `matter1.mw'.
-
-[46
-
-
-
-
-] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-<figs/persona-miguel.png, id=979, 1445.4pt x 813.0375pt>
+<figs/persona-miguel.png, id=942, 1445.4pt x 813.0375pt>
 File: figs/persona-miguel.png Graphic file (type png)
 <use figs/persona-miguel.png>
-Package pdftex.def Info: figs/persona-miguel.png  used on input line 50.
+Package pdftex.def Info: figs/persona-miguel.png  used on input line 58.
 (pdftex.def)             Requested size: 407.66833pt x 229.31134pt.
 
 
@@ -3032,32 +3045,32 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
-[47] (./matter1.mw)
+[43] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
- [48 <./figs/persona-miguel.png (PNG copy)>] (./matter1.mw)
+ [44 <./figs/persona-miguel.png (PNG copy)>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-<figs/persona-carlos.png, id=989, 1445.4pt x 813.0375pt>
+<figs/persona-carlos.png, id=955, 1445.4pt x 813.0375pt>
 File: figs/persona-carlos.png Graphic file (type png)
 <use figs/persona-carlos.png>
-Package pdftex.def Info: figs/persona-carlos.png  used on input line 77.
+Package pdftex.def Info: figs/persona-carlos.png  used on input line 85.
 (pdftex.def)             Requested size: 407.66833pt x 229.31134pt.
 \openout4 = `matter1.mw'.
 
 
-[49 <./figs/persona-carlos.png (PNG copy)>] (./matter1.mw)
+[45 <./figs/persona-carlos.png (PNG copy)>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []|\T1/lmr/m/n/10.95 (+20) Browse and Search
  []
 
 
-LaTeX Warning: Float too large for page by 13.96402pt on input line 140.
+LaTeX Warning: Float too large for page by 13.96402pt on input line 150.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -3066,7 +3079,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 []|\T1/lmr/m/n/10.95 (+20) Search Play-ers and
  []
 
@@ -3081,7 +3094,172 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
-[50] (./matter1.mw)
+[46] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+ [47] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+ [48] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+ [49] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 280--280
+[]|\T1/lmr/m/n/10.95 (+20) Session State Per-sis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 268--289
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 298--315
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 324--339
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+[]|\T1/lmr/m/n/10.95 (+20) Camera/Storage In-te-
+ []
+
+
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 348--363
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 372--383
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 392--407
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 416--425
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
+[]|\T1/lmr/m/n/10.95 (+20) Should
+ []
+
+
+Overfull \hbox (21.82341pt too wide) in paragraph at lines 434--449
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+\openout4 = `matter1.mw'.
+
+ [50
+
+] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -3096,156 +3274,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
- [53] (./matter1.mw)
+ [53]
+(./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
-[]|\T1/lmr/m/n/10.95 (+20) Should
- []
-
-
-Underfull \hbox (badness 8019) in paragraph at lines 270--270
-[]|\T1/lmr/m/n/10.95 (+20) Session State Per-sis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-[]|\T1/lmr/m/n/10.95 (+20) Should
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-[]|\T1/lmr/m/n/10.95 (+20) Should
- []
-
-
-Overfull \hbox (21.82341pt too wide) in paragraph at lines 258--279
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (21.82341pt too wide) in paragraph at lines 288--305
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
-[]|\T1/lmr/m/n/10.95 (+20) Should
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-[]|\T1/lmr/m/n/10.95 (+20) Should
- []
-
-
-Overfull \hbox (21.82341pt too wide) in paragraph at lines 314--329
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
-[]|\T1/lmr/m/n/10.95 (+20) Camera/Storage In-te-
- []
-
-
-Overfull \hbox (21.82341pt too wide) in paragraph at lines 338--353
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
-[]|\T1/lmr/m/n/10.95 (+20) Should
- []
-
-
-Overfull \hbox (21.82341pt too wide) in paragraph at lines 362--373
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--389
-[]|\T1/lmr/m/n/10.95 (+20) Should
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
-[]|\T1/lmr/m/n/10.95 (+20) Should
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
-[]|\T1/lmr/m/n/10.95 (+20) Should
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
-[]|\T1/lmr/m/n/10.95 (+20) Should
- []
-
-
-Overfull \hbox (21.82341pt too wide) in paragraph at lines 382--397
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (21.82341pt too wide) in paragraph at lines 406--415
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 432--433
-[]|\T1/lmr/m/n/10.95 (+20) Should
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
-[]|\T1/lmr/m/n/10.95 (+20) Should
- []
-
-
-Overfull \hbox (21.82341pt too wide) in paragraph at lines 424--439
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-\openout4 = `matter1.mw'.
-
-[54
-
-] (./matter1.mw)
+ [54] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -3253,130 +3288,114 @@ LaTeX Warning: `h' float specifier changed to `ht'.
  [55] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
+\openout2 = `chapters/chapter5.aux'.
+
+ (./chapters/chapter5.tex
+Chapter 7.
 \openout4 = `matter1.mw'.
 
- [56] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
- [57] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-[58] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
- [59] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-<figs/mockups/courtsList/courts-list.png, id=1048, 394.47375pt x 855.195pt>
-File: figs/mockups/courtsList/courts-list.png Graphic file (type png)
-<use figs/mockups/courtsList/courts-list.png>
-Package pdftex.def Info: figs/mockups/courtsList/courts-list.png  used on input
- line 477.
-(pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 477--478
-[][] 
- []
-
-<figs/mockups/courtsList/courts-map.png, id=1049, 394.47375pt x 855.195pt>
-File: figs/mockups/courtsList/courts-map.png Graphic file (type png)
-<use figs/mockups/courtsList/courts-map.png>
-Package pdftex.def Info: figs/mockups/courtsList/courts-map.png  used on input 
-line 483.
-(pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 483--484
-[][] 
- []
+[56
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-\openout4 = `matter1.mw'.
-
-[60
 
 ] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-
-
-LaTeX Warning: Reference `subsec:GamesModule' on page 61 undefined on input lin
-e 511.
-
-
-LaTeX Warning: Reference `subsec:PlayersModule' on page 61 undefined on input l
-ine 511.
-
-\openout4 = `matter1.mw'.
-
-[61 <./figs/mockups/courtsList/courts-list.png> <./figs/mockups/courtsList/cour
-ts-map.png>] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-<figs/mockups/courtDetails/court-jogos.png, id=1065, 394.47375pt x 855.195pt>
-File: figs/mockups/courtDetails/court-jogos.png Graphic file (type png)
-<use figs/mockups/courtDetails/court-jogos.png>
-Package pdftex.def Info: figs/mockups/courtDetails/court-jogos.png  used on inp
-ut line 516.
+<figs/mockups/courtsList/courts-list.png, id=1020, 394.47375pt x 855.195pt>
+File: figs/mockups/courtsList/courts-list.png Graphic file (type png)
+<use figs/mockups/courtsList/courts-list.png>
+Package pdftex.def Info: figs/mockups/courtsList/courts-list.png  used on input
+ line 35.
 (pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 516--517
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 35--36
 [][] 
  []
 
-<figs/mockups/courtDetails/court-jogadores.png, id=1066, 394.47375pt x 855.195p
+<figs/mockups/courtsList/courts-map.png, id=1021, 394.47375pt x 855.195pt>
+File: figs/mockups/courtsList/courts-map.png Graphic file (type png)
+<use figs/mockups/courtsList/courts-map.png>
+Package pdftex.def Info: figs/mockups/courtsList/courts-map.png  used on input 
+line 41.
+(pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 41--42
+[][] 
+ []
+
+\openout4 = `matter1.mw'.
+
+[57 <./figs/mockups/courtsList/courts-list.png> <./figs/mockups/courtsList/cour
+ts-map.png>] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+
+
+LaTeX Warning: Reference `subsec:GamesModule' on page 58 undefined on input lin
+e 69.
+
+
+LaTeX Warning: Reference `subsec:PlayersModule' on page 58 undefined on input l
+ine 69.
+
+<figs/mockups/courtDetails/court-jogos.png, id=1031, 394.47375pt x 855.195pt>
+File: figs/mockups/courtDetails/court-jogos.png Graphic file (type png)
+<use figs/mockups/courtDetails/court-jogos.png>
+Package pdftex.def Info: figs/mockups/courtDetails/court-jogos.png  used on inp
+ut line 74.
+(pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 74--75
+[][] 
+ []
+
+<figs/mockups/courtDetails/court-jogadores.png, id=1032, 394.47375pt x 855.195p
 t>
 File: figs/mockups/courtDetails/court-jogadores.png Graphic file (type png)
 <use figs/mockups/courtDetails/court-jogadores.png>
 Package pdftex.def Info: figs/mockups/courtDetails/court-jogadores.png  used on
- input line 522.
+ input line 80.
 (pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 522--523
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 80--81
 [][] 
  []
 
-<figs/mockups/courtDetails/court-classificacao.png, id=1067, 394.47375pt x 855.
+<figs/mockups/courtDetails/court-classificacao.png, id=1033, 394.47375pt x 855.
 195pt>
 File: figs/mockups/courtDetails/court-classificacao.png Graphic file (type png)
 
 <use figs/mockups/courtDetails/court-classificacao.png>
 Package pdftex.def Info: figs/mockups/courtDetails/court-classificacao.png  use
-d on input line 528.
+d on input line 86.
 (pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 528--529
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 86--87
 [][] 
  []
 
-<figs/mockups/courtDetails/court-calendar.png, id=1069, 394.47375pt x 855.195pt
+<figs/mockups/courtDetails/court-calendar.png, id=1035, 394.47375pt x 855.195pt
 >
 File: figs/mockups/courtDetails/court-calendar.png Graphic file (type png)
 <use figs/mockups/courtDetails/court-calendar.png>
 Package pdftex.def Info: figs/mockups/courtDetails/court-calendar.png  used on 
-input line 541.
+input line 99.
 (pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 541--542
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 99--100
 [][] 
  []
 
-<figs/mockups/courtDetails/court-calendar-1.png, id=1070, 394.47375pt x 855.195
+<figs/mockups/courtDetails/court-calendar-1.png, id=1036, 394.47375pt x 855.195
 pt>
 File: figs/mockups/courtDetails/court-calendar-1.png Graphic file (type png)
 <use figs/mockups/courtDetails/court-calendar-1.png>
 Package pdftex.def Info: figs/mockups/courtDetails/court-calendar-1.png  used o
-n input line 547.
+n input line 105.
 (pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 547--548
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 105--106
 [][] 
  []
 
@@ -3385,16 +3404,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
-[62 <./figs/mockups/courtDetails/court-jogos.png> <./figs/mockups/courtDetails/
+[58 <./figs/mockups/courtDetails/court-jogos.png> <./figs/mockups/courtDetails/
 court-jogadores.png> <./figs/mockups/courtDetails/court-classificacao.png>]
 (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-<figs/mockups/games/games-list.png, id=1080, 394.47375pt x 855.195pt>
+<figs/mockups/games/games-list.png, id=1045, 394.47375pt x 855.195pt>
 File: figs/mockups/games/games-list.png Graphic file (type png)
 <use figs/mockups/games/games-list.png>
 Package pdftex.def Info: figs/mockups/games/games-list.png  used on input line 
-574.
+132.
 (pdftex.def)             Requested size: 181.18439pt x 392.79422pt.
 
 
@@ -3402,31 +3421,31 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
-[63 <./figs/mockups/courtDetails/court-calendar.png> <./figs/mockups/courtDetai
+[59 <./figs/mockups/courtDetails/court-calendar.png> <./figs/mockups/courtDetai
 ls/court-calendar-1.png>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-<figs/mockups/games/create-game/create-game.png, id=1089, 394.47375pt x 855.195
+<figs/mockups/games/create-game/create-game.png, id=1054, 394.47375pt x 855.195
 pt>
 File: figs/mockups/games/create-game/create-game.png Graphic file (type png)
 <use figs/mockups/games/create-game/create-game.png>
 Package pdftex.def Info: figs/mockups/games/create-game/create-game.png  used o
-n input line 588.
+n input line 146.
 (pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 588--589
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 146--147
 [][] 
  []
 
-<figs/mockups/games/create-game/create-game1.png, id=1090, 394.47375pt x 855.19
+<figs/mockups/games/create-game/create-game1.png, id=1055, 394.47375pt x 855.19
 5pt>
 File: figs/mockups/games/create-game/create-game1.png Graphic file (type png)
 <use figs/mockups/games/create-game/create-game1.png>
 Package pdftex.def Info: figs/mockups/games/create-game/create-game1.png  used 
-on input line 594.
+on input line 152.
 (pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 594--595
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 152--153
 [][] 
  []
 
@@ -3435,31 +3454,31 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
-[64 <./figs/mockups/games/games-list.png>] (./matter1.mw)
+[60 <./figs/mockups/games/games-list.png>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-<figs/mockups/games/game-details/game-details.png, id=1099, 394.47375pt x 855.1
+<figs/mockups/games/game-details/game-details.png, id=1064, 394.47375pt x 855.1
 95pt>
 File: figs/mockups/games/game-details/game-details.png Graphic file (type png)
 <use figs/mockups/games/game-details/game-details.png>
 Package pdftex.def Info: figs/mockups/games/game-details/game-details.png  used
- on input line 611.
+ on input line 169.
 (pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 611--612
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 169--170
 [][] 
  []
 
-<figs/mockups/games/game-details/game-details-f.png, id=1100, 394.47375pt x 855
+<figs/mockups/games/game-details/game-details-f.png, id=1065, 394.47375pt x 855
 .195pt>
 File: figs/mockups/games/game-details/game-details-f.png Graphic file (type png
 )
 <use figs/mockups/games/game-details/game-details-f.png>
 Package pdftex.def Info: figs/mockups/games/game-details/game-details-f.png  us
-ed on input line 617.
+ed on input line 175.
 (pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 617--618
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 175--176
 [][] 
  []
 
@@ -3468,62 +3487,62 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
-[65 <./figs/mockups/games/create-game/create-game.png> <./figs/mockups/games/cr
+[61 <./figs/mockups/games/create-game/create-game.png> <./figs/mockups/games/cr
 eate-game/create-game1.png>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
- [66 <./figs/mockups/games/game-details/game-details.png> <./figs/mockups/games
+ [62 <./figs/mockups/games/game-details/game-details.png> <./figs/mockups/games
 /game-details/game-details-f.png>]
 (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-<figs/mockups/players/profile/profile-stats.png, id=1120, 394.47375pt x 855.195
+<figs/mockups/players/profile/profile-stats.png, id=1087, 394.47375pt x 855.195
 pt>
 File: figs/mockups/players/profile/profile-stats.png Graphic file (type png)
 <use figs/mockups/players/profile/profile-stats.png>
 Package pdftex.def Info: figs/mockups/players/profile/profile-stats.png  used o
-n input line 651.
+n input line 209.
 (pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 651--652
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 209--210
 [][] 
  []
 
-<figs/mockups/players/profile/profile-games.png, id=1121, 394.47375pt x 855.195
+<figs/mockups/players/profile/profile-games.png, id=1088, 394.47375pt x 855.195
 pt>
 File: figs/mockups/players/profile/profile-games.png Graphic file (type png)
 <use figs/mockups/players/profile/profile-games.png>
 Package pdftex.def Info: figs/mockups/players/profile/profile-games.png  used o
-n input line 657.
+n input line 215.
 (pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 657--658
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 215--216
 [][] 
  []
 
-<figs/mockups/players/profile/profile-friends.png, id=1122, 394.47375pt x 855.1
+<figs/mockups/players/profile/profile-friends.png, id=1089, 394.47375pt x 855.1
 95pt>
 File: figs/mockups/players/profile/profile-friends.png Graphic file (type png)
 <use figs/mockups/players/profile/profile-friends.png>
 Package pdftex.def Info: figs/mockups/players/profile/profile-friends.png  used
- on input line 668.
+ on input line 226.
 (pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 668--669
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 226--227
 [][] 
  []
 
-<figs/mockups/players/profile/profile-courts.png, id=1123, 394.47375pt x 855.19
+<figs/mockups/players/profile/profile-courts.png, id=1090, 394.47375pt x 855.19
 5pt>
 File: figs/mockups/players/profile/profile-courts.png Graphic file (type png)
 <use figs/mockups/players/profile/profile-courts.png>
 Package pdftex.def Info: figs/mockups/players/profile/profile-courts.png  used 
-on input line 674.
+on input line 232.
 (pdftex.def)             Requested size: 135.89174pt x 294.59892pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 674--675
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 232--233
 [][] 
  []
 
@@ -3532,15 +3551,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
-[67 <./figs/mockups/players/profile/profile-stats.png> <./figs/mockups/players/
+[63 <./figs/mockups/players/profile/profile-stats.png> <./figs/mockups/players/
 profile/profile-games.png>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-<figs/mockups/players/players-list.png, id=1131, 394.47375pt x 855.195pt>
+<figs/mockups/players/players-list.png, id=1098, 394.47375pt x 855.195pt>
 File: figs/mockups/players/players-list.png Graphic file (type png)
 <use figs/mockups/players/players-list.png>
 Package pdftex.def Info: figs/mockups/players/players-list.png  used on input l
-ine 690.
+ine 248.
 (pdftex.def)             Requested size: 181.18439pt x 392.79422pt.
 
 
@@ -3548,38 +3567,38 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
-[68 <./figs/mockups/players/profile/profile-friends.png> <./figs/mockups/player
+[64 <./figs/mockups/players/profile/profile-friends.png> <./figs/mockups/player
 s/profile/profile-courts.png>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
- [69 <./figs/mockups/players/players-list.png>] (./matter1.mw)
+ [65 <./figs/mockups/players/players-list.png>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-<figs/mockups/Home.png, id=1147, 394.47375pt x 855.195pt>
+<figs/mockups/Home.png, id=1113, 394.47375pt x 855.195pt>
 File: figs/mockups/Home.png Graphic file (type png)
 <use figs/mockups/Home.png>
-Package pdftex.def Info: figs/mockups/Home.png  used on input line 712.
+Package pdftex.def Info: figs/mockups/Home.png  used on input line 270.
 (pdftex.def)             Requested size: 181.18439pt x 392.79422pt.
 \openout4 = `matter1.mw'.
 
- [70 <./figs/mockups/Home.png>] (./matter1.mw)
+ [66 <./figs/mockups/Home.png>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
 
-[71] (./matter1.mw)
+[67] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 
 
-LaTeX Warning: Reference `appendix:evalI' on page 72 undefined on input line 79
-0.
+LaTeX Warning: Reference `appendix:evalI' on page 68 undefined on input line 34
+8.
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8
-54.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
+12.
 (/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -3589,53 +3608,52 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 \openout4 = `matter1.mw'.
 
- [72] (./matter1.mw)
+ [68] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
 
-[73] (./matter1.mw)
+[69] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--878
+Underfull \hbox (badness 10000) in paragraph at lines 434--436
 
  []
 
 \openout4 = `matter1.mw'.
 
-[74] (./matter1.mw)
+[70] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+ [71] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 )
 \openout4 = `matter1.mw'.
 
- [75] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
- [76] (./matter1.mw)
+ [72] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout2 = `chapters/chapter6.aux'.
 
 
 (./chapters/chapter6.tex
-Chapter 9.
-<figs/navigation-diagram/courts.png, id=1202, 1434.35875pt x 1886.04625pt>
-File: figs/navigation-diagram/courts.png Graphic file (type png)
-<use figs/navigation-diagram/courts.png>
-Package pdftex.def Info: figs/navigation-diagram/courts.png  used on input line
- 25.
-(pdftex.def)             Requested size: 317.07614pt x 416.91719pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+Chapter 8.
+\openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
-[77
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+[73
 
 
 
@@ -3643,11 +3661,105 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-<figs/navigation-diagram/games.png, id=1210, 1208.515pt x 1359.0775pt>
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+<figs/architectureDiagram.png, id=1179, 1369.115pt x 538.01pt>
+File: figs/architectureDiagram.png Graphic file (type png)
+<use figs/architectureDiagram.png>
+Package pdftex.def Info: figs/architectureDiagram.png  used on input line 19.
+(pdftex.def)             Requested size: 452.9679pt x 177.99536pt.
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+ [74 <./figs/architectureDiagram.png>] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+
+[75] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+ [76] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 107.
+\openout4 = `matter1.mw'.
+
+ [77]
+(./matter1.mw)
+\openout4 = `matter1.mw'.
+
+
+Overfull \hbox (13.50587pt too wide) in paragraph at lines 126--127
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+\openout4 = `matter1.mw'.
+
+[78] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+
+Overfull \hbox (151.47699pt too wide) in paragraph at lines 173--174
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (151.47699pt too wide) in paragraph at lines 174--175
+[][][][][][][][][][][][][][][][][] 
+ []
+
+\openout4 = `matter1.mw'.
+
+[79] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+
+Overfull \hbox (20.07593pt too wide) in paragraph at lines 179--180
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (20.07593pt too wide) in paragraph at lines 180--181
+[][][][][][][][][][][][][][][] 
+ []
+
+<figs/navigation-diagram/courts.png, id=1237, 1434.35875pt x 1886.04625pt>
+File: figs/navigation-diagram/courts.png Graphic file (type png)
+<use figs/navigation-diagram/courts.png>
+Package pdftex.def Info: figs/navigation-diagram/courts.png  used on input line
+ 209.
+(pdftex.def)             Requested size: 317.07614pt x 416.91719pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+\openout4 = `matter1.mw'.
+
+[80] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+<figs/navigation-diagram/games.png, id=1252, 1208.515pt x 1359.0775pt>
 File: figs/navigation-diagram/games.png Graphic file (type png)
 <use figs/navigation-diagram/games.png>
 Package pdftex.def Info: figs/navigation-diagram/games.png  used on input line 
-35.
+219.
 (pdftex.def)             Requested size: 317.07614pt x 356.56618pt.
 
 
@@ -3655,14 +3767,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
-[78 <./figs/navigation-diagram/courts.png>] (./matter1.mw)
+[81 <./figs/navigation-diagram/courts.png>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-<figs/navigation-diagram/players.png, id=1218, 2337.73375pt x 1580.90625pt>
+<figs/navigation-diagram/players.png, id=1260, 2337.73375pt x 1580.90625pt>
 File: figs/navigation-diagram/players.png Graphic file (type png)
 <use figs/navigation-diagram/players.png>
 Package pdftex.def Info: figs/navigation-diagram/players.png  used on input lin
-e 47.
+e 231.
 (pdftex.def)             Requested size: 317.07614pt x 214.40216pt.
 
 
@@ -3670,23 +3782,41 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
-[79 <./figs/navigation-diagram/games.png>] (./matter1.mw)
+[82 <./figs/navigation-diagram/games.png>] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+ [83 <./figs/navigation-diagram/players.png>] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+ [84] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 )
 \openout4 = `matter1.mw'.
 
- [80 <./figs/navigation-diagram/players.png>] (./matter1.mw)
+ [85] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout2 = `chapters/chapter7.aux'.
 
- (./chapters/chapter7.tex
-Chapter 10.
+(./chapters/chapter7.tex
+Chapter 9.
 )
 \openout4 = `matter1.mw'.
 
- [81
+ [86
 
 
 
@@ -3699,7 +3829,7 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 \openout4 = `matter1.mw'.
 
- [82
+ [87
 
 
 
@@ -3709,12 +3839,12 @@ Package microtype Info: Character `029' is missing
 
 \openout4 = `matter1.mw'.
 
- [83] (./matter1.mw)
+ [88] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
- [84]
+ [89]
 (./matter1.mw)
 \openout4 = `matter1.mw'.
 
@@ -3722,12 +3852,12 @@ Package microtype Info: Character `029' is missing
 
  (./chapters/appendix-a.tex
 Appendix A.
-<appendices/survey.pdf, id=1335, 614.295pt x 794.97pt>
+<appendices/survey.pdf, id=1395, 614.295pt x 794.97pt>
 File: appendices/survey.pdf Graphic file (type pdf)
 <use appendices/survey.pdf>
 Package pdftex.def Info: appendices/survey.pdf  used on input line 6.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<appendices/survey.pdf, id=1337, page=1, 614.295pt x 794.97pt>
+<appendices/survey.pdf, id=1397, page=1, 614.295pt x 794.97pt>
 File: appendices/survey.pdf Graphic file (type pdf)
 <use appendices/survey.pdf, page 1>
 Package pdftex.def Info: appendices/survey.pdf , page1 used on input line 6.
@@ -3737,7 +3867,7 @@ File: appendices/survey.pdf Graphic file (type pdf)
 Package pdftex.def Info: appendices/survey.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.84}) has
+pdfTeX warning (ext4): destination with the same identifier (name{page.89}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -3745,7 +3875,7 @@ l.6 ...es=-,pagecommand={}]{appendices/survey.pdf}
                                                   
 \openout4 = `matter1.mw'.
 
- [84
+ [89
 
 
 
@@ -3768,12 +3898,12 @@ Package pdftex.def Info: appendices/survey.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 \openout4 = `matter1.mw'.
 
- [85
+ [90
 
  <./appendices/survey.pdf>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-<appendices/survey.pdf, id=1443, page=2, 614.295pt x 794.97pt>
+<appendices/survey.pdf, id=1503, page=2, 614.295pt x 794.97pt>
 File: appendices/survey.pdf Graphic file (type pdf)
 <use appendices/survey.pdf, page 2>
 Package pdftex.def Info: appendices/survey.pdf , page2 used on input line 6.
@@ -3785,108 +3915,6 @@ Package pdftex.def Info: appendices/survey.pdf , page2 used on input line 6.
 File: appendices/survey.pdf Graphic file (type pdf)
 <use appendices/survey.pdf, page 2>
 Package pdftex.def Info: appendices/survey.pdf , page2 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-\openout4 = `matter1.mw'.
-
- [86
-
- <./appendices/survey.pdf>]
-(./matter1.mw)
-\openout4 = `matter1.mw'.
-
-<appendices/survey.pdf, id=1448, page=3, 614.295pt x 794.97pt>
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 3>
-Package pdftex.def Info: appendices/survey.pdf , page3 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 3>
-Package pdftex.def Info: appendices/survey.pdf , page3 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 3>
-Package pdftex.def Info: appendices/survey.pdf , page3 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-\openout4 = `matter1.mw'.
-
- [87
-
- <./appendices/survey.pdf>] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-<appendices/survey.pdf, id=1453, page=4, 614.295pt x 794.97pt>
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 4>
-Package pdftex.def Info: appendices/survey.pdf , page4 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 4>
-Package pdftex.def Info: appendices/survey.pdf , page4 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 4>
-Package pdftex.def Info: appendices/survey.pdf , page4 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-\openout4 = `matter1.mw'.
-
- [88
-
- <./appendices/survey.pdf>] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-<appendices/survey.pdf, id=1458, page=5, 614.295pt x 794.97pt>
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 5>
-Package pdftex.def Info: appendices/survey.pdf , page5 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 5>
-Package pdftex.def Info: appendices/survey.pdf , page5 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 5>
-Package pdftex.def Info: appendices/survey.pdf , page5 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-\openout4 = `matter1.mw'.
-
- [89
-
- <./appendices/survey.pdf>] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-<appendices/survey.pdf, id=1463, page=6, 614.295pt x 794.97pt>
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 6>
-Package pdftex.def Info: appendices/survey.pdf , page6 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 6>
-Package pdftex.def Info: appendices/survey.pdf , page6 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 6>
-Package pdftex.def Info: appendices/survey.pdf , page6 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-\openout4 = `matter1.mw'.
-
-
-[90
-
- <./appendices/survey.pdf>] (./matter1.mw)
-\openout4 = `matter1.mw'.
-
-<appendices/survey.pdf, id=1468, page=7, 614.295pt x 794.97pt>
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 7>
-Package pdftex.def Info: appendices/survey.pdf , page7 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 7>
-Package pdftex.def Info: appendices/survey.pdf , page7 used on input line 6.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 7>
-Package pdftex.def Info: appendices/survey.pdf , page7 used on input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 \openout4 = `matter1.mw'.
 
@@ -3896,18 +3924,18 @@ Package pdftex.def Info: appendices/survey.pdf , page7 used on input line 6.
 (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-<appendices/survey.pdf, id=1474, page=8, 614.295pt x 794.97pt>
+<appendices/survey.pdf, id=1508, page=3, 614.295pt x 794.97pt>
 File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 8>
-Package pdftex.def Info: appendices/survey.pdf , page8 used on input line 6.
+<use appendices/survey.pdf, page 3>
+Package pdftex.def Info: appendices/survey.pdf , page3 used on input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 8>
-Package pdftex.def Info: appendices/survey.pdf , page8 used on input line 6.
+<use appendices/survey.pdf, page 3>
+Package pdftex.def Info: appendices/survey.pdf , page3 used on input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: appendices/survey.pdf Graphic file (type pdf)
-<use appendices/survey.pdf, page 8>
-Package pdftex.def Info: appendices/survey.pdf , page8 used on input line 6.
+<use appendices/survey.pdf, page 3>
+Package pdftex.def Info: appendices/survey.pdf , page3 used on input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 \openout4 = `matter1.mw'.
 
@@ -3916,7 +3944,109 @@ Package pdftex.def Info: appendices/survey.pdf , page8 used on input line 6.
  <./appendices/survey.pdf>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
-<appendices/survey.pdf, id=1479, page=9, 614.295pt x 794.97pt>
+<appendices/survey.pdf, id=1513, page=4, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 4>
+Package pdftex.def Info: appendices/survey.pdf , page4 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 4>
+Package pdftex.def Info: appendices/survey.pdf , page4 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 4>
+Package pdftex.def Info: appendices/survey.pdf , page4 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+\openout4 = `matter1.mw'.
+
+ [93
+
+ <./appendices/survey.pdf>] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+<appendices/survey.pdf, id=1519, page=5, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 5>
+Package pdftex.def Info: appendices/survey.pdf , page5 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 5>
+Package pdftex.def Info: appendices/survey.pdf , page5 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 5>
+Package pdftex.def Info: appendices/survey.pdf , page5 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+\openout4 = `matter1.mw'.
+
+ [94
+
+ <./appendices/survey.pdf>] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+<appendices/survey.pdf, id=1524, page=6, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 6>
+Package pdftex.def Info: appendices/survey.pdf , page6 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 6>
+Package pdftex.def Info: appendices/survey.pdf , page6 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 6>
+Package pdftex.def Info: appendices/survey.pdf , page6 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+\openout4 = `matter1.mw'.
+
+
+[95
+
+ <./appendices/survey.pdf>] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+<appendices/survey.pdf, id=1529, page=7, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 7>
+Package pdftex.def Info: appendices/survey.pdf , page7 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 7>
+Package pdftex.def Info: appendices/survey.pdf , page7 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 7>
+Package pdftex.def Info: appendices/survey.pdf , page7 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+\openout4 = `matter1.mw'.
+
+ [96
+
+ <./appendices/survey.pdf>]
+(./matter1.mw)
+\openout4 = `matter1.mw'.
+
+<appendices/survey.pdf, id=1535, page=8, 614.295pt x 794.97pt>
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 8>
+Package pdftex.def Info: appendices/survey.pdf , page8 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 8>
+Package pdftex.def Info: appendices/survey.pdf , page8 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: appendices/survey.pdf Graphic file (type pdf)
+<use appendices/survey.pdf, page 8>
+Package pdftex.def Info: appendices/survey.pdf , page8 used on input line 6.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+\openout4 = `matter1.mw'.
+
+ [97
+
+ <./appendices/survey.pdf>] (./matter1.mw)
+\openout4 = `matter1.mw'.
+
+<appendices/survey.pdf, id=1540, page=9, 614.295pt x 794.97pt>
 File: appendices/survey.pdf Graphic file (type pdf)
 <use appendices/survey.pdf, page 9>
 Package pdftex.def Info: appendices/survey.pdf , page9 used on input line 6.
@@ -3931,7 +4061,7 @@ Package pdftex.def Info: appendices/survey.pdf , page9 used on input line 6.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 \openout4 = `matter1.mw'.
 
- [93
+ [98
 
  <./appendices/survey.pdf>] (./matter1.mw)
 \openout4 = `matter1.mw'.
@@ -3941,7 +4071,7 @@ Package pdftex.def Info: appendices/survey.pdf , page9 used on input line 6.
 
  (./chapters/appendix-b.tex
 Appendix B.
-<appendices/flyerpt.png, id=1489, 597.60106pt x 845.26315pt>
+<appendices/flyerpt.png, id=1550, 597.60106pt x 845.26315pt>
 File: appendices/flyerpt.png Graphic file (type png)
 <use appendices/flyerpt.png>
 Package pdftex.def Info: appendices/flyerpt.png  used on input line 9.
@@ -3949,7 +4079,7 @@ Package pdftex.def Info: appendices/flyerpt.png  used on input line 9.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<appendices/flyeren.png, id=1490, 597.60106pt x 845.26315pt>
+<appendices/flyeren.png, id=1551, 597.60106pt x 845.26315pt>
 File: appendices/flyeren.png Graphic file (type png)
 <use appendices/flyeren.png>
 Package pdftex.def Info: appendices/flyeren.png  used on input line 16.
@@ -3960,7 +4090,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 )
 \openout4 = `matter1.mw'.
 
- [94
+ [99
 
 
 
@@ -3970,12 +4100,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 \openout4 = `matter1.mw'.
 
- [95 <./appendices/flyerpt.png>] (./matter1.mw)
+ [100 <./appendices/flyerpt.png>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
 
- [96 <./appendices/flyeren.png>] (./matter1.mw)
+ [101 <./appendices/flyeren.png>] (./matter1.mw)
 \openout4 = `matter1.mw'.
 
 \tf@toc=\write135
@@ -3987,7 +4117,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 \tf@lot=\write137
 \openout4 = `matter.lot'.
 
-runsystem(latexminted cleantemp  --timestamp 20260503130818 BF7B83F5E1B17616CCF
+\tf@lol=\write138
+\openout4 = `matter.lol'.
+
+runsystem(latexminted cleantemp  --timestamp 20260506134658 BF7B83F5E1B17616CCF
 3E2AF66E54E47)...executed.
 
  (./matter.aux
@@ -4031,27 +4164,11 @@ runsystem(latexminted cleantemp  --timestamp 20260503130818 BF7B83F5E1B17616CCF
 
 \openout4 = `matter1.mw'.
 
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
  (./chapters/chapter1.aux
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -4443,47 +4560,63 @@ runsystem(latexminted cleantemp  --timestamp 20260503130818 BF7B83F5E1B17616CCF
 
 \openout4 = `matter1.mw'.
 
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
 ) (./chapters/chapter4.aux
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -4538,54 +4671,6 @@ runsystem(latexminted cleantemp  --timestamp 20260503130818 BF7B83F5E1B17616CCF
 
 )
 (./chapters/chapter5.aux
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
-\openout4 = `matter1.mw'.
-
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -4887,7 +4972,51 @@ runsystem(latexminted cleantemp  --timestamp 20260503130818 BF7B83F5E1B17616CCF
 
 \openout4 = `matter1.mw'.
 
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
 ) (./chapters/chapter7.aux
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
+\openout4 = `matter1.mw'.
+
 \openout4 = `matter1.mw'.
 
 \openout4 = `matter1.mw'.
@@ -5029,6 +5158,10 @@ caption3.sty    2023/07/31 v2.4d caption3 kernel (AR)
 caption-memoir.sto    2023/09/08 v2.2c Adaption of the caption package to the m
 emoir document class (AR)
 subcaption.sty    2023/07/28 v1.6b Sub-captions (AR)
+listings.sty    2025/11/14 1.11b (Carsten Heinz)
+lstpatch.sty    2025/11/14 1.11b (Carsten Heinz)
+ lstmisc.sty    2025/11/14 1.11b (Carsten Heinz)
+listings.cfg    2025/11/14 1.11b listings configuration
 hyperref.sty    2026-01-29 v7.01p Hypertext links for LaTeX
 kvdefinekeys.sty    2019-12-19 v1.6 Define keys (HO)
 pdfescape.sty    2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
@@ -5152,6 +5285,8 @@ pdflscape-nometadata.sty    2025-06-23 v0.14 Display of landscape pages in PDF
 (HO)
   lscape.sty    2020/05/28 v3.02 Landscape Pages (DPC)
 makecell.sty    2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+ dirtree.sty    2012/12/11 v0.32 package wrapper for dirtree
+ dirtree.tex    2012/12/11 v0.32 `dirtree' (jcc)
 supp-pdf.mkii
 epstopdf-base.sty    2020-01-24 v2.11 Base part for package epstopdf
 epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
@@ -5189,11 +5324,10 @@ figs/firebaseback.png
 chapters/chapter3.tex
 figs/roadmap.png
 figs/jiraSprintsRoadmap.png
-figs/architectureDiagram.png
 chapters/chapter4.tex
-chapters/chapter5.tex
 figs/persona-miguel.png
 figs/persona-carlos.png
+chapters/chapter5.tex
 figs/mockups/courtsList/courts-list.png
 figs/mockups/courtsList/courts-map.png
 figs/mockups/courtDetails/court-jogos.png
@@ -5214,6 +5348,8 @@ figs/mockups/players/players-list.png
 figs/mockups/Home.png
   t1lmtt.fd    2015/05/01 v1.6.1 Font defs for Latin Modern
 chapters/chapter6.tex
+figs/architectureDiagram.png
+lstlang1.sty    2025/11/14 1.11b listings language file
 figs/navigation-diagram/courts.png
 figs/navigation-diagram/games.png
 figs/navigation-diagram/players.png
@@ -5257,13 +5393,15 @@ Package logreq Info: Writing requests to 'matter.run.xml'.
 
 \openout4 = `matter.lot'.
 
+\openout4 = `matter.lol'.
+
  ) 
 Here is how much of TeX's memory you used:
- 56731 strings out of 467548
- 1156733 string characters out of 5422840
- 2464301 words of memory out of 6000000
- 82353 multiletter control sequences out of 15000+600000
- 727958 words of font info for 288 fonts, out of 8000000 for 9000
+ 58623 strings out of 467548
+ 1181876 string characters out of 5422840
+ 2485532 words of memory out of 6000000
+ 84144 multiletter control sequences out of 15000+600000
+ 728169 words of font info for 290 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  95i,17n,108p,2978b,3136s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/t
@@ -5282,10 +5420,10 @@ public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmtt1
 e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/zapfding/uzdr.pfb>
-Output written on matter.pdf (108 pages, 3987627 bytes).
+Output written on matter.pdf (114 pages, 4018127 bytes).
 PDF statistics:
- 2051 PDF objects out of 2073 (max. 8388607)
- 1724 compressed objects within 18 object streams
- 455 named destinations out of 1000 (max. 500000)
- 51394 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 2104 PDF objects out of 2487 (max. 8388607)
+ 1771 compressed objects within 18 object streams
+ 490 named destinations out of 1000 (max. 500000)
+ 51354 words of extra memory for PDF output out of 51595 (max. 10000000)
 

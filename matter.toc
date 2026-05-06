@@ -4,167 +4,164 @@
 \contentsline {chapter}{Contents}{i}{chapter*.1}%
 \contentsline {chapter}{List of Figures}{v}{chapter*.2}%
 \contentsline {chapter}{List of Tables}{vi}{chapter*.3}%
+\contentsline {chapter}{Lista de Excertos de Código}{vii}{chapter*.5}%
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Basketball Context in Portugal}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Motivation and Problem Context}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Problem Statement}{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Proposed Solution}{4}{section.1.3}%
-\contentsline {chapter}{\chapternumberline {2}Introduction}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Motivation and Problem Context}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Research Objectives}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Scope and Limitations}{6}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Document Organisation}{6}{section.2.4}%
-\contentsline {chapter}{\chapternumberline {3}State of the Art \& Existing Solutions}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Digital platforms for casual basketball }{7}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Search Methodology}{7}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Identified Platforms}{8}{subsection.3.1.2}%
-\contentsline {subsubsection}{Court Discovery Platforms}{8}{section*.5}%
-\contentsline {paragraph}{\textbf {Courts of the World}}{8}{section*.6}%
-\contentsline {paragraph}{\textbf {Jogabasket}}{9}{section*.7}%
-\contentsline {subsubsection}{Game Organization Platforms}{9}{section*.8}%
-\contentsline {paragraph}{\textbf {Pickup Sports (Adult League)}}{9}{section*.9}%
-\contentsline {paragraph}{\textbf {Fullcourt: Pickup Basketball}}{9}{section*.10}%
-\contentsline {paragraph}{\textbf {Pickup: Play \& Host Sports}}{9}{section*.11}%
-\contentsline {paragraph}{\textbf {WOOOBA}}{10}{section*.12}%
-\contentsline {paragraph}{\textbf {Pick-Roll}}{10}{section*.13}%
-\contentsline {subsubsection}{General Community Platforms}{10}{section*.14}%
-\contentsline {paragraph}{\textbf {Meetup}}{10}{section*.15}%
-\contentsline {subsection}{\numberline {3.1.3}Analysis of Existing Solutions}{10}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Mobile Application Implementation Technologies}{12}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Native Apps}{12}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Web Applications}{13}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Hybrid Applications}{13}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Cross-Platform Applications}{13}{subsection.3.2.4}%
-\contentsline {subsubsection}{Interpreted Approach - React Native}{14}{section*.17}%
-\contentsline {subsubsection}{Cross-Compiled Approach - Flutter}{14}{section*.18}%
-\contentsline {subsubsection}{Cloud-based Approach and Modelling Approach}{14}{section*.19}%
-\contentsline {subsection}{\numberline {3.2.5}Kotlin Multiplatform}{15}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Comparative Analysis}{16}{subsection.3.2.6}%
-\contentsline {section}{\numberline {3.3}Mobile Application Development Methodologies}{18}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Mobile Backend Development Strategies}{20}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Backend Fundamentals}{20}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Data management strategies}{23}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Data Synchronization}{24}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}MBaaS Providers}{26}{subsection.3.4.4}%
-\contentsline {subsubsection}{\textbf {Google Firebase}}{26}{section*.23}%
-\contentsline {subsubsection}{\textbf {Supabase}}{28}{section*.24}%
-\contentsline {subsubsection}{\textbf {Parse}}{29}{section*.25}%
-\contentsline {subsubsection}{\textbf {Back4App}}{30}{section*.26}%
-\contentsline {subsubsection}{\textbf {AWS Amplify}}{30}{section*.27}%
-\contentsline {subsubsection}{\textbf {Microsoft Azure}}{33}{section*.28}%
-\contentsline {subsubsection}{MBaaS Provider Comparison}{34}{section*.29}%
-\contentsline {chapter}{\chapternumberline {4}State of the Art}{37}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Mobile Application Development Approaches}{37}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Native Applications}{37}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Web and Progressive Web Applications}{37}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Hybrid Applications}{37}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Cross-Platform Frameworks}{37}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}Kotlin Multiplatform}{37}{subsection.4.1.5}%
-\contentsline {subsection}{\numberline {4.1.6}Comparative Analysis}{37}{subsection.4.1.6}%
-\contentsline {section}{\numberline {4.2}Development Methodologies}{37}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Agile and Scrum}{37}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}User-Centred Design}{37}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Agile User-Centred Design Integration}{37}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Acceptance Test-Driven Development}{37}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Backend Strategies}{37}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Backend Architecture Fundamentals}{37}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Data Management Strategies}{37}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Data Synchronisation Patterns}{37}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}MBaaS Providers}{37}{subsection.4.3.4}%
-\contentsline {section}{\numberline {4.4}Existing Solutions}{37}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Search Methodology}{37}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Identified Platforms}{37}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Analysis and Gap Identification}{37}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Summary}{37}{section.4.5}%
-\contentsline {chapter}{\chapternumberline {5}Methodology}{38}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Iterative Development and Project Plan}{38}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Phase 1: Prototype and Feature Validation}{39}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Phase 2: MVP Development and UI/UX Evaluation}{39}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Phase 3: Complete Application and Overall Evaluation}{40}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}User Stories, Sprints and ATDD}{40}{subsection.5.1.4}%
-\contentsline {section}{\numberline {5.2}Architecture}{41}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Maps Engine}{42}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Notifications Engine}{43}{subsection.5.2.2}%
-\contentsline {chapter}{\chapternumberline {6}Methodology}{44}{chapter.6}%
-\contentsline {section}{\numberline {6.1}User-Centred Design Framework}{44}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Agile and Scrum Integration}{44}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Acceptance Test-Driven Development}{44}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Worked Example}{44}{subsection.6.3.1}%
-\contentsline {section}{\numberline {6.4}Evaluation Strategy}{44}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}System Usability Scale}{44}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Task-Based Usability Testing}{44}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Maps Engine}{44}{subsection.6.4.3}%
-\contentsline {subsection}{\numberline {6.4.4}Notifications Engine}{44}{subsection.6.4.4}%
-\contentsline {section}{\numberline {6.5}Project Roadmap}{44}{section.6.5}%
-\contentsline {chapter}{\chapternumberline {7}Architecture and Technical Decisions}{45}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Architectural Pattern}{45}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Cross-Platform Strategy}{45}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Frontend Architecture}{45}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Local Data Layer}{45}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Backend: Supabase}{45}{section.7.5}%
-\contentsline {subsection}{\numberline {7.5.1}Database Schema Design}{45}{subsection.7.5.1}%
-\contentsline {subsection}{\numberline {7.5.2}Realtime Subscriptions}{45}{subsection.7.5.2}%
-\contentsline {section}{\numberline {7.6}Offline-First and Synchronisation Strategy}{45}{section.7.6}%
-\contentsline {section}{\numberline {7.7}Security Design}{45}{section.7.7}%
-\contentsline {section}{\numberline {7.8}CI/CD Pipeline}{45}{section.7.8}%
-\contentsline {chapter}{\chapternumberline {8}Requirements and Prototype}{46}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Understand and specify the context of use }{46}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}User research}{46}{subsection.8.1.1}%
-\contentsline {section}{\numberline {8.2}Personas and User Scenarios}{47}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Persona 1: Miguel - The Competitive Player}{47}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Persona 2: Carlos - The Flexible Shooter}{49}{subsection.8.2.2}%
-\contentsline {section}{\numberline {8.3}Functional Requirements}{50}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}Epics and User Stories}{50}{subsection.8.3.1}%
-\contentsline {section}{\numberline {8.4}Non-Functional Requirements}{54}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Prototype}{60}{section.8.5}%
-\contentsline {subsection}{\numberline {8.5.1}Courts Module}{60}{subsection.8.5.1}%
-\contentsline {subsubsection}{Court Discovery and Selection}{60}{section*.49}%
-\contentsline {subsubsection}{Court Details and Functional Hub}{61}{section*.51}%
-\contentsline {subsection}{\numberline {8.5.2}Games Module}{63}{subsection.8.5.2}%
-\contentsline {subsubsection}{Game Discovery and Selection}{63}{section*.54}%
-\contentsline {subsubsection}{Creation Workflow and Customization}{64}{section*.56}%
-\contentsline {subsubsection}{Game Details and Management}{65}{section*.58}%
-\contentsline {subsection}{\numberline {8.5.3}Players Module}{66}{subsection.8.5.3}%
-\contentsline {subsubsection}{Player Profile and Personal Dashboard}{66}{section*.60}%
-\contentsline {subsubsection}{Player Discovery and Social Interaction}{68}{section*.63}%
-\contentsline {subsection}{\numberline {8.5.4}Home Dashboard}{69}{subsection.8.5.4}%
-\contentsline {section}{\numberline {8.6}Evaluation I - Prototype Testing}{70}{section.8.6}%
-\contentsline {subsection}{\numberline {8.6.1}Method}{71}{subsection.8.6.1}%
-\contentsline {subsubsection}{Tasked Based}{71}{section*.66}%
-\contentsline {subsubsection}{Feature Prioritization}{71}{section*.67}%
-\contentsline {subsection}{\numberline {8.6.2}Results}{72}{subsection.8.6.2}%
-\contentsline {subsubsection}{Tasked Based}{72}{section*.68}%
-\contentsline {subsubsection}{Feature Prioritization}{72}{section*.69}%
-\contentsline {paragraph}{Game Flow and Automation}{72}{section*.71}%
-\contentsline {paragraph}{Open vs.\ Private Game Logic}{72}{section*.72}%
-\contentsline {paragraph}{Court Data Reliability}{74}{section*.73}%
-\contentsline {paragraph}{Ranking and Classification System}{74}{section*.74}%
-\contentsline {paragraph}{UI and Navigation Density}{74}{section*.75}%
-\contentsline {paragraph}{Missing Features Identified}{74}{section*.76}%
-\contentsline {subsection}{\numberline {8.6.3}Impact on Backlog}{74}{subsection.8.6.3}%
-\contentsline {chapter}{\chapternumberline {9}Implementation and Evaluation}{77}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Phase 2 - MVP Development}{77}{section.9.1}%
-\contentsline {subsection}{\numberline {9.1.1}Sprint Planning and Story Prioritisation}{77}{subsection.9.1.1}%
-\contentsline {subsection}{\numberline {9.1.2}Navigation Architecture}{77}{subsection.9.1.2}%
-\contentsline {subsubsection}{Courts Module}{77}{section*.77}%
-\contentsline {subsubsection}{Games Module}{78}{section*.79}%
-\contentsline {subsubsection}{Players Module}{79}{section*.81}%
-\contentsline {subsection}{\numberline {9.1.3}title}{80}{subsection.9.1.3}%
-\contentsline {subsection}{\numberline {9.1.4}Evaluation II - MVP Usability}{80}{subsection.9.1.4}%
-\contentsline {subsubsection}{Method}{80}{section*.83}%
-\contentsline {subsubsection}{Results}{80}{section*.84}%
-\contentsline {subsubsection}{Backlog Changes from Evaluation II}{80}{section*.85}%
-\contentsline {section}{\numberline {9.2}Phase 3 - Complete Application}{80}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}Changes Driven by Evaluation II}{80}{subsection.9.2.1}%
-\contentsline {subsection}{\numberline {9.2.2}title}{80}{subsection.9.2.2}%
-\contentsline {subsection}{\numberline {9.2.3}Evaluation III - Complete Platform}{80}{subsection.9.2.3}%
-\contentsline {subsubsection}{Method}{80}{section*.86}%
-\contentsline {subsubsection}{Results}{80}{section*.87}%
-\contentsline {subsubsection}{Analysis}{80}{section*.88}%
-\contentsline {chapter}{\chapternumberline {10}Discussion and Conclusion}{81}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Research Objectives Revisited}{81}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Limitations and Threats to Validity}{81}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Contributions}{81}{section.10.3}%
-\contentsline {section}{\numberline {10.4}Future Work}{81}{section.10.4}%
-\contentsline {chapter}{References}{82}{chapter*.90}%
-\contentsline {appendix}{\chapternumberline {A}User Research Survey}{84}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}Flyer }{94}{appendix.B}%
+\contentsline {section}{\numberline {1.3}Scope and Limitations}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Document Organisation}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Proposed Solution}{4}{section.1.5}%
+\contentsline {chapter}{\chapternumberline {2}State of the Art \& Existing Solutions}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Digital platforms for casual basketball }{6}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Search Methodology}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Identified Platforms}{7}{subsection.2.1.2}%
+\contentsline {subsubsection}{Court Discovery Platforms}{7}{section*.7}%
+\contentsline {paragraph}{\textbf {Courts of the World}}{7}{section*.8}%
+\contentsline {paragraph}{\textbf {Jogabasket}}{8}{section*.9}%
+\contentsline {subsubsection}{Game Organization Platforms}{8}{section*.10}%
+\contentsline {paragraph}{\textbf {Pickup Sports (Adult League)}}{8}{section*.11}%
+\contentsline {paragraph}{\textbf {Fullcourt: Pickup Basketball}}{8}{section*.12}%
+\contentsline {paragraph}{\textbf {Pickup: Play \& Host Sports}}{8}{section*.13}%
+\contentsline {paragraph}{\textbf {WOOOBA}}{9}{section*.14}%
+\contentsline {paragraph}{\textbf {Pick-Roll}}{9}{section*.15}%
+\contentsline {subsubsection}{General Community Platforms}{9}{section*.16}%
+\contentsline {paragraph}{\textbf {Meetup}}{9}{section*.17}%
+\contentsline {subsection}{\numberline {2.1.3}Analysis of Existing Solutions}{9}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Mobile Application Implementation Technologies}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Native Apps}{11}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Web Applications}{12}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Hybrid Applications}{12}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Cross-Platform Applications}{12}{subsection.2.2.4}%
+\contentsline {subsubsection}{Interpreted Approach - React Native}{13}{section*.19}%
+\contentsline {subsubsection}{Cross-Compiled Approach - Flutter}{13}{section*.20}%
+\contentsline {subsubsection}{Cloud-based Approach and Modelling Approach}{13}{section*.21}%
+\contentsline {subsection}{\numberline {2.2.5}Kotlin Multiplatform}{14}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Comparative Analysis}{15}{subsection.2.2.6}%
+\contentsline {section}{\numberline {2.3}Mobile Application Development Methodologies}{17}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Mobile Backend Development Strategies}{19}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Backend Fundamentals}{19}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Data management strategies}{22}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Data Synchronization}{23}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}MBaaS Providers}{25}{subsection.2.4.4}%
+\contentsline {subsubsection}{\textbf {Google Firebase}}{25}{section*.25}%
+\contentsline {subsubsection}{\textbf {Supabase}}{27}{section*.26}%
+\contentsline {subsubsection}{\textbf {Parse}}{28}{section*.27}%
+\contentsline {subsubsection}{\textbf {Back4App}}{29}{section*.28}%
+\contentsline {subsubsection}{\textbf {AWS Amplify}}{29}{section*.29}%
+\contentsline {subsubsection}{\textbf {Microsoft Azure}}{32}{section*.30}%
+\contentsline {subsubsection}{MBaaS Provider Comparison}{33}{section*.31}%
+\contentsline {chapter}{\chapternumberline {3}State of the Art}{36}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Mobile Application Development Approaches}{36}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Native Applications}{36}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Web and Progressive Web Applications}{36}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Hybrid Applications}{36}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Cross-Platform Frameworks}{36}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Kotlin Multiplatform}{36}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}Comparative Analysis}{36}{subsection.3.1.6}%
+\contentsline {section}{\numberline {3.2}Development Methodologies}{36}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Agile and Scrum}{36}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}User-Centred Design}{36}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Agile User-Centred Design Integration}{36}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Acceptance Test-Driven Development}{36}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Backend Strategies}{36}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Backend Architecture Fundamentals}{36}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Data Management Strategies}{36}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Data Synchronisation Patterns}{36}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}MBaaS Providers}{36}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Existing Solutions}{36}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Search Methodology}{36}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Identified Platforms}{36}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Analysis and Gap Identification}{36}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Summary}{36}{section.3.5}%
+\contentsline {chapter}{\chapternumberline {4}Methodology}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Iterative Development and Project Plan}{37}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Phase 1: Prototype and Feature Validation}{38}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Phase 2: MVP Development and UI/UX Evaluation}{38}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Phase 3: Complete Application and Overall Evaluation}{39}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}User Stories, Sprints and ATDD}{39}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Evaluation Strategy}{40}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}System Usability Scale}{40}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Task-Based Usability Testing}{40}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Project Roadmap}{40}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {5}Methodology}{41}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {6}Requirements}{42}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Context of Use}{42}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}User Research}{42}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Personas and User Scenarios}{43}{subsection.6.1.2}%
+\contentsline {subsubsection}{Persona 1: Miguel - The Competitive Player}{43}{section*.35}%
+\contentsline {subsubsection}{Persona 2: Carlos - The Flexible Shooter}{45}{section*.37}%
+\contentsline {section}{\numberline {6.2}System Constraints}{46}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Functional Requirements}{46}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Epics and User Stories}{46}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}Non-Functional Requirements}{50}{section.6.4}%
+\contentsline {chapter}{\chapternumberline {7}Incremental Development of The Playground}{56}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Phase 1 - Prototype}{56}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Courts Module}{56}{subsection.7.1.1}%
+\contentsline {subsubsection}{Court Discovery and Selection}{56}{section*.52}%
+\contentsline {subsubsection}{Court Details and Functional Hub}{57}{section*.54}%
+\contentsline {subsection}{\numberline {7.1.2}Games Module}{59}{subsection.7.1.2}%
+\contentsline {subsubsection}{Game Discovery and Selection}{59}{section*.57}%
+\contentsline {subsubsection}{Creation Workflow and Customization}{60}{section*.59}%
+\contentsline {subsubsection}{Game Details and Management}{61}{section*.61}%
+\contentsline {subsection}{\numberline {7.1.3}Players Module}{62}{subsection.7.1.3}%
+\contentsline {subsubsection}{Player Profile and Personal Dashboard}{62}{section*.63}%
+\contentsline {subsubsection}{Player Discovery and Social Interaction}{64}{section*.66}%
+\contentsline {subsection}{\numberline {7.1.4}Home Dashboard}{65}{subsection.7.1.4}%
+\contentsline {section}{\numberline {7.2}Evaluation I - Prototype Testing}{66}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Method}{67}{subsection.7.2.1}%
+\contentsline {subsubsection}{Tasked Based}{67}{section*.69}%
+\contentsline {subsubsection}{Feature Prioritization}{67}{section*.70}%
+\contentsline {subsection}{\numberline {7.2.2}Results}{68}{subsection.7.2.2}%
+\contentsline {subsubsection}{Tasked Based}{68}{section*.71}%
+\contentsline {subsubsection}{Feature Prioritization}{68}{section*.72}%
+\contentsline {paragraph}{Game Flow and Automation}{68}{section*.74}%
+\contentsline {paragraph}{Open vs.\ Private Game Logic}{68}{section*.75}%
+\contentsline {paragraph}{Court Data Reliability}{70}{section*.76}%
+\contentsline {paragraph}{Ranking and Classification System}{70}{section*.77}%
+\contentsline {paragraph}{UI and Navigation Density}{70}{section*.78}%
+\contentsline {paragraph}{Missing Features Identified}{70}{section*.79}%
+\contentsline {subsection}{\numberline {7.2.3}Impact on Backlog}{70}{subsection.7.2.3}%
+\contentsline {section}{\numberline {7.3}Phase 2 - MVP}{72}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Sprint Planning and Feature Prioritisation}{72}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Key Implementation Highlights}{72}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Evaluation II: MVP Usability Testing}{72}{subsection.7.3.3}%
+\contentsline {subsubsection}{Method}{72}{section*.80}%
+\contentsline {subsubsection}{Results}{72}{section*.81}%
+\contentsline {subsubsection}{Impact on Development}{72}{section*.82}%
+\contentsline {section}{\numberline {7.4}Phase 3 --- Complete Application}{72}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Changes Driven by Evaluation II}{72}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}New and Extended Features}{72}{subsection.7.4.2}%
+\contentsline {section}{\numberline {7.5}Prototype}{72}{section.7.5}%
+\contentsline {chapter}{\chapternumberline {8}System Design}{73}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Architectural Pattern}{73}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Cross-Platform Strategy}{75}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Project Structure}{75}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Platform Abstractions with Expect/Actual}{77}{subsection.8.2.2}%
+\contentsline {subsubsection}{Expect/Actual}{77}{section*.84}%
+\contentsline {subsubsection}{Interface-Based Injection}{79}{section*.85}%
+\contentsline {subsubsection}{Choosing Between the Two Strategies}{80}{section*.86}%
+\contentsline {section}{\numberline {8.3}Frontend Architecture}{80}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Navigation Architecture}{80}{subsection.8.3.1}%
+\contentsline {subsubsection}{Courts Module}{80}{section*.87}%
+\contentsline {subsubsection}{Games Module}{81}{section*.89}%
+\contentsline {subsubsection}{Players Module}{82}{section*.91}%
+\contentsline {section}{\numberline {8.4}Local Data Layer}{83}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Backend: Supabase}{84}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Database Schema Design}{84}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}Realtime Subscriptions}{84}{subsection.8.5.2}%
+\contentsline {section}{\numberline {8.6}Libraries and other tools}{84}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}Maps Engine}{84}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {8.6.2}Notifications Engine}{84}{subsection.8.6.2}%
+\contentsline {section}{\numberline {8.7}Offline-First and Synchronisation Strategy}{85}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Security Design}{85}{section.8.8}%
+\contentsline {section}{\numberline {8.9}CI/CD Pipeline}{85}{section.8.9}%
+\contentsline {chapter}{\chapternumberline {9}Pilot Use}{86}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Deployment}{86}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Participant Profile}{86}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Evaluation III: Complete Platform}{86}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Method}{86}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Results}{86}{subsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.3.3}Discussion of Findings}{86}{subsection.9.3.3}%
+\contentsline {chapter}{References}{87}{chapter*.94}%
+\contentsline {appendix}{\chapternumberline {A}User Research Survey}{89}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Flyer }{99}{appendix.B}%

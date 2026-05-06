@@ -61,6 +61,7 @@
 %\let\subfloat\undefined
 \usepackage{subcaption}
 
+\usepackage{listings}
 %\RequirePackage{textcase}
 
 % Dropped Caps
@@ -241,6 +242,8 @@
 \usepackage{makecell}
 
 \usepackage{parskip}
+\usepackage{dirtree}
+
 
 
 \setlength{\parskip}{1em} 
@@ -351,12 +354,11 @@
 	}
 }
 
-
-%\renewcommand{\listingscaption}{Código}
-%\renewcommand{\listoflistingscaption}{Lista de Excertos de Código}
-%\clearpage
-%{\small\listoflistings}
-%\addcontentsline{toc}{chapter}{\listoflistingscaption}
+\renewcommand{\listingscaption}{Código}
+\renewcommand{\listoflistingscaption}{Lista de Excertos de Código}
+\clearpage
+{\small\listoflistings}
+\addcontentsline{toc}{chapter}{\listoflistingscaption}
 
 % Reset Chapters
 %\renewcommand{\chapter}[2][]{

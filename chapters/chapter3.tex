@@ -1,4 +1,6 @@
+% %%%%%%%%%%%%%%%
 \chapter{Methodology}
+\label{ch:methodology}
 
 Developing a platform to help basketball players organise games and enhance their satisfaction at public courts requires a development process that consistently prioritizes user needs.  To achieve this, the project adopts User-Centred Design (UCD), ensuring that users are involved throughout the design process integrated with Agile. The UCD is applied across three phases, each culminating in direct user evaluation. This iterative phases are complemented by Scrum, in the implementation phases, where it promotes adaptive planning and continuous improvement, and Acceptance Test-Driven Development (ATDD), ensuring that the system's features align with user expectations and perform as intended. This chapter focus on explaining how this frameworks are used to develop the project, giving a plan for the implementation, as well as a provisional sprint plan. In the end it is also discussed the architecture that will be implemented as well as the technologies that will be used.
 
@@ -45,79 +47,13 @@ Following feedback from the second phase, in the final one it is developed the c
 
 Continuing the analysis of the Figure \ref{fig:jiraRoadmap}, this phase stars in Sprint 5 and it adds value to the \textit{Game Management (PLY-5)} Epic and a chat function from the Epic \textit{Players and Social Features (PLY-7)}. It will also improve features and bugs detected in the testing in Phase 2, so the Sprints will likely change. 
 
+
+
 \subsection{User Stories, Sprints and ATDD}\label{subsec:us-sprint-attd}
 
 Requirements gathered during the second phase of UCD (Subsection \ref{subsec:ucd}) are documented as User Stories and integrated into Scrum's Sprint structure. User Stories employ non-technical language written from the user's perspective, clarifying not only what is being built, but also the rationale and value delivered\cite{userStoriesAtlassian}.  Normally, each User Story belongs to an Epic as milestones, representing a broader thematic organization, enabling progress tracking against major features.  Each story is assigned to a Sprint and marked as complete when users can successfully execute the outlined task, aligning with the project's emphasis on User-Centred Design throughout development. The User Story will be moved through different stages in a board, starting in the To-Do column, moved to the in progress, then testing where is checked if it passes the acceptance criteria initially defined, ending up in the done. Jira\footnote{https://www.atlassian.com/software/jira} serves as the project management tool, enabling systematic planning, task assignment, and progress tracking throughout the development phase. 
 
 ATDD complements the Scrum framework by ensuring that acceptance tests are written for each User Story before implementation\cite{agileAllianceATDD}. This ensures requirements are precisely defined and verifiable, with tests serving as executable specifications of expected behaviour. The ATDD workflow follows three steps, starting by writing the acceptance tests to define expected behaviour, the feature is then implemented to satisfy these tests, and finally, functionality is validated to ensure all tests pass.This project employs rule-oriented acceptance criteria using a checklist format\cite{acceptanceCriteria}, which integrates naturally with the User Story structure in Jira. It could also be written in a scenario-oriented way, using a Given/When/Then template.
-
-
-
-\section{Architecture}
-
-For this project, the Android Developers "Guide to app architecture"\cite{guideArchitecture} is followed, which recommends an architecture, with at least two layers, the UI Layer and the Data Layer, and an optional the Domain Layer. In this structure, the UI Layer focuses on presentation concerns while the business logic and data management are encapsulated in the Data Layer and, when present, domain layers, clearly separating responsibilities across the application. Besides that, the project will follow the Model-View-Model (MVVM) pattern, where there is a clear separation between the logic and the UI, enabling a better development, testing and a clean code base.\cite{mvvm}
-
-%In Android Developers "Guide to app architecture"\cite{guideArchitecture}, it is recommended an architecture, that includes at least two layers, the UI Layer and the Data Layer, and optionally the Domain Layer.
-
-%The UI Layer, or presentation layer, as the name implies, is the user interface and will display the application data on the screen, which should be updated whenever the data changes, either through user interaction or external events.
-%This layer includes UI elements that render the data on the screen and state holders in order to keep and expose data to the UI, handling logic.
-
-%The Data layer, contains business logic that determines how the application creates, stores and changes data.
-%This layer has repositories, that are classes responsible to expose data to the rest of the application, centralizing changes to the data resolving conflicts between data sources and abstracting the data sources.
-%These data sources, also included in the data layer, are responsible of working with only one source of data, this being a file, database, network source.
-
-%The optional Domain Layer, sits between the UI and Data layers, encapsulating complex business logic or simpler logic which is reused by multiple view models.
-%Classes on this layer are usually called "use cases" or "interactors" being responsible for a single functionality or user story.
-
-%The View is responsible for the UI and the presentation to the user, it informs the ViewModel of user actions, and observes the ViewModel states, not contain any application logic, while the ViewModel exposes the data that the View is observing, serving a link between the Model and the View. Finally, the Model abstracts the data sources, working together with ViewModel to get and save data, has the business logic of the application. This can be represented in the layers, with the UI components being the View, and the Domain and Data layer being the Model. 
-
-
-The Figure \ref{fig:architecture} represents the project's architecture and some technologies that will be used, decided after the gathering of requirements. In the Presentation Layer there is the UI components, that will be developed using Compose Multiplatform, and  the ViewModel, classes that hold states of the application and exposes them to the View. The ViewModel will call the Use Cases, in the Domain Layer which use entities and the repositories interfaces to connect with the data layer. Here will be use Kotlin Multiplatform taking advantage of the native capabilities while working in both Android and iOS.
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=1\textwidth]{figs/architectureDiagram}
-	\caption{Architecture Diagram of the Multiplatform Application}
-	\label{fig:architecture}
-\end{figure}
-
-In the Data layer, there are the repositories, as the guide mentions\cite{guideArchitecture} which will work with a local and an external data source. The local data source will be Room\cite{room} that is part of Android Jetpack suite, making a good option for this project, being an abstraction of SQLite database, that integrates naturally with flows and coroutines, providing a annotation-based API. Compare to SQLDelight, a considerable option, it has slight more boilerplate with entities and DAOs, and less control over raw SQL, making debugging complex queries harder. 
-
-For the external data source it will be use the Supabase, an open source MBaaS with several services available that will help with the project, including PostgreSQL Database that can handle complex relationship connections while offering built-in real-time features for live updates. Besides that, it has authentication, storage, and server-side functions, however, lacks native push notifications and mobile analytic, which forces third-party tools integrations. Supabase can be self-hosted or use theirs services that has different pricing options, with the free tier being enough for this project, as it has a limit of 50,000 monthly active users. Comparing to others, it is not a "black box" being easy to debug and has less vendor lock-in, with a PostgresSQL database that can be run anywhere and can be exported.
-
-Using Ktor to communicate with Supabase as it is standard and recommend HTTP client, with multiple examples from Google, Jetbrains and other communities using Ktor as example in Kotlin Multiplatform projects. Another good option would be the Supabase Kotlin Client, however, this would make the application dependable on Supabase and if later the MBaaS was to be replaced, it would be more complex to migrate. With this, a little more code needs to be developed with Ktor, than Supabase Kotlin Client, but ideal to not get vendor lock-in. As some feature of the platform will need to work while the user is off-line or with bad connection, the application will have a synchronization manager that will check what needs to be updated in the local database and resolve conflicts. Finally a data mapper to convert data from Supabase to the Room database is needed.
-
-
-\subsection{Maps Engine}
-
-An important piece of this project is to have a map identifying the courts for the users to find and visualize. There are several tools and libraries for this, however the most compatible and cheap option is MapLibre Compose\footnote{https://maplibre.org/maplibre-compose/}. This is a Compose Multiplatform wrapper around the MapLibre\footnote{https://maplibre.org/} SDKs, an organization that provides open-source mapping libraries, which enables to render interactive maps. The MapLibre Compose will work in both Android and iOS, and it is possible to configure gestures, respond to a map click or long click, download off-line images and more other features.
-
-A disadvantage of this library is that the community and support is still growing. An alternative would be Google Maps SDK\footnote{https://developers.google.com/maps/documentation/android-sdk/overview?section=start}, however it has vendor lock-in, with costs passing the 300 USD (US Dollar) trial credits. Besides that, it is not Kotlin Multiplatform native, needing a platform-specific implementation. Mapbox\footnote{https://www.mapbox.com/} would be another option, with a free tier and then priced, with no direct support to KMP.
-
-MapLibre Compose is used as a Presentation Layer component, acting as the UI rendering engine responsible for visualizing geospatial data exposed by the ViewModel. It is decoupled from business logic and data access, ensuring that domain rules related to court management remain independent of the specific mapping technology. In contrast, the MapLibre SDK integrates with the Data Layer, handling the retrieval of map tiles from external MapLibre servers when users pan, zoom, or change location. It also implements caching strategies to store map assets locally for off-line use and manages map styling by fetching and applying the MapLibre style JSON, which defines layers, colours, and other visual properties.
-
-\subsection{Notifications Engine}
-
-To keep user's engagement, it is essential to have notifications, when they are in the application and when they have the application closed, so they get notified when someone has created a game in their favourite court. Supabase have a real-time feature that enables to create in-app notifications, however, when the application is closed there it is no communication between the Supabase backend and the client side. For push notifications, when the application is closed, there are different options. Google's Firebase has the Firebase Cloud Messaging (FCM)\footnote{https://firebase.google.com/docs/cloud-messaging} that can notify the application about available synchronizations, and send notification messages to single devices, to groups of devices, or to devices subscribed to topics, all this with no costs. Another option is OneSignal\footnote{https://onesignal.com/} that has multiple functionalities including sending notifications when the application is closed. OneSignal has some pricing options, but in the free tier, the push notifications are unlimited. For this project, OneSignal will be used, as the set-up is easier, as it handles user's tokens while in Firebase, it needs more code to handle that part.
-
-OneSignal integrates with the Data Layer, which handles push notification functionality. When a user creates a game, for example, the application makes an API call to OneSignal to send a push notification to users. By isolating notification logic in the Data Layer, the architecture remains agnostic to the specific notification provider, allowing future migration to alternative services without impacting business logic.
-
-
-% %%%%%%%%%%%%%%%
-\chapter{Methodology}
-\label{ch:methodology}
-
-\section{User-Centred Design Framework}
-\label{sec:method-ucd}
-
-\section{Agile and Scrum Integration}
-\label{sec:method-scrum}
-
-\section{Acceptance Test-Driven Development}
-\label{sec:method-atdd}
-
-\subsection{Worked Example}
-\label{subsec:method-atdd-example}
 
 \section{Evaluation Strategy}
 \label{sec:method-evaluation}
@@ -128,11 +64,11 @@ OneSignal integrates with the Data Layer, which handles push notification functi
 \subsection{Task-Based Usability Testing}
 \label{subsec:method-tasks}
 
-\subsection{Maps Engine}
-\label{subsec:maps-engine}
-
-\subsection{Notifications Engine}
-\label{subsec:notifications-engine}
-
 \section{Project Roadmap}
 \label{sec:method-roadmap}
+
+
+\chapter{Methodology}
+
+
+

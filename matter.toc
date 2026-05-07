@@ -3,8 +3,8 @@
 \babel@toc {english}{}\relax
 \contentsline {chapter}{Contents}{i}{chapter*.1}%
 \contentsline {chapter}{List of Figures}{v}{chapter*.2}%
-\contentsline {chapter}{List of Tables}{vi}{chapter*.3}%
-\contentsline {chapter}{Lista de Excertos de Código}{vii}{chapter*.5}%
+\contentsline {chapter}{List of Tables}{vii}{chapter*.3}%
+\contentsline {chapter}{Lista de Excertos de Código}{viii}{chapter*.5}%
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivation and Problem Context}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Problem Statement}{3}{section.1.2}%
@@ -145,23 +145,30 @@
 \contentsline {subsubsection}{Courts Module}{80}{section*.87}%
 \contentsline {subsubsection}{Games Module}{81}{section*.89}%
 \contentsline {subsubsection}{Players Module}{82}{section*.91}%
-\contentsline {section}{\numberline {8.4}Local Data Layer}{83}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Backend: Supabase}{84}{section.8.5}%
-\contentsline {subsection}{\numberline {8.5.1}Database Schema Design}{84}{subsection.8.5.1}%
-\contentsline {subsection}{\numberline {8.5.2}Realtime Subscriptions}{84}{subsection.8.5.2}%
-\contentsline {section}{\numberline {8.6}Libraries and other tools}{84}{section.8.6}%
-\contentsline {subsection}{\numberline {8.6.1}Maps Engine}{84}{subsection.8.6.1}%
-\contentsline {subsection}{\numberline {8.6.2}Notifications Engine}{84}{subsection.8.6.2}%
-\contentsline {section}{\numberline {8.7}Offline-First and Synchronisation Strategy}{85}{section.8.7}%
-\contentsline {section}{\numberline {8.8}Security Design}{85}{section.8.8}%
-\contentsline {section}{\numberline {8.9}CI/CD Pipeline}{85}{section.8.9}%
-\contentsline {chapter}{\chapternumberline {9}Pilot Use}{86}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Deployment}{86}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Participant Profile}{86}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Evaluation III: Complete Platform}{86}{section.9.3}%
-\contentsline {subsection}{\numberline {9.3.1}Method}{86}{subsection.9.3.1}%
-\contentsline {subsection}{\numberline {9.3.2}Results}{86}{subsection.9.3.2}%
-\contentsline {subsection}{\numberline {9.3.3}Discussion of Findings}{86}{subsection.9.3.3}%
-\contentsline {chapter}{References}{87}{chapter*.94}%
-\contentsline {appendix}{\chapternumberline {A}User Research Survey}{89}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}Flyer }{99}{appendix.B}%
+\contentsline {section}{\numberline {8.4}Supabase}{83}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Authentication}{84}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}Storage}{84}{subsection.8.4.2}%
+\contentsline {subsection}{\numberline {8.4.3}Database Schema Design}{85}{subsection.8.4.3}%
+\contentsline {subsubsection}{Courts Domain}{85}{section*.93}%
+\contentsline {subsubsection}{Games Domain}{86}{section*.95}%
+\contentsline {subsubsection}{Players Domain}{87}{section*.97}%
+\contentsline {subsection}{\numberline {8.4.4}Realtime}{88}{subsection.8.4.4}%
+\contentsline {section}{\numberline {8.5}Local Data Layer}{89}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Libraries and other tools}{89}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}Maps Engine}{89}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {8.6.2}Notifications Engine}{90}{subsection.8.6.2}%
+\contentsline {section}{\numberline {8.7}Offline-First and Synchronisation Strategy}{90}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Security Design}{90}{section.8.8}%
+\contentsline {section}{\numberline {8.9}CI/CD Pipeline}{90}{section.8.9}%
+\contentsline {chapter}{\chapternumberline {9}Pilot Use}{91}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Deployment}{91}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Participant Profile}{91}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Evaluation III: Complete Platform}{91}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Method}{91}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Results}{91}{subsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.3.3}Discussion of Findings}{91}{subsection.9.3.3}%
+\contentsline {chapter}{References}{92}{chapter*.100}%
+\contentsline {appendix}{\chapternumberline {A}User Research Survey}{94}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Flyer }{104}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {C}Evaluation Phase 1}{107}{appendix.C}%
+\contentsline {appendix}{\chapternumberline {D}Entity-Relation Diagram}{112}{appendix.D}%

@@ -234,13 +234,7 @@ The profile view utilizes the same internal tab logic as the Court Details to ma
 \end{figure}
 
 
-
-\section{Backend Architecture }
-
-The backend architecture is design to provide a robust, scalable  and secure environment for processing and storing user data. 
-
-
-\subsection{Supabase}
+\section{Supabase}
 \label{sec:arch-supabase}
 
 Following the evaluation of Mobile Backend as a Service (MBaaS) options in Section \ref{subsec:mbaas}, Supabase was selected due to its comprehensive service suite, generous resource quotas, and the absence of vendor lock-in. The project utilized a dual-environment configuration:
@@ -281,13 +275,13 @@ The \texttt{SupabaseClient} is initialized as a singleton using the Koin depende
 
 Environment-specific configurations were managed via \texttt{.env} files. A notable challenge in the development phase involved the Android emulator's networking constraints. While iOS can access a local Supabase instance via \texttt{localhost}, Android emulators require the loopback address \texttt{10.0.2.2}. To resolve this, the \texttt{expect}/\texttt{actual} pattern described in Section \ref{sec:arch-crossplatform} was employed to provide the correct host URL based on the target platform.
 
-\subsubsection{Authentication}
+\subsection{Authentication}
 
 The platform utilizes email and password authentication. Upon registration, Supabase generates a unique UUID for the user and triggers a verification email to ensure address validity. To maintain high deliverability and professional branding, \textbf{Resend} was integrated as the SMTP provider for the \texttt{theplayground.pt} domain.
 
 To mitigate brute-force attacks and resource abuse, a rate-limiting policy was implemented. This rule restricts users to five authentication attempts within a five-minute window per IP address. By exceeding this limit triggers a temporary block, reflected in the User Interface by a countdown timer. Once authenticated, the session is persisted locally until an explicit sign-out action is performed.
 
-\subsubsection{Storage}
+\subsection{Storage}
 
 Media assets, including court imagery and user profile pictures, are managed via Supabase Storage buckets. The storage is structured into two primary buckets:
 \begin{itemize}
@@ -295,11 +289,186 @@ Media assets, including court imagery and user profile pictures, are managed via
 	\item \textbf{Profiles Bucket:} Stores individual player images, identified by the user's unique \texttt{player\_uuid}.
 \end{itemize}
 
+
+
+
 \subsection{Database Schema Design}
 \label{subsec:arch-schema}
 
-\subsection{Realtime Subscriptions}
+The Supabase database uses PostgreSQL and is organised around three functional domains: courts, games, and players. 
+The schema comprises fourteen tables, sixteen enumerated types, forty-three server-side functions, and twenty-seven triggers. 
+The complete schema is presented across three Entity-Relation Diagrams, one per domain, each showing only primary and foreign key attributes for readability. The complete diagram can be seen in Appendix \ref{appendix:erm}.
+
+A fundamental design decision was to encapsulate complex operations in server-side PostgreSQL functions rather than implementing them in client-side application code. 
+This approach provides three guarantees.
+First, atomicity: each function executes within a single database transaction, preventing the partial state updates that would otherwise occur when a multi-step client request is interrupted by network instability. 
+Second, security: by running sensitive validation logic inside the database, the system ensures that business rules cannot be bypassed by a malicious or buggy client regardless of what the application layer does. 
+Third, consistency: state transition constraints enforced in triggers and functions apply to every code path, including direct API calls, removing any dependency on the client to enforce invariants.
+
+In this section is a breakdown of the database.
+
+\subsubsection{Courts Domain}
+
+The courts domain is represented in Figure~\ref{fig:erd-court}. 
+The central table is \texttt{courts}, with several attributes covering court identification, name, geographic coordinates, address, physical characteristics (rim type, net type, lighting, fencing, water fountain, parking).
+Courts follow a moderation workflow: when a player submits a new court, its \texttt{status} is set to \texttt{pending} and only transitions to \texttt{approved} after administrator review, preventing unverified or incorrect court data from appearing in the application.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.85\textwidth]{figs/erd/courts.png}
+	\caption{Courts Domain - Entity-Relation Diagram}
+	\label{fig:erd-court}
+\end{figure}
+
+\texttt{court\_reviews} implements a many-to-many relationship between players and courts with a composite primary key \texttt{(court\_id, player\_id)}, enforcing the constraint that each player may submit at most one review per court. 
+%Reviews address a specific problem identified in the user research phase: players reported encountering courts with poor conditions without any prior indication. 
+%By persisting structured ratings and comments, the platform gives players the information needed to choose a court before travelling to it.
+
+\texttt{player\_court\_checkins} records physical presence at a court at a given time. 
+A database-level safeguard prevents a player from being simultaneously checked in to multiple courts. 
+Additionally, the \texttt{auto\_checkout\_expired\_checkins} function runs periodically to close stale check-ins after a two-hour TTL, setting \texttt{checkout\_reason} to \texttt{ttl\_expired}. 
+This prevents occupancy counts from remaining inflated when a player forgets to check out manually.
+
+\texttt{player\_intentions} captures planned future visits rather than current presence, storing an \texttt{enters\_at} timestamp and an optional \texttt{leaves\_at}. 
+The composite primary key \texttt{(player\_id, court\_id, enters\_at)} prevents duplicate entries for the same slot while allowing a player to declare multiple intentions at the same court at different times. 
+This distinction between current presence and declared intention directly supports the two occupancy views in the application: how many players are at a court now, and how many plan to attend at a given time. 
+
+\subsubsection{Games Domain}
+
+The games domain is the most complex area of the schema and is represented in Figure~\ref{fig:erd-games}.
+The \texttt{games} table models the full lifecycle of a pickup game through a \texttt{game\_status} enumerated type with four states: \texttt{ACTIVE}, \texttt{LIVE}, \texttt{COMPLETED}, and \texttt{CANCELLED}. 
+State transitions are enforced by the \texttt{start\_game} and \texttt{end\_game} server-side functions, which validate pre-conditions before mutating the row, ensuring that, for example, a game cannot be ended without first being started, or started without sufficient players.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.85\textwidth]{figs/erd/games.png}
+	\caption{Games Domain - Entity-Relation Diagram}
+	\label{fig:erd-games}
+\end{figure}
+
+Player participation is tracked in \texttt{game\_players}, a junction table with a composite primary key \texttt{(game\_id, player\_id)} that records each player's assigned team and role (\texttt{HOST} or \texttt{PLAYER}). 
+The trigger \texttt{ensure\_host\_player\_on\_game\_create} automatically inserts the creating user into \texttt{game\_players} as \texttt{HOST} on game creation, ensuring the host is always a roster member without requiring a separate client-side request.
+
+The schema supports two types of games with distinct join flows.
+Public games allow any player to join directly via the \texttt{join\_public\_game} function.
+Private games, can be join with an invite by the user, \texttt{game\_invites} table, which records both the inviter and invitee, persisting the invitation state through its full lifecycle (\texttt{PENDING}, \texttt{ACCEPTED}, \texttt{DECLINED}, \texttt{CANCELLED}, \texttt{EXPIRED}). 
+Or by requestion with the \texttt{game\_join\_requests} table, where a player requests to join a private game, and follows an equivalent status lifecycle. 
+Both tables are persisted rather than transient so that the application can display the full history of invitations and requests in the user interface, giving players visibility over pending actions.
+
+Team assignment supports two modes controlled by the \texttt{team\_formation} enum. 
+In \texttt{MANUAL} mode the host assigns and swaps players between \texttt{TEAM\_A} and \texttt{TEAM\_B} via the \texttt{move\_player\_to\_team} and \texttt{swap\_players\_in\_game} functions.
+In \texttt{RANDOM} mode the \texttt{assign\_random\_game\_teams} function distributes players evenly across teams when the game starts or when the host triggers randomisation.
+
+The \texttt{in\_app\_notifications} table is closely coupled to the games domain. 
+Rather than relying solely on a push notification channel, notifications are persisted in the database so that players can access a full notification history and mark items as read. 
+Each row captures the recipient, the actor who triggered the event, a category (\texttt{GAMES}, \texttt{PEOPLE}, or \texttt{GENERAL}) that helps organise the user interface, a type drawn from a sixteen-value enum, and a \texttt{payload} column for event-specific data such as game identifiers or court names. 
+Fourteen trigger functions create notification rows automatically on relevant domain events, including game invitations, join request responses, and game start and end events.
+
+\subsubsection{Players Domain}
+
+The players domain is represented in Figure~\ref{fig:erd-players}.
+The \texttt{players} table extends Supabase's built-in \texttt{auth.users} through a one-to-one foreign key, separating authentication from profile data. 
+Authentication is fully delegated to Supabase Auth while \texttt{players} holds only application-level attributes: username, date of birth, height, playing position, city.
+Database constraints enforce domain rules at the persistence layer, including a minimum age of sixteen years, a username minimum length of three characters, and height bounds, ensuring invalid profiles cannot be stored regardless of client-side validation.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.85\textwidth]{figs/erd/players.png}
+	\caption{Players Domain - Entity-Relation Diagram}
+	\label{fig:erd-players}
+\end{figure}
+
+\texttt{player\_favourite\_courts} provides a many-to-many relationship between players and courts, with a composite primary key \texttt{(player\_id, court\_id)} preventing duplicate entries.
+\texttt{player\_team\_history} and \texttt{competitive\_teams} allow players to record the competitive teams they have played for in organised leagues. 
+This feature serves the player profile, giving other players context about a player's background.
+
+%
+%
+%
+%
+%\subsection{Database Schema Design}
+%\label{subsec:arch-schema}
+%
+%The Supabase database uses PostgreSQL and is organised around 3 functional domains: players, courts and games. 
+%The schema comprises sixteen tables, sixteen enumerated types. Beside the tables, forty three server-side functions and twenty seven triggers were added. The transition of business logic from the client-side to server-side functions is a fundamental decision based in the principles of data integrity, security, and operational efficiency. By encapsulating complex operations, within a single SQL function, the system ensures atomicity through database transactions preventing the data corruption that often occurs when multi-step client requests are interrupted by network instability. Furthermore, this approach adheres to a zero-trust security model, effectively shielding sensitive validation logic from the end-user and mitigating the risk of unauthorized request manipulation. Through the domains in this section, some functions will be referenced.
+%The Entity-Relation Diagram is too complex to be shown all at once, so it is divided across the domains and with only primary and foreign keys in the attributes. The full Entity-Relation Diagram is in the Appendix \ref{appendix:erd}
+%
+%
+%\subsubsection{Courts Domain}
+%
+%In the Courts domain as for the main table the \texttt{courts} table with 22 attributes that include identification of the court, name, location, coordinates and address, characteristics of the court, and the status (when a player submits a new court it needs to be approved). In the Figure \ref{fig:erd-court} shows the Entity-Relation Diagram related to this domain.
+%Each court has a reviews, so the table \textit{court\_review} was created which has a many to many relation with the courts and to the players. However each player can only add one review per court, so the primary key is the both the court and user \texttt{uuid}.
+%Besides reviews, players can check-in into a court, flagging other players that they are at the court. This data is saved in the table \texttt{player\_court\_checkins}. The player can only check-in to a court if the location match, nevertheless, a safe guard was added for the user not check-in into different courts at the same time, using a sql function. Besides that, there is another function that auto check outs a player if the interval pass was two hours, in case a player forgets.
+%Finally, the user can access the calendar of the court and indicate the intention on going to a court. For this there is the table \texttt{player\_intentions} with the court and user \texttt{uuid} plus the entering timestamps makes the primary key, with an optional field with the leaving hour. With this the user can add multiple entries, select one hour, or a period of time.
+%
+%
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width=0.8\textwidth]{figs/erd/courts.png}
+%	\caption{Court Domain - Entity-Relation Diagram}
+%	\label{fig:erd-court}
+%\end{figure}
+%
+%
+%\subsubsection{Games Domain}
+%
+%A player can create a game, and so adds an entry to the \texttt{games} table, adding details about the game, including the court \texttt{uuid}, status of the game. The figure \ref{fig:erd-games} represents the entity-relation diagram in the game scope. Each game will have only one user in the table that is the host (possible to change through a function that verifies if the user is the host, the status of the game and if the new host is already in the roster), and a separate table will store the players that join the game, \texttt{game\_players} with game and the player \texttt{uuid} as primary key.
+%When a player is invited to a private game, is added to the table \texttt{game\_invites}, and when a player requests to join is added the \texttt{game\_join\_requests}, both with a field for status in order to persist the invites and request in the user interface.
+%
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width=0.8\textwidth]{figs/erd/games.png}
+%	\caption{Game Domain - Entity-Relation Diagram}
+%	\label{fig:erd-games}
+%\end{figure}
+%
+%A game can have manual teams or random teams. If they are manual, the host can swap players from teams, triggering a server side function, as if the game is with random teams a function is trigger when the game starts, or the host press the button to assign players to teams randomly. Besides these, there are functions to invite players to a game after the host creates a private game and selects users, join and leave a game, start and end one. This functions need to verify the game state, as some operations can only occur if the game hasn't started, and other verifications such as the players roles, or teams depending on the function.
+%
+%Another table that has big connection with the Games Domain is the \texttt{in\_app\_notification} which same the \texttt{uuid} of the user who receives the notification a category and type notification, the payload and other.
+%Here, there is category which identifies the domain of the notification, \texttt{games}, \texttt{players} or \texttt{general}, in order to organize better in the user interface, while the type can be diverse, when a player is invited receives a notification type \texttt{GAME\_INVITE\_RECEIVE}, when responds \texttt{GAME\_INVITE\_ACCEPTED/DECLINE} and the host of the game receives the feedback. When a game start or ends, all the players receive notification.
+%
+%
+%\subsubsection{Players Domain}
+%
+%The last domain is related to the users, that after creating an account and a profile a new entry to the \texttt{players} table is added. As represented in the diagram in the Figure \ref{fig:erd-players}, the player can choose the teams he played for in a competitive official league, choosing as many teams as he wants from the \texttt{competitive\_teams} table, having a one to many relation. Besides that, the player can have favourite courts, having one table dedicated to that.
+%
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width=0.8\textwidth]{figs/erd/players.png}
+%	\caption{Players Domain - Entity-Relation Diagram}
+%	\label{fig:erd-players}
+%\end{figure}
+%
+%
+
+
+
+
+\subsection{Realtime}
 \label{subsec:arch-realtime}
+
+Supabase Realtime uses PostgreSQL's logical replication to broadcast row-level change events to subscribed clients over a WebSocket connection. 
+When a row is inserted, updated, or deleted in a subscribed table, Supabase emits a change event to all clients that hold an active subscription to that table. 
+On the client side, the repository layer receives these events and updates the corresponding \texttt{StateFlow}, which the ViewModel observes and propagates to the UI without requiring a manual refresh or polling loop.
+
+Three tables in the schema use Realtime subscriptions, each chosen because they represent shared mutable state that multiple clients must observe simultaneously with low latency.
+
+\textbf{\texttt{in\_app\_notifications}} uses a Realtime subscription filtered to \texttt{recipient\_id = auth.uid()}, so each client only receives its own notification events. 
+When a trigger function inserts a new notification row, for example, when a game invite is sent or a join request is accepted, the subscribing client receives the event immediately and updates the notification badge and list without polling, and a notification banner appears in the screen, if the user is not in the Home screen.
+The filter is essential here: without it, every client would receive every notification insert across all users, which would be both a privacy violation and a scalability problem.
+
+\textbf{\texttt{player\_court\_checkins}} uses a Realtime subscription filtered to a specific \texttt{court\_id} when a player opens a court detail screen. 
+Any insert or update on that court's check-in records, including automatic TTL-based checkouts, is immediately reflected in the live occupancy count visible to all players viewing that court, or in the list. 
+This is the feature that makes court occupancy a live indicator rather than a stale snapshot, and it is only viable through Realtime because polling at sufficient frequency would impose unacceptable battery and bandwidth costs on mobile clients.
+
+\textbf{\texttt{player\_intentions}} uses a Realtime subscription scoped to a specific \texttt{court\_id}, delivering updates to the court's intention calendar in real time.
+When a player declares or removes an intention to visit a court, other players viewing that court's calendar see the change immediately. 
+The subscription scope matches the UI context: the client subscribes when the court detail screen is opened in the calendar tab and unsubscribes when it is closed, avoiding unnecessary resource consumption.
+
+The decision to use Realtime for these three tables rather than all tables follows from the latency and multi-user observation requirements of each feature. 
+Tables such as \texttt{games} and \texttt{courts} are updated by individual users and fetched on demand, making a request-response pattern sufficient. 
+The three Realtime tables, by contrast, are written by one client and must be immediately visible to other clients viewing the same data, which is the precise use case Realtime is designed for.
+
 
 
 \section{Local Data Layer}

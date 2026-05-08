@@ -475,11 +475,309 @@ The qualitative feedback also indicated that the classification system should be
 
 \section{Phase 2 - MVP}
 
-\subsection{Sprint Planning and Feature Prioritisation}
+
+
+Building on the prioritised backlog established in Section~\ref{subsec:rp-eval1-impact}, Phase~2 focused on implementing the minimum set of features required to validate the core value proposition of the platform, which is helping players find courts and organise games.
+By the end of this phase, the application was a functional cross-platform product running on both Android and iOS, capable of supporting the full coordination loop from court discovery to game completion.
+
+\subsection{Authentication and On boarding}
+
+User authentication follows a three-step onboarding sequence: account creation, email verification, and profile completion.
+The decision to separate account creation from profile setup was deliberate: it allowed the authentication layer to remain fully delegated to Supabase Auth while the profile data was handled by the application-level \texttt{players} table, as described in Section~\ref{subsec:arch-schema}.
+This boundary also made it possible to enforce profile completeness independently of authentication state, so that a user with a verified account but an incomplete profile is redirected to the profile screen on every login until the required fields are submitted.
+
+The registration form implements live password validation with a visual strength indicator and field-level error messages that appear inline rather than in a toast, reducing the number of re-submission cycles observed in informal testing.
+To protect the backend from brute-force abuse, Supabase's rate-limiting policy was surfaced in the UI as a countdown timer that prevents re-attempts for five minutes after five failed authentication requests.
+Session tokens are persisted in platform secure storage (Android Keystore / iOS Keychain, via the \texttt{expect}/\texttt{actual} mechanism described in Section~\ref{subsec:expect-actual}), so returning users are authenticated immediately on launch without re-entering credentials. 
+
+A known iOS behaviour is that Keychain data persists across app uninstalls, meaning sensitive credentials stored during a previous installation remain accessible upon reinstall. This can lead to stale or mismatched authentication state, causing subtle but critical bugs on first launch. To address this, a first-launch Keychain cleanup routine was implemented, exploiting the asymmetry between \texttt{NSUserDefaults}, which is wiped on uninstall, and the Keychain, which is not. On the first launch following a fresh install, all generic password entries associated with the application's service name are deleted via the Security framework's \texttt{SecItemDelete} API. A persistent flag is then written to \texttt{NSUserDefaults} to ensure the cleanup runs exactly once, leaving subsequent launches and over-the-air updates entirely unaffected. The Listing \ref{lst:keychain-cleanup} shows the implementation,
+
+\begin{lstlisting}[language=java, caption={iOS Keychain cleanup on fresh install}, label={lst:keychain-cleanup}]
+	private fun clearStaleIosKeychainOnFreshInstall() {
+		val defaults = NSUserDefaults.standardUserDefaults
+		if (defaults.boolForKey(IOS_FIRST_LAUNCH_DONE_FLAG)) return
+		
+		val query = CFDictionaryCreateMutable(null, 2, null, null)
+		CFDictionaryAddValue(query, kSecClass, kSecClassGenericPassword)
+		CFDictionaryAddValue(query, kSecAttrService,
+		CFBridgingRetain(IOS_KEYCHAIN_SERVICE_NAME))
+		
+		SecItemDelete(query)
+		defaults.setBool(true, IOS_FIRST_LAUNCH_DONE_FLAG)
+	}
+\end{lstlisting}
+
+A non-trivial implementation challenge arose from the email verification and password-reset flows, both of which rely on Supabase sending the user a link that must reopen the application rather than a browser.
+This required configuring a deep link entry point on each platform.
+On Android, an \texttt{intent-filter} was added to the \texttt{AndroidManifest.xml} inside the \texttt{androidApp} module, declaring the application as the handler for the Supabase redirect URL scheme:
+
+\begin{lstlisting}[language=xml, caption={Deep link intent filter — androidApp/AndroidManifest.xml}]
+	<intent-filter android:autoVerify="true">
+	<action android:name="android.intent.action.VIEW" />
+	<category android:name="android.intent.category.DEFAULT" />
+	<category android:name="android.intent.category.BROWSABLE" />
+	<data
+	android:scheme="https"
+	android:host="theplayground.pt"
+	android:pathPrefix="/auth/v1/callback" />
+	</intent-filter>
+\end{lstlisting}
+
+When the user taps the link in the email, Android resolves the intent to the application and delivers it to \texttt{MainActivity}.
+The activity forwards the intent to the Supabase client, which extracts the token from the URL fragment and exchanges it for a valid session:
+
+\begin{lstlisting}[language=java, caption={Deep link handling — androidApp/MainActivity.kt}]
+	override fun onCreate(savedInstanceState: Bundle?) {
+		super.onCreate(savedInstanceState)
+		supabase.handleDeeplinks(intent)
+	}
+	
+	override fun onNewIntent(intent: Intent) {
+		super.onNewIntent(intent)
+		supabase.handleDeeplinks(intent)
+	}
+\end{lstlisting}
+
+On iOS, the equivalent entry point is the SwiftUI \texttt{onOpenURL} modifier, which receives the URL when the system routes a Universal Link or custom scheme to the application:
+
+\begin{lstlisting}[language=swift, caption={Deep link handling — iosApp/iOSApp.swift}]
+	ContentView()
+	.onOpenURL { url in
+		Task {
+			try? await supabase.auth.session(from: url)
+		}
+	}
+\end{lstlisting}
+
+
+A non-trivial implementation challenge arose from the email verification and password-reset flows, both of which rely on Supabase sending the user a link that must reopen the application rather than a browser.
+This required configuring a deep link entry point on each platform.
+On Android, an \texttt{intent-filter} was added to the \texttt{AndroidManifest.xml} inside the \texttt{androidApp} module, declaring the application as the handler for the Supabase redirect URL scheme:
+
+\begin{lstlisting}[language=xml, caption={Deep link intent filter — androidApp/AndroidManifest.xml}]
+	<intent-filter android:autoVerify="true">
+	<action android:name="android.intent.action.VIEW" />
+	<category android:name="android.intent.category.DEFAULT" />
+	<category android:name="android.intent.category.BROWSABLE" />
+	<data
+	android:scheme="https"
+	android:host="theplayground.pt"
+	android:pathPrefix="/auth/v1/callback" />
+	</intent-filter>
+\end{lstlisting}
+
+When the user taps the link in the email, Android resolves the intent to the application and delivers it to \texttt{MainActivity}.
+The activity forwards the intent to the Supabase client, which extracts the token from the URL fragment and exchanges it for a valid session:
+
+\begin{lstlisting}[language=java, caption={Deep link handling — androidApp/MainActivity.kt}]
+	override fun onCreate(savedInstanceState: Bundle?) {
+		super.onCreate(savedInstanceState)
+		supabase.handleDeeplinks(intent)
+	}
+	
+	override fun onNewIntent(intent: Intent) {
+		super.onNewIntent(intent)
+		supabase.handleDeeplinks(intent)
+	}
+\end{lstlisting}
+
+On iOS, the equivalent entry point is the SwiftUI \texttt{onOpenURL} modifier, which receives the URL when the system routes a Universal Link or custom scheme to the application:
+
+\begin{lstlisting}[language=swift, caption={Deep link handling — iosApp/iOSApp.swift}]
+	ContentView()
+	.onOpenURL { url in
+		Task {
+			try? await supabase.auth.session(from: url)
+		}
+	}
+\end{lstlisting}
+
+\subsection{Courts Module}
+
+
+The Courts module exposes two primary surfaces in Phase~2: the court list and the court detail screen.
+A map view was planned as part of the Courts module (Section~\ref{subsec:rp-courts}) but was deferred to Phase~3, the list-based interface was prioritised first as it provides the same discovery capability with lower implementation complexity, in line with the scope decision recorded in Section~\ref{subsec:rp-eval1-impact}.
+
+The court list is backed by a \texttt{CourtsViewModel} that holds the full observable state, including the current court set, active filters, and the user's location.
+The list loads all the courts from the district, and the court list item shows the following information:
+\begin{itemize}
+	\item Distance to the user's location (if location service is active);
+	\item Current number of players in the court (check-in);
+	\item Number of baskets;
+	\item Number of full or half court;
+	\item Heart, for the player to add or remove courts from favourites.
+\end{itemize}
+
+Filtering and sorting are applied within the ViewModel without triggering a new remote fetch, keeping interactions responsive and reducing unnecessary network calls.
+If the location is active the courts are filter by closest, besides, the user can sort by most baskets or most players in the court.
+In terms of filters, the user can filter by the courts characteristics (number of baskets, net type) and a range of number of player in the court.
+Users can also search by name, showing new results using a de-bounce time, so it only makes a call when after a number of milliseconds of changing the query so no excessive calls are made in every keystroke.
+To keep the list updating, there is an observable function to keep track of the user location and show the courts closer at all time.
+The court list item in the list, shown in the Figure \ref{fig:courtsListP2}, is reused in the users profile screen in the favourite courts. 
+The Figure \ref{fig:courtsListP2} contains screenshots of the courts list tested by the users at the end of phase 2, one the location is active, the second is not and shows the filter options.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/phase2/courtsModule/courtsList.jpg}}
+		\caption{Courts List}
+		\label{fig:courtsList1}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/phase2/courtsModule/courtsListNLF.jpg}}
+		\caption{Courts List With no Location and Filters}
+		\label{fig:courtsList2}
+	\end{subfigure}
+	\caption{Courts List}
+	\label{fig:courtsListP2}
+\end{figure}
+
+Selecting a court, it is routed to that screen that has its own ViewModel, as shown in the \ref{fig:courtDetails}.
+First the user sees the images of the court, with arrows to see more, and clicking to put the image in full screen.
+Then there information about the court, address and characteristics, and then the check-in button with the information about the number of players in the court.
+
+Court check-in requires a GPS distance gate: the application only permits check-in if the user's location is within approximately one hundred metres of the selected court.
+The location is obtained from the platform location provider (abstracted via the \texttt{NativeLocationProvider} interface) and validated against the court's stored coordinates using the Haversine formula.
+If the distance exceeds the threshold, the user receives an explanatory error rather than a silent failure.
+Once checked in, the occupancy count on the court detail screen updates in real time via the Supabase Realtime subscription on \texttt{player\_court\_checkins} described in Section~\ref{subsec:arch-realtime}.
+To prevent stale occupancy data, the backend automatically expires check-ins after a two-hour TTL via the \texttt{auto\_checkout\_expired\_checkins} function, regardless of whether the user manually checks out.
+Besides that, the user is added to a list of players present in the court, in the players tab. Also, a green dot is added in the user profile image to indicate that the player is in a court, using the "is online" pattern used in different platforms.
+
+\begin{figure}[h]
+	\centering
+	\fbox{\includegraphics[width=0.3\textwidth]{figs/phase2/courtsModule/courtsDW.jpg}}
+	\caption{Court Details}
+	\label{fig:courtsDetails}
+\end{figure}
+
+Going to the tabs of the court, three major options appear.
+
+In the Figure \ref{fig:courtDetailsGames} is the list of games of that court.
+They are splint into the games for today, tomorrow, for the next days, pass completed games and cancelled games.
+Each game card, reused from the games list, are clickable and route to the game details.
+On the top of the list is a button to create a game which will select the court the users is seeing.
+
+The player intentions calendar presented the most complex UI implementation in the Courts module, represented in the Figure \ref{fig:courtsDetailsCalendar}.
+The calendar component renders a three weeks strip with per-day intention counts and games, selecting a day opens a drawer component to show hourly slots, showing the number of player and games schedule for that hour.
+Multiple hours can be selected, and the player can select an entry hour and the leaving hour. In the Figure \ref{fig:courtsDetailsCalendarDay} shows that the user is going at 1 p.m., a game is going to happen at 5 p.m. (not necessary a game that the user will play) and the player is also showing intention on going from 8 p.m. until 10 p.m..
+Time slots in the past are rendered as non-interactive to prevent declarations for times that have already passed.
+The calendar has a window of three weeks, with the middle being the focus one gotten from the current day, and then is calculated the days from the week before and after, using a UseCase.
+This user case also gets all the intentions per day and calculates the peak hour, which is shown in the calendar, so if there are five players at 10 a.m., and eleven players at midday, it will appear in the calendar eleven players, so other players have the idea of the minimum players that the court will have at the same time.
+The data backing the calendar is a Realtime subscription on \texttt{player\_intentions} scoped to the currently viewed court, meaning that any player's declaration is immediately reflected in the slot counts for other users viewing the same court at the same time. Opening the calendar will subscribe to the days visible, when navigation through the arrows, the week before or after turns to focus and everything is recalculated, and realtime subscription are updated.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/phase2/courtsModule/courtDetailsGames.jpg}}
+		\caption{Court Details Games}
+		\label{fig:courtDetailsGames}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/phase2/courtsModule/courtsDCalW.jpg}}
+		\caption{Court Details Calendar (Player Intentions)}
+		\label{fig:courtsDetailsCalendar}
+	\end{subfigure}
+		\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/phase2/courtsModule/courtsDCalD.jpg}}
+		\caption{Court Details Calendar day slots}
+		\label{fig:courtsDetailsCalendarDay}
+	\end{subfigure}
+	\caption{Courts List}
+	\label{fig:courtDetails1}
+\end{figure}
+
+The third tab is for reviews, showing the average rating and list of comments. Each player can only make a review and editing it, opening a draw, so the user does not need to leave that screen. The Figure \ref{fig:gamesDetailsReviews} show the user writing a review and the list of the review.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/phase2/courtsModule/courtsDReview1.jpg}}
+		\caption{Court Details Writing Review}
+		\label{fig:courtDetailsWReview}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.30\textwidth}
+		\fbox{\includegraphics[width=\textwidth]{figs/phase2/courtsModule/courtsDReview2.jpg}}
+		\caption{Court Details Reviews}
+		\label{fig:courtDetailsReviewL}
+	\end{subfigure}
+	\caption{Courts List}
+	\label{fig:gamesDetailsReviews}
+\end{figure}
+
+New court submissions enter a moderation queue: the backend sets the court's status to \texttt{pending} on insert, and submitted courts are visible to their submitter with a "pending review" indicator but are not surfaced to other users until an administrator approves them.
+This workflow was included in response to the feedback from Evaluation~I, where participants raised concerns about the reliability of user-submitted court data~(Section~\ref{subsec:rp-eval1-results}).
 
 
 
-\subsection{Key Implementation Highlights}
+\subsection{Games Module}
+
+The Games module covers the full lifecycle of a pickup game: creation, browsing, player management, and completion.
+
+User can create games from several places, when creating a game, instead of a two step screen, the user scrolls down to have all the information all in one screen without moving around to edit details.
+The Figure 
+%The court selector in step one prioritises the user's favourite and recently visited courts at the top of the list, reducing the navigation required for the common case.
+The second step configures team formation (manual or random), a ranked match flag, and, for private games, the initial player invitations.
+When manual formation is selected, the host can assign invitees to a specific team at creation time; when random is selected, teams are distributed automatically by the \texttt{assign\_random\_game\_teams} server-side function when the game starts.
+
+The join flow differs between public and private games.
+Public games expose a direct join button that calls \texttt{join\_public\_game} immediately while private games require a join request, which the host must explicitly accept or reject from the game detail screen.
+Both flows persist their state in the database (\texttt{game\_join\_requests} and \texttt{game\_invites}) so that the full history of pending, accepted, and declined actions remains visible in the interface and does not disappear on app restart.
+
+Team management is performed through a contextual menu on each player card in the game roster.
+%A three-dot icon opens options to view the player's profile, move the player to the opposite team (unilateral), or swap the player with a specific player on the other team.
+Clinking on player, it redirects to the players profile, while pressing and moving can swap the player to another team, and dropping on another player swaps them.
+The server-side \texttt{move\_player\_to\_team} and \texttt{swap\_players\_in\_game} functions enforce these operations atomically, preventing partially completed team changes.
+
+The game lifecycle is represented by the \texttt{game\_status} enum (\texttt{ACTIVE} $\rightarrow$ \texttt{LIVE} $\rightarrow$ \texttt{COMPLETED}), and the game detail screen adapts its available actions to the current state.
+Only the host can start and end the game, and assign a new host.
+Ending the game requires the host to enter a final score, with the server validating that the score is non-null for both teams, and non-tied before persisting the \texttt{COMPLETED} state.
+Once completed, the game's result is available in the game history visible on each player's profile and in the court's game tab.
+
+\subsubsection{Home Dashboard and Notification}
+
+The Home dashboard aggregates data from multiple modules into a single entry surface.
+It is composed of four sections: a personal weekly calendar strip (the same as the one used in the court) showing the user's upcoming games, a next-game card showing the next scheduled game with its location and roster status, a list of active nearby games available to join,  and a list of courts organised in a way that first shows the latest checked in courts, than the favourites and then by location.
+
+The "nearby" sections are derived from the user's current location.
+The application requests location permission on first launch; if granted, courts and games are filtered and sorted by distance.
+
+The Home screen is also the primary entry point for the notification panel, accessible via a bell icon in the top bar.
+The panel presents all notifications grouped by category (games, general) and allows the user to navigate directly to the relevant game from the notification item.
+
+In-app notifications are persisted in the \texttt{in\_app\_notifications} table and pushed to the client via a Realtime subscription filtered to \texttt{recipient\_id = auth.uid()}.
+When a notification arrives while the user is in the application, a banner is displayed regardless of which screen is active.
+A notification badge on the Home screen icon indicates that has notifications to read.
+
+\subsubsection{Cross-Cutting Implementation Concerns}
+
+
+\paragraph{Internationalisation.}
+The application supports Portuguese and English, with string resources managed through Compose Multiplatform's \texttt{composeResources} system using \texttt{values/} and \texttt{values-pt/} directories.
+All user-facing strings are externalised, no hardcoded text appears in composable functions.
+The language is resolved at runtime from the device's system language setting.
+
+\paragraph{Error Handling.}
+Every repository method returns a sealed \texttt{Result} type rather than throwing exceptions.
+With this, when a request is made, there is always two implementations, an \texttt{onSuccess} and a \texttt{onFailure}. 
+ViewModels map domain errors to localised \texttt{UiState} fields, and the UI renders error states using standardised components (inline field errors, dismissible snackbars, full-screen error views with retry actions) depending on the severity and context of the failure.
+Network errors always show cached data when available, satisfying NFR-03 (graceful degradation).
+
+\paragraph{Form Validation.}
+Form inputs use a validation pipeline that evaluates rules on each keystroke, displaying inline error messages as the user types rather than on submission.
+Required fields are marked visually, and the submit action is disabled until all required fields pass validation.
+
+\paragraph{Offline Behaviour.}
+%The local Room database caches courts, games, and player data fetched from Supabase.
+%On launch and on app resume after more than five minutes in the background (NFR-24), the application triggers a synchronisation cycle that refreshes stale records.
+%Write operations that fail due to network unavailability are queued locally and retried when connectivity is restored, as monitored by the \texttt{ConnectivityMonitor} service.
+%[TODO: confirm whether the full offline write queue was implemented in Phase 2 or deferred — adjust accordingly.]
+
+
+
 \subsection{Evaluation II: MVP Usability Testing}
 \subsubsection{Method}
 \subsubsection{Results}

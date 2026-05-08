@@ -2480,8 +2480,7 @@
     <bcf:citekey order="101" intorder="1">mvvm</bcf:citekey>
     <bcf:citekey order="101" intorder="2">udf</bcf:citekey>
     <bcf:citekey order="102" intorder="1">guideArchitecture</bcf:citekey>
-    <bcf:citekey order="103" intorder="1">guideArchitecture</bcf:citekey>
-    <bcf:citekey order="104" intorder="1">room</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">room</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

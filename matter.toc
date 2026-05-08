@@ -122,53 +122,61 @@
 \contentsline {paragraph}{Missing Features Identified}{70}{section*.79}%
 \contentsline {subsection}{\numberline {7.2.3}Impact on Backlog}{70}{subsection.7.2.3}%
 \contentsline {section}{\numberline {7.3}Phase 2 - MVP}{72}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Sprint Planning and Feature Prioritisation}{72}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Key Implementation Highlights}{72}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Evaluation II: MVP Usability Testing}{72}{subsection.7.3.3}%
-\contentsline {subsubsection}{Method}{72}{section*.80}%
-\contentsline {subsubsection}{Results}{72}{section*.81}%
-\contentsline {subsubsection}{Impact on Development}{72}{section*.82}%
-\contentsline {section}{\numberline {7.4}Phase 3 --- Complete Application}{72}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Changes Driven by Evaluation II}{72}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}New and Extended Features}{72}{subsection.7.4.2}%
-\contentsline {section}{\numberline {7.5}Prototype}{72}{section.7.5}%
-\contentsline {chapter}{\chapternumberline {8}System Design}{73}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Architectural Pattern}{73}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Cross-Platform Strategy}{75}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Project Structure}{75}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Platform Abstractions with Expect/Actual}{77}{subsection.8.2.2}%
-\contentsline {subsubsection}{Expect/Actual}{77}{section*.84}%
-\contentsline {subsubsection}{Interface-Based Injection}{79}{section*.85}%
-\contentsline {subsubsection}{Choosing Between the Two Strategies}{80}{section*.86}%
-\contentsline {section}{\numberline {8.3}Frontend Architecture}{80}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}Navigation Architecture}{80}{subsection.8.3.1}%
-\contentsline {subsubsection}{Courts Module}{80}{section*.87}%
-\contentsline {subsubsection}{Games Module}{81}{section*.89}%
-\contentsline {subsubsection}{Players Module}{82}{section*.91}%
-\contentsline {section}{\numberline {8.4}Supabase}{83}{section.8.4}%
-\contentsline {subsection}{\numberline {8.4.1}Authentication}{84}{subsection.8.4.1}%
-\contentsline {subsection}{\numberline {8.4.2}Storage}{84}{subsection.8.4.2}%
-\contentsline {subsection}{\numberline {8.4.3}Database Schema Design}{85}{subsection.8.4.3}%
-\contentsline {subsubsection}{Courts Domain}{85}{section*.93}%
-\contentsline {subsubsection}{Games Domain}{86}{section*.95}%
-\contentsline {subsubsection}{Players Domain}{87}{section*.97}%
-\contentsline {subsection}{\numberline {8.4.4}Realtime}{88}{subsection.8.4.4}%
-\contentsline {section}{\numberline {8.5}Local Data Layer}{89}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Libraries and other tools}{89}{section.8.6}%
-\contentsline {subsection}{\numberline {8.6.1}Maps Engine}{89}{subsection.8.6.1}%
-\contentsline {subsection}{\numberline {8.6.2}Notifications Engine}{90}{subsection.8.6.2}%
-\contentsline {section}{\numberline {8.7}Offline-First and Synchronisation Strategy}{90}{section.8.7}%
-\contentsline {section}{\numberline {8.8}Security Design}{90}{section.8.8}%
-\contentsline {section}{\numberline {8.9}CI/CD Pipeline}{90}{section.8.9}%
-\contentsline {chapter}{\chapternumberline {9}Pilot Use}{91}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Deployment}{91}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Participant Profile}{91}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Evaluation III: Complete Platform}{91}{section.9.3}%
-\contentsline {subsection}{\numberline {9.3.1}Method}{91}{subsection.9.3.1}%
-\contentsline {subsection}{\numberline {9.3.2}Results}{91}{subsection.9.3.2}%
-\contentsline {subsection}{\numberline {9.3.3}Discussion of Findings}{91}{subsection.9.3.3}%
-\contentsline {chapter}{References}{92}{chapter*.100}%
-\contentsline {appendix}{\chapternumberline {A}User Research Survey}{94}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}Flyer }{104}{appendix.B}%
-\contentsline {appendix}{\chapternumberline {C}Evaluation Phase 1}{107}{appendix.C}%
-\contentsline {appendix}{\chapternumberline {D}Entity-Relation Diagram}{112}{appendix.D}%
+\contentsline {subsection}{\numberline {7.3.1}Key Implementation Highlights}{72}{subsection.7.3.1}%
+\contentsline {subsubsection}{Authentication and On boarding}{72}{section*.80}%
+\contentsline {subsubsection}{Courts Module}{75}{section*.81}%
+\contentsline {subsubsection}{Games Module}{79}{section*.86}%
+\contentsline {subsubsection}{Home Dashboard and Notification}{80}{section*.87}%
+\contentsline {subsubsection}{Cross-Cutting Implementation Concerns}{80}{section*.88}%
+\contentsline {paragraph}{Internationalisation.}{80}{section*.89}%
+\contentsline {paragraph}{Error Handling.}{80}{section*.90}%
+\contentsline {paragraph}{Form Validation.}{81}{section*.91}%
+\contentsline {paragraph}{Offline Behaviour.}{81}{section*.92}%
+\contentsline {subsection}{\numberline {7.3.2}Evaluation II: MVP Usability Testing}{81}{subsection.7.3.2}%
+\contentsline {subsubsection}{Method}{81}{section*.93}%
+\contentsline {subsubsection}{Results}{81}{section*.94}%
+\contentsline {subsubsection}{Impact on Development}{81}{section*.95}%
+\contentsline {section}{\numberline {7.4}Phase 3 --- Complete Application}{81}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Changes Driven by Evaluation II}{81}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}New and Extended Features}{81}{subsection.7.4.2}%
+\contentsline {section}{\numberline {7.5}Prototype}{81}{section.7.5}%
+\contentsline {chapter}{\chapternumberline {8}System Design}{82}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Architectural Pattern}{82}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Cross-Platform Strategy}{84}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Project Structure}{84}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Platform Abstractions with Expect/Actual}{86}{subsection.8.2.2}%
+\contentsline {subsubsection}{Expect/Actual}{86}{section*.97}%
+\contentsline {subsubsection}{Interface-Based Injection}{88}{section*.98}%
+\contentsline {subsubsection}{Choosing Between the Two Strategies}{89}{section*.99}%
+\contentsline {section}{\numberline {8.3}Frontend Architecture}{89}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Navigation Architecture}{89}{subsection.8.3.1}%
+\contentsline {subsubsection}{Courts Module}{89}{section*.100}%
+\contentsline {subsubsection}{Games Module}{90}{section*.102}%
+\contentsline {subsubsection}{Players Module}{91}{section*.104}%
+\contentsline {section}{\numberline {8.4}Supabase}{92}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Authentication}{93}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}Storage}{93}{subsection.8.4.2}%
+\contentsline {subsection}{\numberline {8.4.3}Database Schema Design}{94}{subsection.8.4.3}%
+\contentsline {subsubsection}{Courts Domain}{94}{section*.106}%
+\contentsline {subsubsection}{Games Domain}{95}{section*.108}%
+\contentsline {subsubsection}{Players Domain}{96}{section*.110}%
+\contentsline {subsection}{\numberline {8.4.4}Realtime}{97}{subsection.8.4.4}%
+\contentsline {section}{\numberline {8.5}Local Data Layer}{98}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Libraries and other tools}{98}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}Maps Engine}{98}{subsection.8.6.1}%
+\contentsline {subsection}{\numberline {8.6.2}Notifications Engine}{98}{subsection.8.6.2}%
+\contentsline {section}{\numberline {8.7}Offline-First and Synchronisation Strategy}{99}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Security Design}{99}{section.8.8}%
+\contentsline {section}{\numberline {8.9}CI/CD Pipeline}{99}{section.8.9}%
+\contentsline {chapter}{\chapternumberline {9}Pilot Use}{100}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Deployment}{100}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Participant Profile}{100}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Evaluation III: Complete Platform}{100}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Method}{100}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Results}{100}{subsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.3.3}Discussion of Findings}{100}{subsection.9.3.3}%
+\contentsline {chapter}{References}{101}{chapter*.113}%
+\contentsline {appendix}{\chapternumberline {A}User Research Survey}{103}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Flyer }{113}{appendix.B}%
+\contentsline {appendix}{\chapternumberline {C}Evaluation Phase 1}{116}{appendix.C}%
+\contentsline {appendix}{\chapternumberline {D}Entity-Relation Diagram}{121}{appendix.D}%

@@ -85,7 +85,7 @@ Platform-specific source sets, \texttt{androidMain} and \texttt{iosMain}, comple
 This structure enforces a clean boundary between shared behaviour and platform integration. Most of the application lives in \texttt{commonMain}, while \texttt{androidMain} and \texttt{iosMain} remain thin layers that only exist where the operating system requires a concrete, platform-native integration.
 
 \subsection{Platform Abstractions with Expect/Actual}
-
+\label{subsec:expect-actual}
 Bridging shared code with platform-specific behaviour is one of the central challenges in any Kotlin Multiplatform project. 
 Two complementary strategies were adopted depending on the nature of the integration required: the Kotlin \texttt{expect}/\texttt{actual} mechanism and interface-based dependency injection (DI). 
 The choice between them is not arbitrary, each strategy has distinct characteristics that make it appropriate for different kinds of platform integration.
@@ -474,11 +474,9 @@ The three Realtime tables, by contrast, are written by one client and must be im
 \section{Local Data Layer}
 \label{sec:arch-local-data}
 
-In the Data layer, there are the repositories, as the guide mentions\cite{guideArchitecture} which will work with a local and an external data source. The local data source will be Room\cite{room} that is part of Android Jetpack suite, making a good option for this project, being an abstraction of SQLite database, that integrates naturally with flows and coroutines, providing a annotation-based API. Compare to SQLDelight, a considerable option, it has slight more boilerplate with entities and DAOs, and less control over raw SQL, making debugging complex queries harder. 
+The local data source will be Room\cite{room} that is part of Android Jetpack suite, making a good option for this project, being an abstraction of SQLite database, that integrates naturally with flows and coroutines, providing a annotation-based API. Compare to SQLDelight, a considerable option, it has slight more boilerplate with entities and DAOs, and less control over raw SQL, making debugging complex queries harder. 
 
-For the external data source it will be use the Supabase, an open source MBaaS with several services available that will help with the project, including PostgreSQL Database that can handle complex relationship connections while offering built-in real-time features for live updates. Besides that, it has authentication, storage, and server-side functions, however, lacks native push notifications and mobile analytic, which forces third-party tools integrations. Supabase can be self-hosted or use theirs services that has different pricing options, with the free tier being enough for this project, as it has a limit of 50,000 monthly active users. Comparing to others, it is not a "black box" being easy to debug and has less vendor lock-in, with a PostgresSQL database that can be run anywhere and can be exported.
 
-Using Ktor to communicate with Supabase as it is standard and recommend HTTP client, with multiple examples from Google, Jetbrains and other communities using Ktor as example in Kotlin Multiplatform projects. Another good option would be the Supabase Kotlin Client, however, this would make the application dependable on Supabase and if later the MBaaS was to be replaced, it would be more complex to migrate. With this, a little more code needs to be developed with Ktor, than Supabase Kotlin Client, but ideal to not get vendor lock-in. As some feature of the platform will need to work while the user is off-line or with bad connection, the application will have a synchronization manager that will check what needs to be updated in the local database and resolve conflicts. Finally a data mapper to convert data from Supabase to the Room database is needed.
 
 
 
